@@ -1,0 +1,13 @@
+<p data-p-id="2db6b6e58a9fef71089bfe5de44ce324">As was my plan before, I shut down after posting the real big block.</p>
+<p data-p-id="85e4ddc9fc486e0697e32a23574f3648">The reason for this: There was an outside chance that people would be interested in finding the solution to the Satoshi mystery and understand the solution once I explained it. That in turn would lead to a large boost of attention, at which point I wanted to be out of the way.</p>
+<p data-p-id="2544f5d26d1bb291e5393714bde1e0a9">The good news is that this has not happened, so there is actually no need for me to shut down right now.</p>
+<p data-p-id="0e3544ae587d17fbf873986612da2aff">The bad news is that either I am wrong about what the genesis block and the Bitcointalk post say or people don't get it even after having the solution explained.</p>
+<p data-p-id="ecf14c8d35fae205ef3549928d681826">Either way, my motivation for starting this quizchain experiment turns out to be based on a misconception. These puzzles by Satoshi are beautiful and remarkable, but that is not obvious to everyone.</p>
+<p data-p-id="764a3050d3151d9965198f598b63b845">On the other hand, as Satoshi writes in the Bitcointalk post, Bitcoin got a cool reception at first as well. </p>
+<p data-p-id="cb9fe57a33d27b8c87ff85df94a18a83">Satoshi was mining by himself for the first year.</p>
+<p data-p-id="889f50710038210c649fcf05d9db4778">So I will stick around for a little more now. Just started up again.</p>
+<p data-p-id="ba907de5774e17c1e07592768a684815">I will also post some more puzzles. Mainly for my own entertainment, since I do like writing them.</p>
+<p data-p-id="fdc3ee293a4174030d696dca8eb61a81">They will all have 7 mbtc prizes. No more big blocks, sorry. Still more in dollar terms than when I started the first run.</p>
+<p data-p-id="09251219db239b5adefd65e8a140e290">They will come once a week, posted on weekends at previously announced time slots. My motivation for posting at a frantic pace was to get the real big block out fast, since the whole thing is supposed to deal with an emergency. Now, I am just interested in keeping the quizchain alive. No more need to rush in any way.</p>
+<p data-p-id="95cd870595c25f53408b251aa62c720d">The real big block will stay in the background. No hints for that one until further notice. As a consequence of getting shut down and starting up again, I have lost any information on the solution of that one. Tragic boating accident variation.</p>
+<p data-p-id="1128a82c1a81198aea2e56189fa02d33">Thank you everyone for playing the quizchain. Stay tuned.</p>

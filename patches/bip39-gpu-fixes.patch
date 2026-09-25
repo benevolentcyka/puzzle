@@ -1,0 +1,32 @@
+diff --git a/src/bip39_gpu/gpu/cl/pbkdf2_hmac_sha512.cl b/src/bip39_gpu/gpu/cl/pbkdf2_hmac_sha512.cl
+index 2486c9b..f666897 100644
+--- a/src/bip39_gpu/gpu/cl/pbkdf2_hmac_sha512.cl
++++ b/src/bip39_gpu/gpu/cl/pbkdf2_hmac_sha512.cl
+@@ -175,8 +175,10 @@ __kernel void pbkdf2_hmac_sha512(
+ ) {
+     uint gid = get_global_id(0);
+ 
+-    __global const uchar *pwd = passwords + gid * 256;
++    __global const uchar *pwd_global = passwords + gid * 256;
+     uint pwd_len = pwd_lengths[gid];
++    uchar pwd[256];
++    for (uint i = 0; i < pwd_len && i < 256; i++) pwd[i] = pwd_global[i];
+ 
+     __global const uchar *salt = salts + gid * 256;
+     uint salt_len = salt_lengths[gid];
+diff --git a/src/bip39_gpu/gpu/kernels.py b/src/bip39_gpu/gpu/kernels.py
+index a30ccc1..6c0afe7 100644
+--- a/src/bip39_gpu/gpu/kernels.py
++++ b/src/bip39_gpu/gpu/kernels.py
+@@ -16,6 +16,11 @@ from .context import GPUContext
+ from ..utils.exceptions import GPUNotAvailableError
+ 
+ 
++def load_kernel(filename: str) -> str:
++    """Read kernel source for modules that compile their own OpenCL programs."""
++    return (Path(__file__).parent / "cl" / filename).read_text(encoding="utf-8")
++
++
+ class KernelManager:
+     """Manages OpenCL kernel loading and compilation."""
+ 

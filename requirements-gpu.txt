@@ -1,0 +1,6 @@
+# Python 3.12 or newer; OpenCL driver/runtime is installed separately.
+numpy
+pyopencl
+bip_utils
+ecdsa
+

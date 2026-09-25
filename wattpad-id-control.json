@@ -1,0 +1,38 @@
+{
+  "720888559": {
+    "paragraphs": 273,
+    "duplicate_occurrences": 1,
+    "duplicate_non_md5_ids": 1,
+    "first_occurrence_non_md5_ids": 0,
+    "exceptions_sample": [
+      {
+        "index": 77,
+        "text": "\"What?\"",
+        "id": "8b71bade9685d3388452bc4755b06a0d"
+      }
+    ]
+  },
+  "720895205": {
+    "paragraphs": 766,
+    "duplicate_occurrences": 147,
+    "duplicate_non_md5_ids": 147,
+    "first_occurrence_non_md5_ids": 0,
+    "exceptions_sample": [
+      {
+        "index": 29,
+        "text": "Solved in 90 minutes.",
+        "id": "b0379cc5b37647c38970a0477e4152df"
+      },
+      {
+        "index": 154,
+        "text": "Format: [solution] BFUB [BFUB text] [link].",
+        "id": "bbb1e9ab507e30708c5da59a9f9e03bc"
+      },
+      {
+        "index": 159,
+        "text": "Format: [solution] [link] with exactly one space between them.",
+        "id": "aedefdb0cea59ae8c767ad30743aa16b"
+      }
+    ]
+  }
+}

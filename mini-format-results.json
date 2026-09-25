@@ -1,0 +1,21 @@
+{
+  "published_plain_md5_prefix": "7759227",
+  "verified_lf_plain_md5": "7759227d7406d8230d7e3a8f7b9846d7",
+  "target_address": "1tzieUfbeQghz2zjDeGHcAEfzCRgX6eLi",
+  "hypotheses": [
+    {
+      "separator": "'\\n\\n'",
+      "plain_md5": "7759227d7406d8230d7e3a8f7b9846d7",
+      "ascii_letters": 1197,
+      "prefix_passed": 162,
+      "matches": []
+    },
+    {
+      "separator": "'\\r\\n\\r\\n'",
+      "plain_md5": "e997007971f6f17c8775d83f30edb4c6",
+      "ascii_letters": 1197,
+      "prefix_passed": 159,
+      "matches": []
+    }
+  ]
+}

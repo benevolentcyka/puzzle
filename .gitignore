@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+bip39-gpu-review/
+FOUND-*.json
+FOUND-*.txt
+*.log
+author-posts-reference.md
+reference_oracle.py
+reference-research.md
+reference-tested.md
