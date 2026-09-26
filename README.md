@@ -88,6 +88,23 @@ Public research at
 reports far larger negative searches, but those do not prove that the prize
 cannot be solved.
 
+## Follow-up, 2026-09-25
+
+See `followup-2026-09-25/FINDINGS.md`. It is still unsolved. The main new points:
+
+- Aoi hashed on a tablet (her Wattpad part "Mistakes"). That explains the LF
+  bytes behind her CRLF description, and it means she edited the long texts
+  by hand on a touchscreen.
+- The Grycoin Block 2 format example was solved by puzzleponky. Stage One fell
+  to the same sweep address seven minutes later. That example is therefore the
+  best calibration target, but it is not the posted question plus any small
+  case edit near the obvious answer. About 621 million variants were tested,
+  including every combination of up to three extra toggles.
+- The main chapter families were rechecked at BIP44 indices 0–20 (the public
+  ledger used 0–5), with new families: `<br>` promotion, the author's
+  "letter in Satoshi" wording, stripped spaces, truncation, twist repertoire,
+  and non-BIP44 paths. None matched.
+
 ## Local GPU computation
 
 `make-search-bases.py` builds six exact-byte full-chapter hypotheses from the
