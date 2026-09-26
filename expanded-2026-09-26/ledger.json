@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-26T18:41:45.996Z",
+  "updated_utc": "2026-09-26T18:52:04.422Z",
   "status": "unsolved",
   "count_note": "Address operations overlap. A complete finite family is not exhaustion of the puzzle.",
   "complete_records": 12,
@@ -9,7 +9,7 @@
   "records": [
     {
       "file": "chapter-subsets-crlf-match-p0-keep-ffww-r0-0-i0.json",
-      "sha256": "25c47aff4615f2d5a1184b9a29b0ffafdc34e056706828be5a22f5a5131331e5",
+      "sha256": "804ccf596468fbeeb06119ee83400ed9492ab43fe66137d911aa4a5fbd8ad0ee",
       "complete": true,
       "candidates_total": 1,
       "next_rank": 1,
@@ -723,7 +723,7 @@
     },
     {
       "file": "chapter-subsets-crlf-preserve-p0-keep-ffww-r0-0-i0.json",
-      "sha256": "fe9ac5205bb71d4a9ff41397657b91edd859a8ee6e55a430b737b93863397aa9",
+      "sha256": "011139ec1c4b491b5d63b0270cfa21447121b2e0fe6acce6882b834e99a4e1d6",
       "complete": true,
       "candidates_total": 1,
       "next_rank": 1,
@@ -2017,7 +2017,7 @@
     },
     {
       "file": "chapter-subsets-lf-preserve-p0-keep-ffww-r0-0-i0.json",
-      "sha256": "f692799310708b07ae88aab28fe2605106a9fd51bbdec13e995383430984b7e3",
+      "sha256": "9a556ddefbbee6d6982e8dfd241380702dbb9e5c78e0b0a9902c24c139cda4fa",
       "complete": true,
       "candidates_total": 1,
       "next_rank": 1,

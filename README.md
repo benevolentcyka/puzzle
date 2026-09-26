@@ -156,12 +156,15 @@ matrix checks 13 historical/alternate wallet paths, eight languages and
 
 ```powershell
 Set-Location 'C:\Users\boomb\Downloads\puzzle-investigation'
-.\run-expanded-search.ps1 -Python 'C:\Users\boomb\AppData\Local\Programs\Python\Python312\python.exe' -Radius 10 -Shapes Broad -WholeChapterEdits 3
+.\run-expanded-search.cmd -Python 'C:\Users\boomb\AppData\Local\Programs\Python\Python312\python.exe' -Radius 10 -Shapes Broad -WholeChapterEdits 3
 ```
 
 This is a substantial GPU run. Every batch saves a checkpoint; repeat the
 same command to resume. It explores new finite families and does not promise
 a winning key. Verified witness files remain ignored by Git.
+The `.cmd` launcher sets PowerShell's execution policy only for its child
+process, so it works when the interactive shell blocks `.ps1` scripts without
+changing the machine or user policy.
 
 ## Local GPU computation
 

@@ -52,7 +52,7 @@ On this machine, from PowerShell:
 
 ```powershell
 Set-Location 'C:\Users\boomb\Downloads\puzzle-investigation'
-.\run-expanded-search.ps1 -Python 'C:\Users\boomb\AppData\Local\Programs\Python\Python312\python.exe' -Radius 10 -Shapes Broad -WholeChapterEdits 3
+.\run-expanded-search.cmd -Python 'C:\Users\boomb\AppData\Local\Programs\Python\Python312\python.exe' -Radius 10 -Shapes Broad -WholeChapterEdits 3
 ```
 
 This runs the wallet matrix, then boundary triples and marked-letter subsets
@@ -62,6 +62,15 @@ and three newline forms (CRLF paragraph joins with internal LF retained, LF
 throughout, CRLF throughout). Thus the marked-letter radius-10 component alone
 has **2,905,043,751** operations across 27 shapes at index 0. Triples add another
 large family. These are overlapping operations; this is a long GPU run.
+
+The `.cmd` entry point starts `powershell.exe -NoProfile -ExecutionPolicy
+Bypass -File ...` and forwards the arguments. The policy applies only to
+that child process; no persistent user or machine setting is changed. This
+handles the "running scripts is disabled" error from Windows PowerShell.
+See [Microsoft's execution-policy documentation](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies#execution-policy-scope-and-precedence).
+The launcher was tested from a Windows PowerShell parent process set to
+`Restricted`: its focused radius-0 run completed successfully using the saved
+checkpoints and passed the usual independent GPU certification checks.
 
 Start with `-Shapes Focused` for only the three newline forms and the full,
 untrimmed chapter. Use `-SkipWallets` after reviewing the completed matrix.
