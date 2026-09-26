@@ -120,10 +120,11 @@ preserved in `gpu-suspect-snapshots/`; the old 330,813,312 rank cannot be
 counted as excluded candidates. CPU results remain valid.
 Run `node .\verify-search-inputs.cjs` before resuming a saved GPU checkpoint.
 
-## Work after an assumed negative pair sweep
+## Work after the completed LF pair sweep
 
-The requested assumption guides which hypotheses to test next. It does not
-mark the pair sweep complete. The next searches cover independent paragraph
+The repaired all-four-groups LF/index-0 sweep finished all 641,697,400 pairs
+without a match. This establishes one finite negative, not exhaustion of
+other bases or the puzzle. The follow-up searches cover independent paragraph
 space trimming, mixed NBSP handling, the solved format example without an
 MD5-prefix filter, historical converter settings and languages, encodings,
 and terminal line breaks. No winning answer has been recovered.
@@ -142,6 +143,25 @@ three-digit hint, not in the target Bitcoin address. Each search validates
 its inputs and kernels on resume; any match is independently checked on CPU
 and saved only to ignored `FOUND-*` files. `post-pair-ledger.json` separates
 complete and incomplete result records and excludes invalid pre-repair runs.
+
+## Expanded search from the Downloads puzzle folder
+
+Work now runs in `C:\Users\boomb\Downloads\puzzle-investigation`. See
+`expanded-2026-09-26/README.md` for exact scope, results and larger commands.
+The new search supports independent first/last-letter subsets in all four
+marked groups, up to the entire 32-bit space, and sparse three/four-letter
+case edits among 544 first/last letters across the chapter's paragraphs. A separate
+matrix checks 13 historical/alternate wallet paths, eight languages and
+11 entropy settings on 1,248 source candidates without the example MD5 hint.
+
+```powershell
+Set-Location 'C:\Users\boomb\Downloads\puzzle-investigation'
+.\run-expanded-search.ps1 -Python 'C:\Users\boomb\AppData\Local\Programs\Python\Python312\python.exe' -Radius 10 -Shapes Broad -WholeChapterEdits 3
+```
+
+This is a substantial GPU run. Every batch saves a checkpoint; repeat the
+same command to resume. It explores new finite families and does not promise
+a winning key. Verified witness files remain ignored by Git.
 
 ## Local GPU computation
 

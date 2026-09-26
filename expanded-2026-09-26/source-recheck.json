@@ -1,0 +1,92 @@
+{
+  "checked_utc": "2026-09-26T18:34:30.662222+00:00",
+  "archive_note": "Late queries cover records returned after 2019-08-05 UTC. They cannot exclude deleted or unarchived material.",
+  "sources": {
+    "utxos": {
+      "url": "https://mempool.space/api/address/14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W/utxo",
+      "http_status": 200,
+      "bytes": 257,
+      "sha256": "3438b8be90caaf4c97b8e30d265a17ea7a67f23683d9d096460d3bdbbc596c4f",
+      "utxos": [
+        {
+          "txid": "a1916e7ed9eac3fcc56a55056328cb09d06925e2694f2e6720de12b228514d1f",
+          "vout": 1,
+          "status": {
+            "confirmed": true,
+            "block_height": 587833,
+            "block_hash": "000000000000000000110b48e06a0e006cf5ba821320a1cb646ee9a5dac347e7",
+            "block_time": 1564530559
+          },
+          "value": 77700000
+        }
+      ],
+      "expected_output_unspent": true
+    },
+    "outspend": {
+      "url": "https://blockstream.info/api/tx/a1916e7ed9eac3fcc56a55056328cb09d06925e2694f2e6720de12b228514d1f/outspend/1",
+      "http_status": 200,
+      "bytes": 15,
+      "sha256": "fe90f0c1e4023e0cd38fd6d2132c1382dd614fed61e6aebf05d19c52a8e65a1b",
+      "outspend": {
+        "spent": false
+      }
+    },
+    "chapter": {
+      "url": "https://www.wattpad.com/apiv2/?m=storytext&id=720888559",
+      "http_status": 200,
+      "bytes": 59613,
+      "sha256": "abf15822b6785ae79eaf7c00b401b2730891c03646b40aae985eb3bc31126bbc",
+      "gzip_wire_bytes": 27020,
+      "paragraphs": 273,
+      "paragraph_values_equal_search_source": true,
+      "body_equal_previous_live_copy": true
+    },
+    "late_posts": {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?author=AoiNakamoto&after=1564963200&limit=100&sort=desc",
+      "http_status": 200,
+      "bytes": 11,
+      "sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "returned_count": 0,
+      "ids": [],
+      "created_utc": [],
+      "page_limit_reached": false
+    },
+    "late_comments": {
+      "url": "https://arctic-shift.photon-reddit.com/api/comments/search?author=AoiNakamoto&after=1564963200&limit=100&sort=desc",
+      "http_status": 200,
+      "bytes": 11,
+      "sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "returned_count": 0,
+      "ids": [],
+      "created_utc": [],
+      "page_limit_reached": false
+    },
+    "solver_app": {
+      "url": "https://rbbpuzzle.up.railway.app",
+      "http_status": 200,
+      "bytes": 15661,
+      "sha256": "d86207f2b4cde7df38a1c95d2d24c99ef031cb41e800d98c072600f61bc55a2e",
+      "script_sources": [],
+      "hardcoded_stage_one_md5": "9dd2efb9bc976c2095bd534d7b8d431c"
+    },
+    "solver_selftest": {
+      "url": "https://rbbpuzzle.up.railway.app/api/selftest",
+      "http_status": 200,
+      "bytes": 274,
+      "sha256": "a45c9104826b41a20817da0f64ae0e2bfabe4fa0190e79919f4fa58746e2a48f",
+      "selftest": {
+        "stageOne": {
+          "got": "19TbyN5KCg1Lg7qHwezifsLVcdSa2Rj5KN",
+          "want": "19TbyN5KCg1Lg7qHwezifsLVcdSa2Rj5KN",
+          "pass": true
+        },
+        "wifVector": {
+          "got": "L5Z66qPmUkTAsWQywjRNHDxHrX6J1X1SQedp6V8QsbaXR7rGd6ex",
+          "want": "L5Z66qPmUkTAsWQywjRNHDxHrX6J1X1SQedp6V8QsbaXR7rGd6ex",
+          "pass": true
+        },
+        "pass": true
+      }
+    }
+  }
+}

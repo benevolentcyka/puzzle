@@ -1,0 +1,12 @@
+{
+  "subset_unranking_itertools_comparisons": 8804,
+  "md5_hashlib_comparisons": 291,
+  "large_rank_positions": [
+    32,
+    40,
+    63
+  ],
+  "large_rank_inverse_comparisons": 87,
+  "md5_kernel_sha256": "b540ade93272055001ed7e716f0ef676931698bb5eb81c74f042d401e44aeceb",
+  "passed": true
+}

@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "itertools_comparisons": 6267,
+  "large_rank_inverse_comparisons": 209,
+  "md5_hashlib_comparisons": 309,
+  "sparse_kernel_sha256": "636e7b7ab75138441297796a7b3fa910429afe5b8589ed0efd9bb915efc65d7d"
+}
