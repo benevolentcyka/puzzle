@@ -1,4 +1,4 @@
-# Prepare the pinned, MIT-licensed GPU dependency with the two local fixes.
+# Prepare the pinned, MIT-licensed GPU dependency with the local kernel fixes.
 # Run from any directory: powershell -ExecutionPolicy Bypass -File .\setup-gpu.ps1
 $ErrorActionPreference = 'Stop'
 $repoRoot = $PSScriptRoot

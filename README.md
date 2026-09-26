@@ -107,11 +107,41 @@ See `followup-2026-09-25/FINDINGS.md`. It is still unsolved. The main new points
 
 ## Follow-up, 2026-09-26
 
-See `followup-2026-09-26/FINDINGS.md` for corrected evidence, new exact-byte
-searches, and their result records. Two reproducibility fixes matter:
+See `followup-2026-09-26/FINDINGS.md` and `followup-2026-09-26/POST_PAIR.md`
+for corrected evidence, new exact-byte searches, and their result records.
+Three reproducibility fixes matter:
 `.gitattributes` preserves the distinct LF/CRLF byte files, and the earlier
 `brPromote` generator now avoids inserting an extra CR before every CRLF.
+The dependency's secp256k1 field reduction also discarded a carry, producing
+wrong addresses for some seeds. The repaired arithmetic passed 65,541
+independent reduction comparisons and 8,192 full derivation comparisons.
+Pre-repair GPU pair checkpoints are **invalid as negative evidence** and
+preserved in `gpu-suspect-snapshots/`; the old 330,813,312 rank cannot be
+counted as excluded candidates. CPU results remain valid.
 Run `node .\verify-search-inputs.cjs` before resuming a saved GPU checkpoint.
+
+## Work after an assumed negative pair sweep
+
+The requested assumption guides which hypotheses to test next. It does not
+mark the pair sweep complete. The next searches cover independent paragraph
+space trimming, mixed NBSP handling, the solved format example without an
+MD5-prefix filter, historical converter settings and languages, encodings,
+and terminal line breaks. No winning answer has been recovered.
+
+On the current local setup:
+
+```powershell
+.\run-after-pair-negative.ps1 -Python 'C:\Users\boomb\AppData\Local\Programs\Python\Python312\python.exe' -AllowHintTypo
+```
+
+On another machine, run the setup below first and use `-Python python` or
+the path to that machine's environment. The optional `-EncodingHintTypo`
+additionally permits a one-digit error in the example's published MD5 hint
+while checking encodings. Both switches allow mistakes in the example's
+three-digit hint, not in the target Bitcoin address. Each search validates
+its inputs and kernels on resume; any match is independently checked on CPU
+and saved only to ignored `FOUND-*` files. `post-pair-ledger.json` separates
+complete and incomplete result records and excludes invalid pre-repair runs.
 
 ## Local GPU computation
 
@@ -141,7 +171,7 @@ The last command resumes from its own base/index checkpoint on each run.
 To exhaust a base, run:
 
 ```powershell
-python .\gpu-case-pairs.py --base .\bases\four-groups-lflf.txt --all
+python .\gpu-case-pairs.py --base .\bases\four-groups-lflf.txt --gpu-md5 --all
 ```
 
 Replace the base filename with `four-groups-crlfcrlf.txt`,
@@ -157,27 +187,29 @@ The setup script clones and locally patches
 <https://github.com/AlexMelanFromRingo/BIP39-GPU> at commit
 `08f189d3ade6a18e18acc82f18a7bfb576c6e86f`. The patch is saved in
 `patches/bip39-gpu-fixes.patch`; the upstream library itself is not committed.
-The only two local fixes
-add its missing kernel loader and correct the OpenCL PBKDF2 password address
-space. GPU fallback is disabled in `gpu-case-pairs.py`; the program checks
-five OpenCL outputs against independent CPU BIP39/BIP44 results at startup,
-including the known Stage One wallet, and checks incremental MD5 pair
-generation against direct hashing. Required Python packages on a fresh local
+The local fixes add its missing kernel loader, correct the OpenCL PBKDF2
+password address space, and preserve carries in secp256k1 field reduction.
+GPU fallback is disabled in `gpu-case-pairs.py`; the program checks 18 OpenCL
+outputs against independent CPU BIP39/BIP44 results at startup, including
+the known Stage One wallet and the regression seed that exposed the carry
+bug. It also checks three actual outputs and MD5s per batch. Required Python packages on a fresh local
 environment are `numpy`, `pyopencl`, `bip_utils`, and `ecdsa`.
 
-On the available RTX 4060 Laptop GPU, a 65,536-candidate batch runs at about
-21,000–24,000 pairs/second. A complete 642-million-pair sweep of **one**
-base may take around eight hours. As of this report, `four-groups-lflf.txt`
-has been checked through pair rank 320,065,408 (snapshot at 2026-09-26 08:43 UTC) and
-`four-groups-crlfcrlf.txt` through 1,104,096, without a match. The respective
-checkpoint files record the exact next ranks. Neither constitutes a completed
-negative result for its entire family. A separate pre-existing process continues
-the LF run in the original local checkout; do not start a competing copy on the
-same GPU. After that run finishes, `run-gpu-sweep.ps1` resumes and runs all six
-bases sequentially. Copy its latest matching checkpoint first if using a newer
-checkout. The six bases preserve internal LF breaks even when paragraph joins
-are CRLF pairs; the canonical CRLF internal-break hypotheses are tested in the
-September 26 searches.
+`--gpu-md5` moves exact pair hashing to OpenCL. It passed 24,513 independent
+padding-edge pair comparisons, 25 full-chapter triangular-rank boundary checks,
+and 131 random/boundary comparisons at startup. Run `python .\verify-pair-md5.py`
+to reproduce the first two checks. On the available RTX 4060 Laptop GPU,
+observed pair speed is roughly 29,000–52,000/s, depending on competing work.
+The checkpoint files record actual progress; none is proof of a completed
+family until its next rank equals 641,697,400 under the corrected kernels.
+The corrected LF sweep runs independently of the follow-up
+investigation. Do not launch another copy of that same base/index while it
+is running. `run-gpu-sweep.ps1 -GpuMd5` resumes all six bases sequentially.
+The six bases preserve internal LF breaks even when paragraph joins are
+CRLF pairs; the canonical CRLF internal-break hypotheses are tested in the
+September 26 searches. Old dependencies with the first two patches can be
+upgraded with `patches/bip39-gpu-carry-fix.patch`; never carry their old
+negative checkpoints forward as corrected progress.
 
 The OpenCL platform defaults to `1`, which selected the NVIDIA card on the
 investigation machine. On another machine, pass `--platform N` to

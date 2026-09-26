@@ -1,0 +1,728 @@
+{
+  "updated_utc": "2026-09-26T10:23:45.947Z",
+  "status": "unsolved",
+  "pair_family_assumption": "Treat negative only for choosing follow-up work; do not mark an incomplete or invalid run complete.",
+  "count_note": "Operations overlap between families; these totals are not unique addresses or a proof of exhaustion.",
+  "complete_records": 35,
+  "incomplete_records": 0,
+  "completed_address_operations": 180342760,
+  "incomplete_address_operations": 0,
+  "records": [
+    {
+      "file": "chapter-nbsp-indices0-1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20.json",
+      "sha256": "3be269208722978dc27898db47038a61376dd61c66d1c3e1182a16c7a896727a",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 279936,
+      "checked_entropy_candidates": 279936,
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "derived_address_operations": 5878656,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "chapter-whitespace-indices0-1-2-3-4-5-6.json",
+      "sha256": "0a5286bc0aa415d5140345a22de374bc504134396c65b09a33d347fc994c43e8",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 1048576,
+      "checked_entropy_candidates": 1048576,
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "derived_address_operations": 7340032,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-converter-prefix-errors0.json",
+      "sha256": "08df88bf84bbf2823e281e6f4b7f15d4f2656e68f7911d9f08011f4d93235424",
+      "complete": true,
+      "source_operations": 4194304,
+      "entropy_candidates_total": 10240,
+      "checked_entropy_candidates": 10240,
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "derived_address_operations": 215040,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-converter-prefix-errors1.json",
+      "sha256": "9ee97f854c24a903df89319a4fa9db81934011cba7126fef2858a69923a4e9c1",
+      "complete": true,
+      "source_operations": 4194304,
+      "entropy_candidates_total": 470180,
+      "checked_entropy_candidates": 470180,
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "derived_address_operations": 9873780,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-edit-published-crlf-ffww-indices0-1.json",
+      "sha256": "e614a0f97594665a183209301a302a13fac53896b313c0fa772893a7ad883c4f",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 335443,
+      "checked_entropy_candidates": 335443,
+      "indices": [
+        0,
+        1
+      ],
+      "derived_address_operations": 670886,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-edit-published-crlf-ffww-indices2-3-4-5-6.json",
+      "sha256": "20370bf9472d280bee21b34dc6551d0d2b7fc13b6fdbbccd55cba8430842205a",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 335443,
+      "checked_entropy_candidates": 335443,
+      "indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "derived_address_operations": 1677215,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-edit-published-lf-ffww-indices0-1.json",
+      "sha256": "7d3a14691450bdfca803f99e0037f2a858436e50ea614c0f9587675263b3433f",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 331591,
+      "checked_entropy_candidates": 331591,
+      "indices": [
+        0,
+        1
+      ],
+      "derived_address_operations": 663182,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-edit-published-lf-ffww-indices2-3-4-5-6.json",
+      "sha256": "39394a00a312448bb848e2e267bf5b2c46e1212a0643f292f44e2838f431e333",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 331591,
+      "checked_entropy_candidates": 331591,
+      "indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "derived_address_operations": 1657955,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-edit-removed-crlf-ffww-indices0-1.json",
+      "sha256": "83d3bd372f8e9fb7e761f6d0a6e3636710c3dd2194674854aa9c1883a9a604fc",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 321533,
+      "checked_entropy_candidates": 321533,
+      "indices": [
+        0,
+        1
+      ],
+      "derived_address_operations": 643066,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-edit-removed-crlf-ffww-indices2-3-4-5-6.json",
+      "sha256": "b18827517d9aa32526e40dc014a3975b8f3f1631a48d87bf0540f72625101e47",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 321533,
+      "checked_entropy_candidates": 321533,
+      "indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "derived_address_operations": 1607665,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-edit-removed-lf-ffww-indices0-1.json",
+      "sha256": "fe39cc80cfabbda1b5f586464b56d8f08f1ef2b4cd7df1a2136cc63853a69a00",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 317681,
+      "checked_entropy_candidates": 317681,
+      "indices": [
+        0,
+        1
+      ],
+      "derived_address_operations": 635362,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-edit-removed-lf-ffww-indices2-3-4-5-6.json",
+      "sha256": "a21013d09cc0194c6c2ee76fdac087406fbb506a00d0adcd4828cbf563e2c182",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 317681,
+      "checked_entropy_candidates": 317681,
+      "indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "derived_address_operations": 1588405,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-edit-split-crlf-ffww-indices0-1.json",
+      "sha256": "eb07ac5a35ee8600a306b5a11df44ca70a3dd4edba0676d63dfa08ff1a1dc5ae",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 336085,
+      "checked_entropy_candidates": 336085,
+      "indices": [
+        0,
+        1
+      ],
+      "derived_address_operations": 672170,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-edit-split-crlf-ffww-indices2-3-4-5-6.json",
+      "sha256": "c186ceb90a6d7080bfd3e0940674a26d6c53882707f1a8ce0bc01e94928751d1",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 336085,
+      "checked_entropy_candidates": 336085,
+      "indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "derived_address_operations": 1680425,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-edit-split-lf-ffww-indices0-1.json",
+      "sha256": "a734b5751a2997d92f3dbab20fe6b06cf5e07ca26439ca846033946e80466643",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 331805,
+      "checked_entropy_candidates": 331805,
+      "indices": [
+        0,
+        1
+      ],
+      "derived_address_operations": 663610,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-edit-split-lf-ffww-indices2-3-4-5-6.json",
+      "sha256": "b3016ba38d22aec1b4bc26162c62e2b2cd4528881b14e58611ba1210b385cc95",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 331805,
+      "checked_entropy_candidates": 331805,
+      "indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "derived_address_operations": 1659025,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-encoding-errors0.json",
+      "sha256": "2f7cb69ced2a21f91dc51acaed266197e932ae0de4cf63a8a6e379c69e471456",
+      "complete": true,
+      "source_operations": 37748736,
+      "entropy_candidates_total": 103158,
+      "checked_entropy_candidates": 103158,
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "derived_address_operations": 2166318,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-unfiltered-published-crcr-index0.json",
+      "sha256": "06bd7fc84bd84d275911a5340ba54c59bf5537efd50db3362bb3dafbafbe1d97",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 2097152,
+      "checked_entropy_candidates": 2097152,
+      "indices": [
+        0
+      ],
+      "derived_address_operations": 2097152,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-unfiltered-published-crlf-index0.json",
+      "sha256": "2668befe77411f14014c37bf1261fe168374ccd1f86c1a440d739aae3d399d2f",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 2097152,
+      "checked_entropy_candidates": 2097152,
+      "indices": [
+        0
+      ],
+      "derived_address_operations": 2097152,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-unfiltered-published-crlf-indices1-2-3-4-5-6.json",
+      "sha256": "668533e731a9290c8e361246dabca645bf4eb00b3fdf9f9d4be87cf1fa641b91",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 2097152,
+      "checked_entropy_candidates": 2097152,
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "derived_address_operations": 12582912,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-unfiltered-published-crlf1-index0.json",
+      "sha256": "f92291203c4c9c0e5110e5f4e3ebcac8b922df7ea8c57318cf8cf216b9f28cdc",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 2097152,
+      "checked_entropy_candidates": 2097152,
+      "indices": [
+        0
+      ],
+      "derived_address_operations": 2097152,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-unfiltered-published-crlfspace-index0.json",
+      "sha256": "2efe2af7b8c153d2b3bda3a3e370e8a181ef041ff86900f60dcf41eb2e260f50",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 2097152,
+      "checked_entropy_candidates": 2097152,
+      "indices": [
+        0
+      ],
+      "derived_address_operations": 2097152,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-unfiltered-published-lf-index0.json",
+      "sha256": "3d8379b1f5810ec6dcba2e459a10480bf9522cdba229a0fb8aee1b79996a8ddd",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 2097152,
+      "checked_entropy_candidates": 2097152,
+      "indices": [
+        0
+      ],
+      "derived_address_operations": 2097152,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-unfiltered-published-lf-indices1-2-3-4-5-6.json",
+      "sha256": "addac468982d63f9eb8c10e1d5f77798476fbea85e575435e94ae2d645ebbb0c",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 2097152,
+      "checked_entropy_candidates": 2097152,
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "derived_address_operations": 12582912,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-unfiltered-published-lf1-index0.json",
+      "sha256": "e74d8643f03fbe309ad942b144363197bf66d49662e90c16073469f0a988a9f9",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 2097152,
+      "checked_entropy_candidates": 2097152,
+      "indices": [
+        0
+      ],
+      "derived_address_operations": 2097152,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-unfiltered-published-lfspace-index0.json",
+      "sha256": "b5d416ab0093801feb65f727a707ac048afc76488b57a94e20993db9e0a2a11d",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 2097152,
+      "checked_entropy_candidates": 2097152,
+      "indices": [
+        0
+      ],
+      "derived_address_operations": 2097152,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-unfiltered-removed-crlf-index0.json",
+      "sha256": "a19a47d58eb8e284e483fe239439d535879915a91e601be76c4e6a78da909c5b",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 1048576,
+      "checked_entropy_candidates": 1048576,
+      "indices": [
+        0
+      ],
+      "derived_address_operations": 1048576,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-unfiltered-removed-lf-index0.json",
+      "sha256": "845f47b818d1218678993fd8bdbb5daa8632176d495ff9f1c34dfd3da56e7b81",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 1048576,
+      "checked_entropy_candidates": 1048576,
+      "indices": [
+        0
+      ],
+      "derived_address_operations": 1048576,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-unfiltered-split-crlf-index0.json",
+      "sha256": "491b7f4c75f3b28fa2664b908a6c600b9215fffb0c37f1b514a78906994a34f9",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 4194304,
+      "checked_entropy_candidates": 4194304,
+      "indices": [
+        0
+      ],
+      "derived_address_operations": 4194304,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "example-unfiltered-split-lf-index0.json",
+      "sha256": "36b11a5a2d46f666e28bf7d1beb5d3b2fc7ce277d321e7a3cf7839670a5fde96",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 4194304,
+      "checked_entropy_candidates": 4194304,
+      "indices": [
+        0
+      ],
+      "derived_address_operations": 4194304,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "language-settings-canonical-example-errors0-languages-all.json",
+      "sha256": "304a7c0c570fe3b5c135ecd7c9844de77c1875df59c4cab349246c175d0898be",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 59136,
+      "checked_entropy_candidates": 59136,
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "derived_address_operations": 1241856,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "language-settings-chapter-errors0.json",
+      "sha256": "55689cfaf33911ab7d81dabf356d49a296aa10d2a6d1e2a0fbc27e86b68228bc",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 44352,
+      "checked_entropy_candidates": 44352,
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "derived_address_operations": 931392,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "language-settings-example-errors0.json",
+      "sha256": "2c8eea9e88d226874707c1aadaf60509b72681910847496528235093b292d90d",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 78848,
+      "checked_entropy_candidates": 78848,
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "derived_address_operations": 1655808,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "language-settings-example-errors1-languages-english.json",
+      "sha256": "0c431f9ec435b69fb5980eb06f6c17232c596f856b13b305e7cc9071ab2b9931",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 517198,
+      "checked_entropy_candidates": 517198,
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "derived_address_operations": 10861158,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    },
+    {
+      "file": "language-settings-example-errors1.json",
+      "sha256": "c183c96e720396e183dfa5a2fb7a304db4d8ccb626951006adadfeb8903c73eb",
+      "complete": true,
+      "source_operations": null,
+      "entropy_candidates_total": 3620386,
+      "checked_entropy_candidates": 3620386,
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "derived_address_operations": 76028106,
+      "matches": 0,
+      "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2"
+    }
+  ]
+}

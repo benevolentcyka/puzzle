@@ -4,8 +4,11 @@ wattpad-api-*.txt -text
 hal-finney-page.html -text
 *.html -text -diff
 followup-2026-09-26/verification/iancoleman-2019-*.js -text
-patches/*.patch text eol=lf
+patches/*.patch text eol=lf whitespace=-blank-at-eol
+.gitattributes text eol=lf
+*.ps1 text eol=lf
 *.cjs text eol=lf
 *.py text eol=lf
+*.cl text eol=lf
 *.md text eol=lf
 *.json -text whitespace=cr-at-eol

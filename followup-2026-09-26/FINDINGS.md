@@ -1,7 +1,7 @@
 # Investigation update, 2026-09-26
 
 **Unsolved. No matching key was found.** The live funding output remains
-unspent at the check recorded in `chain-status.json` (2026-09-26 08:42 UTC).
+unspent at the check recorded in `chain-status.json` (2026-09-26 10:14 UTC).
 This update continues branch `claude/bold-bardeen-b9pir2`, rather than replacing
 its earlier searches. Three delegated audits were explicitly run with GPT-6 Sol.
 
@@ -12,8 +12,9 @@ fresh Windows checkout made the LF and CRLF versions identical, and neither
 matched its saved checkpoint hash. `.gitattributes` now marks those files as
 byte-preserving inputs. The six files were regenerated from the saved paragraph
 JSON; `verify-search-inputs.cjs` checks their known SHA256 values, letter counts,
-and checkpoint identities before a search. This does not invalidate the separate
-ongoing GPU run: its original on-disk base still matches the recorded digest.
+and checkpoint identities before a search. This preserved byte fidelity, but
+a subsequent GPU arithmetic audit found a separate carry bug. The old GPU
+negative intervals are now invalidated; see `POST_PAIR.md`.
 
 The inherited `brPromote` generator first inserted CRLF pairs and then replaced
 every LF with CRLF, introducing extra CR bytes. Its intended CRLF family had
@@ -75,14 +76,17 @@ Tablet use does not establish the final hashing workflow. A later spend of the
 old escrow proves access to a signing key, not retention of the answer text.
 Those earlier inferences have been corrected in the prior report and README.
 
-## GPU progress and remaining work
+## Superseded GPU snapshot and remaining work
 
-The pre-existing GPU process continues outside this checkout; it was not
-interrupted or duplicated. A snapshot of its LF four-group checkpoint records
+The original snapshot below is retained as investigation history, **not valid
+negative evidence**. The subsequent arithmetic audit stopped that process and
+preserved its later 330,813,312 rank in `gpu-suspect-snapshots/`. A snapshot of
+its earlier LF four-group checkpoint records
 next rank **320,065,408 / 641,697,400** at 2026-09-26 08:43:12 UTC. The CRLF
-four-group snapshot is **1,104,096 / 641,697,400**. These identify exact intervals
-already processed, not completed sweeps. Newer live checkpoints may exist in
-the original local checkout.
+four-group snapshot is **1,104,096 / 641,697,400**. These identify intervals
+processed by incorrect kernels; they cannot be counted as excluded candidates.
+The corrected sweep has separate, fingerprinted checkpoints.
+See `POST_PAIR.md` for the repair and new searches.
 
 Finishing all six pair-toggle bases at index 0 remains a bounded computation,
 and a negative result would not exclude a different source buffer or edit
@@ -103,7 +107,8 @@ node .\followup-2026-09-26\verification\corrected-br-search.cjs
 node .\followup-2026-09-26\text\br-deletion-search.cjs
 ```
 
-GPU installation and certification are in the root README. After the current
-GPU run finishes, `run-gpu-sweep.ps1` can run all six bases sequentially and
-resume their local checkpoints. Keep future `FOUND-*` witnesses local: they
-identify spendable keys and are excluded from Git.
+GPU installation and certification are in the root README. The old progress
+must not be resumed under corrected kernels. `run-gpu-sweep.ps1 -GpuMd5` runs
+the six bounded pair bases; `run-after-pair-negative.ps1` investigates other
+hypotheses without waiting for those pairs. Keep future `FOUND-*` witnesses
+local: they identify spendable keys and are excluded from Git.

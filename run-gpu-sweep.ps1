@@ -1,6 +1,8 @@
 param(
     [ValidateRange(0, 2147483647)][int]$Index = 0,
     [ValidateRange(0, 32)][int]$Platform = 1,
+    [ValidateRange(1, 64)][int]$Workers = 4,
+    [switch]$GpuMd5,
     [string]$Python = 'python'
 )
 $ErrorActionPreference = 'Stop'
@@ -21,7 +23,9 @@ foreach ($baseName in $baseNames) {
         return
     }
     $base = Join-Path $PSScriptRoot "bases\$baseName.txt"
-    & $Python (Join-Path $PSScriptRoot 'gpu-case-pairs.py') --base $base --all --index $Index --platform $Platform
+    $searchArgs = @((Join-Path $PSScriptRoot 'gpu-case-pairs.py'), '--base', $base, '--all', '--index', "$Index", '--platform', "$Platform", '--workers', "$Workers")
+    if ($GpuMd5) { $searchArgs += '--gpu-md5' }
+    & $Python @searchArgs
     if ($LASTEXITCODE -ne 0) { throw "Search failed for $baseName. Its saved checkpoint can be resumed." }
     if (Test-Path -LiteralPath $witness) {
         Write-Host "Verified match saved locally: $witness"

@@ -1,0 +1,8 @@
+{
+  "reduction_vectors": 65541,
+  "bip44_vectors": 8192,
+  "all_passed": true,
+  "field_kernel_sha256": "3957c828f7e2b024ec5598432f09ff11c8464f2f100df2a38d1326068558a9eb",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "updated_utc": "2026-09-26T09:06:00.957898+00:00"
+}

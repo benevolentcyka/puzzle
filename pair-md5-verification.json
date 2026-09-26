@@ -1,0 +1,33 @@
+{
+  "all_passed": true,
+  "synthetic_source_lengths": [
+    2,
+    3,
+    54,
+    55,
+    56,
+    57,
+    62,
+    63,
+    64,
+    65,
+    66,
+    118,
+    119,
+    120,
+    121,
+    126,
+    127,
+    128,
+    129,
+    130,
+    254,
+    255,
+    256,
+    257
+  ],
+  "synthetic_pairs": 24513,
+  "full_source_rank_boundaries": 25,
+  "md5_kernel_sha256": "1702a532cd6de146b4f8ae45a96f6d1feaf05bac38c9d85aa4a2cef572d2a8d9",
+  "source_sha256": "d81c4291774f25a1d5e25389f2f99317fcc8528e950cd2d0e35680ca82adfa14"
+}

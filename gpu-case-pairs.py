@@ -18,6 +18,7 @@ import json
 import sys
 import time
 from pathlib import Path
+from concurrent.futures import ProcessPoolExecutor
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE / "bip39-gpu-review" / "src"))
@@ -25,12 +26,24 @@ sys.path.insert(0, str(HERE / "bip39-gpu-review" / "src"))
 from bip39_gpu.core.mnemonic import BIP39Mnemonic
 from bip39_gpu.gpu import context, pbkdf2_gpu
 from bip39_gpu.gpu.bip32_gpu import batch_seed_to_gpu_outputs, hash160_to_p2pkh
+from bip39_gpu.gpu import bip32_gpu
 from bip_utils import Bip39SeedGenerator, Bip44, Bip44Changes, Bip44Coins
 
 TARGET_ADDRESS = "14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W"
 TARGET_HASH160 = bytes.fromhex("2bc16867479a8d01179a6452651abe14a65eb61a")
 STAGE_ONE_ENTROPY = bytes.fromhex("9dd2efb9bc976c2095bd534d7b8d431c")
 STAGE_ONE_ADDRESS = "19TbyN5KCg1Lg7qHwezifsLVcdSa2Rj5KN"
+
+
+def gpu_kernel_fingerprint() -> str:
+    """Bind checkpoints to the exact derivation kernels, including carry fixes."""
+    cl_dir = Path(bip32_gpu.__file__).parent / "cl"
+    digest = hashlib.sha256()
+    for name in ["pbkdf2_hmac_sha512.cl", "sha512.cl", "secp256k1.cl", "ripemd160.cl", "bip32.cl"]:
+        # Storage line endings do not change the OpenCL program.
+        content = (cl_dir / name).read_text(encoding="utf8").replace("\r\n", "\n")
+        digest.update(name.encode("ascii") + b"\0" + content.encode("utf8") + b"\0")
+    return digest.hexdigest()
 
 
 def die_fallback(*_args, **_kwargs):
@@ -115,6 +128,30 @@ def make_batch_entropies(base: bytearray, positions: list[int], start: int, size
     return entropies, pair_positions
 
 
+def _init_hash_worker(source: bytes, positions: list[int]) -> None:
+    global _worker_base, _worker_positions
+    _worker_base = bytearray(source)
+    _worker_positions = positions
+
+
+def _hash_chunk(job):
+    return make_batch_entropies(_worker_base, _worker_positions, *job)
+
+
+def parallel_batch_entropies(pool, base, positions, start, size, workers):
+    if pool is None:
+        return make_batch_entropies(base, positions, start, size)
+    jobs = []
+    chunk = (size + workers - 1) // workers
+    for offset in range(0, size, chunk):
+        jobs.append((start + offset, min(chunk, size - offset)))
+    entropies, pairs = [], []
+    for hashes, offsets in pool.map(_hash_chunk, jobs):
+        entropies.extend(hashes)
+        pairs.extend(offsets)
+    return entropies, pairs
+
+
 def certify_pair_hashing() -> None:
     original = b"aA. Bb!cC dD"
     positions = [i for i,b in enumerate(original) if 65 <= b <= 90 or 97 <= b <= 122]
@@ -136,7 +173,7 @@ def certify_pair_hashing() -> None:
 def certify_gpu(index: int) -> None:
     if hash160_to_p2pkh(TARGET_HASH160) != TARGET_ADDRESS:
         raise RuntimeError("Target address/hash160 constant mismatch")
-    entropy = [STAGE_ONE_ENTROPY] + [hashlib.md5(f"case-pairs-cert-{i}".encode()).digest()
+    entropy = [STAGE_ONE_ENTROPY, bytes.fromhex("bd6509467d92b47897f5b95558b79873")] + [hashlib.md5(f"case-pairs-cert-{i}".encode()).digest()
                                      for i in range(1, 17)]
     mnemonics = [str(BIP39Mnemonic.from_entropy(e)) for e in entropy]
     seeds = pbkdf2_gpu.batch_mnemonic_to_seed_gpu(mnemonics)
@@ -146,7 +183,7 @@ def certify_gpu(index: int) -> None:
     hash160s, private_keys, public_keys = outputs
     if len(hash160s) != len(entropy):
         raise RuntimeError("OpenCL output count mismatch")
-    for k in [0, 1, 4, 8, 16]:
+    for k in range(len(entropy)):
         address, _ = cpu_address(entropy[k], index)
         if hash160_to_p2pkh(hash160s[k]) != address:
             raise RuntimeError(f"OpenCL/CPU disagreement on witness {k}")
@@ -154,7 +191,7 @@ def certify_gpu(index: int) -> None:
             raise RuntimeError(f"Invalid OpenCL key length on witness {k}")
     if index == 0 and hash160_to_p2pkh(hash160s[0]) != STAGE_ONE_ADDRESS:
         raise RuntimeError("Known solved first-stage address not reproduced")
-    print(f"GPU certified with 5 independent CPU comparisons at index {index}", flush=True)
+    print(f"GPU certified with {len(entropy)} independent CPU comparisons at index {index}", flush=True)
 
 
 def main() -> int:
@@ -174,8 +211,12 @@ def main() -> int:
     ap.add_argument("--checkpoint-every", type=int, default=1)
     ap.add_argument("--platform", type=int, default=1,
                     help="OpenCL platform ID for NVIDIA GPU on this computer")
+    ap.add_argument("--workers", type=int, default=1,
+                    help="CPU processes generating MD5 pairs (try 4 on multicore CPUs)")
+    ap.add_argument("--gpu-md5", action="store_true",
+                    help="Generate exact pair MD5 digests on OpenCL after independent CPU certification")
     args = ap.parse_args()
-    if args.index < 0 or args.batch <= 0 or args.limit <= 0 or args.checkpoint_every <= 0:
+    if args.index < 0 or args.batch <= 0 or args.limit <= 0 or args.checkpoint_every <= 0 or args.workers <= 0:
         ap.error("index >= 0; batch, limit and checkpoint-every must be positive")
 
     base_path = args.base.resolve(strict=True)
@@ -184,12 +225,21 @@ def main() -> int:
     n = len(positions)
     total = n * (n - 1) // 2
     base_sha = hashlib.sha256(base).hexdigest()
+    kernel_sha = gpu_kernel_fingerprint()
     state_path = HERE / f"pair-state-{base_path.stem}-index{args.index}.json"
     state = None
     if state_path.exists():
         state = json.loads(state_path.read_text(encoding="utf-8"))
         if state.get("base_sha256") != base_sha or state.get("index") != args.index:
             raise RuntimeError(f"Checkpoint does not match the base/index: {state_path}")
+        if state.get("gpu_kernel_sha256") != kernel_sha:
+            raise RuntimeError(f"Checkpoint used unverified or different GPU kernels: {state_path}. "
+                               "Preserve it under another name, then restart from rank zero.")
+        if state.get("md5_generator") == "gpu":
+            current_md5_sha = hashlib.sha256((HERE / "pair-md5.cl").read_text(encoding="utf8")
+                                            .replace("\r\n", "\n").encode()).hexdigest()
+            if state.get("md5_kernel_sha256") != current_md5_sha:
+                raise RuntimeError(f"Checkpoint used a different GPU MD5 kernel: {state_path}")
     rank = args.start if args.start is not None else (state["next_rank"] if state else 0)
     if not 0 <= rank <= total:
         ap.error("start rank outside pair space")
@@ -204,12 +254,23 @@ def main() -> int:
     print(f"OpenCL device: {device.name}", flush=True)
     certify_pair_hashing()
     certify_gpu(args.index)
+    gpu_md5 = None
+    if args.gpu_md5:
+        from pair_md5_gpu import PairMD5GPU
+        gpu_md5 = PairMD5GPU(context._global_context, base, positions)
+        gpu_md5.certify(pair_at)
+    pool = (ProcessPoolExecutor(max_workers=args.workers, initializer=_init_hash_worker,
+                                initargs=(bytes(base), positions)) if args.workers > 1 and gpu_md5 is None else None)
 
     begin = time.perf_counter()
     batches = 0
     while rank < stop:
         size = min(args.batch, stop - rank)
-        entropies, pair_positions = make_batch_entropies(base, positions, rank, size)
+        if gpu_md5 is not None:
+            entropies = gpu_md5.batch(rank, size)
+            pair_positions = [(positions[i], positions[j]) for i,j in iter_pair_batch(rank,size,n)]
+        else:
+            entropies, pair_positions = parallel_batch_entropies(pool, base, positions, rank, size, args.workers)
         mnemonics = [str(BIP39Mnemonic.from_entropy(e)) for e in entropies]
         seeds = pbkdf2_gpu.batch_mnemonic_to_seed_gpu(mnemonics)
         output = batch_seed_to_gpu_outputs(seeds, address_index=args.index)
@@ -218,6 +279,16 @@ def main() -> int:
         hashes, _, _ = output
         if len(hashes) != size:
             raise RuntimeError("OpenCL output count mismatch")
+        for k in sorted({0, size // 2, size - 1}):
+            expected, _ = cpu_address(entropies[k], args.index)
+            if hash160_to_p2pkh(hashes[k]) != expected:
+                raise RuntimeError(f"OpenCL/CPU disagreement at pair rank {rank+k}")
+            p, q = pair_positions[k]
+            witness = bytearray(base)
+            witness[p] ^= 32
+            witness[q] ^= 32
+            if hashlib.md5(witness).digest() != entropies[k]:
+                raise RuntimeError(f"Pair MD5 disagreement at rank {rank+k}")
         for k, h160 in enumerate(hashes):
             if h160 == TARGET_HASH160:
                 check, mnemonic = cpu_address(entropies[k], args.index)
@@ -250,6 +321,10 @@ def main() -> int:
             atomic_json(state_path, {
                 "base_file": str(base_path.relative_to(HERE)) if base_path.is_relative_to(HERE) else str(base_path),
                 "base_sha256": base_sha,
+                "gpu_kernel_sha256": kernel_sha,
+                "hash_workers": args.workers,
+                "md5_generator": "gpu" if gpu_md5 is not None else "cpu",
+                "md5_kernel_sha256": gpu_md5.kernel_sha256 if gpu_md5 is not None else None,
                 "index": args.index, "next_rank": rank,
                 "pairs_total": total, "last_run_speed_per_second": round((rank - (args.start if args.start is not None else (state["next_rank"] if state else 0))) / elapsed, 2),
                 "updated_utc": __import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat(),
@@ -258,6 +333,8 @@ def main() -> int:
                   f"{(rank - (args.start if args.start is not None else (state['next_rank'] if state else 0))) / elapsed:,.0f}/s",
                   flush=True)
     print("No match in this exact bounded interval.", flush=True)
+    if pool is not None:
+        pool.shutdown()
     return 0
 
 
