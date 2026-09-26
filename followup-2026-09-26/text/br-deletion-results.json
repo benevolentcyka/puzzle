@@ -1,0 +1,92 @@
+{
+  "started": "2026-09-26T08:39:18.783Z",
+  "finished": "2026-09-26T08:41:15.201Z",
+  "selftests": [
+    "Solved Stage One entropy at index 0",
+    "Grycoin Block 1 full answer at index 0"
+  ],
+  "source": {
+    "file": "wattpad-paragraphs.json",
+    "sha256": "60c63f3fa97a7de8ebd3e7f261b1a0b9649e2743f6158a7246ab7cfd26b39109"
+  },
+  "family": "All 1024 internal-break deletion masks x raw/three/four groups x LF LF/CRLF CRLF x NBSP keep/space",
+  "streamFormat": "Each candidate UTF8 preceded by unsigned 32-bit big-endian byte length; order groups raw,three,four; joins LF,CRLF; NBSP keep,space; masks 0..1023",
+  "candidateStreamSha256": "060a1279fecb7883636908c3e1e2aced11fd7d704f1151b00a6568e300847007",
+  "generated": 12288,
+  "uniqueMd5Tested": 12288,
+  "addressChecks": 86016,
+  "targetComparisons": 172032,
+  "indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "targets": [
+    "14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W",
+    "1EFojcAo2vbhRGCGCa7q8Wwvzss28mhQYC"
+  ],
+  "perFamily": {
+    "raw/LF/keep": {
+      "generated": 1024,
+      "uniqueTested": 1024
+    },
+    "raw/LF/space": {
+      "generated": 1024,
+      "uniqueTested": 1024
+    },
+    "raw/CRLF/keep": {
+      "generated": 1024,
+      "uniqueTested": 1024
+    },
+    "raw/CRLF/space": {
+      "generated": 1024,
+      "uniqueTested": 1024
+    },
+    "three/LF/keep": {
+      "generated": 1024,
+      "uniqueTested": 1024
+    },
+    "three/LF/space": {
+      "generated": 1024,
+      "uniqueTested": 1024
+    },
+    "three/CRLF/keep": {
+      "generated": 1024,
+      "uniqueTested": 1024
+    },
+    "three/CRLF/space": {
+      "generated": 1024,
+      "uniqueTested": 1024
+    },
+    "four/LF/keep": {
+      "generated": 1024,
+      "uniqueTested": 1024
+    },
+    "four/LF/space": {
+      "generated": 1024,
+      "uniqueTested": 1024
+    },
+    "four/CRLF/keep": {
+      "generated": 1024,
+      "uniqueTested": 1024
+    },
+    "four/CRLF/space": {
+      "generated": 1024,
+      "uniqueTested": 1024
+    }
+  },
+  "matches": [],
+  "assertions": [
+    "273 paragraphs",
+    "10 original internal LF",
+    "6 original NBSP",
+    "10-popcount retained internal LF",
+    "544 separator LF plus retained internal LF",
+    "no CRCRLF",
+    "canonical CRLF or LF"
+  ]
+}

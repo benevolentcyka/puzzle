@@ -1,0 +1,34 @@
+{
+  "complete": true,
+  "status": "no-match-in-stated-family",
+  "started_utc": "2026-09-26T08:37:19.546Z",
+  "finished_utc": "2026-09-26T08:39:10.980Z",
+  "source_sha256": "60c63f3fa97a7de8ebd3e7f261b1a0b9649e2743f6158a7246ab7cfd26b39109",
+  "target_addresses": [
+    "14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W",
+    "1EFojcAo2vbhRGCGCa7q8Wwvzss28mhQYC"
+  ],
+  "text_variants": 576,
+  "derivations": 6336,
+  "addresses": 44352,
+  "bip44_indices": [
+    0,
+    6
+  ],
+  "passphrase": "",
+  "byMode": {
+    "raw-128": 576,
+    "fixed-128-lower": 576,
+    "fixed-160-lower": 576,
+    "fixed-192-lower": 576,
+    "fixed-224-lower": 576,
+    "fixed-256-lower": 576,
+    "fixed-128-upper": 576,
+    "fixed-160-upper": 576,
+    "fixed-192-upper": 576,
+    "fixed-224-upper": 576,
+    "fixed-256-upper": 576
+  },
+  "candidate_stream_sha256": "05738f7dad11fa7da84bc7ad4353efd1a2fae03668ddb3d16f8c867598b752be",
+  "hit_count": 0
+}

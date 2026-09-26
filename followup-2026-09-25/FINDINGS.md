@@ -4,6 +4,13 @@ Status: **still unsolved.** No key was found. The 0.777 BTC output at
 `14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W` was still unspent when checked on
 2026-09-25. This folder records what was learned and ruled out, so nobody repeats it.
 
+**Audit correction, 2026-09-26:** the reported `brPromote` CRLF branch originally
+introduced extra CR bytes and did not test its intended serialization. It is
+fixed and independently rerun in `../followup-2026-09-26/verification/`.
+Also, tablet use does not prove LF handling, and spending a stored WIF does not
+prove the author retained the source text. The revisions below distinguish
+those inferences from established evidence.
+
 Run `node example-block-search.cjs` and `node chapter-variants.cjs` to reproduce
 the negatives below. Both scripts first self-test against the solved Stage One
 address and the solved Grycoin Block 1 address.
@@ -12,11 +19,10 @@ address and the solved Grycoin Block 1 address.
 
 1. **Aoi hashed on a tablet.** In the Wattpad part
    [Mistakes](https://www.wattpad.com/724275249-second-mistakes) she writes: "I restarted
-   my tablet and the hashing tool I use switched back to the default (MD5)." This explains
-   why every reproduced hash uses LF even though she described CRLF. asciivalue.com is a
-   form, and a form submission shows 13 10 for any newline. It also means she edited long
-   texts by hand on a touchscreen, with auto-capitalisation, autocorrect and selection
-   handles in play.
+   my tablet and the hashing tool I use switched back to the default (MD5)." Tablet use is
+   established; the proposed explanation for LF bytes, autocorrect, and touch-selection
+   artifacts remains a hypothesis. The reproduced example MD5 supplies the direct LF
+   evidence, independently of that device inference.
 2. **The format example was solved from public information.** Grycoin Block 2
    ([cleczc](https://www.reddit.com/r/Grycoin/comments/cleczc/grycoin_block_2/)) paid
    `1tzieUfbeQghz2zjDeGHcAEfzCRgX6eLi`. It was swept at 2019-08-03 14:02 UTC to
@@ -24,11 +30,12 @@ address and the solved Grycoin Block 1 address.
    **7 minutes later** (14:09). That address collected about 30 Quizchain prizes from
    2019-04-13 onward. It belongs to the prolific solver puzzleponky, not to Aoi. So one
    insight from the example unlocked Stage One immediately. puzzleponky never published it.
-3. **Aoi still held the original key after saying she had lost it.** The superseded escrow
+3. **Aoi could spend the original escrow after her lost-information statement.** The superseded escrow
    `1EFojc…` was swept on 2019-07-30 23:40 to `36nwcMJwoy99xyENeRcCCQmA3FZibji3Un`. That
    exact output (77,690,300 sats) funded the example block on 2019-08-01, two days before
-   she posted it. The "lost any information" line in *Starting Up* (2019-07-23) is
-   persona, not a record.
+   she posted it. This establishes access to a signing key on July 30. It does not establish
+   that the original answer text or hash was retained, and does not refute the lost-information
+   statement in *Starting Up* (whose API modifyDate is July 23).
 4. **Grycoin chain calibration.** MD5("Still 21st Century"), the published Grycoin Block 1
    answer, derives `18EpYz5qB3XoxZWouJF3KdEp3E2nfv9FgP` at `m/44'/0'/0'/0/0`, which is that
    block's funded output. The Grycoin chain therefore uses the same MD5 → BIP39 → BIP44
@@ -73,8 +80,9 @@ filter is her published `3c6` MD5 prefix, then the payout address at BIP44 indic
 | The unmodified question (LF, CRLF, with trailing LF), the whole post, `[solution]`, the empty string: MD5 and SHA-256, indices 0–19 | 16 | – | 0 |
 
 In all, 621,265,936 texts. Conclusion: the example's hashed bytes are **not** the posted question plus any small
-case edit near the obvious answer. Whatever puzzleponky found is a larger or different
-change. Knowing it would very likely calibrate the Real Big Block.
+case edit near the obvious answer under the tested derivation settings. A different
+tool setting or serialization remains possible. Knowing puzzleponky's exact method
+would help calibrate the Real Big Block.
 
 ## Real Big Block: tested this session, all negative
 

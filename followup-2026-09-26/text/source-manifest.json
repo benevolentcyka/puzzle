@@ -1,0 +1,27 @@
+{
+  "retrievedDate": "2026-09-26",
+  "sources": [
+    {
+      "url": "https://www.wattpad.com/apiv2/?m=storytext&id=720888559",
+      "file": "live-720888559.html",
+      "bytes": 59613,
+      "sha256": "abf15822b6785ae79eaf7c00b401b2730891c03646b40aae985eb3bc31126bbc"
+    },
+    {
+      "url": "https://www.wattpad.com/apiv2/?m=storytext&id=724275249",
+      "file": "live-724275249.html",
+      "bytes": 3508,
+      "sha256": "b3baa88138264c1a73517eed1c6d45c17a0cbaa21023b2b5818efc4f26370910"
+    },
+    {
+      "url": "https://www.wattpad.com/apiv2/?m=storytext&id=762380140",
+      "file": "live-762380140.html",
+      "bytes": 2561,
+      "sha256": "8ce38fbe29d9844569715ebdaff3087982a1fde7af6dce19851d95f5c2d89db8"
+    }
+  ],
+  "metadata": {
+    "url": "https://www.wattpad.com/api/v3/stories/184148284?fields=parts(id,title,modifyDate,publishDate)",
+    "file": "all-part-meta.json"
+  }
+}

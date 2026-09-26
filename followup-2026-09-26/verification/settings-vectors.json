@@ -1,0 +1,270 @@
+{
+  "historicalCommit": "45e40c288fe0d6cfba2c57a68f421eeb34d41385",
+  "sourceDate": "2019-07-18T10:50:14Z",
+  "license": "MIT; copyright (c) 2014-2016 Ian Coleman; upstream license preserved in iancoleman-2019-LICENSE",
+  "apiQuery": "https://api.github.com/repos/iancoleman/bip39/commits?path=src/js/index.js&until=2019-08-01T00:00:00Z&per_page=1",
+  "sources": [
+    {
+      "file": "iancoleman-2019-index.js",
+      "url": "https://raw.githubusercontent.com/iancoleman/bip39/45e40c288fe0d6cfba2c57a68f421eeb34d41385/src/js/index.js",
+      "sha256": "d23a7831fd8541b0059e405309146c6f7f0f3c4572b0fe4500e868dce6264cdc"
+    },
+    {
+      "file": "iancoleman-2019-entropy.js",
+      "url": "https://raw.githubusercontent.com/iancoleman/bip39/45e40c288fe0d6cfba2c57a68f421eeb34d41385/src/js/entropy.js",
+      "sha256": "fbd610d5fc6d94c0bac9b14e5dfc99b1e14c1ec7ef9a66b7fe574ca957e9420e"
+    },
+    {
+      "file": "iancoleman-2019-index.html",
+      "url": "https://raw.githubusercontent.com/iancoleman/bip39/45e40c288fe0d6cfba2c57a68f421eeb34d41385/src/index.html",
+      "sha256": "eef2f2fe40a236d5b31903854423e16f13dd173e2e24343d69d58ef785faf6e0"
+    },
+    {
+      "file": "iancoleman-2019-LICENSE",
+      "url": "https://raw.githubusercontent.com/iancoleman/bip39/45e40c288fe0d6cfba2c57a68f421eeb34d41385/LICENSE",
+      "sha256": "f679a62cfff53341fbd4f482e562270de063cc20ccef2125312782fc648690ee"
+    }
+  ],
+  "results": [
+    {
+      "original": "2941774a2abec9f30c7d6777d1d53d91",
+      "case": "lower",
+      "words": 12,
+      "asciiSha256": "3ba4575f3c152f65e2aa0ebf857f4dbab103f3e3936e8b7ca6dd3ad6842f2795",
+      "entropy": "3ba4575f3c152f65e2aa0ebf857f4dba",
+      "mnemonic": "desert cargo style join fancy real melt dove sauce cloud square into",
+      "addresses": [
+        "1D79h6JLqpGiZu74bzJ5yf3DSku3UdwG4m",
+        "13tx7bmcd83hSPJgW2qbGqCFu3gcV3Yc2e"
+      ]
+    },
+    {
+      "original": "2941774a2abec9f30c7d6777d1d53d91",
+      "case": "lower",
+      "words": 15,
+      "asciiSha256": "3ba4575f3c152f65e2aa0ebf857f4dbab103f3e3936e8b7ca6dd3ad6842f2795",
+      "entropy": "3ba4575f3c152f65e2aa0ebf857f4dbab103f3e3",
+      "mnemonic": "desert cargo style join fancy real melt dove sauce cloud square install awake wheat month",
+      "addresses": [
+        "1EZPLS8j98zq9mFZtWKebVz32eVWp4iehS",
+        "1Gx9kAhjAYw37PPsHvbALogcNt688WWBYa"
+      ]
+    },
+    {
+      "original": "2941774a2abec9f30c7d6777d1d53d91",
+      "case": "lower",
+      "words": 18,
+      "asciiSha256": "3ba4575f3c152f65e2aa0ebf857f4dbab103f3e3936e8b7ca6dd3ad6842f2795",
+      "entropy": "3ba4575f3c152f65e2aa0ebf857f4dbab103f3e3936e8b7c",
+      "mnemonic": "desert cargo style join fancy real melt dove sauce cloud square install awake wheat mixture horse merge track",
+      "addresses": [
+        "1BoZeL1Ns7WmytfwbFCGbKXTNVXdgRWcWu",
+        "1E6Jfk6bPevXgABpkd7RT1FAUhyoNCuSwk"
+      ]
+    },
+    {
+      "original": "2941774a2abec9f30c7d6777d1d53d91",
+      "case": "lower",
+      "words": 21,
+      "asciiSha256": "3ba4575f3c152f65e2aa0ebf857f4dbab103f3e3936e8b7ca6dd3ad6842f2795",
+      "entropy": "3ba4575f3c152f65e2aa0ebf857f4dbab103f3e3936e8b7ca6dd3ad6",
+      "mnemonic": "desert cargo style join fancy real melt dove sauce cloud square install awake wheat mixture horse merge topple resemble interest harbor",
+      "addresses": [
+        "13szncFv1y9Ybq8YV2zm2Y4MHVGssAA7Ck",
+        "1JVGhfHceauEkhKfUhxag5fuNDS5Ym2nge"
+      ]
+    },
+    {
+      "original": "2941774a2abec9f30c7d6777d1d53d91",
+      "case": "lower",
+      "words": 24,
+      "asciiSha256": "3ba4575f3c152f65e2aa0ebf857f4dbab103f3e3936e8b7ca6dd3ad6842f2795",
+      "entropy": "3ba4575f3c152f65e2aa0ebf857f4dbab103f3e3936e8b7ca6dd3ad6842f2795",
+      "mnemonic": "desert cargo style join fancy real melt dove sauce cloud square install awake wheat mixture horse merge topple resemble interest hair bleak oxygen room",
+      "addresses": [
+        "12kbs2RznmcHQCh4aUoDjFCWo4KQiAPGLU",
+        "1Mjmszoww9htnhUqySrnUGpiL3F8uvxA1B"
+      ]
+    },
+    {
+      "original": "2941774a2abec9f30c7d6777d1d53d91",
+      "case": "upper",
+      "words": 12,
+      "asciiSha256": "395bb14c96f12b1a3846862ad8c95e328fb23a020ece845d9c792d72a29fc08b",
+      "entropy": "395bb14c96f12b1a3846862ad8c95e32",
+      "mnemonic": "deer talk farm combine bargain minimum three speak client shock fiscal grape",
+      "addresses": [
+        "1PcCtNK6QjgMHV4vet4LRbmPT6kssvz7e4",
+        "1LinqQADya6aFDqsFqyXahNHo4rvXdUZ94"
+      ]
+    },
+    {
+      "original": "2941774a2abec9f30c7d6777d1d53d91",
+      "case": "upper",
+      "words": 15,
+      "asciiSha256": "395bb14c96f12b1a3846862ad8c95e328fb23a020ece845d9c792d72a29fc08b",
+      "entropy": "395bb14c96f12b1a3846862ad8c95e328fb23a02",
+      "mnemonic": "deer talk farm combine bargain minimum three speak client shock fiscal govern will brown area",
+      "addresses": [
+        "14tNLKNwLJcwZEPVHEW7Vjs9K3daWh5XRb",
+        "15BbGKuqvJg5mr6Rr5fXdCTeSYguk1Z8JP"
+      ]
+    },
+    {
+      "original": "2941774a2abec9f30c7d6777d1d53d91",
+      "case": "upper",
+      "words": 18,
+      "asciiSha256": "395bb14c96f12b1a3846862ad8c95e328fb23a020ece845d9c792d72a29fc08b",
+      "entropy": "395bb14c96f12b1a3846862ad8c95e328fb23a020ece845d",
+      "mnemonic": "deer talk farm combine bargain minimum three speak client shock fiscal govern will brown amused supply lounge trip",
+      "addresses": [
+        "17AY7uEee9N19DduWnxkFaH4FmyER3vHmc",
+        "19jcE5DahFRGPPRkucFiRjKKkqghgGkuZQ"
+      ]
+    },
+    {
+      "original": "2941774a2abec9f30c7d6777d1d53d91",
+      "case": "upper",
+      "words": 21,
+      "asciiSha256": "395bb14c96f12b1a3846862ad8c95e328fb23a020ece845d9c792d72a29fc08b",
+      "entropy": "395bb14c96f12b1a3846862ad8c95e328fb23a020ece845d9c792d72",
+      "mnemonic": "deer talk farm combine bargain minimum three speak client shock fiscal govern will brown amused supply lounge undo bundle foot clinic",
+      "addresses": [
+        "1E42UHwVLhUCXC3XW6owpW5PBVrCguCvAf",
+        "14Czd9z7YZjj7FCQyVB2dZyuX4zx2eH1o9"
+      ]
+    },
+    {
+      "original": "2941774a2abec9f30c7d6777d1d53d91",
+      "case": "upper",
+      "words": 24,
+      "asciiSha256": "395bb14c96f12b1a3846862ad8c95e328fb23a020ece845d9c792d72a29fc08b",
+      "entropy": "395bb14c96f12b1a3846862ad8c95e328fb23a020ece845d9c792d72a29fc08b",
+      "mnemonic": "deer talk farm combine bargain minimum three speak client shock fiscal govern will brown amused supply lounge undo bundle foot clay exit acquire help",
+      "addresses": [
+        "19YByfqWrD4Jb5kgNTMWK1euL9Lv5BRkvW",
+        "18T9QVk6fxk82sBEvxMhADESCP5vm6ad4V"
+      ]
+    },
+    {
+      "original": "9dd2efb9bc976c2095bd534d7b8d431c",
+      "case": "lower",
+      "words": 12,
+      "asciiSha256": "0a35acf03291575ccee393fa2c5351eb6bdbf1400d90e7f7b188e0348780aa5f",
+      "entropy": "0a35acf03291575ccee393fa2c5351eb",
+      "mnemonic": "any pulp despair gown betray purpose describe include when glad stamp subject",
+      "addresses": [
+        "12WVwsaZ1hVN2f4vhbDVwZueF8SSqhp5Nv",
+        "19EAnMmmnB6X36dTCvZtnwDsd7oASY1yrW"
+      ]
+    },
+    {
+      "original": "9dd2efb9bc976c2095bd534d7b8d431c",
+      "case": "lower",
+      "words": 15,
+      "asciiSha256": "0a35acf03291575ccee393fa2c5351eb6bdbf1400d90e7f7b188e0348780aa5f",
+      "entropy": "0a35acf03291575ccee393fa2c5351eb6bdbf140",
+      "mnemonic": "any pulp despair gown betray purpose describe include when glad stamp strategy sad weather ability",
+      "addresses": [
+        "1AM22NWPwM4B38kLBbJtB67LVbFKKw27DB",
+        "1H7NDJ3TUX4LnqRRRBJ6hTQ5hDANR1traC"
+      ]
+    },
+    {
+      "original": "9dd2efb9bc976c2095bd534d7b8d431c",
+      "case": "lower",
+      "words": 18,
+      "asciiSha256": "0a35acf03291575ccee393fa2c5351eb6bdbf1400d90e7f7b188e0348780aa5f",
+      "entropy": "0a35acf03291575ccee393fa2c5351eb6bdbf1400d90e7f7",
+      "mnemonic": "any pulp despair gown betray purpose describe include when glad stamp strategy sad weather ability rare tree sad",
+      "addresses": [
+        "17TMn8Dey3M1pQ4MobnNb6Y2ptdjPXHDRY",
+        "1B2nzfnc6ZJVkyTm5Ak1Lhh81s7ATTdTRK"
+      ]
+    },
+    {
+      "original": "9dd2efb9bc976c2095bd534d7b8d431c",
+      "case": "lower",
+      "words": 21,
+      "asciiSha256": "0a35acf03291575ccee393fa2c5351eb6bdbf1400d90e7f7b188e0348780aa5f",
+      "entropy": "0a35acf03291575ccee393fa2c5351eb6bdbf1400d90e7f7b188e034",
+      "mnemonic": "any pulp despair gown betray purpose describe include when glad stamp strategy sad weather ability rare tree rural giraffe scatter drum",
+      "addresses": [
+        "1Mpopm6aJYHLbn6Vye1xfWVZPEiLABXShh",
+        "14xPAATWDHpHyk5tTmk6sWc3Z4BdWmT62w"
+      ]
+    },
+    {
+      "original": "9dd2efb9bc976c2095bd534d7b8d431c",
+      "case": "lower",
+      "words": 24,
+      "asciiSha256": "0a35acf03291575ccee393fa2c5351eb6bdbf1400d90e7f7b188e0348780aa5f",
+      "entropy": "0a35acf03291575ccee393fa2c5351eb6bdbf1400d90e7f7b188e0348780aa5f",
+      "mnemonic": "any pulp despair gown betray purpose describe include when glad stamp strategy sad weather ability rare tree rural giraffe scatter embody scare practice youth",
+      "addresses": [
+        "1DV6RmDueUUvxjdL4S5QEsf73PFxKVX11g",
+        "182NL5A8spNPNMsYkf7SGiVr5UXCQL3wMu"
+      ]
+    },
+    {
+      "original": "9dd2efb9bc976c2095bd534d7b8d431c",
+      "case": "upper",
+      "words": 12,
+      "asciiSha256": "2740ae2306945fb3abdd2a8ec94e6e7fbc3c136c0cc36ecd3ceb70e62262dd11",
+      "entropy": "2740ae2306945fb3abdd2a8ec94e6e7f",
+      "mnemonic": "chef air match artwork echo supply quarter pipe mom engine oppose youth",
+      "addresses": [
+        "1KaSGc4uJCpt4xztnymaM6ZkcvpxcfF7E8",
+        "1Le8ZbRrJUuGdoS2eegPwBrzyP5R1zAN62"
+      ]
+    },
+    {
+      "original": "9dd2efb9bc976c2095bd534d7b8d431c",
+      "case": "upper",
+      "words": 15,
+      "asciiSha256": "2740ae2306945fb3abdd2a8ec94e6e7fbc3c136c0cc36ecd3ceb70e62262dd11",
+      "entropy": "2740ae2306945fb3abdd2a8ec94e6e7fbc3c136c",
+      "mnemonic": "chef air match artwork echo supply quarter pipe mom engine oppose youth sense answer ranch",
+      "addresses": [
+        "14RTHBvCgxNdiKQk4igBASjqf4us4BoBo7",
+        "1LFdZbGn6oEDQUeNDZNRxJjXRJ9uKHa4RA"
+      ]
+    },
+    {
+      "original": "9dd2efb9bc976c2095bd534d7b8d431c",
+      "case": "upper",
+      "words": 18,
+      "asciiSha256": "2740ae2306945fb3abdd2a8ec94e6e7fbc3c136c0cc36ecd3ceb70e62262dd11",
+      "entropy": "2740ae2306945fb3abdd2a8ec94e6e7fbc3c136c0cc36ecd",
+      "mnemonic": "chef air match artwork echo supply quarter pipe mom engine oppose youth sense answer rabbit observe human high",
+      "addresses": [
+        "1f5sPA24JFZfYuz755K7U7fVjX2JdPqqe",
+        "1LeCSJa8gqHTZ3SXvot5JDbAcVLrHVQTE"
+      ]
+    },
+    {
+      "original": "9dd2efb9bc976c2095bd534d7b8d431c",
+      "case": "upper",
+      "words": 21,
+      "asciiSha256": "2740ae2306945fb3abdd2a8ec94e6e7fbc3c136c0cc36ecd3ceb70e62262dd11",
+      "entropy": "2740ae2306945fb3abdd2a8ec94e6e7fbc3c136c0cc36ecd3ceb70e6",
+      "mnemonic": "chef air match artwork echo supply quarter pipe mom engine oppose youth sense answer rabbit observe human hazard depart tide guess",
+      "addresses": [
+        "133bWD1a2H3D1HAdp2E8RCJqRRzkqBuwiJ",
+        "1GVdeHzt2a69yNRdX4gQEeqLJXU9wHt1v7"
+      ]
+    },
+    {
+      "original": "9dd2efb9bc976c2095bd534d7b8d431c",
+      "case": "upper",
+      "words": 24,
+      "asciiSha256": "2740ae2306945fb3abdd2a8ec94e6e7fbc3c136c0cc36ecd3ceb70e62262dd11",
+      "entropy": "2740ae2306945fb3abdd2a8ec94e6e7fbc3c136c0cc36ecd3ceb70e62262dd11",
+      "mnemonic": "chef air match artwork echo supply quarter pipe mom engine oppose youth sense answer rabbit observe human hazard depart tide giraffe cousin inmate deposit",
+      "addresses": [
+        "1PBtynwJVbnru85mRw3ysJdV81qrm3eBzd",
+        "19GaiQUf29zXFenBUfrKJjktGsFCSGVxzh"
+      ]
+    }
+  ]
+}

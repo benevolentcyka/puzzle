@@ -45,7 +45,8 @@ function build(set, {mode = 'lu', nbsp = 'keep', sep = '\n\n', map = null} = {})
   return PARAS.map((p, i) => {
     let q = map ? map(p, i) : p;
     if (set.has(i)) q = L.flip(q, mode);
-    return nbspModes[nbsp](q).replace(/\n/g, brj);
+    // Normalize existing pairs first: maps may already introduce CRLF joins.
+    return nbspModes[nbsp](q).replace(/\r\n|\r|\n/g, brj);
   }).join(sep);
 }
 const COMBOS = (() => {

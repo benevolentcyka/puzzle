@@ -4,6 +4,8 @@ __pycache__/
 bip39-gpu-review/
 FOUND-*.json
 FOUND-*.txt
+**/FOUND-*
+**/*-hits.jsonl
 *.log
 author-posts-reference.md
 reference_oracle.py

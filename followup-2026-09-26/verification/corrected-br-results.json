@@ -1,0 +1,149 @@
+{
+  "scope": "all 1024 internal-break subsets; MD5 raw entropy; empty passphrase; BIP44 external account zero indices 0-20",
+  "brParagraphIndices": [
+    62,
+    72,
+    120,
+    123,
+    145,
+    159,
+    183,
+    188,
+    192,
+    212
+  ],
+  "byteAssertions": "no CRCRLF; CRLF contains no bare CR/LF; source has LF only",
+  "calibration": {
+    "author": {
+      "entropy": "2941774a2abec9f30c7d6777d1d53d91",
+      "mnemonic": "citizen arm spoon fever uncle wet cradle provide jelly modify exhaust casual",
+      "addresses": [
+        "15QEywgXeKDAHJ48cjMRgNT8TPqAKpa2b5",
+        "1P6ZHSYu4W4EwXq7tK2MFaqpEZs8USJhCY"
+      ],
+      "wifIndexOneVerified": true
+    },
+    "stageOne": {
+      "entropy": "9dd2efb9bc976c2095bd534d7b8d431c",
+      "mnemonic": "oven number unveil junior item aware finger price estate symbol express degree",
+      "address": "19TbyN5KCg1Lg7qHwezifsLVcdSa2Rj5KN"
+    },
+    "independentImplementationsAgree": true
+  },
+  "families": [
+    {
+      "group": "raw",
+      "nbsp": "keep",
+      "newline": "LF",
+      "texts": 1024,
+      "addresses": 21504,
+      "firstMd5": "46a308c279540a33e977ea1f660e8458",
+      "lastMd5": "758c5224def3ea4432adb3e1e664dac3"
+    },
+    {
+      "group": "raw",
+      "nbsp": "keep",
+      "newline": "CRLF",
+      "texts": 1024,
+      "addresses": 21504,
+      "firstMd5": "db11a7fdba7b4867a24445a7a30709b8",
+      "lastMd5": "563bf2f38161356016333a1f76d88ada"
+    },
+    {
+      "group": "raw",
+      "nbsp": "sp",
+      "newline": "LF",
+      "texts": 1024,
+      "addresses": 21504,
+      "firstMd5": "0d2c86ff43bf7573d69c7c8c81a86c03",
+      "lastMd5": "7fe0ee8b2e6cc3d22aa1bc80fb57fd11"
+    },
+    {
+      "group": "raw",
+      "nbsp": "sp",
+      "newline": "CRLF",
+      "texts": 1024,
+      "addresses": 21504,
+      "firstMd5": "cc09310620022e7389338773848e0370",
+      "lastMd5": "60196b88b23dc239980e7bc3435d2e1e"
+    },
+    {
+      "group": "g123",
+      "nbsp": "keep",
+      "newline": "LF",
+      "texts": 1024,
+      "addresses": 21504,
+      "firstMd5": "b3590a2ceb17cf7d3f58f009096bcec7",
+      "lastMd5": "78c219fe07356fca97c95244964ccfed"
+    },
+    {
+      "group": "g123",
+      "nbsp": "keep",
+      "newline": "CRLF",
+      "texts": 1024,
+      "addresses": 21504,
+      "firstMd5": "951e9b5dd5be2893ec7d7e09e496f925",
+      "lastMd5": "0a9db42fbbfe23733333775b5b3d4e16"
+    },
+    {
+      "group": "g123",
+      "nbsp": "sp",
+      "newline": "LF",
+      "texts": 1024,
+      "addresses": 21504,
+      "firstMd5": "e44fe5eecd776717fef2acd0070bf234",
+      "lastMd5": "1081057d6db07f510e623d6d4602cffd"
+    },
+    {
+      "group": "g123",
+      "nbsp": "sp",
+      "newline": "CRLF",
+      "texts": 1024,
+      "addresses": 21504,
+      "firstMd5": "7b2779f44d9c6d12d103f7f90afb4914",
+      "lastMd5": "4bf33ba8408f4ab915c7dbd844ed9f37"
+    },
+    {
+      "group": "g1234",
+      "nbsp": "keep",
+      "newline": "LF",
+      "texts": 1024,
+      "addresses": 21504,
+      "firstMd5": "8812649bde48d2d34b0588beb735fd00",
+      "lastMd5": "cda8c6fb1ca5e50b7a71375d365e9967"
+    },
+    {
+      "group": "g1234",
+      "nbsp": "keep",
+      "newline": "CRLF",
+      "texts": 1024,
+      "addresses": 21504,
+      "firstMd5": "8844788c53e1a464055023909968d600",
+      "lastMd5": "b7f45ef655283ecff01e69a8027fc145"
+    },
+    {
+      "group": "g1234",
+      "nbsp": "sp",
+      "newline": "LF",
+      "texts": 1024,
+      "addresses": 21504,
+      "firstMd5": "dc968b7654c00f7b3caa8856cbb3ee8e",
+      "lastMd5": "52764915da2a950b226f620f390e985b"
+    },
+    {
+      "group": "g1234",
+      "nbsp": "sp",
+      "newline": "CRLF",
+      "texts": 1024,
+      "addresses": 21504,
+      "firstMd5": "ac44099cbc49de5a00da28827cc96064",
+      "lastMd5": "789c06cdc295dee38232bd4edd92baa8"
+    }
+  ],
+  "hits": [],
+  "texts": 12288,
+  "addressComparisons": 258048,
+  "elapsedSeconds": 400.409,
+  "complete": true,
+  "sourceJsonSha256": "60c63f3fa97a7de8ebd3e7f261b1a0b9649e2743f6158a7246ab7cfd26b39109"
+}

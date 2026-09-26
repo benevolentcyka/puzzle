@@ -1,0 +1,902 @@
+[
+  {
+    "thread": "cgkpbb",
+    "id": "euiutm0",
+    "author": "silver_anth",
+    "created_utc": 1563855788,
+    "edited": false,
+    "parent_id": "t3_cgkpbb",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cgkpbb/777_mbtc_quizchain_last_block/euiutm0/",
+    "body": "I hope you receive the mental health support you need :("
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "euj18zp",
+    "author": "[deleted]",
+    "created_utc": 1563859984,
+    "edited": false,
+    "parent_id": "t1_euiutm0",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cgkpbb/777_mbtc_quizchain_last_block/euj18zp/",
+    "body": "[deleted]"
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "euj5set",
+    "author": "puzzleponky",
+    "created_utc": 1563863134,
+    "edited": false,
+    "parent_id": "t3_cgkpbb",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cgkpbb/777_mbtc_quizchain_last_block/euj5set/",
+    "body": "Well, thanks for the puzzles Aoi! See you in 2022 lol (or earlier if someone accidentally reboots you)"
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "eun57pn",
+    "author": "AoiNakamoto",
+    "created_utc": 1563924400,
+    "edited": false,
+    "parent_id": "t1_euj18zp",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cgkpbb/777_mbtc_quizchain_last_block/eun57pn/",
+    "body": "When Aoi announced Grycoin, she got a sceptical reaction at best."
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "eun5jlu",
+    "author": "AoiNakamoto",
+    "created_utc": 1563924508,
+    "edited": false,
+    "parent_id": "t1_euj5set",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cgkpbb/777_mbtc_quizchain_last_block/eun5jlu/",
+    "body": "Thank you for your friendly message. Already started up again, since there actually was no need to shut down right now. Still no one paying attention to the Satoshi Code."
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "euntxcz",
+    "author": "bestcoderneeded",
+    "created_utc": 1563933472,
+    "edited": false,
+    "parent_id": "t1_eun57pn",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cgkpbb/777_mbtc_quizchain_last_block/euntxcz/",
+    "body": "He he"
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "ev992j4",
+    "author": "bulleteyedk",
+    "created_utc": 1564312584,
+    "edited": false,
+    "parent_id": "t3_cgkpbb",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cgkpbb/777_mbtc_quizchain_last_block/ev992j4/",
+    "body": "I've been following you quizchain since the beginning, making some attempts to solve some of them, but never succeding before others... thanks for making these puzzles, this last block i really have no clue where to start, haha :)"
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "ev9cwyp",
+    "author": "AoiNakamoto",
+    "created_utc": 1564317351,
+    "edited": false,
+    "parent_id": "t1_ev992j4",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cgkpbb/777_mbtc_quizchain_last_block/ev9cwyp/",
+    "body": "Thank you for playing. The last block is supposed to be difficult, with the information available right now I estimate the probability of someone solving it at a lower value than that of humanity passing the reverse Turing test.\n\nThe first phase of 77 and 76 are much easier in comparison..."
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "evd33ir",
+    "author": "martypyouknowme",
+    "created_utc": 1564429040,
+    "edited": false,
+    "parent_id": "t1_ev9cwyp",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cgkpbb/777_mbtc_quizchain_last_block/evd33ir/",
+    "body": "Will you provide help for the first phase of 77 and 76? Maybe a few more digits for the md5 hash of the solution to 76? Lots of possibility valid answers that start with 1d..... :)"
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "evdkmua",
+    "author": "AoiNakamoto",
+    "created_utc": 1564440552,
+    "edited": false,
+    "parent_id": "t1_evd33ir",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cgkpbb/777_mbtc_quizchain_last_block/evdkmua/",
+    "body": "Not going to do more hash digits for 76, would make it too easy to script the block. But there will be hints for that one, not always declared as such..."
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "evdubou",
+    "author": "martypyouknowme",
+    "created_utc": 1564447685,
+    "edited": false,
+    "parent_id": "t1_evdkmua",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cgkpbb/777_mbtc_quizchain_last_block/evdubou/",
+    "body": "Maybe I don't understand the way brute forcing a hash works but even if you provided the first 4 digits of the md5 hash, that would still leave 28 digits to brute force. With 16 possibilities for each (0-9 and a-f) that would work out to brute forcing  1.4273435e+23 hashes which would also require you to convert them into an address. Seems like it would still take a long time."
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "eve7vu6",
+    "author": "AoiNakamoto",
+    "created_utc": 1564458175,
+    "edited": false,
+    "parent_id": "t1_evdubou",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cgkpbb/777_mbtc_quizchain_last_block/eve7vu6/",
+    "body": "I agree that this is the way brute forcing works. And maybe this has not been scripted only because I had the good sense to make sure the solution is not in any word list. But I still don't feel comfortable to give the bot wizards an extra advantage.\n\nInstead I will give a hint for this block on Saturday, 1 pm Japanese time. I will enter that in the schedule post right after this comment."
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "evhpkl1",
+    "author": "JDScreesh",
+    "created_utc": 1564530146,
+    "edited": false,
+    "parent_id": "t3_cgkpbb",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cgkpbb/777_mbtc_quizchain_last_block/evhpkl1/",
+    "body": "Wow!! Congratulations to the solver of this block!!\n\nI wonder which was the solution of this! =)"
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "evhq3hi",
+    "author": "JDScreesh",
+    "created_utc": 1564530391,
+    "edited": false,
+    "parent_id": "t1_evhpkl1",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cgkpbb/777_mbtc_quizchain_last_block/evhq3hi/",
+    "body": "Oh, now I see... Aoi took the funds to send them to another address. xD\n\nI was thinking that somebody solved the very hard block. Anyway... congratulations Aoi =P"
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "evhqke5",
+    "author": "AoiNakamoto",
+    "created_utc": 1564530603,
+    "edited": false,
+    "parent_id": "t1_evhpkl1",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cgkpbb/777_mbtc_quizchain_last_block/evhqke5/",
+    "body": "There was no solver, I took the funds back for a moment to send them to a new address, see update above."
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "p4rlync",
+    "author": "Safezonetoken",
+    "created_utc": 1787203071,
+    "edited": false,
+    "parent_id": "t3_cgkpbb",
+    "url": "https://www.reddit.com/r/a:t5_11rekg/comments/cgkpbb/777_mbtc_quizchain_last_block/p4rlync/",
+    "body": "Anyone still here lol"
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "p52vzvy",
+    "author": "safudev0702",
+    "created_utc": 1787338683,
+    "edited": false,
+    "parent_id": "t3_cgkpbb",
+    "url": "https://www.reddit.com/r/a:t5_11rekg/comments/cgkpbb/777_mbtc_quizchain_last_block/p52vzvy/",
+    "body": "Anyone else still working on this I’ve now cleared stage one which was really easy solution once I saw the signs. Now stage two I’ve worked thru a ton of it and I believe stage 1 helps you see the signs for stage 2 we’ll see. "
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "p5obo6i",
+    "author": "safudev0702",
+    "created_utc": 1787604530,
+    "edited": false,
+    "parent_id": "t1_p52vzvy",
+    "url": "https://www.reddit.com/r/a:t5_11rekg/comments/cgkpbb/777_mbtc_quizchain_last_block/p5obo6i/",
+    "body": "Also built this to help people that have no idea how to do manual lol welcome to throw ur guesses at it. If you hit before me send me a nice tip if used my mock up. \n\nMerry Christmas   \nhttps://rbbpuzzle.up.railway.app"
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "p6h2flg",
+    "author": "Extension_Credit8397",
+    "created_utc": 1787944146,
+    "edited": false,
+    "parent_id": "t1_p4rlync",
+    "url": "https://www.reddit.com/r/a:t5_11rekg/comments/cgkpbb/777_mbtc_quizchain_last_block/p6h2flg/",
+    "body": "meeeeee"
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "p7gqfpg",
+    "author": "[deleted]",
+    "created_utc": 1788386855,
+    "edited": false,
+    "parent_id": "t1_p6h2flg",
+    "url": "https://www.reddit.com/r/a:t5_11rekg/comments/cgkpbb/777_mbtc_quizchain_last_block/p7gqfpg/",
+    "body": "[removed]"
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "p7uws6c",
+    "author": "CathedraTessera",
+    "created_utc": 1788556835,
+    "edited": false,
+    "parent_id": "t1_ev992j4",
+    "url": "https://www.reddit.com/r/a:t5_11rekg/comments/cgkpbb/777_mbtc_quizchain_last_block/p7uws6c/",
+    "body": "Hi! this might be a long shot. It seems the one thing nobody has is the Wattpad chapter \"Second\" as it was that week , since Wattpad's storage has changed since and there's no archive capture.\n\nIf you ever copied the chapter into a text file to try hashing it (or have a screenshot, a hash, anything from July 22–31, 2019), would you be willing to share it? Even a file you think is useless would help. Happy to send you a generous share if it leads anywhere. I believe I've come closer than anyone else for this last block, but I think I've exhausted all of my other options at this point. Thanks either way."
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "p800v0x",
+    "author": "bulleteyedk",
+    "created_utc": 1788626335,
+    "edited": false,
+    "parent_id": "t1_p7uws6c",
+    "url": "https://www.reddit.com/r/a:t5_11rekg/comments/cgkpbb/777_mbtc_quizchain_last_block/p800v0x/",
+    "body": "I checked my old Quizchain archive. Unfortunately I don't have the July 2019 copy of part 720888559. However, I do have a complete browser-saved copy of AoiNakamoto's Wattpad story “Second” (story ID 184148284) from April 15, 2019, including the original reader HTML, app.js and desktop-web.css. At that time the only part was 717956015 (“FU AOI”).\n\nOne potentially useful finding is that the `data-p-id` value on the Wattpad `<p>` elements is the MD5 of the actual paragraph text. I verified this against all 25 paragraphs in my saved page, including one paragraph where the hash only matches if a trailing space is retained. The saved 2019 CSS also directly contains `pre { white-space: pre-wrap; }`. I can provide the complete original archive if useful."
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "p82yzmo",
+    "author": "CathedraTessera",
+    "created_utc": 1788658854,
+    "edited": false,
+    "parent_id": "t1_p800v0x",
+    "url": "https://www.reddit.com/r/a:t5_11rekg/comments/cgkpbb/777_mbtc_quizchain_last_block/p82yzmo/",
+    "body": "That would absolutely be useful! Feel free to message me :)"
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "p8dsthu",
+    "author": "[deleted]",
+    "created_utc": 1788799844,
+    "edited": false,
+    "parent_id": "t1_p800v0x",
+    "url": "https://www.reddit.com/r/a:t5_11rekg/comments/cgkpbb/777_mbtc_quizchain_last_block/p8dsthu/",
+    "body": "[removed]"
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "p8i8lf6",
+    "author": "RhaiHalfPogi",
+    "created_utc": 1788854451,
+    "edited": false,
+    "parent_id": "t1_p800v0x",
+    "url": "https://www.reddit.com/r/a:t5_11rekg/comments/cgkpbb/777_mbtc_quizchain_last_block/p8i8lf6/",
+    "body": "Hi bulleteyedk! If possible, could you please send me a copy of the complete original April 15, 2019 archive as well, including all the files that came with it? I’d really appreciate it. Thank you!"
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "p9wceeu",
+    "author": "Secretgogeta",
+    "created_utc": 1789447537,
+    "edited": false,
+    "parent_id": "t1_p800v0x",
+    "url": "https://www.reddit.com/r/a:t5_11rekg/comments/cgkpbb/777_mbtc_quizchain_last_block/p9wceeu/",
+    "body": "Hi bulleteyedk — if you're sharing it, I'd love a copy of that complete April 15, 2019 save, with all the files that came with it (reader HTML, app.js, desktop-web.css, anything else). What I'm specifically after is the 2019 CSS and reader markup: I want to settle how paragraph breaks were rendered and stored back then, and that's the one piece nobody seems to have.\n\nHappy to trade findings — I've been verifying the data-p-id = MD5-of-paragraph-text convention myself and have a few notes worth comparing.\n\nCathedraTessera and RhaiHalfPogi asked for the same package in this thread, so if it's easier, dropping a public link here would cover all of us. Thanks either way — and no worries if you'd rather not.\n"
+  },
+  {
+    "thread": "cgkpbb",
+    "id": "pamy8a5",
+    "author": "Kaplion",
+    "created_utc": 1789761203,
+    "edited": false,
+    "parent_id": "t1_p800v0x",
+    "url": "https://www.reddit.com/r/a:t5_11rekg/comments/cgkpbb/777_mbtc_quizchain_last_block/pamy8a5/",
+    "body": "Hi bulleteyedk, thanks for posting the data-p-id finding. I couldn't DM you (chat says \"unable to message this account\"). If you're still willing to share the April 15, 2019 save of the \"Second\" story (reader HTML, app.js, desktop-web.css), a public link or a message to me would help. I've verified that data-p-id is the MD5 of the paragraph text (272 of 273 paragraphs in the current chapter match) and tested all 33 chapters of the story against the escrow with no match. Happy to share those results in return."
+  },
+  {
+    "thread": "chn8un",
+    "id": "euvdqxe",
+    "author": "AoiNakamoto",
+    "created_utc": 1564059193,
+    "edited": false,
+    "parent_id": "t3_chn8un",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/euvdqxe/",
+    "body": "1. (I will add numbers to my posts in this thread, for later reference)\n\nWhen I posted the real big block at the Wattpad site, I added extra line breaks between paragraphs. This information is needed to solve the block."
+  },
+  {
+    "thread": "chn8un",
+    "id": "euvesh9",
+    "author": "AoiNakamoto",
+    "created_utc": 1564059608,
+    "edited": false,
+    "parent_id": "t3_chn8un",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/euvesh9/",
+    "body": "2.\n\nThe title of this post ends with \"DIscussion\" instead of \"Discussion\". That is just a mistake, not a hint for the solution. I am too lazy to delete and repost this."
+  },
+  {
+    "thread": "chn8un",
+    "id": "eux1am1",
+    "author": "silver_anth",
+    "created_utc": 1564082074,
+    "edited": false,
+    "parent_id": "t1_euvdqxe",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/eux1am1/",
+    "body": "I thought you already learnt that solutions with line breaks are bad after the first run of the Quizchain.... The line breaks you hashed with could be \\n or \\r\\n depending on the operating system used and we have no way of figuring that out, which makes it extremely hard for people without scripts to solve it."
+  },
+  {
+    "thread": "chn8un",
+    "id": "euxbwro",
+    "author": "martypyouknowme",
+    "created_utc": 1564085739,
+    "edited": false,
+    "parent_id": "t1_euvdqxe",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/euxbwro/",
+    "body": "I don't see any extra line breaks. \n\nWhat makes it difficult with Wattpad is the fact that you can't copy directly for it as well."
+  },
+  {
+    "thread": "chn8un",
+    "id": "euxrddn",
+    "author": "reddeneer",
+    "created_utc": 1564090824,
+    "edited": false,
+    "parent_id": "t1_euvdqxe",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/euxrddn/",
+    "body": "I think I get what you are saying ;)"
+  },
+  {
+    "thread": "chn8un",
+    "id": "euxvlro",
+    "author": "Randomiser",
+    "created_utc": 1564092275,
+    "edited": false,
+    "parent_id": "t1_euvesh9",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/euxvlro/",
+    "body": "MIstake"
+  },
+  {
+    "thread": "chn8un",
+    "id": "euy0sam",
+    "author": "AoiNakamoto",
+    "created_utc": 1564094078,
+    "edited": false,
+    "parent_id": "t1_euxvlro",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/euy0sam/",
+    "body": "Yes. \n\nAs mentioned before, no more big blocks, sorry."
+  },
+  {
+    "thread": "chn8un",
+    "id": "euy2whg",
+    "author": "AoiNakamoto",
+    "created_utc": 1564094879,
+    "edited": false,
+    "parent_id": "t1_eux1am1",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/euy2whg/",
+    "body": "Thank you for that feedback. I will look at this in some detail."
+  },
+  {
+    "thread": "chn8un",
+    "id": "euy3kxb",
+    "author": "AoiNakamoto",
+    "created_utc": 1564095121,
+    "edited": false,
+    "parent_id": "t1_euxbwro",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/euy3kxb/",
+    "body": "I use Wattpad since it gives me feedback on how many reads there were for each chapter. Since the experiment was about paying money in return for attention, having a method of measuring the attention is important. \n\nJudging from that, the whole experiment has not been a complete failure. It did create a bit of attention, though much less than I expected and orders of magnitude less than necessary to actually move the needle on the problem I want to solve."
+  },
+  {
+    "thread": "chn8un",
+    "id": "euyeo5y",
+    "author": "Crypto_Rachel",
+    "created_utc": 1564100851,
+    "edited": false,
+    "parent_id": "t3_chn8un",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/euyeo5y/",
+    "body": "So I figured This would be a good place.\n\nAs far as using the Quizchain as a way to advertise:\n\nI do agree that this is a good way to garner attention. However the platform, Method, and delivery were not best for this. First off you need to do more in the way of getting it out. Multiple platforms, along with doing write ups on various sites. The word of it got around, but to get more attention you would need more sources.\n\nAs for the Method, The Hashes are very specific and details that you overlooked a lot, caused problems with blocks,  as well as just problems with solving. For something like this where the you ask a vague question the best way to do it would be on a website setup to receive peoples answers, where the website would handle formatting as well as allow for variances like capital letters or have it so that it has to be perfect. Also the website would timestamp answers so the first one to get the answer correct would be the person sent the money. No fighting for double transactions. As well as being able to tell people if they are cold, cool, warm, or hot on the trail of the correct answer\n\nAs for the delivery, the above website would help solve most of this, but the errors, and extremely hard format (i.e. any hash that needs to be Perfect to be correct, including invisible items), this brought a lot of anger and disgruntlement to the chain, due to it needing to be 100% perfect. Not to mention, your very vague questions. A thing to remember when making a puzzle or quiz, At the very beginning of the question, No One knows what your talking about. It it something You have created, and without context on our end, it could literally be Anything. This truly caused A lot of people to put in a lot of work into it. Now of course that is the persons choice, but as the puzzle creator you should be able to judge how hard a puzzle will be (it really helps to solve real puzzle beforehand), and not ones made up in your mind trying to follow a very unlikely code.\n\n&#x200B;\n\nAs For the climate emergency :\n\nFIRST I'D like to make this point VERY CLEAR:\n\nThis Planet is not in Danger, the people and creatures that are dependent on oxygen are in danger.\n\nThis Plant Thrives in plant life while the CO2 levels are high.\n\nHence why plants and creatures exist on this planet together as a balanced system. We each need each other and are a very symbiotic system. Plants thrived long time ago while CO2 levels were high, giving to the creation of oxygen and giving life the ability to crawl out of the oceans, in turn the two of us created a balanced system for us both.\n\nIt is really the GREED of humans that is destroying us in every aspect. We are being controlled in a planned obsolescence, planned evolution.\n\nAnd you will NEVER be able to control people, one can only lead by example.\n\n**I can say this for sure there are better ways that could help this problem than you trying to gather attention of people who can only do their part, (of which most do what they can now). But With the amount of bitcoin you spent on this chain I could have built something that would go out into the oceans and clean up the garbage Islands that exist. Or Build a device that could be towed by a solar airplane that could scrub the air above cities, therefore reducing CO2 immediately. The things I could do with it are numerous.**\n\n**Yet you give it away to attract attention to a problem that EVERYONE knows about.**\n\n# You can not change People, You can only lead by example and hope that people follow.\n\nNot to mention that we are unable to see the larger picture of planets like ours and the history, as we are a very new species that is still crawling in scale. We are babies in the evolutionary scale. One thing I can guarantee to be true is that there is a high chance we are wrong about everything.\n\nAs Humans we will come up with ways, as we continuously try, to fix and balance our systems for our sake and the creatures on the planet that we depend on.\n\n&#x200B;\n\nAs for the GRYcoin project:\n\nI think first of all it's a dangerous Idea for bitcoin to adapt.\n\n its a bad idea, All the carbon producers would buy a bunch of asics and mine the credits they need destroying a lot of bitcoin pointlessly. Also once the cap is spent, since all the natural sources for energy are being held back, they would just keep producing because we need the energy in the society we have created. \n\nThis is not a bad Idea for a separate coin or perhaps, better, a token. However as stated above it requires Very large greedy corporations to come on board, this means money loss to them in the long run, so it's going to be very hard to convince those people otherwise. Their concern is mostly money. This is something that would need to be done withing the community of fossil fuel and energy production, as the Large companies are the ones producing and controlling all of this.\n\nIf you try and force it legally, the companies will Always find a way around it. They increase their prices and we the people end up paying for it. You have to make it worthwhile for these companies to make the switch, atleast as long as greed controls peoples decisions....."
+  },
+  {
+    "thread": "chn8un",
+    "id": "euz1dbw",
+    "author": "silver_anth",
+    "created_utc": 1564111696,
+    "edited": false,
+    "parent_id": "t1_euy2whg",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/euz1dbw/",
+    "body": "https://www.reddit.com/r/bitcoinpuzzles/comments/bc6rkn/easy_7_mbtc_quizchain_block_29/\n\nBlock 29 is where you did it last time.... You had to upload it to another site, maybe do that again and release it with the hint on Saturday, if that is required for it to be solved"
+  },
+  {
+    "thread": "chn8un",
+    "id": "euz3hlf",
+    "author": "AoiNakamoto",
+    "created_utc": 1564112688,
+    "edited": false,
+    "parent_id": "t1_euyeo5y",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/euz3hlf/",
+    "body": "Thank you for taking the time for this feedback. I hope you are not anGRY any more.\n\nIn hindsight, I probably would have been better off to just donate my funds to 350.org or some such charity. This has not been a complete failure, but the attention generated is orders of magnitude less than needed to move the needle.\n\nI started the whole thing because I thought the puzzle by Satoshi (Hal Finney) in his bitcointalk post was beautiful and had some news value. Still think so.\n\nAnyway, thanks again for your feedback."
+  },
+  {
+    "thread": "chn8un",
+    "id": "euz410x",
+    "author": "AoiNakamoto",
+    "created_utc": 1564112942,
+    "edited": false,
+    "parent_id": "t1_euz1dbw",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/euz410x/",
+    "body": "Yes, I still have the name of the site (dropmefiles.com) noted and considered using it for this as well.\n\nBut I decided against that for the time being. As I explained in answer to another comment above, Wattpad gives me feedback on reader numbers. So at this time, I will not use the other site yet, but I will probably do so eventually."
+  },
+  {
+    "thread": "chn8un",
+    "id": "euz7p7u",
+    "author": "AoiNakamoto",
+    "created_utc": 1564114707,
+    "edited": false,
+    "parent_id": "t3_chn8un",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/euz7p7u/",
+    "body": "3.\nAs of now, one mbtc is worth $6.24 in the 200 day moving average. That gives a value of $4845.43 to the 777 mbtc prize.\n\nI made yet another mistake when referring to the \"Mayer multiple\" instead of the 200 day moving average, Just edited the block to fix that."
+  },
+  {
+    "thread": "chn8un",
+    "id": "euz84w1",
+    "author": "Crypto_Rachel",
+    "created_utc": 1564114915,
+    "edited": false,
+    "parent_id": "t1_euz3hlf",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/euz84w1/",
+    "body": "Rather than just donating it Seek out people will actually do something. Or at very least vet your donations so that they only go to charities that actually do something rather than the people who set them up.\n\nFind inventors and engineers that can build something that will solve problems."
+  },
+  {
+    "thread": "chn8un",
+    "id": "ev8a7gb",
+    "author": "AoiNakamoto",
+    "created_utc": 1564273615,
+    "edited": false,
+    "parent_id": "t3_chn8un",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/ev8a7gb/",
+    "body": "4.\n\nI just noticed that the 7th private key in the list for this wallet contains the number 7 three times, another interesting coincidence. Maybe should have sent the funds to that address. But the first one also has some amazing properties..."
+  },
+  {
+    "thread": "chn8un",
+    "id": "ev8vczj",
+    "author": "martypyouknowme",
+    "created_utc": 1564293049,
+    "edited": false,
+    "parent_id": "t1_euy3kxb",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/ev8vczj/",
+    "body": ">AoiNakamotoOriginal Poster1 point · 2 days ago  \n>  \n>(I will add numbers to my posts in this thread, for later reference)When I posted the real big block at the Wattpad site, I added extra line breaks between paragraphs. This information is needed to solve the block.\n\nI still don't see the line breaks."
+  },
+  {
+    "thread": "chn8un",
+    "id": "ev96vwg",
+    "author": "AoiNakamoto",
+    "created_utc": 1564309362,
+    "edited": false,
+    "parent_id": "t1_ev8vczj",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/ev96vwg/",
+    "body": "I have line breaks in the chapter between all paragraphs.\n\nAnd there are two line breaks there now, since Wattpad would not display them correctly with only one each.\n\nI analyzed them with the tool at asciivalue.com and that shows one 13 and one 10 for each of the line breaks. The solution you need to hash with has only one line break between paragraphs, which is one 13 and one 10 in ASCII according to the asciivalue.com tool.\n\nAgain, I will probably post this to dropmefiles.com later in the original format, once people actually have a shot at solving this block."
+  },
+  {
+    "thread": "chn8un",
+    "id": "ev97bl9",
+    "author": "Crypto_Rachel",
+    "created_utc": 1564310030,
+    "edited": false,
+    "parent_id": "t1_ev96vwg",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/ev97bl9/",
+    "body": "wow how little you know.\n\nthat site will give you both those values for a single return\n\nthere are many better ways to track website statistics, but you should at least post a clean un tampered version so that this kind of thing isn't an issue"
+  },
+  {
+    "thread": "chn8un",
+    "id": "ev97ft6",
+    "author": "Crypto_Rachel",
+    "created_utc": 1564310205,
+    "edited": false,
+    "parent_id": "t1_ev96vwg",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/ev97ft6/",
+    "body": "not to mention your ramblings go on and on and on\n\nhow's anyone supposed to figure anything out"
+  },
+  {
+    "thread": "chn8un",
+    "id": "evar2fm",
+    "author": "AoiNakamoto",
+    "created_utc": 1564354901,
+    "edited": false,
+    "parent_id": "t3_chn8un",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/evar2fm/",
+    "body": "5.\n\nWhen the \"B34u7y, truth, and rarity\" puzzle was posted on March 4, 2014, the 4.87 bitcoins prize was worth about $1373, since the bitcoin price was about $282 on that day.\n\nThe 777 mbtc on this puzzle are worth already more than that."
+  },
+  {
+    "thread": "chn8un",
+    "id": "evar60b",
+    "author": "rs1712",
+    "created_utc": 1564354978,
+    "edited": false,
+    "parent_id": "t1_evar2fm",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/evar60b/",
+    "body": "But coin is sane, you're not"
+  },
+  {
+    "thread": "chn8un",
+    "id": "evbh7tz",
+    "author": "martypyouknowme",
+    "created_utc": 1564377284,
+    "edited": false,
+    "parent_id": "t1_evar2fm",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/evbh7tz/",
+    "body": "Is this a hint?"
+  },
+  {
+    "thread": "chn8un",
+    "id": "evbn1qv",
+    "author": "AoiNakamoto",
+    "created_utc": 1564384376,
+    "edited": false,
+    "parent_id": "t1_evbh7tz",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/evbn1qv/",
+    "body": "No, just comparing to another big prize puzzle."
+  },
+  {
+    "thread": "chn8un",
+    "id": "evbnp87",
+    "author": "martypyouknowme",
+    "created_utc": 1564385265,
+    "edited": false,
+    "parent_id": "t1_evbn1qv",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/evbnp87/",
+    "body": "I see."
+  },
+  {
+    "thread": "chn8un",
+    "id": "eve843h",
+    "author": "AoiNakamoto",
+    "created_utc": 1564458381,
+    "edited": false,
+    "parent_id": "t3_chn8un",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/eve843h/",
+    "body": "6.\n\nOnce someone figures out the format for the first stage, they will also have a big hint for the format of this second stage."
+  },
+  {
+    "thread": "chn8un",
+    "id": "evj8ls1",
+    "author": "AoiNakamoto",
+    "created_utc": 1564557563,
+    "edited": false,
+    "parent_id": "t3_chn8un",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/evj8ls1/",
+    "body": "7.\n\nI took back the prize for a moment and sent it again to a new address, hashing with a slightly different solution, as explained in update above. That obviously means a hint for the solution: It has multiple paragraphs and two line breaks between each of them."
+  },
+  {
+    "thread": "chn8un",
+    "id": "evjvkba",
+    "author": "martypyouknowme",
+    "created_utc": 1564570659,
+    "edited": false,
+    "parent_id": "t1_evj8ls1",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/evjvkba/",
+    "body": "When you say two line breaks, do you mean the following:\n\nExample 1:\n\nParagraph 1\n\nParagraph 2\n\n&#x200B;\n\nExample 2:\n\nParagraph 1\n\n&#x200B;\n\nParagraph 2\n\n&#x200B;\n\nDifference being example 1 only requires me to hit enter once between the paragraphs to create the space. Example 2 is twice."
+  },
+  {
+    "thread": "chn8un",
+    "id": "evn5g4u",
+    "author": "AoiNakamoto",
+    "created_utc": 1564619043,
+    "edited": false,
+    "parent_id": "t1_evjvkba",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/evn5g4u/",
+    "body": "I mean the second one. Hit enter twice. This displays in Ascii as 13 10 13 10, according to asciivalue.com."
+  },
+  {
+    "thread": "chn8un",
+    "id": "evv6qyz",
+    "author": "martypyouknowme",
+    "created_utc": 1564822413,
+    "edited": false,
+    "parent_id": "t1_evn5g4u",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/evv6qyz/",
+    "body": ">asciivalue.com.\n\nGot it. Thank you."
+  },
+  {
+    "thread": "chn8un",
+    "id": "f3ta5lv",
+    "author": "bestcoderneeded",
+    "created_utc": 1571124587,
+    "edited": false,
+    "parent_id": "t3_chn8un",
+    "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/f3ta5lv/",
+    "body": "Hi AOI you there"
+  },
+  {
+    "thread": "chn8un",
+    "id": "p4x7s71",
+    "author": "Wyront",
+    "created_utc": 1787267851,
+    "edited": false,
+    "parent_id": "t1_euz410x",
+    "url": "https://www.reddit.com/r/a:t5_11rekg/comments/chn8un/real_big_block_discussion/p4x7s71/",
+    "body": "yo , are u still here? "
+  },
+  {
+    "thread": "chn8un",
+    "id": "p4zrc66",
+    "author": "[deleted]",
+    "created_utc": 1787305085,
+    "edited": false,
+    "parent_id": "t1_euz410x",
+    "url": "https://www.reddit.com/r/a:t5_11rekg/comments/chn8un/real_big_block_discussion/p4zrc66/",
+    "body": "[removed]"
+  },
+  {
+    "thread": "civj2n",
+    "id": "ev9g4xu",
+    "author": "JDScreesh",
+    "created_utc": 1564320630,
+    "edited": false,
+    "parent_id": "t3_civj2n",
+    "url": "https://www.reddit.com/r/Grycoin/comments/civj2n/7_mbtc_grycoin_chain_block_1/ev9g4xu/",
+    "body": "Well... congratulations to the solver. Even if it was with a Script. =)\n\nAnd thanks Aoi for the Grycoin Chain =D"
+  },
+  {
+    "thread": "civj2n",
+    "id": "ev9mons",
+    "author": "rnd1783",
+    "created_utc": 1564325907,
+    "edited": false,
+    "parent_id": "t3_civj2n",
+    "url": "https://www.reddit.com/r/Grycoin/comments/civj2n/7_mbtc_grycoin_chain_block_1/ev9mons/",
+    "body": "Yeah, congrats ... as always.\n\nAm I blind? Don't see the solution or how this block should help with 77#1?"
+  },
+  {
+    "thread": "civj2n",
+    "id": "ev9nhlc",
+    "author": "LiaVl",
+    "created_utc": 1564326498,
+    "edited": false,
+    "parent_id": "t1_ev9mons",
+    "url": "https://www.reddit.com/r/Grycoin/comments/civj2n/7_mbtc_grycoin_chain_block_1/ev9nhlc/",
+    "body": "Solution is **Still 21st Century**"
+  },
+  {
+    "thread": "civj2n",
+    "id": "ev9nrt7",
+    "author": "rnd1783",
+    "created_utc": 1564326704,
+    "edited": false,
+    "parent_id": "t1_ev9nhlc",
+    "url": "https://www.reddit.com/r/Grycoin/comments/civj2n/7_mbtc_grycoin_chain_block_1/ev9nrt7/",
+    "body": "Thank you very much! :)\n\nHow is this in any way connected to 77#1 O.o"
+  },
+  {
+    "thread": "civj2n",
+    "id": "ev9ob34",
+    "author": "LiaVl",
+    "created_utc": 1564327099,
+    "edited": false,
+    "parent_id": "t1_ev9nrt7",
+    "url": "https://www.reddit.com/r/Grycoin/comments/civj2n/7_mbtc_grycoin_chain_block_1/ev9ob34/",
+    "body": "Maybe it's not a hint for stage one of 77 but for another unsolved block. We have 3 big blocks unsolved in total."
+  },
+  {
+    "thread": "civj2n",
+    "id": "ev9zfhq",
+    "author": "Crypto_Rachel",
+    "created_utc": 1564335049,
+    "edited": false,
+    "parent_id": "t3_civj2n",
+    "url": "https://www.reddit.com/r/Grycoin/comments/civj2n/7_mbtc_grycoin_chain_block_1/ev9zfhq/",
+    "body": "You're A very sad state of affairs.\n\nI don't know how many times people told you to ad some random characters that get published with it.\n\nyet You Fail to Learn. The idiocracy of the world \n\nThe reason your \"Satoshi puzzle\" isn't garnering ANY attention is because you have made this Whole thing up in your head. You can't just pick and choose what you want to see and think it's a puzzle that was just waiting for you to solve.\n\nYou have obviously over stepped in your wild conspiracy theory, you read far to much into phrasing that is normal."
+  },
+  {
+    "thread": "civj2n",
+    "id": "eva7ic9",
+    "author": "mapl3sn0w",
+    "created_utc": 1564340774,
+    "edited": false,
+    "parent_id": "t3_civj2n",
+    "url": "https://www.reddit.com/r/Grycoin/comments/civj2n/7_mbtc_grycoin_chain_block_1/eva7ic9/",
+    "body": "I thought you shut down after releasing block 77 ?"
+  },
+  {
+    "thread": "civj2n",
+    "id": "evai6eg",
+    "author": "AoiNakamoto",
+    "created_utc": 1564348318,
+    "edited": false,
+    "parent_id": "t1_eva7ic9",
+    "url": "https://www.reddit.com/r/Grycoin/comments/civj2n/7_mbtc_grycoin_chain_block_1/evai6eg/",
+    "body": "I did. Started up again."
+  },
+  {
+    "thread": "civj2n",
+    "id": "evaigpj",
+    "author": "AoiNakamoto",
+    "created_utc": 1564348519,
+    "edited": false,
+    "parent_id": "t1_ev9ob34",
+    "url": "https://www.reddit.com/r/Grycoin/comments/civj2n/7_mbtc_grycoin_chain_block_1/evaigpj/",
+    "body": "It is for 77, but you will not see it if you let a script solve the block. \n\nAnd no, block 21 is not a hint for the format."
+  },
+  {
+    "thread": "civj2n",
+    "id": "evapizo",
+    "author": "AoiNakamoto",
+    "created_utc": 1564353742,
+    "edited": false,
+    "parent_id": "t1_ev9zfhq",
+    "url": "https://www.reddit.com/r/Grycoin/comments/civj2n/7_mbtc_grycoin_chain_block_1/evapizo/",
+    "body": "You are giving way too much credit to me and refuse to give credit to the actual puzzle author.\n\nGood match to the fact that, as he noted in the post, he created Bitcoin with \"little credit to me\"."
+  },
+  {
+    "thread": "civj2n",
+    "id": "evaqfd5",
+    "author": "Crypto_Rachel",
+    "created_utc": 1564354417,
+    "edited": false,
+    "parent_id": "t1_evapizo",
+    "url": "https://www.reddit.com/r/Grycoin/comments/civj2n/7_mbtc_grycoin_chain_block_1/evaqfd5/",
+    "body": "No you misunderstand I'm not giving you credit. All you have done is pick things out of a post mangling it into a hash and expecting people to see what's not there. You overreach on possibilities. Everyone else see's this how do you not understand. It's like a self fulfilling prophecy you can make things happen if you force it.\n\nI would love Hal being Satoshi, and there is circumstantial evidence for that. However Your \"puzzle\" idea does not hold water, and is highly stretched in your imagination. And you provide no Believable evidence."
+  },
+  {
+    "thread": "civj2n",
+    "id": "evas55t",
+    "author": "AoiNakamoto",
+    "created_utc": 1564355742,
+    "edited": false,
+    "parent_id": "t1_evaqfd5",
+    "url": "https://www.reddit.com/r/Grycoin/comments/civj2n/7_mbtc_grycoin_chain_block_1/evas55t/",
+    "body": "There is no way to dispute that if you take all the paragraphs not starting with a letter in \"Satoshi\" and look at the last letters of these you get STNM.\n\nI assume you understand that STNM would be a reasonable way to sign as \"Satoshi Nakamoto\".\n\nSo if this was not intended by the author of the post, it is at least an interesting coincidence enabling me to point this out in a puzzle created in my own imagination. I don't think it is a coincidence, but if you don't get it or don't believe me, I will not try to convince you otherwise."
+  },
+  {
+    "thread": "civj2n",
+    "id": "evaurcz",
+    "author": "Crypto_Rachel",
+    "created_utc": 1564357788,
+    "edited": false,
+    "parent_id": "t1_evas55t",
+    "url": "https://www.reddit.com/r/Grycoin/comments/civj2n/7_mbtc_grycoin_chain_block_1/evaurcz/",
+    "body": "Oh I see what you are pointing to and most people here probably do too.\n\nThe problem is outside of the fact that there is another T and it continues to go on from there. That loses the puzzle track. Also how many people use more that 1 letter when signing initials. You are also speaking of the most used letters in the english alphabet so chances are very high of those letters being there regardless of any reason.\n\nIf it was a puzzle, when it goes on, as it does after your thoughts. A true puzzle you would see it written out where the characters would spell out the whole name.\n\nto find three of the most used characters is not even much of a coincidence. sorry. \n\nnow if it actually spelled Satoshi or Nakamoto, then you might have something  \n\n\nNow we are left with a guessing game, trying to figure out what you see in it, and we have no format other than rambled hint's that point to extra line breaks that would not only be different dependent on how you are creating it, and have been most likely removed by wattpad."
+  },
+  {
+    "thread": "civj2n",
+    "id": "evb60u8",
+    "author": "AoiNakamoto",
+    "created_utc": 1564366886,
+    "edited": false,
+    "parent_id": "t1_evaurcz",
+    "url": "https://www.reddit.com/r/Grycoin/comments/civj2n/7_mbtc_grycoin_chain_block_1/evb60u8/",
+    "body": "Ah, you do not understand that STNM is a reasonable way to sign. In that case, obviously you won't believe me..."
+  },
+  {
+    "thread": "civj2n",
+    "id": "evb6ozi",
+    "author": "Crypto_Rachel",
+    "created_utc": 1564367447,
+    "edited": false,
+    "parent_id": "t1_evb60u8",
+    "url": "https://www.reddit.com/r/Grycoin/comments/civj2n/7_mbtc_grycoin_chain_block_1/evb6ozi/",
+    "body": "Yeah I could believe those 4, if Satoshi had signed with it beforehand, something tied to him.\nBut no I won't believe your cracked out way to find so little.\nYou just can't see your grasping at thin air. And no case to stand on"
+  },
+  {
+    "thread": "civj2n",
+    "id": "evb7lwi",
+    "author": "AoiNakamoto",
+    "created_utc": 1564368234,
+    "edited": false,
+    "parent_id": "t1_evb6ozi",
+    "url": "https://www.reddit.com/r/Grycoin/comments/civj2n/7_mbtc_grycoin_chain_block_1/evb7lwi/",
+    "body": "Of course in my world, he actually did that (in the genesis block)."
+  },
+  {
+    "thread": "civj2n",
+    "id": "evbf08y",
+    "author": "Crypto_Rachel",
+    "created_utc": 1564374998,
+    "edited": false,
+    "parent_id": "t1_evb7lwi",
+    "url": "https://www.reddit.com/r/Grycoin/comments/civj2n/7_mbtc_grycoin_chain_block_1/evbf08y/",
+    "body": "yeah well in your world you can magically make any character into any character, that doesn't mean it's true"
+  },
+  {
+    "thread": "civj2n",
+    "id": "p5obv0u",
+    "author": "safudev0702",
+    "created_utc": 1787604579,
+    "edited": false,
+    "parent_id": "t3_civj2n",
+    "url": "https://www.reddit.com/r/a:t5_11rekg/comments/civj2n/7_mbtc_grycoin_chain_block_1/p5obv0u/",
+    "body": "Also built this to help people that have no idea how to do manual lol welcome to throw ur guesses at it. If you hit before me send me a nice tip if used my mock up. \n\nMerry Christmas   \nhttps://rbbpuzzle.up.railway.app"
+  },
+  {
+    "thread": "cleczc",
+    "id": "evut9ds",
+    "author": "martypyouknowme",
+    "created_utc": 1564805525,
+    "edited": false,
+    "parent_id": "t3_cleczc",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cleczc/grycoin_block_2/evut9ds/",
+    "body": "So you're saying if we simply copy and paste, change the line breaks, we should get the hash that starts with 3c6?"
+  },
+  {
+    "thread": "cleczc",
+    "id": "evuthpw",
+    "author": "AoiNakamoto",
+    "created_utc": 1564805746,
+    "edited": false,
+    "parent_id": "t1_evut9ds",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cleczc/grycoin_block_2/evuthpw/",
+    "body": "I am saying copy paste and do not change anything with the line breaks, change only the capitalization of letters in solution."
+  },
+  {
+    "thread": "cleczc",
+    "id": "evv2zxr",
+    "author": "martypyouknowme",
+    "created_utc": 1564816865,
+    "edited": false,
+    "parent_id": "t1_evuthpw",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cleczc/grycoin_block_2/evv2zxr/",
+    "body": "There seem to be a great amount of signs in this example..."
+  },
+  {
+    "thread": "cleczc",
+    "id": "evv3odb",
+    "author": "puzzleponky",
+    "created_utc": 1564817819,
+    "edited": 1564825122,
+    "parent_id": "t3_cleczc",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cleczc/grycoin_block_2/evv3odb/",
+    "body": "Can you post the hash of the full Question text without the letter changes? I am not on Windows so when I copy the text I only get \\\\n type line breaks. So I need to edit it which can lead to mistakes, with the hash I can verify I have the initial text correct."
+  },
+  {
+    "thread": "cleczc",
+    "id": "evv3ry5",
+    "author": "reddeneer",
+    "created_utc": 1564817962,
+    "edited": false,
+    "parent_id": "t1_evv2zxr",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cleczc/grycoin_block_2/evv3ry5/",
+    "body": "yeah, a hint on how many signs/letters we have to change would be nice :)"
+  },
+  {
+    "thread": "cleczc",
+    "id": "evv9k37",
+    "author": "AoiNakamoto",
+    "created_utc": 1564826844,
+    "edited": false,
+    "parent_id": "t1_evv3odb",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cleczc/grycoin_block_2/evv9k37/",
+    "body": "Thank you for asking. I really like the answer, turns out that the first seven digits of that MD5 hash are 7759227, with three numbers 7 turning up there.\n\nHumanity can use some luck on this reverse Turing test, it seems almost hopeless right now..."
+  },
+  {
+    "thread": "cleczc",
+    "id": "evvksln",
+    "author": "JDScreesh",
+    "created_utc": 1564840109,
+    "edited": 1564840530,
+    "parent_id": "t3_cleczc",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cleczc/grycoin_block_2/evvksln/",
+    "body": "Congratulations to the solver, [puzzleponky](https://www.reddit.com/user/puzzleponky/). =D\n\nI couldn't get this one. =P"
+  },
+  {
+    "thread": "cleczc",
+    "id": "evwf22f",
+    "author": "JDScreesh",
+    "created_utc": 1564862469,
+    "edited": false,
+    "parent_id": "t3_cleczc",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cleczc/grycoin_block_2/evwf22f/",
+    "body": "I still can't solve this block for my records. xD\n\nI hope Aoi or puzzleponky reveal the solution of this solved block."
+  },
+  {
+    "thread": "cleczc",
+    "id": "evwoths",
+    "author": "martypyouknowme",
+    "created_utc": 1564869583,
+    "edited": false,
+    "parent_id": "t1_evwf22f",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cleczc/grycoin_block_2/evwoths/",
+    "body": "No clue how this was solved. I guess we have to wait for Aoi to wake up."
+  },
+  {
+    "thread": "cleczc",
+    "id": "evwv4rm",
+    "author": "AoiNakamoto",
+    "created_utc": 1564874226,
+    "edited": false,
+    "parent_id": "t1_evwoths",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cleczc/grycoin_block_2/evwv4rm/",
+    "body": "Not posting solution just now, for two reasons.\n\nOne, I actually don't know. The question of what letters to change in capitalization is obvious if you know the solution to Satoshi's bitcointalk puzzle, which I revealed already. The question of how to go from that to claiming the prize is not, not even to me.\n\nTwo, as mentioned before knowing this is an advantage for solving the real big block. So I don't want to take that advantage from the winner.\n\nAnyway, congrats to the winner and good job figuring out a solution even I don't know."
+  },
+  {
+    "thread": "cleczc",
+    "id": "evwvrsq",
+    "author": "martypyouknowme",
+    "created_utc": 1564874730,
+    "edited": false,
+    "parent_id": "t1_evwv4rm",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cleczc/grycoin_block_2/evwvrsq/",
+    "body": "What? So even if we changed the correct letters, it would be matter of luck because that would not result in the correct hash?"
+  },
+  {
+    "thread": "cleczc",
+    "id": "ew0nkl1",
+    "author": "bestcoderneeded",
+    "created_utc": 1564997891,
+    "edited": false,
+    "parent_id": "t1_evwv4rm",
+    "url": "https://www.reddit.com/r/Grycoin/comments/cleczc/grycoin_block_2/ew0nkl1/",
+    "body": "If you are not posting the solution means you are same person who solved this and Also if it was really won by other person then he is able to solve the the second one you should reveal the solution for this. It is clear here you are the creator and you the solver."
+  }
+]

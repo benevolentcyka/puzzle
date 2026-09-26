@@ -1,0 +1,36 @@
+{
+  "selftests": [
+    "author WIF vector",
+    "StageOne address",
+    "GrycoinBlock1 address"
+  ],
+  "historicalSourceSha256": "d23a7831fd8541b0059e405309146c6f7f0f3c4572b0fe4500e868dce6264cdc",
+  "questionSha256": "113b904da7c7c4b78945832048defea93693b4404299d4f3d3b061df535b0d1f",
+  "enumeration": "Gray code over20paragraph first/last ASCIIletter toggles; joins LF LF and CRLF CRLF; no trailing newline",
+  "prefix": "3c6",
+  "modes": "rawMD5 plus SHA256(ASCIIlower/upperMD5hex) truncated16/20/24/28/32bytes",
+  "path": "m/44'/0'/0'/0/0..20",
+  "passphrase": "",
+  "encoding": "latin1 (question ASCII)",
+  "target": "1tzieUfbeQghz2zjDeGHcAEfzCRgX6eLi",
+  "tested": 2097152,
+  "survivors": 518,
+  "entropyVariants": 5698,
+  "addresses": 119658,
+  "hits": 0,
+  "joins": [
+    {
+      "sep": "\n\n",
+      "texts": 1048576,
+      "survivors": 257
+    },
+    {
+      "sep": "\r\n\r\n",
+      "texts": 1048576,
+      "survivors": 261
+    }
+  ],
+  "candidateStreamSha256": "d0243b5f9af2adf562740c5e970532e0681e6fb20e07491c7592b59da39c7a27",
+  "survivorStreamSha256": "7bf8ceba8a4246de2b53110444e979058535ef405ba42e2bc36b3e06aae03246",
+  "elapsedSeconds": 140.631
+}

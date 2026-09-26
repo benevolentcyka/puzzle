@@ -1,6 +1,6 @@
 # Quizchain last block: reproducible investigation
 
-Status on 2026-09-26: **unsolved**. This private repository preserves the
+Status on 2026-09-26: **unsolved**. This repository preserves the
 evidence and bounded searches performed so far; it contains no winning key.
 The current prize address is
 `14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W`. The public Bitcoin API reports one
@@ -92,18 +92,26 @@ cannot be solved.
 
 See `followup-2026-09-25/FINDINGS.md`. It is still unsolved. The main new points:
 
-- Aoi hashed on a tablet (her Wattpad part "Mistakes"). That explains the LF
-  bytes behind her CRLF description, and it means she edited the long texts
-  by hand on a touchscreen.
+- Aoi reported using a tablet (her Wattpad part "Mistakes"). The reproduced
+  example hash supports LF bytes directly; the tablet is a possible
+  explanation, and does not establish her exact editing or hashing workflow.
 - The Grycoin Block 2 format example was solved by puzzleponky. Stage One fell
   to the same sweep address seven minutes later. That example is therefore the
-  best calibration target, but it is not the posted question plus any small
-  case edit near the obvious answer. About 621 million variants were tested,
-  including every combination of up to three extra toggles.
+  useful calibration target. About 621 million reported variants were tested,
+  including every combination of up to three extra toggles. Those negatives
+  apply to the tested derivation settings; they do not exclude a tool mismatch.
 - The main chapter families were rechecked at BIP44 indices 0–20 (the public
   ledger used 0–5), with new families: `<br>` promotion, the author's
   "letter in Satoshi" wording, stripped spaces, truncation, twist repertoire,
   and non-BIP44 paths. None matched.
+
+## Follow-up, 2026-09-26
+
+See `followup-2026-09-26/FINDINGS.md` for corrected evidence, new exact-byte
+searches, and their result records. Two reproducibility fixes matter:
+`.gitattributes` preserves the distinct LF/CRLF byte files, and the earlier
+`brPromote` generator now avoids inserting an extra CR before every CRLF.
+Run `node .\verify-search-inputs.cjs` before resuming a saved GPU checkpoint.
 
 ## Local GPU computation
 
@@ -125,6 +133,7 @@ py -3.12 -m venv .venv
 .\setup-gpu.ps1
 python .\gpu-probe.py 4096
 python .\make-search-bases.py
+node .\verify-search-inputs.cjs
 python .\gpu-case-pairs.py --base .\bases\four-groups-lflf.txt --limit 1000000
 ```
 
@@ -159,10 +168,16 @@ environment are `numpy`, `pyopencl`, `bip_utils`, and `ecdsa`.
 On the available RTX 4060 Laptop GPU, a 65,536-candidate batch runs at about
 21,000–24,000 pairs/second. A complete 642-million-pair sweep of **one**
 base may take around eight hours. As of this report, `four-groups-lflf.txt`
-has been checked through pair rank 2,477,952 and
+has been checked through pair rank 320,065,408 (snapshot at 2026-09-26 08:43 UTC) and
 `four-groups-crlfcrlf.txt` through 1,104,096, without a match. The respective
-checkpoint files record the exact next ranks. These small fractions do not
-constitute a negative result for the entire family.
+checkpoint files record the exact next ranks. Neither constitutes a completed
+negative result for its entire family. A separate pre-existing process continues
+the LF run in the original local checkout; do not start a competing copy on the
+same GPU. After that run finishes, `run-gpu-sweep.ps1` resumes and runs all six
+bases sequentially. Copy its latest matching checkpoint first if using a newer
+checkout. The six bases preserve internal LF breaks even when paragraph joins
+are CRLF pairs; the canonical CRLF internal-break hypotheses are tested in the
+September 26 searches.
 
 The OpenCL platform defaults to `1`, which selected the NVIDIA card on the
 investigation machine. On another machine, pass `--platform N` to

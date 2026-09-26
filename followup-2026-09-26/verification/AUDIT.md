@@ -1,0 +1,15 @@
+# Independent verification audit
+
+The inherited `brPromote` serializer inserted `\r\n\r\n` into the paragraph, then ran `replace(/\n/g, '\r\n')` over it. Promoted CRLFs became `\r\r\n\r\r\n`. Its CRLF negative therefore did not cover correctly serialized CRLF paragraph promotion.
+
+`corrected-br-search.cjs` promotes breaks in LF source first, then converts once. Assertions reject CRCRLF, bare CR/LF within CRLF variants, and CR in LF variants. It tested all 1,024 break subsets, including zero, for raw/g123/g1234, NBSP keep/space, LF/CRLF, indices 0–20 against both escrows. Completed scope: **12,288 texts, 258,048 public addresses, zero matches**, 400.409 seconds. Structured results record each family count and endpoint MD5 with `complete: true`. Source JSON SHA256 is `60c63f3fa97a7de8ebd3e7f261b1a0b9649e2743f6158a7246ab7cfd26b39109`.
+
+The author calibration entropy `2941774a2abec9f30c7d6777d1d53d91` yields the published compressed WIF at index 1. Stage One entropy `9dd2efb9bc976c2095bd534d7b8d431c` yields the solved address at index 0. Separately implemented `verifier.cjs` and `lib.cjs` agree on mnemonic and addresses for both. This supports MD5 digest bytes as raw BIP39 entropy, English mnemonic, empty passphrase, Bitcoin BIP44 account 0/external chain. It does not establish that later manual tool settings never changed.
+
+Official current [Ian Coleman source](https://github.com/iancoleman/bip39/blob/master/src/js/index.js), `setMnemonicFromEntropy`, hashes `entropy.cleanStr` with SHA256 when selected mnemonic length is not `raw`, then takes 32×wordCount/3 bits. Thus a potentially missed settings family is SHA256 of the ASCII MD5 hex string, truncated to 16/20/24/28/32 bytes. This differs from SHA256 of chapter bytes or digest bytes. [Entropy parsing source](https://github.com/iancoleman/bip39/blob/master/src/js/entropy.js) filters hexadecimal characters and joins them without forcing case, so upper/lowercase hash text changes this hashed-input mode while being equivalent in raw-hex mode. The historical pin and default selection are documented below.
+
+Priorities: finish corrected CRLF scope; check fixed-word-count ASCII-MD5 modes cheaply; obtain historical chapter revisions and the solved example's actual bytes. All existing negative searches remain bounded by their explicit text mutations and derivation assumptions.
+
+Historical verification now pins [commit 45e40c288fe0d6cfba2c57a68f421eeb34d41385](https://github.com/iancoleman/bip39/commit/45e40c288fe0d6cfba2c57a68f421eeb34d41385), the latest `src/js/index.js` commit returned by the official API before 2019-08-01 (2019-07-18). Saved source lines 1321–1333 confirm the same ASCII-SHA256 behavior. Historical HTML lines 108–114 selects **raw** by default, so fixed-word-count modes require a settings change; resetting the converter to its defaults would not explain them. `settings-vectors.json` contains 20 independently calculated vectors, API provenance, and source SHA256 values.
+
+The ongoing GPU process was neither used nor interrupted. This verifier runs CPU Node only.

@@ -1,0 +1,23 @@
+{
+  "checked_utc": "2026-09-26T08:42:05.259Z",
+  "source_url": "https://mempool.space/api/address/14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W/utxo",
+  "address": "14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W",
+  "expected_funding_txid": "a1916e7ed9eac3fcc56a55056328cb09d06925e2694f2e6720de12b228514d1f",
+  "expected_output": 1,
+  "expected_sats": 77700000,
+  "expected_output_unspent": true,
+  "utxos": [
+    {
+      "txid": "a1916e7ed9eac3fcc56a55056328cb09d06925e2694f2e6720de12b228514d1f",
+      "vout": 1,
+      "status": {
+        "confirmed": true,
+        "block_height": 587833,
+        "block_hash": "000000000000000000110b48e06a0e006cf5ba821320a1cb646ee9a5dac347e7",
+        "block_time": 1564530559
+      },
+      "value": 77700000
+    }
+  ],
+  "earlier_provider_failures": []
+}
