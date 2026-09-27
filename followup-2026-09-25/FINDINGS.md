@@ -29,7 +29,9 @@ address and the solved Grycoin Block 1 address.
    `129jw1GUGwiJbf4rL7qEANPbxvSRC5zfHN`, and Stage One was swept to the same address
    **7 minutes later** (14:09). That address collected about 30 Quizchain prizes from
    2019-04-13 onward. It belongs to the prolific solver puzzleponky, not to Aoi. So one
-   insight from the example unlocked Stage One immediately. puzzleponky never published it.
+   insight from the example may have helped with Stage One. No complete public
+   example solution was recovered in this investigation; the timing alone does
+   not establish what the solver learned or how either key was derived.
 3. **Aoi could spend the original escrow after her lost-information statement.** The superseded escrow
    `1EFojc…` was swept on 2019-07-30 23:40 to `36nwcMJwoy99xyENeRcCCQmA3FZibji3Un`. That
    exact output (77,690,300 sats) funded the example block on 2019-08-01, two days before

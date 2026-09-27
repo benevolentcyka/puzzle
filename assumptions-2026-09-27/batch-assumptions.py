@@ -23,7 +23,7 @@ A = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(A)
 
 
-def entries(candidates, family, scope='tokens'):
+def entries(candidates, family, scope='tokens', edge_width=256):
     for target, md, label in candidates:
         seen = set()
         source = label['source']
@@ -41,6 +41,11 @@ def entries(candidates, family, scope='tokens'):
             lines = importlib.util.module_from_spec(line_spec)
             line_spec.loader.exec_module(lines)
             variants = ((hashlib.md5(text).digest(), dict(edit,witness=text)) for text,edit in lines.variants(source))
+        elif family == 'chapter-edges':
+            edge_spec = importlib.util.spec_from_file_location('edge_cuts', HERE/'edge-cuts.py')
+            edges = importlib.util.module_from_spec(edge_spec)
+            edge_spec.loader.exec_module(edges)
+            variants = ((hashlib.md5(text).digest(), dict(edit,witness=text)) for text,edit in edges.variants(source,edge_width))
         else:
             variants = A.algorithm_variants(source)
         for entropy, edit in variants:
@@ -57,22 +62,37 @@ def entries(candidates, family, scope='tokens'):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument('--family', choices=['hash-entry', 'hash-algorithm', 'source-spans', 'editor-forms', 'mixed-lines'], required=True)
+    ap.add_argument('--family', choices=['hash-entry', 'hash-algorithm', 'source-spans', 'editor-forms', 'mixed-lines', 'chapter-edges'], required=True)
     ap.add_argument('--target', choices=['example', 'chapter', 'both'], default='both')
     ap.add_argument('--indices', default='0,1,2,3,4,5,6')
     ap.add_argument('--batch', type=int, default=16384)
     ap.add_argument('--platform', type=int, default=1)
     ap.add_argument('--limit', type=int)
     ap.add_argument('--scope', choices=['tokens', 'bytes'], default='tokens')
+    ap.add_argument('--edge-width', type=int, default=256, help='Chapter edges: maximum bytes removed at each end simultaneously')
     args = ap.parse_args()
     indices = [int(i) for i in args.indices.split(',')]
     if not indices or len(set(indices)) != len(indices) or any(i < 0 or i >= 2**31 for i in indices):
         ap.error('Use distinct nonhardened indices')
     if args.batch < 1 or (args.limit is not None and args.limit < 1):
         ap.error('Batch and limit must be positive')
+    if args.edge_width < 0:
+        ap.error('Edge width must be nonnegative')
     targets = ['example', 'chapter'] if args.target == 'both' else [args.target]
     candidates = []
-    if args.family in ['source-spans','mixed-lines']:
+    if args.family == 'chapter-edges':
+        if args.target != 'chapter':
+            ap.error('Chapter edge search requires --target chapter')
+        A.subprocess.run(['node',str(ROOT/'verify-search-inputs.cjs')],cwd=ROOT,check=True)
+        edge_spec = importlib.util.spec_from_file_location('edge_cuts',HERE/'edge-cuts.py')
+        edges = importlib.util.module_from_spec(edge_spec)
+        edge_spec.loader.exec_module(edges)
+        print(f'PASS: {edges.verify()} independently enumerated byte-cut fixtures',flush=True)
+        for path in sorted((ROOT/'bases').glob('*.txt')):
+            source=path.read_bytes()
+            candidates.append(('chapter',hashlib.md5(source).digest(),dict(base=path.name,source=source)))
+        assert len(candidates)==6
+    elif args.family in ['source-spans','mixed-lines']:
         if args.target != 'example':
             ap.error('Source-span calibration requires --target example')
         candidates = [('example', md, label) for md, label in A.span_bases()]
@@ -97,11 +117,12 @@ def main():
     certified = gpu.certify([{'name': 'bip44', 'parent': parent, 'hardened': False, 'direct': False}])
     target_map = {Base58Decoder.CheckDecode(address)[1:]: address for target in targets for address in A.TARGETS[target]}
     config = {'family': args.family, 'target': args.target, 'indices': indices, 'source_bases': len(candidates), 'scope': args.scope,
+              'edge_width': args.edge_width if args.family=='chapter-edges' else None,
               'candidate_source_sha256': candidate_hash.hexdigest(), 'prefix_filter': None,
               'mnemonic_language': 'english', 'passphrase': '', 'parent': parent,
               'historical_js_fixtures': comparisons, 'bip32_certified_comparisons': certified,
               'wallet_kernel_sha256': gpu.kernel_sha256, 'gpu_kernel_sha256': A.CERT.gpu_kernel_fingerprint(),
-              'code_sha256': {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in [Path(__file__), HERE/'search-assumptions.py', HERE/'historical-input.cjs', HERE/'editor-forms.py', HERE/'mixed-lines.py']}}
+              'code_sha256': {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in [Path(__file__), HERE/'search-assumptions.py', HERE/'historical-input.cjs', HERE/'editor-forms.py', HERE/'mixed-lines.py', HERE/'edge-cuts.py']}}
     tag = hashlib.sha256(json.dumps(config, sort_keys=True).encode()).hexdigest()[:16]
     dest = HERE / f'batch-{args.family}-{args.target}-{tag}.json'
     state = json.loads(dest.read_bytes()) if dest.exists() else {
@@ -111,7 +132,7 @@ def main():
     if state['complete'] or state['matches']:
         print(f'Already finished: {dest.name}', flush=True)
         return
-    stream = entries(candidates, args.family, args.scope)
+    stream = entries(candidates, args.family, args.scope, args.edge_width)
     # Replay generation, not derivation, to resume the exact ordered stream.
     for _ in itertools.islice(stream, state['next_rank']):
         pass

@@ -32,20 +32,48 @@ the example checks `1tzieUfbeQghz2zjDeGHcAEfzCRgX6eLi`.
 | Coherent editor transformations, without hint | 1,248 buffers; smart quotes/apostrophes/ellipsis, UTF-8/16, escaped and HTML text, global case or named-word replacements | 1,060,416 | No match |
 | Mixed newline bytes, without hint | All 262,144 independent LF/CRLF choices at the 18 newline bytes, on six example bases | 11,010,048 | No match |
 | Paragraph and quoted-token letter endpoints, LF | All 4,294,967,296 subsets of 32 offsets; 1,048,126 `3c6` survivors | 7,336,882 | No match |
+| Paragraph and quoted-token letter endpoints, CRLF | All 4,294,967,296 subsets of 32 offsets; 1,048,883 `3c6` survivors | 7,342,181 | No match |
+| Sentence endpoints, LF | All 1,073,741,824 subsets of 30 offsets; 262,090 `3c6` survivors | 1,834,630 | No match |
+| Sentence endpoints, CRLF | All 1,073,741,824 subsets of 30 offsets; 262,407 `3c6` survivors | 1,836,849 | No match |
+| Sentence drafts, without hint | All 32,767 nonempty sentence-retention subsets across six capitalization bases and LF/CRLF; 393,204 operations | 2,752,428 | No match |
+| Chapter clipping, without hint | Every prefix/suffix of six exact-byte bases, plus simultaneous removal of 1–256 bytes from each end; 941,946 distinct-per-base MD5s | 6,593,622 | No match |
+| Example byte-position passage edits, with hint | 29,148,216 attempted deletions/duplications and linked-case edits over 12 bases; 6,770 distinct-per-base `3c6` survivors | 47,390 | No match |
 
-The first two families do **not** filter on the example's MD5 prefix. The
-source-span row does, so it cannot exclude candidates with a different prefix.
+The first two families do **not** filter on the example's MD5 prefix. Only the
+explicitly hint-filtered source-span row and the case-mask rows use that prefix,
+so those rows cannot exclude candidates with a different prefix.
 Counts overlap prior searches and each other; they are operations, not a
 unique-address total or an exhaustive search of all puzzle interpretations.
 
-The LF quoted-letter run adds eleven offsets inside the quoted instructions
+The quoted-letter runs add eleven offsets inside the quoted instructions
 to the previous 21 paragraph/explicit-word offsets. It checks all combinations
 of the resulting 32 offsets, including more than three simultaneous internal
-edits. Its `3c6` filter remains an assumption. The CRLF counterpart has its own
-checkpoint; consult that file's `complete` flag before counting it as finished.
+edits. Their `3c6` filter remains an assumption. Both joins completed.
 The GPU prefix filter passed 24,738 independent MD5/filter comparisons and
 checks **every** surviving digest against CPU hashlib before wallet derivation.
 The three tested ranges include the top of the 32-bit mask space.
+
+`structural-search.py` separately tests all 30 sentence-endpoint case choices
+and every nonempty subset of the example's 15 sentences across six case bases.
+The draft family applies its case rule **before** deleting sentences. Retained
+sentences keep their punctuation, use one space within an original paragraph,
+and retain the chosen separator between nonempty original paragraphs. It does
+not filter on a hash hint. These interpretations address the discrepancy between
+the instruction referring to `himself` as an ending and the following sentence.
+The serializer passed 65,546 checks, including hard-coded endpoint offsets and
+all retention masks. All four sentence runs completed. The sentence case and
+quoted-token case searches together screen 10,737,418,240 masks, but only the
+prefix survivors are passed to wallet derivation. These are overlapping
+search spaces, not that many unique derived wallets.
+
+The new `chapter-edges` family checks every nonempty byte prefix and suffix of
+the six fingerprint-verified chapter bases, plus simultaneous cuts of 1–256
+bytes from each end. It checks both original and replacement prize addresses
+without a hash hint. This extends the old test of 23 common input-length limits.
+It preserves every byte inside the selected interval; it does not combine
+arbitrary internal edits with clipping. It completed with no match. Its fixture
+test independently enumerates permitted substring intervals, including empty
+edge-width and CRLF/multibyte boundaries. Its 160 fixture comparisons passed.
 
 ## Historical converter behavior
 
@@ -94,24 +122,56 @@ To reproduce the unfiltered families and the full quoted-letter family:
 & $py .\assumptions-2026-09-27\batch-assumptions.py --family mixed-lines --target example
 & $py .\assumptions-2026-09-27\quoted-mask-search.py --join lf
 & $py .\assumptions-2026-09-27\quoted-mask-search.py --join crlf
+& $py .\assumptions-2026-09-27\structural-search.py --family case --join lf
+& $py .\assumptions-2026-09-27\structural-search.py --family case --join crlf
+& $py .\assumptions-2026-09-27\structural-search.py --family drafts --join lf
+& $py .\assumptions-2026-09-27\structural-search.py --family drafts --join crlf
+& $py .\assumptions-2026-09-27\batch-assumptions.py --family chapter-edges --target chapter
 ```
 
-`batch-assumptions.py --family source-spans --target example --scope bytes`
-extends passage cuts to every byte position, including within words. This
-larger scope is available for local computation but is **not** part of the
-completed token-boundary result. It does not use the MD5 prefix. Use `--limit`
-to bound a run; rerun the identical command without `--limit` to continue.
+The byte-position passage search **with** the MD5 prefix completed; its report
+is `source-spans-example-698b1fe414b1ad95.json`. It can be reproduced with
+`search-assumptions.py --family source-spans --target example --scope bytes`.
+
+The corresponding byte-position search **without** the prefix has **not** run.
+This is the next available finite computation, not a prediction of a match:
+
+```powershell
+& $py .\assumptions-2026-09-27\batch-assumptions.py --family source-spans --target example --scope bytes
+```
+
+Unlike the completed token-boundary unfiltered run, this permits cuts inside
+words. Use `--limit` to bound new entropy derivations; rerun the identical command
+without `--limit` to continue. This family still assumes one contiguous deletion
+or duplication on one of 12 bases, English/raw MD5, empty passphrase, and indices
+0–6. It does not cover every possible historical revision.
 
 Checkpoints bind the candidate sources, code and GPU kernels. They are not
 compatible with arbitrary code changes. Existing completed families do not
 become new evidence when rerun. Node.js is required for historical fixtures;
 the Python/OpenCL dependencies are those already installed for this checkout.
 
+## What remains unresolved
+
+The intended final answer and private key have not been recovered. Reproducing
+the solved example's exact answer buffer and claiming method remains a strong
+research lead: its raw question hash is independently pinned, but its funded
+wallet still does not reproduce from the tested interpretations. These negative
+results do not identify a unique cause. A missing text revision, simultaneous
+edits outside the tested families, or an untested converter configuration can
+still explain the mismatch. They do not prove the puzzle impossible.
+
+The next useful external evidence would be the example solver's exact MD5 or
+source buffer, or a byte-preserving July 2019 answer copy. No such evidence was
+recovered in this pass, and no solver or author was contacted. The user's active
+expanded-run checkpoints were left separate and were not relabeled complete.
+
 ## Archive retrieval
 
 The Wayback availability API returned a 2023 record for the example, but the
-retrieved page contains only a Reddit shell, not the question. The CDX query
-for the example returned HTTP 403. Neither supplies another source buffer.
+retrieved page contains only a Reddit shell, not the question. A later exact-URL
+CDX query confirmed that single capture; the wildcard query returned HTTP 403.
+Neither supplies another source buffer.
 
 A renewed CDX query succeeded for Twitter. It returned two records for the
 exact `NakamotoAoi` handle. Other returned records use a trailing underscore

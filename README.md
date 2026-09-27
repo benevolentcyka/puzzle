@@ -1,12 +1,20 @@
 # Quizchain last block: reproducible investigation
 
-Status on 2026-09-26: **unsolved**. This repository preserves the
+Status on 2026-09-27: **unsolved**. This repository preserves the
 evidence and bounded searches performed so far; it contains no winning key.
 The current prize address is
 `14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W`. The public Bitcoin API reports one
 funded output of 77,700,000 sats and no spends. The funding transaction is
 `a1916e7ed9eac3fcc56a55056328cb09d06925e2694f2e6720de12b228514d1f`,
 output 1. The original `1EFojcAo2vbhRGCGCa7q8Wwvzss28mhQYC` was superseded.
+
+The latest investigation is in [assumptions-2026-09-27/README.md](assumptions-2026-09-27/README.md).
+It treats the earlier expanded case sweep as negative for planning, then tests
+historical entropy-entry faults, unfiltered text transformations, copied spans,
+mixed line endings, quoted-letter and sentence interpretations. Completed
+results and outstanding scopes are distinguished there. Repeating completed
+families is not additional evidence. Direct Python commands avoid the Windows
+PowerShell script-policy issue.
 
 ## Evidence and confirmed method
 

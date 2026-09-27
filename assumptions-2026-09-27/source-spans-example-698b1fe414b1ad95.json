@@ -1,0 +1,32 @@
+{
+  "configuration": {
+    "family": "source-spans",
+    "target": "example",
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "scope": "bytes",
+    "prefix_filter": "3c6",
+    "candidate_stream_sha256": "896b59d3a2415906e8425663480ff61632ad7352349f17cf1e5abe7fe1a9c03a",
+    "source_bases": 12,
+    "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2",
+    "script_sha256": "0fa36e6715cc254c0abea03a0d065b05a208c359e4b702afd2aace2ae05eb122",
+    "mnemonic_language": "english",
+    "passphrase": "",
+    "path": "m/44'/0'/0'/0/INDEX",
+    "historical_js_comparisons": 183
+  },
+  "next_base": 12,
+  "attempted_variants": 29148216,
+  "derived_entropies": 6770,
+  "derived_addresses": 47390,
+  "matches": 0,
+  "complete": true,
+  "updated_utc": "2026-09-27T02:39:15.306709+00:00"
+}
