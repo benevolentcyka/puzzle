@@ -23,29 +23,47 @@ A = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(A)
 
 
-def entries(candidates, family):
+def entries(candidates, family, scope='tokens'):
     for target, md, label in candidates:
         seen = set()
         source = label['source']
         if family == 'hash-entry':
             variants = ((A.historical_raw(text), edit) for text, edit in A.entry_variants(md))
+        elif family == 'source-spans':
+            variants = ((hashlib.md5(text).digest(), dict(edit, witness=text)) for text, edit in A.source_variants(source, scope))
+        elif family == 'editor-forms':
+            editor_spec = importlib.util.spec_from_file_location('editor_forms', HERE/'editor-forms.py')
+            editor = importlib.util.module_from_spec(editor_spec)
+            editor_spec.loader.exec_module(editor)
+            variants = ((hashlib.md5(text).digest(), dict(edit,witness=text)) for text,edit in editor.variants(source))
+        elif family == 'mixed-lines':
+            line_spec = importlib.util.spec_from_file_location('mixed_lines', HERE/'mixed-lines.py')
+            lines = importlib.util.module_from_spec(line_spec)
+            line_spec.loader.exec_module(lines)
+            variants = ((hashlib.md5(text).digest(), dict(edit,witness=text)) for text,edit in lines.variants(source))
         else:
             variants = A.algorithm_variants(source)
         for entropy, edit in variants:
             if not entropy or entropy in seen:
                 continue
             seen.add(entropy)
-            yield target, entropy, edit, label
+            if 'witness' in edit:
+                edit = dict(edit)
+                witness = edit.pop('witness')
+                yield target, entropy, edit, dict(label, source=witness, original_source_sha256=hashlib.sha256(source).hexdigest())
+            else:
+                yield target, entropy, edit, label
 
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument('--family', choices=['hash-entry', 'hash-algorithm'], required=True)
+    ap.add_argument('--family', choices=['hash-entry', 'hash-algorithm', 'source-spans', 'editor-forms', 'mixed-lines'], required=True)
     ap.add_argument('--target', choices=['example', 'chapter', 'both'], default='both')
     ap.add_argument('--indices', default='0,1,2,3,4,5,6')
     ap.add_argument('--batch', type=int, default=16384)
     ap.add_argument('--platform', type=int, default=1)
     ap.add_argument('--limit', type=int)
+    ap.add_argument('--scope', choices=['tokens', 'bytes'], default='tokens')
     args = ap.parse_args()
     indices = [int(i) for i in args.indices.split(',')]
     if not indices or len(set(indices)) != len(indices) or any(i < 0 or i >= 2**31 for i in indices):
@@ -54,9 +72,16 @@ def main():
         ap.error('Batch and limit must be positive')
     targets = ['example', 'chapter'] if args.target == 'both' else [args.target]
     candidates = []
-    for target in targets:
-        data = A.HELPER.canonical_example_candidates() if target == 'example' else A.HELPER.chapter_candidates()
-        candidates += [(target, md, label) for md, label in data]
+    if args.family in ['source-spans','mixed-lines']:
+        if args.target != 'example':
+            ap.error('Source-span calibration requires --target example')
+        candidates = [('example', md, label) for md, label in A.span_bases()]
+        if args.family == 'mixed-lines':
+            candidates = [(target,md,label) for target,md,label in candidates if label['join']=='lf']
+    else:
+        for target in targets:
+            data = A.HELPER.canonical_example_candidates() if target == 'example' else A.HELPER.chapter_candidates()
+            candidates += [(target, md, label) for md, label in data]
     candidate_hash = hashlib.sha256()
     for target, md, label in candidates:
         candidate_hash.update(target.encode() + b'\0' + label['source'] + b'\0')
@@ -69,14 +94,14 @@ def main():
     pbkdf2_gpu._pbkdf2_cpu_fallback = A.CERT.die_fallback
     gpu = WalletPathsGPU(context._global_context)
     parent = "m/44'/0'/0'/0"
-    certified = gpu.certify([{'parent': parent, 'hardened': False, 'direct': False}])
+    certified = gpu.certify([{'name': 'bip44', 'parent': parent, 'hardened': False, 'direct': False}])
     target_map = {Base58Decoder.CheckDecode(address)[1:]: address for target in targets for address in A.TARGETS[target]}
-    config = {'family': args.family, 'target': args.target, 'indices': indices, 'source_bases': len(candidates),
+    config = {'family': args.family, 'target': args.target, 'indices': indices, 'source_bases': len(candidates), 'scope': args.scope,
               'candidate_source_sha256': candidate_hash.hexdigest(), 'prefix_filter': None,
               'mnemonic_language': 'english', 'passphrase': '', 'parent': parent,
               'historical_js_fixtures': comparisons, 'bip32_certified_comparisons': certified,
               'wallet_kernel_sha256': gpu.kernel_sha256, 'gpu_kernel_sha256': A.CERT.gpu_kernel_fingerprint(),
-              'code_sha256': {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in [Path(__file__), HERE/'search-assumptions.py', HERE/'historical-input.cjs']}}
+              'code_sha256': {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in [Path(__file__), HERE/'search-assumptions.py', HERE/'historical-input.cjs', HERE/'editor-forms.py', HERE/'mixed-lines.py']}}
     tag = hashlib.sha256(json.dumps(config, sort_keys=True).encode()).hexdigest()[:16]
     dest = HERE / f'batch-{args.family}-{args.target}-{tag}.json'
     state = json.loads(dest.read_bytes()) if dest.exists() else {
@@ -86,12 +111,13 @@ def main():
     if state['complete'] or state['matches']:
         print(f'Already finished: {dest.name}', flush=True)
         return
-    stream = entries(candidates, args.family)
+    stream = entries(candidates, args.family, args.scope)
     # Replay generation, not derivation, to resume the exact ordered stream.
     for _ in itertools.islice(stream, state['next_rank']):
         pass
     initial = state['next_rank']
     begun = time.monotonic()
+    last_log = begun
     print(f'{dest.name}: resuming entropy {initial:,}', flush=True)
     while True:
         count = args.batch if args.limit is None else min(args.batch, args.limit - state['next_rank'] + initial)
@@ -144,7 +170,9 @@ def main():
         state['derived_addresses'] += len(batch)*len(indices)
         state['updated_utc'] = datetime.datetime.now(datetime.timezone.utc).isoformat()
         A.CERT.atomic_json(dest, state)
-        print(f"entropies={state['next_rank']:,} addresses={state['derived_addresses']:,} elapsed={time.monotonic()-begun:.1f}s", flush=True)
+        if time.monotonic()-last_log >= 20:
+            print(f"entropies={state['next_rank']:,} addresses={state['derived_addresses']:,} elapsed={time.monotonic()-begun:.1f}s", flush=True)
+            last_log = time.monotonic()
     A.CERT.atomic_json(dest, state)
     print(json.dumps({k:v for k,v in state.items() if k != 'configuration'}), flush=True)
 
