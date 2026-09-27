@@ -1,0 +1,13 @@
+{
+  "newline_masks": 262144,
+  "newline_boundary_masks": [
+    0,
+    1,
+    2,
+    3,
+    131072,
+    262143
+  ],
+  "literal_typography_fixtures": 2,
+  "passed": true
+}

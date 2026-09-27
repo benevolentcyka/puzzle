@@ -28,11 +28,24 @@ the example checks `1tzieUfbeQghz2zjDeGHcAEfzCRgX6eLi`.
 | Hash-entry errors | 672 canonical example buffers and 576 chapter buffers; one substituted, missing, inserted or transposed hex digit; clipped input; double paste; reversed hex/bytes | 8,773,310 | No match |
 | Hash algorithms | The same 1,248 buffers; full MD5, SHA-1/224/256/384/512 and RIPEMD-160; documented SHA-384/512 truncations; second hashes of MD5 bytes or hex | 314,496 | No match |
 | Example source spans, with hint | 4,605,540 attempted deletions/duplications between token boundaries and linked-case variants over 12 bases; 919 distinct-per-base MD5s survive `3c6` | 6,433 | No match |
+| Example source spans, **without hint** | The same token-boundary passage edits; 3,677,012 distinct-per-base MD5s | 25,739,084 | No match |
+| Coherent editor transformations, without hint | 1,248 buffers; smart quotes/apostrophes/ellipsis, UTF-8/16, escaped and HTML text, global case or named-word replacements | 1,060,416 | No match |
+| Mixed newline bytes, without hint | All 262,144 independent LF/CRLF choices at the 18 newline bytes, on six example bases | 11,010,048 | No match |
+| Paragraph and quoted-token letter endpoints, LF | All 4,294,967,296 subsets of 32 offsets; 1,048,126 `3c6` survivors | 7,336,882 | No match |
 
 The first two families do **not** filter on the example's MD5 prefix. The
 source-span row does, so it cannot exclude candidates with a different prefix.
 Counts overlap prior searches and each other; they are operations, not a
 unique-address total or an exhaustive search of all puzzle interpretations.
+
+The LF quoted-letter run adds eleven offsets inside the quoted instructions
+to the previous 21 paragraph/explicit-word offsets. It checks all combinations
+of the resulting 32 offsets, including more than three simultaneous internal
+edits. Its `3c6` filter remains an assumption. The CRLF counterpart has its own
+checkpoint; consult that file's `complete` flag before counting it as finished.
+The GPU prefix filter passed 24,738 independent MD5/filter comparisons and
+checks **every** surviving digest against CPU hashlib before wallet derivation.
+The three tested ranges include the top of the 32-bit mask space.
 
 ## Historical converter behavior
 
@@ -56,6 +69,10 @@ The complete reports are `batch-hash-entry-both-5f7bb5b4757022b1.json`,
 `source-spans-example-a47ee8fbd3d1de78.json`. The unprefixed hash-entry and
 hash-algorithm records are interrupted, slower prototype runs, superseded
 by these complete batched runs. Do not add their partial counts again.
+The 16,384-entry mixed-line prototype is likewise superseded by the completed
+1,572,864-entry result. Source-span and editor reports record the exact earlier
+runner fingerprints under which they completed. Later additions to the runner
+change its checkpoint filename rather than silently inheriting prior work.
 
 ## Run locally
 
@@ -68,6 +85,22 @@ $py = 'C:\Users\boomb\AppData\Local\Programs\Python\Python312\python.exe'
 & $py .\assumptions-2026-09-27\batch-assumptions.py --family hash-algorithm --target both
 & $py .\assumptions-2026-09-27\search-assumptions.py --family source-spans --target example
 ```
+
+To reproduce the unfiltered families and the full quoted-letter family:
+
+```powershell
+& $py .\assumptions-2026-09-27\batch-assumptions.py --family source-spans --target example
+& $py .\assumptions-2026-09-27\batch-assumptions.py --family editor-forms --target both
+& $py .\assumptions-2026-09-27\batch-assumptions.py --family mixed-lines --target example
+& $py .\assumptions-2026-09-27\quoted-mask-search.py --join lf
+& $py .\assumptions-2026-09-27\quoted-mask-search.py --join crlf
+```
+
+`batch-assumptions.py --family source-spans --target example --scope bytes`
+extends passage cuts to every byte position, including within words. This
+larger scope is available for local computation but is **not** part of the
+completed token-boundary result. It does not use the MD5 prefix. Use `--limit`
+to bound a run; rerun the identical command without `--limit` to continue.
 
 Checkpoints bind the candidate sources, code and GPU kernels. They are not
 compatible with arbitrary code changes. Existing completed families do not
@@ -87,6 +120,16 @@ hint session, linking the already known posting-schedule thread. The second
 capture returned no tweet text. This is not a complete Twitter-history audit.
 Metadata, retrieved responses and parsed tweet text are saved alongside this
 report. No exact final answer buffer or new final-block hint was recovered.
+
+On 2026-09-27, web retrieval of the live Reddit example, discussion, final
+block, Block 76, and the two relevant user profiles succeeded. The inspected
+comments supplied no complete example/final solution or downloadable July
+chapter. The recently reported April archive is for another part. Direct
+Arctic Shift follow-up requests failed with HTTP 403/500; these errors are not
+evidence of absent comments. No participant was contacted.
+
+At 2026-09-27 02:18 UTC, Mempool returned the original 77,700,000-satoshi output
+and Blockstream reported `spent: false`; see `funding-recheck.json`.
 
 Primary references:
 
