@@ -1,0 +1,36 @@
+{
+  "configuration": {
+    "family": "hash-algorithm",
+    "target": "both",
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source_bases": 1248,
+    "candidate_source_sha256": "6673491733ae74638f4455eddf78a53f11fce4ec13035eab90a7a119ce0081b9",
+    "prefix_filter": null,
+    "mnemonic_language": "english",
+    "passphrase": "",
+    "parent": "m/44'/0'/0'/0",
+    "historical_js_fixtures": 183,
+    "bip32_certified_comparisons": 48,
+    "wallet_kernel_sha256": "1ad1355c58a64d1b8f69081adb7688857391edabe975767020f13f82a0c50892",
+    "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2",
+    "code_sha256": {
+      "batch-assumptions.py": "d372d62c2e679709c1e08f8472fa7d6279fc799d7e1ba2eb2c8f319831eed3b2",
+      "search-assumptions.py": "0fa36e6715cc254c0abea03a0d065b05a208c359e4b702afd2aace2ae05eb122",
+      "historical-input.cjs": "4004d9ec3e2c4fc960fa5479aa8af77a6a1311c0d23fb81105038ddd52ef2868"
+    }
+  },
+  "next_rank": 44928,
+  "derived_addresses": 314496,
+  "matches": 0,
+  "complete": true,
+  "updated_utc": "2026-09-27T01:59:10.524616+00:00",
+  "entropy_candidates_total": 44928
+}

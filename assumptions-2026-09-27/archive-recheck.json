@@ -1,0 +1,42 @@
+{
+  "checked_utc": "2026-09-27T01:53:27.012350+00:00",
+  "results": [
+    {
+      "name": "example",
+      "url": "https://www.reddit.com/r/Grycoin/comments/cleczc/grycoin_block_2/",
+      "endpoint": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FGrycoin%2Fcomments%2Fcleczc%2Fgrycoin_block_2%2F&timestamp=20190804",
+      "response": {
+        "url": "https://www.reddit.com/r/Grycoin/comments/cleczc/grycoin_block_2/",
+        "archived_snapshots": {
+          "closest": {
+            "status": "200",
+            "available": true,
+            "url": "http://web.archive.org/web/20230612070726/https://www.reddit.com/r/Grycoin/comments/cleczc/grycoin_block_2/",
+            "timestamp": "20230612070726"
+          }
+        },
+        "timestamp": "20190804"
+      }
+    },
+    {
+      "name": "twitter",
+      "url": "https://twitter.com/NakamotoAoi",
+      "endpoint": "https://archive.org/wayback/available?url=https%3A%2F%2Ftwitter.com%2FNakamotoAoi&timestamp=20190804",
+      "response": {
+        "url": "https://twitter.com/NakamotoAoi",
+        "archived_snapshots": {},
+        "timestamp": "20190804"
+      }
+    },
+    {
+      "name": "chapter",
+      "url": "https://www.wattpad.com/720888559-second",
+      "endpoint": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.wattpad.com%2F720888559-second&timestamp=20190804",
+      "response": {
+        "url": "https://www.wattpad.com/720888559-second",
+        "archived_snapshots": {},
+        "timestamp": "20190804"
+      }
+    }
+  ]
+}
