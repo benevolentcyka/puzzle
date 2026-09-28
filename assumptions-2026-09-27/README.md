@@ -133,16 +133,18 @@ The byte-position passage search **with** the MD5 prefix completed; its report
 is `source-spans-example-698b1fe414b1ad95.json`. It can be reproduced with
 `search-assumptions.py --family source-spans --target example --scope bytes`.
 
-The corresponding byte-position search **without** the prefix has **not** run.
-This is the next available finite computation, not a prediction of a match:
+**September 28 update:** the corresponding byte-position search **without**
+the prefix has completed: 27,130,032 entropy candidates, 189,910,224 address
+operations, zero matches. The report is
+`batch-source-spans-example-2de1bff733ef265a.json`. The following command is now
+for reproduction only; it is no longer a new search recommendation:
 
 ```powershell
 & $py .\assumptions-2026-09-27\batch-assumptions.py --family source-spans --target example --scope bytes
 ```
 
-Unlike the completed token-boundary unfiltered run, this permits cuts inside
-words. Use `--limit` to bound new entropy derivations; rerun the identical command
-without `--limit` to continue. This family still assumes one contiguous deletion
+Unlike the smaller token-boundary unfiltered run, this permits cuts inside
+words. This family assumes one contiguous deletion
 or duplication on one of 12 bases, English/raw MD5, empty passphrase, and indices
 0–6. It does not cover every possible historical revision.
 
@@ -155,11 +157,16 @@ the Python/OpenCL dependencies are those already installed for this checkout.
 
 The intended final answer and private key have not been recovered. Reproducing
 the solved example's exact answer buffer and claiming method remains a strong
-research lead: its raw question hash is independently pinned, but its funded
+research lead: its raw question matches the published seven-digit MD5 prefix, but its funded
 wallet still does not reproduce from the tested interpretations. These negative
 results do not identify a unique cause. A missing text revision, simultaneous
 edits outside the tested families, or an untested converter configuration can
 still explain the mismatch. They do not prove the puzzle impossible.
+
+See [the September 28 audit](../audit-2026-09-28/README.md) for the completed
+user runs and the distinction between the verified Stage One control and the
+unreproduced example. Solving the latter is not a prerequisite for trusting the
+verified Stage One derivation. No further long run is currently recommended.
 
 The next useful external evidence would be the example solver's exact MD5 or
 source buffer, or a byte-preserving July 2019 answer copy. No such evidence was

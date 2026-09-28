@@ -1,0 +1,440 @@
+{
+  "checked_utc": "2026-09-28T08:22:55.563176+00:00",
+  "records": [
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-lf-preserve-p0-keep-ffww-r0-10-i0.json",
+      "sha256": "853543879b8e705d8e5ac6182a18f46aa58e888013a484bcc3ba6a153f0442c0",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "f982ecaf53e92b6ccb3709231ae82eba6d46465562e34b6c919ca1fdb858a69b",
+      "updated_utc": "2026-09-27T20:14:50.885365+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-lf-preserve-p0-keep-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "1c1eabd160a3061ddf3332d6d31b8ce1344474dcef7d6379e17cd3f3af3f3f67",
+      "family": "all-boundaries",
+      "candidates": 26683744,
+      "source_sha256": "f982ecaf53e92b6ccb3709231ae82eba6d46465562e34b6c919ca1fdb858a69b",
+      "updated_utc": "2026-09-27T20:14:49.551803+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-lf-preserve-p0-nbsp-space-ffww-r0-10-i0.json",
+      "sha256": "b34915994bf68ccd2edf0e402a2090d0e67814389c036d32f23568f9313ac84d",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "0648ab3455b4e2812e46ff80d527266bfb5bc8dfbf3850cf66f22115869c4732",
+      "updated_utc": "2026-09-27T20:14:59.060863+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-lf-preserve-p0-nbsp-space-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "b7a1bda6041b83b8304dcc807c4a569cd6619102aff8f8a7b2870d6003410c05",
+      "family": "all-boundaries",
+      "candidates": 26683744,
+      "source_sha256": "0648ab3455b4e2812e46ff80d527266bfb5bc8dfbf3850cf66f22115869c4732",
+      "updated_utc": "2026-09-27T20:14:57.718438+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-lf-preserve-p0-trim-ffww-r0-10-i0.json",
+      "sha256": "050d22ea508361871838e2b3c7d8b555953b17da24096385e34cd190a9cc4a74",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "fedabb5d86342cdeae1e81580184ef1554ab73d3af48b2739359667656ba333e",
+      "updated_utc": "2026-09-27T20:15:07.449689+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-lf-preserve-p0-trim-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "b5b17ba26021a9494da4f001221976a26959ab3107420dd8ab147800fac6eb76",
+      "family": "all-boundaries",
+      "candidates": 26683744,
+      "source_sha256": "fedabb5d86342cdeae1e81580184ef1554ab73d3af48b2739359667656ba333e",
+      "updated_utc": "2026-09-27T20:15:06.102299+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-lf-preserve-p1-keep-ffww-r0-10-i0.json",
+      "sha256": "eb50cf65afcd85aa22cc2e7557bc28d990819ef0ac6e1d4c756b448c262aedca",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "59701b6659d44bc6603a61a7421eee39e267b113083ac386e35000df447b5eb8",
+      "updated_utc": "2026-09-27T20:15:17.369950+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-lf-preserve-p1-keep-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "23089a1f6ba7051dde61a67b33e51300ca103b71daf096ec9c968552e1d82967",
+      "family": "all-boundaries",
+      "candidates": 26389980,
+      "source_sha256": "59701b6659d44bc6603a61a7421eee39e267b113083ac386e35000df447b5eb8",
+      "updated_utc": "2026-09-27T20:15:15.832604+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-lf-preserve-p1-nbsp-space-ffww-r0-10-i0.json",
+      "sha256": "42546b00e67bf77f78f735f69afed5754ec6c8f8d5765a8938fe9556dcd872bb",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "c451a8608599a381e38d20a3b0dc9d71e59bcda554989d1a047a6803b17bf95e",
+      "updated_utc": "2026-09-27T22:37:03.943287+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-lf-preserve-p1-nbsp-space-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "418a1c96a1719ae225bbae120b3616bdbc045b5e2cc7aec142785ad3f8005fb1",
+      "family": "all-boundaries",
+      "candidates": 26389980,
+      "source_sha256": "c451a8608599a381e38d20a3b0dc9d71e59bcda554989d1a047a6803b17bf95e",
+      "updated_utc": "2026-09-27T22:04:17.435868+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-lf-preserve-p1-trim-ffww-r0-10-i0.json",
+      "sha256": "e777c4b4bdcab63f237696d0f978bb1cc9059960645c5b550ea8a699a8658748",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "7a03ce3a62926da5d76db6a76d984afd21625f5a664de6a254aafa8ed9a625c5",
+      "updated_utc": "2026-09-28T00:39:33.734573+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-lf-preserve-p1-trim-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "13e325e81f83a4ab53fffbd077a876fb79b564c1d94a4f724aaef844c3145825",
+      "family": "all-boundaries",
+      "candidates": 26389980,
+      "source_sha256": "7a03ce3a62926da5d76db6a76d984afd21625f5a664de6a254aafa8ed9a625c5",
+      "updated_utc": "2026-09-28T00:06:42.650565+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-lf-preserve-p3-keep-ffww-r0-10-i0.json",
+      "sha256": "a2002c00ccef8ed3d76d9eab1ffe05463f410720b0473e56a6b09e68b42fa101",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "d904d9a5e733ac9e01ad8eea00524e94166b30888ab838fe0fe397ed4722c77b",
+      "updated_utc": "2026-09-28T02:36:36.817883+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-lf-preserve-p3-keep-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "bbc78420dbb3d82fba85cd886c966c1bcb691d52011e1be0f41dbb0e9af4c7a1",
+      "family": "all-boundaries",
+      "candidates": 25808936,
+      "source_sha256": "d904d9a5e733ac9e01ad8eea00524e94166b30888ab838fe0fe397ed4722c77b",
+      "updated_utc": "2026-09-28T02:06:09.864549+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-lf-preserve-p3-nbsp-space-ffww-r0-10-i0.json",
+      "sha256": "0561737c02c979041cb709f6840d00850da849ea3dc050f30e9fc98d582643d6",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "85b16e58d60f82adfa8f67f4a4e3188bd4536fcbdedbd3a90cf83c654a239138",
+      "updated_utc": "2026-09-28T04:29:52.136581+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-lf-preserve-p3-nbsp-space-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "af3db6f82479be1bc5ea9b08940fbca897d6f810fdee5587eddcd89f8e9d76d8",
+      "family": "all-boundaries",
+      "candidates": 25808936,
+      "source_sha256": "85b16e58d60f82adfa8f67f4a4e3188bd4536fcbdedbd3a90cf83c654a239138",
+      "updated_utc": "2026-09-28T03:59:28.354961+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-lf-preserve-p3-trim-ffww-r0-10-i0.json",
+      "sha256": "f73a20140921651f9d8783f07217c132c693ad5ee654201ba968d9a0483153c0",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "da938a37a2cab1a89951bbe33372aba1798d54f7ccd9babab71eee16667d5be8",
+      "updated_utc": "2026-09-28T06:25:12.775770+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-lf-preserve-p3-trim-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "f777d26ad84eb40f38fa7d901862e1befcd2848d5452703fd819a1928b0372fc",
+      "family": "all-boundaries",
+      "candidates": 25808936,
+      "source_sha256": "da938a37a2cab1a89951bbe33372aba1798d54f7ccd9babab71eee16667d5be8",
+      "updated_utc": "2026-09-28T05:54:05.253579+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-preserve-p0-keep-ffww-r0-10-i0.json",
+      "sha256": "efd2fca9c0917e78bb361f6bb7bdc35cdea02d7f0c1780f2cbd753cc76d6760c",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "13111461205a1a1ef5aff37f84c532998777555b43c543383b3c7a057f92f9ec",
+      "updated_utc": "2026-09-27T20:14:48.156442+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-preserve-p0-keep-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "d423f72c0b6a786a7152317bd63f26124a88c61b4f0bea70e7d6f1889f881e50",
+      "family": "all-boundaries",
+      "candidates": 26683744,
+      "source_sha256": "13111461205a1a1ef5aff37f84c532998777555b43c543383b3c7a057f92f9ec",
+      "updated_utc": "2026-09-27T20:14:46.821615+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-preserve-p0-nbsp-space-ffww-r0-10-i0.json",
+      "sha256": "b1724ba4acddc09ddd0e4b2c70976041da452764f0896b9b06631f75f1eeae02",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "7ed5b0971fc23084d7772a4bcdbd5cac610f6cfccb98fe5a915aea8111890e60",
+      "updated_utc": "2026-09-27T20:14:56.305959+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-preserve-p0-nbsp-space-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "5105c49aa82363a61799b5a7fe8e49d18f8c91a6d01500fadd23304fc02633e1",
+      "family": "all-boundaries",
+      "candidates": 26683744,
+      "source_sha256": "7ed5b0971fc23084d7772a4bcdbd5cac610f6cfccb98fe5a915aea8111890e60",
+      "updated_utc": "2026-09-27T20:14:54.980597+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-preserve-p0-trim-ffww-r0-10-i0.json",
+      "sha256": "c821b734136d7a8c7d31cea7168f3f33628501c836d70646b283c4a899aa65bf",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "2789dd86137b81602dfb310ff9d391ade2622ced4688015f37617a8363ded8f8",
+      "updated_utc": "2026-09-27T20:15:04.496421+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-preserve-p0-trim-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "e721f1811adf93ac7881f6c30d1319d52a70caa23f7bec35c519539d07a4a3b4",
+      "family": "all-boundaries",
+      "candidates": 26683744,
+      "source_sha256": "2789dd86137b81602dfb310ff9d391ade2622ced4688015f37617a8363ded8f8",
+      "updated_utc": "2026-09-27T20:15:03.205534+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-preserve-p1-keep-ffww-r0-10-i0.json",
+      "sha256": "6dbb8338ab04655f21af8a617cbb03132dfa2b1806f6c27f047dec9dee3b42f7",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "3ecdc52ee3d0e764ce3413d38b2a9718e6fb682b506cceea97efb2a0d298a5a6",
+      "updated_utc": "2026-09-27T20:15:14.122771+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-preserve-p1-keep-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "0962502601691cb397c624e568f284e9ef1a9fb79127fac613d22aee8046a15c",
+      "family": "all-boundaries",
+      "candidates": 26389980,
+      "source_sha256": "3ecdc52ee3d0e764ce3413d38b2a9718e6fb682b506cceea97efb2a0d298a5a6",
+      "updated_utc": "2026-09-27T20:15:12.503747+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-preserve-p1-nbsp-space-ffww-r0-10-i0.json",
+      "sha256": "8dcc6d26955122ef5ba4544aafffad1af4d93e82f7b0755ae7a4e09bcbae1fee",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "fde216ad9e1d91aa6b220caebfb8934e348f20436644283af4098b95a4d643ba",
+      "updated_utc": "2026-09-27T21:56:15.674534+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-preserve-p1-nbsp-space-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "21797f1e3440cd18992d7a6d5bfaf663a111ed3ccb3301c0ffb4a7058c495abc",
+      "family": "all-boundaries",
+      "candidates": 26389980,
+      "source_sha256": "fde216ad9e1d91aa6b220caebfb8934e348f20436644283af4098b95a4d643ba",
+      "updated_utc": "2026-09-27T21:23:25.719540+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-preserve-p1-trim-ffww-r0-10-i0.json",
+      "sha256": "2ca5e2f4e452412c7a436ea9ab67dbf1caaca4c1ae4d2fcb8cbf031c228a0a2a",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "55eb2a756b02e42f32a7edf3182f2837803f402c59d6a365b82f5b2556619268",
+      "updated_utc": "2026-09-27T23:58:40.069065+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-preserve-p1-trim-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "de83bfd863ad1fcc365c257fff5cf937b9d5b9568e1611c24d8d1a4ee83f5c08",
+      "family": "all-boundaries",
+      "candidates": 26389980,
+      "source_sha256": "55eb2a756b02e42f32a7edf3182f2837803f402c59d6a365b82f5b2556619268",
+      "updated_utc": "2026-09-27T23:25:46.779008+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-preserve-p3-keep-ffww-r0-10-i0.json",
+      "sha256": "6b5e249425be43e86e50250731f02b88c617a922a8e5a8e2e00dae0f6afd522e",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "8d0678ae489bf909a27947c62d91123e2c4a90468577a38b670ebbc10886d0e3",
+      "updated_utc": "2026-09-28T01:58:49.315961+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-preserve-p3-keep-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "81730bfc24fa6b5f03a67423fc9549c458becfbcc4af7d401969a735c0c0c6c4",
+      "family": "all-boundaries",
+      "candidates": 25808936,
+      "source_sha256": "8d0678ae489bf909a27947c62d91123e2c4a90468577a38b670ebbc10886d0e3",
+      "updated_utc": "2026-09-28T01:28:09.912969+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-preserve-p3-nbsp-space-ffww-r0-10-i0.json",
+      "sha256": "aae56869fbfa90213629b38c9fcef89aeb9de35b9dcd0c509c329ac15859db6d",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "a8bcf872892cc5b0558dc673eac6a53c7208ad3c11ac3c958ea61da0706b1b7f",
+      "updated_utc": "2026-09-28T03:52:09.550477+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-preserve-p3-nbsp-space-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "e595caa28e2355a1c0e9ca8cf6bfc2ba0e03b8a02b0ddf24848c290cd97213bc",
+      "family": "all-boundaries",
+      "candidates": 25808936,
+      "source_sha256": "a8bcf872892cc5b0558dc673eac6a53c7208ad3c11ac3c958ea61da0706b1b7f",
+      "updated_utc": "2026-09-28T03:21:45.688437+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-preserve-p3-trim-ffww-r0-10-i0.json",
+      "sha256": "a6909bbd790c3e6afbcc7773bfea2eaec0f3bd1f3bbe4df3d35eb1104db03414",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "2b40eafbadfcdb9689e76daeedf5c6b1723adb390106eb97ad8ebeadf929255b",
+      "updated_utc": "2026-09-28T05:46:36.218126+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-preserve-p3-trim-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "e3744754a79ec14077b950735d6fab1e52db373223ba1c9426a2faf4b70caf32",
+      "family": "all-boundaries",
+      "candidates": 25808936,
+      "source_sha256": "2b40eafbadfcdb9689e76daeedf5c6b1723adb390106eb97ad8ebeadf929255b",
+      "updated_utc": "2026-09-28T05:15:27.431010+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-match-p0-keep-ffww-r0-10-i0.json",
+      "sha256": "d3016b29ceff5bb0eb4015cd96ebddec89b80eddcdcaa84d7ae939e6bc779a06",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "a7e918e35c645cb10c0c6d986ae7f3065dc0a6c49f3523e97488f1b4ccd6fafe",
+      "updated_utc": "2026-09-27T20:14:53.552611+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-match-p0-keep-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "8b935f29ff7c55e6f556233e88b25654c9854df671d78c4f4be5c1f60572df2a",
+      "family": "all-boundaries",
+      "candidates": 26683744,
+      "source_sha256": "a7e918e35c645cb10c0c6d986ae7f3065dc0a6c49f3523e97488f1b4ccd6fafe",
+      "updated_utc": "2026-09-27T20:14:52.259216+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-match-p0-nbsp-space-ffww-r0-10-i0.json",
+      "sha256": "0855c1ec62939f054d27ca3120b6567c9c488c39830ae62b70020e42c74cb31a",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "d94e7f436a78490a1e4907fc41366ca3e4c357fab1e5c34e5028188ba82f937e",
+      "updated_utc": "2026-09-27T20:15:01.779533+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-match-p0-nbsp-space-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "6bfbc67d0e955b14d2b104c937e14d977973669646ed1398935b2136f9bea165",
+      "family": "all-boundaries",
+      "candidates": 26683744,
+      "source_sha256": "d94e7f436a78490a1e4907fc41366ca3e4c357fab1e5c34e5028188ba82f937e",
+      "updated_utc": "2026-09-27T20:15:00.464602+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-match-p0-trim-ffww-r0-10-i0.json",
+      "sha256": "7f779e1530e7ca83a9216f3ddbc6695e06a1fd335362c25a4abedf3a8cd478f6",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "217664d334e4fc7e91b172f6bcd0608c0df8ec5f39d6c8f935377a1718a1c5ad",
+      "updated_utc": "2026-09-27T20:15:10.560485+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-match-p0-trim-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "3ce25720a8cc8dc2eab33f5c21b45fe1116a1a390d4148fd3f05013d2c4d8d89",
+      "family": "all-boundaries",
+      "candidates": 26683744,
+      "source_sha256": "217664d334e4fc7e91b172f6bcd0608c0df8ec5f39d6c8f935377a1718a1c5ad",
+      "updated_utc": "2026-09-27T20:15:09.078004+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-match-p1-keep-ffww-r0-10-i0.json",
+      "sha256": "5fab63c856740b48b4a8f331396d29e20233bf514ac4aceb89b0693bb3ed87b7",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "f50ff03941d26338df9ddb25eb1ef99cf063393e14548cc77ba2c89141eb5f06",
+      "updated_utc": "2026-09-27T21:15:19.114813+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-match-p1-keep-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "b5b3b938e704eb66db20a7fcfd1e247c90429381fcdb3f519352e6e6a300fda1",
+      "family": "all-boundaries",
+      "candidates": 26389980,
+      "source_sha256": "f50ff03941d26338df9ddb25eb1ef99cf063393e14548cc77ba2c89141eb5f06",
+      "updated_utc": "2026-09-27T20:18:04.140871+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-match-p1-nbsp-space-ffww-r0-10-i0.json",
+      "sha256": "e04b84a206bbaa9d5e9c98a67318efbe55c9c8486474d6ae128b69e7c9e7e0ab",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "984d87423d3e24dffd9796641c488d2d64a2a2345c8ec6a8710c4cb687c13b38",
+      "updated_utc": "2026-09-27T23:17:46.493760+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-match-p1-nbsp-space-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "b64c07e2931aa3614741f6ef983e76189e197476e181c54516329a5f9c44f409",
+      "family": "all-boundaries",
+      "candidates": 26389980,
+      "source_sha256": "984d87423d3e24dffd9796641c488d2d64a2a2345c8ec6a8710c4cb687c13b38",
+      "updated_utc": "2026-09-27T22:45:07.522582+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-match-p1-trim-ffww-r0-10-i0.json",
+      "sha256": "d76086ff84ece8b324b13579bf0675f8295c4cd361ba926af24b18a4ac19477c",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "4411c0d2b92778eaa9352868c190d3f18978b635fddaeb04864ba1e814abfed8",
+      "updated_utc": "2026-09-28T01:20:22.158914+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-match-p1-trim-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "0ce8fa4b3dfcd758bcb682bffc3aacb1b9f49a64aab04e740c560c100fd3d7b6",
+      "family": "all-boundaries",
+      "candidates": 26389980,
+      "source_sha256": "4411c0d2b92778eaa9352868c190d3f18978b635fddaeb04864ba1e814abfed8",
+      "updated_utc": "2026-09-28T00:47:36.364756+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-match-p3-keep-ffww-r0-10-i0.json",
+      "sha256": "7824c264c68223100ea95c42ef47d71f3e15aacc981b62bbfb49c801db4348e4",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "72d859060e4f726c4581aadd26145ab1c63eb95b7e38fa0fd053974e942dd540",
+      "updated_utc": "2026-09-28T03:14:25.632693+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-match-p3-keep-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "5b56f212b132fea11ea1ddf047fc289635b42e6c8a692ac176347acd7b4f8ad1",
+      "family": "all-boundaries",
+      "candidates": 25808936,
+      "source_sha256": "72d859060e4f726c4581aadd26145ab1c63eb95b7e38fa0fd053974e942dd540",
+      "updated_utc": "2026-09-28T02:43:58.203055+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-match-p3-nbsp-space-ffww-r0-10-i0.json",
+      "sha256": "d42234be19f27fc2d75c176f2fcd030ce46794ec682f345b3e5ccb92f4b2ed40",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "ae90a4a1f9d85e11ebe96121cfe2f13572fc41ed79beae890297b7e3a12bcf40",
+      "updated_utc": "2026-09-28T05:07:59.094539+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-match-p3-nbsp-space-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "2ecc1aa25ba6af8c5918b55b381c0e86d04e7a320011555bcb112265a7fe84a0",
+      "family": "all-boundaries",
+      "candidates": 25808936,
+      "source_sha256": "ae90a4a1f9d85e11ebe96121cfe2f13572fc41ed79beae890297b7e3a12bcf40",
+      "updated_utc": "2026-09-28T04:37:12.711381+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-match-p3-trim-ffww-r0-10-i0.json",
+      "sha256": "5b4e9d4dc51b4157df284c820ca2d6d39f2209be7a1066faaa44817d2f949515",
+      "family": "marked",
+      "candidates": 107594213,
+      "source_sha256": "3a1af7cd89e14a491563bae7d04c8aa889652b8e70cee11eb0a4137ea22d5870",
+      "updated_utc": "2026-09-28T07:03:42.790361+00:00"
+    },
+    {
+      "file": "expanded-2026-09-26/chapter-subsets-crlf-match-p3-trim-ffww-r3-3-i0-all-boundaries.json",
+      "sha256": "ac119e4428367d1a5d4ddd2af779e0282da1d52f80cf5d1807cd40cce4dcf1d0",
+      "family": "all-boundaries",
+      "candidates": 25808936,
+      "source_sha256": "3a1af7cd89e14a491563bae7d04c8aa889652b8e70cee11eb0a4137ea22d5870",
+      "updated_utc": "2026-09-28T06:32:42.208553+00:00"
+    }
+  ],
+  "marked_operations": 2905043751,
+  "triple_operations": 709943940,
+  "note": "Overlapping address operations. Completion verified from checkpoint metadata and reconstructed bytes, not a replay of every GPU result."
+}

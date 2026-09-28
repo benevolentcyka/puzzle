@@ -4,6 +4,12 @@
 checkout uses `C:\Users\boomb\Downloads\puzzle-investigation`. The earlier
 `quizchain-investigation` folder remains a reference for prior work.
 
+**2026-09-28 completion:** the broad radius-10 and exact-boundary-triple run
+below has now finished across all 27 formats for each family. All 54 checkpoints
+passed source/offset/count/kernel identity checks. See
+[the completion audit](../audit-2026-09-28/README.md). The commands below now
+reproduce completed work; they are not recommendations for another larger run.
+
 The user's completed corrected LF pair result excludes exactly two additional
 ASCII case toggles on the all-four-groups baseline at BIP44 index 0:
 641,697,400 pairs. The encoding extension also finished: 97,758,969 address
