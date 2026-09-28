@@ -7,6 +7,8 @@ FOUND-*.txt
 **/FOUND-*
 **/*-hits.jsonl
 joint-format-2026-09-28/*.lock
+joint-format-2026-09-28/*.json.tmp
+joint-format-2026-09-28/*.json.pending-*.tmp
 *.log
 author-posts-reference.md
 reference_oracle.py

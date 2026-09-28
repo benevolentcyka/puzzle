@@ -72,7 +72,9 @@ been superseded by `audit-2026-09-28/verified-expanded-completions.json`.
 
 Read `audit-2026-09-28/README.md` first for the completion audit, then
 `joint-format-2026-09-28/README.md` for the subsequent, **partial** mixed-format
-pilot. Its checkpoint records how far the new run really reached. Do not
+run. Its checkpoint records how far the new run really reached. After a user
+continuation and recovered Windows save failure, **8,962,048 candidates are
+checked, zero matches, 19,232,000 remain**. Do not
 promote that pilot to a completed 28-million-candidate negative.
 
 ## Public challenge and targets
@@ -385,9 +387,21 @@ continuation measured about 6,574 candidates/second; budget approximately
 **60–90 minutes** for the remaining work on this machine. This is a measured
 planning estimate, not a runtime guarantee or evidence of a solution.
 
+**Subsequent recovery update:** the user's continuation encountered `WinError 5`
+when atomically replacing the checkpoint. The primary state at 8,929,280 and
+temporary state at 8,945,664 were both validated. The latter recovered one
+completed batch; another verification batch advanced the saved state to
+**8,962,048**. This is an incomplete negative with **19,232,000 remaining**.
+Use the new `resume.py` launcher below. It leaves the candidate generator and
+its fingerprint unchanged, adds flushed unique pending saves with retries,
+and recovers validated newer pending states under the existing lock. Eight
+tests passed, including an actual Windows file-sharing lock. Exact recovery
+records are in `joint-format-2026-09-28/checkpoint-recovery/`. Do not classify
+the interrupted run as exhausted or discard its valid progress.
+
 ```powershell
 Set-Location 'C:\Users\boomb\Downloads\puzzle-investigation'
-& 'C:\Users\boomb\AppData\Local\Programs\Python\Python312\python.exe' .\joint-format-2026-09-28\search.py --max-edits 3 --indices 0 --platform 1
+& 'C:\Users\boomb\AppData\Local\Programs\Python\Python312\python.exe' .\joint-format-2026-09-28\resume.py --max-edits 3 --indices 0 --platform 1
 ```
 
 Do not assume this is the only productive direction or promise it will win.

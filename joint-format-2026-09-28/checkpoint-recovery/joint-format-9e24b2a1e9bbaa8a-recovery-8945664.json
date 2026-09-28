@@ -1,0 +1,9 @@
+{
+  "recovered_from": "joint-format-9e24b2a1e9bbaa8a.json.tmp",
+  "previous_rank": 8929280,
+  "recovered_rank": 8945664,
+  "candidates_total": 28194048,
+  "pending_sha256": "9ceaa6d55e1997761c4e556405720d84e01b0ebe6c7ea1c521a6f44a72b0f431",
+  "previous_sha256": "2833b02453d9253e54d31d1391a1d3e53c1a48d7661ee7eabb2ae240912578ae",
+  "configuration_sha256": "9e24b2a1e9bbaa8accb0140dd4d430b3171cef365f3e86e0cfafb0be1769ce48"
+}

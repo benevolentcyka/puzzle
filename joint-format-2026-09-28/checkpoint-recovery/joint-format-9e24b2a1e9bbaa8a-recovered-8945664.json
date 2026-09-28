@@ -6943,23 +6943,16 @@
     "wallet_kernel_sha256": "1ad1355c58a64d1b8f69081adb7688857391edabe975767020f13f82a0c50892"
   },
   "candidates_total": 28194048,
-  "next_rank": 8962048,
-  "derived_addresses": 8962048,
+  "next_rank": 8945664,
+  "derived_addresses": 8945664,
   "matches": [],
   "complete": false,
-  "elapsed_search_seconds": 1243.1399999999994,
-  "sampled_cpu_comparisons": 1641,
-  "updated_utc": "2026-09-28T09:43:14.094117+00:00",
+  "elapsed_search_seconds": 1242.093000000008,
+  "sampled_cpu_comparisons": 1638,
+  "updated_utc": "2026-09-28T09:34:43.927691+00:00",
   "serialization_comparisons_per_startup": 1734,
   "positive_controls_passed": [
     "stage-one",
     "grycoin-one"
-  ],
-  "checkpoint_writer": {
-    "mode": "unique-pending-file-fsync-retry-and-validated-recovery-v1",
-    "code_sha256": {
-      "resume.py": "7a5adefe38734b8e4ec9367713878065ebf3359463e9d52fc342d973e128be23",
-      "checkpoint_io.py": "ec6f496ae1980045a714ce19e91b3b452a70fe04a528f255dda8ddc437adee70"
-    }
-  }
+  ]
 }

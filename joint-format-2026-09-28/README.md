@@ -79,11 +79,14 @@ not establish the final derivation setting beyond doubt.
 
 ```powershell
 Set-Location 'C:\Users\boomb\Downloads\puzzle-investigation'
-& 'C:\Users\boomb\AppData\Local\Programs\Python\Python312\python.exe' .\joint-format-2026-09-28\search.py --max-edits 3 --indices 0 --platform 1
+& 'C:\Users\boomb\AppData\Local\Programs\Python\Python312\python.exe' .\joint-format-2026-09-28\resume.py --max-edits 3 --indices 0 --platform 1
 ```
 
 This is a direct Python invocation; the PowerShell script policy does not
 apply. It uses the existing installed dependencies and reviewed GPU code.
+Use **`resume.py`**, which runs the unchanged `search.py` with a resilient
+checkpoint writer and validated recovery. The original writer failed on a
+Windows access-denied error; see the recovery section below.
 Run the **same command** after Ctrl+C to resume. Completed batches are saved
 atomically; an interrupted batch may repeat. It stops on completion or an
 independently confirmed match. A match's exact bytes, metadata, mnemonic and
@@ -110,6 +113,10 @@ actual checkpoint continuation. This includes the entire 998,784-candidate
 two-site phase and the first 311,936 three-site candidates.
 
 **26,883,328 remain. The whole new family is not exhausted.**
+
+The numbers above describe the original pilot. **The later user run and
+recovery advanced the checkpoint to 8,962,048; 19,232,000 remain.**
+The family remains incomplete with zero matches. See the recovery section.
 
 The first 131,072 candidates took 8.3 search seconds, about 15,767/s. A longer
 1,179,648-candidate continuation took 179.5 seconds, about **6,574/s**, including
@@ -140,6 +147,62 @@ specified index is excluded. It will not prove that arbitrary case choices,
 historical text revisions, other copy artifacts, or converter settings have
 been exhausted. Its value is closing a concrete coverage gap; success is not
 promised.
+
+## Windows checkpoint failure and recovered progress
+
+The user's continuation stopped at `tmp.replace(path)` with `WinError 5`.
+That is a checkpoint replacement failure, not a completed negative search.
+The exact process denying replacement was not identified. A temporary open
+file without delete sharing is one reproducible cause; administrator mode or
+changing execution policy is not needed for this repair.
+
+The main JSON recorded **8,929,280** checked candidates. Its intact `.json.tmp`
+recorded **8,945,664**, one completed batch later. Both matched the exact source,
+code/configuration fingerprints, counts and incomplete status. The original
+runner writes this temporary state only after checking the full batch.
+Recovery validated the records and promoted the newer state under the existing
+exclusive checkpoint lock. Both records and a decision report are preserved in
+`checkpoint-recovery/`.
+The backups preserve the parsed JSON records with LF newlines; the decision
+report's SHA256 values identify the original on-disk files, whose writer used
+Windows CRLF. This newline normalization does not change candidate identity.
+
+`resume.py --max-edits 3 --indices 0 --platform 1 --limit 16384` then resumed
+from **8,945,664**, passed the original serialization and wallet checks, checked
+another batch, and saved **8,962,048** successfully. There are **19,232,000**
+instances remaining, with zero matches so far. At the user's sustained rate
+near 7,000/s, that is roughly 46 minutes; the live estimate will adjust.
+
+`resume.py` changes only startup recovery and checkpoint writing. It explicitly
+checks the original search script's SHA256 before loading it and adapts the
+writer and locking hooks. The candidate generator, argument parser, crypto
+kernels and configuration stay identical, so the checkpoint remains
+`joint-format-9e24b2a1e9bbaa8a.json`. The new writer/launcher hashes are recorded
+separately as `checkpoint_writer` metadata; they are not hidden changes to
+candidate identity. Neither `search.py` nor the shared `gpu-case-pairs.py`
+was modified, preserving prior result fingerprints.
+
+The replacement writer:
+
+- Writes to a uniquely named pending file, flushes and calls `fsync`.
+- Retries access-denied/sharing errors with bounded backoff for up to 30 seconds.
+- Never truncates or deletes the current checkpoint to work around a lock.
+- Preserves a pending file if replacement remains unavailable, then stops.
+- On the next launch, validates pending saves before recovering the newest one.
+  Corrupt/inconsistent files are left untouched; stale saves cannot regress
+  progress. A mismatched primary fingerprint is refused.
+
+Eight tests passed, covering a **real Windows no-delete-sharing handle**, injected
+transient/persistent permission errors, legacy `.json.tmp` recovery, malformed
+and inconsistent states, stale progress, changed code fingerprints, and
+conflicting saves at the same rank. Run them independently with:
+
+```powershell
+& 'C:\Users\boomb\AppData\Local\Programs\Python\Python312\python.exe' .\joint-format-2026-09-28\test_checkpoint_io.py
+```
+
+The repair verification ran one extra batch and stopped; it did not launch an
+unattended full search. Use the main command above to continue the remaining work.
 
 For a separate investigator, the repository root now contains
 [`CLAUDE-PUZZLE-HANDOFF.md`](../CLAUDE-PUZZLE-HANDOFF.md), with the public prize
