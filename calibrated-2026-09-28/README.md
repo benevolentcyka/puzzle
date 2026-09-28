@@ -62,7 +62,10 @@ every candidate.
 
 Checkpoint `twist-search-9858a1174b7d7ae8.json` binds the configuration,
 bases, source hash, code hashes, and GPU and wallet kernel fingerprints. It
-recorded 2,291 sampled independent CPU comparisons.
+recorded 2,291 sampled independent CPU comparisons. Its `code_sha256` for
+`twist-search.py` (`49f83899…bb2f`) was taken over the CRLF working copy that
+ran. Git stores the same file with LF (`582dfba6…dfd7`); a Windows checkout
+with `core.autocrlf=true` reproduces the recorded hash.
 
 ### Exact scope of the negatives
 
