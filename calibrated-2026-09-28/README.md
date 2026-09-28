@@ -94,13 +94,27 @@ $py = 'C:\Users\boomb\AppData\Local\Programs\Python\Python312\python.exe'
 different radius is a different checkpoint. Radius 8 is 15,033,173 candidates
 per start and radius 10 is 107,594,213.
 
-## Measured cost of the next larger family
+## Two-toggle searches on the calibrated bases
 
-The only completed exactly-two-toggle search used the NBSP-retained base. Its
-tool accepts any base file and recorded 24,232 candidates/s. The same
-641,697,400-pair family on the calibrated `draft` base would take about
-**7.4 hours** on an unshared GPU. Create the base with the same bytes that
-`twist-search.py` asserts for `draft` p0, then run:
+Earlier only the NBSP-retained LF base had the completed exactly-two-toggle
+search. These runs cover the calibrated bases, all-four-group FFWW baseline,
+index 0, both prize addresses, GPU-MD5 path, no prefix filter. On an unshared
+RTX 4060 they sustain roughly 33k–60k pairs/s (the laptop GPU throttles over a
+long run).
+
+| Base file | Serialization | Pairs | Result |
+| --- | --- | ---: | --- |
+| `bases/four-groups-lflf-nbsp-space.txt` (sha `0648ab34…`) | draft: NBSP→space, LF LF joins, trailing spaces kept | 641,697,400 | **complete, no match** (`pair-state-four-groups-lflf-nbsp-space-index0.json`) |
+| `bases/four-groups-lflf-rendered.txt` (sha `0e6b7242…`) | rendered: draft minus the 13 trailing + 4 pre-`<br>` spaces (browser copy) | 641,697,400 | running / see `pair-state-four-groups-lflf-rendered-index0.json` |
+
+Both base files are the all-four-group FFWW candidate (first ASCII letter
+lowered, last uppered in the 16 marked paragraphs), byte-verified against
+`twist-search.py`'s `reference()` for `draft`/`rendered` p0. The pair tool
+toggles any two further letters on top, i.e. the baseline ± any two
+single-letter case changes — the literal "change only a couple of letters".
+
+To reproduce (build the draft base, then run; swap in the rendered base for
+the second row):
 
 ```powershell
 & $py -c "from pathlib import Path; b=Path('bases/four-groups-lflf.txt').read_bytes(); Path('bases/four-groups-lflf-nbsp-space.txt').write_bytes(b.decode('utf8').replace(' ',' ').encode())"
