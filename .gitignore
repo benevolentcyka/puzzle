@@ -6,6 +6,7 @@ FOUND-*.json
 FOUND-*.txt
 **/FOUND-*
 **/*-hits.jsonl
+joint-format-2026-09-28/*.lock
 *.log
 author-posts-reference.md
 reference_oracle.py

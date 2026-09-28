@@ -10,8 +10,15 @@ output 1. The original `1EFojcAo2vbhRGCGCa7q8Wwvzss28mhQYC` was superseded.
 
 The latest audit is in [audit-2026-09-28/README.md](audit-2026-09-28/README.md).
 The unfiltered byte-passage search and all 54 broad chapter checkpoints are now
-verified complete, without a match. No further long sweep is currently
-recommended. Stage One remains a verified positive control; the later example
+verified complete, without a match. The subsequent
+[mixed-format investigation](joint-format-2026-09-28/README.md) prepares a
+bounded run combining local trailing-space, NBSP and internal-break changes.
+Its 28,194,048-candidate family is **not complete**: the checked pilot covers
+1,310,720 with no match. The report gives the resumable command and measured
+60–90-minute estimate for the remaining work. This is a hypothesis, not a
+recovered clue or guaranteed solution. An independent-investigator prompt is
+in [CLAUDE-PUZZLE-HANDOFF.md](CLAUDE-PUZZLE-HANDOFF.md).
+Stage One remains a verified positive control; the later example
 has a claimed payout but no reproduced complete solution in this repository.
 
 The preceding investigation is in [assumptions-2026-09-27/README.md](assumptions-2026-09-27/README.md).

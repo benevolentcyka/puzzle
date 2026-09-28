@@ -1,0 +1,6958 @@
+{
+  "configuration": {
+    "family": "joint-observed-formatting-v1",
+    "max_edits": 3,
+    "min_artifact_classes": 2,
+    "indices": [
+      0
+    ],
+    "targets": [
+      "14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W",
+      "1EFojcAo2vbhRGCGCa7q8Wwvzss28mhQYC"
+    ],
+    "parent": "m/44'/0'/0'/0",
+    "language": "english",
+    "passphrase": "",
+    "entropy": "raw MD5 UTF-8",
+    "final_newline": false,
+    "prefix_filter": null,
+    "baselines": [
+      {
+        "group_mask": 15,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 15,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 15,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 15,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 15,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 15,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 15,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 15,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 15,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 15,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 15,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 15,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 15,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 15,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 15,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 15,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 15,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 15,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 15,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 15,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 15,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 15,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 15,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 15,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 15,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 15,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 15,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 15,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 15,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 15,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 15,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 15,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 15,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 15,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 15,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 15,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 15,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 15,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 15,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 15,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 15,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 15,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 15,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 15,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 15,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 15,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 15,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 15,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 15,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 15,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 15,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 15,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 15,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 15,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 7,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 7,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 7,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 7,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 7,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 7,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 7,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 7,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 7,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 7,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 7,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 7,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 7,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 7,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 7,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 7,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 7,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 7,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 7,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 7,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 7,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 7,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 7,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 7,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 7,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 7,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 7,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 7,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 7,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 7,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 7,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 7,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 7,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 7,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 7,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 7,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 7,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 7,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 7,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 7,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 7,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 7,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 7,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 7,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 7,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 7,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 7,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 7,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 7,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 7,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 7,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 7,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 7,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 7,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 0,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 0,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 0,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 0,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 0,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 0,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 0,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 0,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 0,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 0,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 0,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 0,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 0,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 0,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 0,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 0,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 0,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 0,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 0,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 0,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 0,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 0,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 0,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 0,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 0,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 0,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 0,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 0,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 0,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 0,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 0,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 0,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 0,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 0,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 0,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 0,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 0,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 0,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 0,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 0,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 0,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 0,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 0,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 0,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 0,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 0,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 0,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 0,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 0,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 0,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 0,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 0,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 0,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 0,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 1,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 1,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 1,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 1,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 1,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 1,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 1,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 1,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 1,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 1,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 1,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 1,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 1,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 1,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 1,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 1,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 1,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 1,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 1,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 1,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 1,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 1,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 1,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 1,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 1,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 1,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 1,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 1,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 1,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 1,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 1,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 1,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 1,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 1,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 1,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 1,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 1,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 1,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 1,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 1,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 1,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 1,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 1,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 1,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 1,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 1,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 1,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 1,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 1,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 1,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 1,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 1,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 1,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 1,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 2,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 2,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 2,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 2,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 2,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 2,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 2,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 2,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 2,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 2,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 2,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 2,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 2,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 2,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 2,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 2,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 2,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 2,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 2,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 2,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 2,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 2,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 2,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 2,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 2,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 2,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 2,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 2,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 2,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 2,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 2,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 2,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 2,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 2,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 2,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 2,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 2,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 2,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 2,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 2,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 2,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 2,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 2,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 2,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 2,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 2,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 2,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 2,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 2,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 2,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 2,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 2,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 2,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 2,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 3,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 3,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 3,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 3,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 3,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 3,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 3,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 3,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 3,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 3,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 3,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 3,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 3,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 3,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 3,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 3,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 3,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 3,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 3,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 3,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 3,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 3,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 3,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 3,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 3,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 3,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 3,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 3,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 3,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 3,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 3,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 3,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 3,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 3,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 3,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 3,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 3,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 3,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 3,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 3,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 3,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 3,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 3,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 3,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 3,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 3,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 3,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 3,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 3,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 3,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 3,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 3,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 3,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 3,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 4,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 4,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 4,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 4,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 4,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 4,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 4,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 4,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 4,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 4,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 4,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 4,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 4,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 4,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 4,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 4,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 4,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 4,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 4,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 4,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 4,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 4,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 4,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 4,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 4,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 4,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 4,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 4,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 4,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 4,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 4,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 4,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 4,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 4,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 4,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 4,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 4,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 4,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 4,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 4,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 4,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 4,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 4,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 4,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 4,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 4,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 4,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 4,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 4,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 4,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 4,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 4,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 4,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 4,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 5,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 5,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 5,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 5,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 5,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 5,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 5,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 5,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 5,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 5,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 5,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 5,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 5,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 5,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 5,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 5,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 5,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 5,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 5,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 5,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 5,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 5,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 5,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 5,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 5,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 5,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 5,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 5,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 5,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 5,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 5,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 5,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 5,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 5,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 5,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 5,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 5,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 5,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 5,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 5,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 5,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 5,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 5,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 5,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 5,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 5,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 5,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 5,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 5,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 5,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 5,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 5,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 5,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 5,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 6,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 6,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 6,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 6,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 6,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 6,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 6,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 6,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 6,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 6,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 6,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 6,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 6,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 6,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 6,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 6,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 6,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 6,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 6,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 6,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 6,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 6,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 6,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 6,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 6,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 6,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 6,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 6,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 6,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 6,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 6,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 6,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 6,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 6,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 6,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 6,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 6,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 6,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 6,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 6,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 6,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 6,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 6,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 6,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 6,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 6,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 6,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 6,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 6,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 6,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 6,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 6,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 6,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 6,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 8,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 8,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 8,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 8,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 8,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 8,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 8,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 8,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 8,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 8,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 8,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 8,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 8,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 8,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 8,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 8,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 8,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 8,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 8,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 8,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 8,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 8,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 8,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 8,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 8,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 8,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 8,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 8,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 8,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 8,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 8,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 8,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 8,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 8,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 8,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 8,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 8,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 8,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 8,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 8,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 8,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 8,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 8,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 8,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 8,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 8,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 8,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 8,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 8,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 8,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 8,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 8,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 8,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 8,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 9,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 9,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 9,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 9,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 9,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 9,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 9,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 9,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 9,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 9,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 9,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 9,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 9,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 9,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 9,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 9,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 9,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 9,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 9,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 9,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 9,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 9,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 9,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 9,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 9,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 9,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 9,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 9,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 9,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 9,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 9,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 9,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 9,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 9,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 9,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 9,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 9,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 9,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 9,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 9,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 9,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 9,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 9,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 9,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 9,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 9,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 9,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 9,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 9,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 9,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 9,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 9,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 9,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 9,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 10,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 10,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 10,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 10,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 10,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 10,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 10,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 10,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 10,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 10,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 10,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 10,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 10,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 10,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 10,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 10,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 10,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 10,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 10,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 10,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 10,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 10,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 10,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 10,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 10,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 10,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 10,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 10,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 10,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 10,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 10,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 10,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 10,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 10,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 10,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 10,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 10,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 10,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 10,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 10,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 10,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 10,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 10,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 10,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 10,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 10,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 10,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 10,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 10,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 10,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 10,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 10,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 10,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 10,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 11,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 11,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 11,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 11,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 11,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 11,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 11,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 11,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 11,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 11,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 11,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 11,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 11,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 11,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 11,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 11,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 11,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 11,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 11,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 11,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 11,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 11,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 11,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 11,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 11,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 11,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 11,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 11,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 11,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 11,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 11,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 11,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 11,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 11,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 11,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 11,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 11,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 11,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 11,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 11,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 11,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 11,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 11,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 11,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 11,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 11,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 11,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 11,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 11,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 11,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 11,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 11,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 11,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 11,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 12,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 12,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 12,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 12,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 12,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 12,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 12,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 12,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 12,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 12,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 12,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 12,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 12,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 12,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 12,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 12,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 12,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 12,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 12,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 12,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 12,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 12,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 12,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 12,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 12,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 12,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 12,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 12,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 12,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 12,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 12,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 12,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 12,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 12,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 12,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 12,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 12,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 12,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 12,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 12,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 12,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 12,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 12,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 12,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 12,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 12,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 12,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 12,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 12,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 12,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 12,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 12,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 12,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 12,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 13,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 13,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 13,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 13,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 13,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 13,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 13,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 13,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 13,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 13,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 13,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 13,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 13,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 13,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 13,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 13,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 13,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 13,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 13,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 13,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 13,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 13,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 13,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 13,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 13,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 13,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 13,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 13,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 13,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 13,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 13,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 13,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 13,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 13,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 13,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 13,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 13,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 13,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 13,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 13,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 13,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 13,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 13,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 13,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 13,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 13,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 13,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 13,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 13,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 13,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 13,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 13,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 13,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 13,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 14,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 14,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 14,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 14,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 14,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 14,
+        "start": 0,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 14,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 14,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 14,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 14,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 14,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 14,
+        "start": 0,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 14,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 14,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 14,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 14,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 14,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 14,
+        "start": 0,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 14,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 14,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 14,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 14,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 14,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 14,
+        "start": 1,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 14,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 14,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 14,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 14,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 14,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 14,
+        "start": 1,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 14,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 14,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 14,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 14,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 14,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 14,
+        "start": 1,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 14,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 14,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 14,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 14,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 14,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 14,
+        "start": 3,
+        "join": "crlf",
+        "internal": "crlf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 14,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 14,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 14,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 14,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 14,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 14,
+        "start": 3,
+        "join": "lf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 14,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 14,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 14,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "keep",
+        "nbsp": "delete"
+      },
+      {
+        "group_mask": 14,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "keep"
+      },
+      {
+        "group_mask": 14,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "space"
+      },
+      {
+        "group_mask": 14,
+        "start": 3,
+        "join": "crlf",
+        "internal": "lf",
+        "tails": "trim",
+        "nbsp": "delete"
+      }
+    ],
+    "source_sha256": "60c63f3fa97a7de8ebd3e7f261b1a0b9649e2743f6158a7246ab7cfd26b39109",
+    "code_sha256": {
+      "joint-format-2026-09-28/search.py": "8b83d66cd026cdc56045c128ce652d89c714f4972ae198fdb1ddb05b63176fb9",
+      "gpu-case-pairs.py": "e0ae30848d88038e95716425b1e8fa79d2a82c09274f797a3740cef6b996db7a",
+      "expanded-2026-09-26/wallet_paths_gpu.py": "67fa95d7a1e4f6a73ea35058006326bd4863b21bb9ac44ab1fd651142f2ecc42",
+      "assumptions-2026-09-27/search-assumptions.py": "0fa36e6715cc254c0abea03a0d065b05a208c359e4b702afd2aace2ae05eb122",
+      "followup-2026-09-26/language-settings-gpu.py": "ff01cb2a8bc44608a913a3cddfe6f82fe64b816007563cf3384821668c6a1b85",
+      "followup-2026-09-26/verification/languages/english.json": "5d0ac058605682ece97b510bfa0a345d8d5e79dfc4952a13b8efca35c0516acc"
+    },
+    "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2",
+    "wallet_kernel_sha256": "1ad1355c58a64d1b8f69081adb7688857391edabe975767020f13f82a0c50892"
+  },
+  "candidates_total": 28194048,
+  "next_rank": 1310720,
+  "derived_addresses": 1310720,
+  "matches": [],
+  "complete": false,
+  "elapsed_search_seconds": 187.75,
+  "sampled_cpu_comparisons": 240,
+  "updated_utc": "2026-09-28T08:47:51.142026+00:00",
+  "serialization_comparisons_per_startup": 1734,
+  "positive_controls_passed": [
+    "stage-one",
+    "grycoin-one"
+  ]
+}

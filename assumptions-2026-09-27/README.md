@@ -166,7 +166,9 @@ still explain the mismatch. They do not prove the puzzle impossible.
 See [the September 28 audit](../audit-2026-09-28/README.md) for the completed
 user runs and the distinction between the verified Stage One control and the
 unreproduced example. Solving the latter is not a prerequisite for trusting the
-verified Stage One derivation. No further long run is currently recommended.
+verified Stage One derivation. That audit recommended no further long run;
+the subsequent [joint-format follow-up](../joint-format-2026-09-28/README.md)
+documents a separate mixed-artifact hypothesis, benchmark and partial pilot.
 
 The next useful external evidence would be the example solver's exact MD5 or
 source buffer, or a byte-preserving July 2019 answer copy. No such evidence was

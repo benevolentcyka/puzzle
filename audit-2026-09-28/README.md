@@ -86,6 +86,13 @@ check. Responses and their URLs are preserved in `chain-audit.json`.
 
 ## Decision
 
+**Subsequent follow-up:** after this audit, the user requested another bounded
+local run. [The joint-format report](../joint-format-2026-09-28/README.md)
+documents a concrete gap between previously separate artifact categories and
+the new, only partially executed search. It does not change the completed
+negatives here or establish a new author clue. The paragraph below records
+the recommendation at the end of the earlier audit.
+
 There is currently no evidence-supported next long sweep recommended here.
 The passage-edit family is closed at its documented bounds. Larger case radii
 or more arbitrary text alterations would be further guesses, not deductions
