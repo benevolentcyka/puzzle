@@ -1,0 +1,26 @@
+{
+ "first_attempt": {
+  "wattpad.com/720888559*": "HTTP Error 503: Service Unavailable",
+  "www.wattpad.com/720888559*": "The read operation timed out",
+  "wattpad.com/apiv2/*720888559*": "HTTP Error 503: Service Unavailable",
+  "wattpad.com/story/184148284*": "HTTP Error 503: Service Unavailable",
+  "www.wattpad.com/story/184148284*": "HTTP Error 503: Service Unavailable",
+  "reddit.com/r/Grycoin/comments/cgkpbb*": "The read operation timed out",
+  "reddit.com/r/Grycoin/comments/chn8un*": "HTTP Error 503: Service Unavailable"
+ },
+ "retry": {
+  "wattpad.com/720888559*": {
+   "status": "ok",
+   "rows": []
+  },
+  "wattpad.com/story/184148284*": {
+   "status": "error",
+   "error": "HTTP Error 504: Gateway Time-out"
+  },
+  "wattpad.com/apiv2/*": {
+   "status": "ok",
+   "rows": []
+  }
+ },
+ "retried_utc": "2026-09-28T09:50:49Z"
+}

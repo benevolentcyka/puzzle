@@ -1,0 +1,513 @@
+{
+  "configuration": {
+    "family": "calibrated-structured-twists-v1",
+    "bases": [
+      {
+        "name": "draft",
+        "join": "\n\n",
+        "nbsp": " ",
+        "tails": "keep",
+        "internal": "\n",
+        "start": 0
+      },
+      {
+        "name": "draft",
+        "join": "\n\n",
+        "nbsp": " ",
+        "tails": "keep",
+        "internal": "\n",
+        "start": 1
+      },
+      {
+        "name": "draft",
+        "join": "\n\n",
+        "nbsp": " ",
+        "tails": "keep",
+        "internal": "\n",
+        "start": 3
+      },
+      {
+        "name": "rendered",
+        "join": "\n\n",
+        "nbsp": " ",
+        "tails": "trim",
+        "internal": "\n",
+        "start": 0
+      },
+      {
+        "name": "rendered",
+        "join": "\n\n",
+        "nbsp": " ",
+        "tails": "trim",
+        "internal": "\n",
+        "start": 1
+      },
+      {
+        "name": "rendered",
+        "join": "\n\n",
+        "nbsp": " ",
+        "tails": "trim",
+        "internal": "\n",
+        "start": 3
+      },
+      {
+        "name": "draft-promoted",
+        "join": "\n\n",
+        "nbsp": " ",
+        "tails": "keep",
+        "internal": "\n\n",
+        "start": 0
+      },
+      {
+        "name": "draft-promoted",
+        "join": "\n\n",
+        "nbsp": " ",
+        "tails": "keep",
+        "internal": "\n\n",
+        "start": 1
+      },
+      {
+        "name": "draft-promoted",
+        "join": "\n\n",
+        "nbsp": " ",
+        "tails": "keep",
+        "internal": "\n\n",
+        "start": 3
+      },
+      {
+        "name": "app",
+        "join": "\n\n",
+        "nbsp": "\u00a0",
+        "tails": "keep",
+        "internal": "\n",
+        "start": 0
+      },
+      {
+        "name": "app",
+        "join": "\n\n",
+        "nbsp": "\u00a0",
+        "tails": "keep",
+        "internal": "\n",
+        "start": 1
+      },
+      {
+        "name": "app",
+        "join": "\n\n",
+        "nbsp": "\u00a0",
+        "tails": "keep",
+        "internal": "\n",
+        "start": 3
+      },
+      {
+        "name": "draft-single",
+        "join": "\n",
+        "nbsp": " ",
+        "tails": "keep",
+        "internal": "\n",
+        "start": 0
+      },
+      {
+        "name": "draft-single",
+        "join": "\n",
+        "nbsp": " ",
+        "tails": "keep",
+        "internal": "\n",
+        "start": 1
+      },
+      {
+        "name": "draft-single",
+        "join": "\n",
+        "nbsp": " ",
+        "tails": "keep",
+        "internal": "\n",
+        "start": 3
+      },
+      {
+        "name": "rendered-single",
+        "join": "\n",
+        "nbsp": " ",
+        "tails": "trim",
+        "internal": "\n",
+        "start": 0
+      },
+      {
+        "name": "rendered-single",
+        "join": "\n",
+        "nbsp": " ",
+        "tails": "trim",
+        "internal": "\n",
+        "start": 1
+      },
+      {
+        "name": "rendered-single",
+        "join": "\n",
+        "nbsp": " ",
+        "tails": "trim",
+        "internal": "\n",
+        "start": 3
+      },
+      {
+        "name": "app-single",
+        "join": "\n",
+        "nbsp": "\u00a0",
+        "tails": "keep",
+        "internal": "\n",
+        "start": 0
+      },
+      {
+        "name": "app-single",
+        "join": "\n",
+        "nbsp": "\u00a0",
+        "tails": "keep",
+        "internal": "\n",
+        "start": 1
+      },
+      {
+        "name": "app-single",
+        "join": "\n",
+        "nbsp": "\u00a0",
+        "tails": "keep",
+        "internal": "\n",
+        "start": 3
+      }
+    ],
+    "groups": [
+      [
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        92,
+        93,
+        94,
+        95
+      ],
+      [
+        167,
+        168,
+        169,
+        170
+      ],
+      [
+        230,
+        231,
+        232,
+        234
+      ]
+    ],
+    "near": [
+      3,
+      8,
+      9,
+      91,
+      164,
+      165,
+      166,
+      233
+    ],
+    "motifs": [
+      "vOIce11",
+      "vOIce23",
+      "SECOND0"
+    ],
+    "targets": [
+      "14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W",
+      "1EFojcAo2vbhRGCGCa7q8Wwvzss28mhQYC"
+    ],
+    "path": "m/44'/0'/0'/0/0",
+    "entropy": "raw MD5 UTF-8",
+    "language": "english",
+    "passphrase": "",
+    "prefix_filter": null,
+    "source_sha256": "60c63f3fa97a7de8ebd3e7f261b1a0b9649e2743f6158a7246ab7cfd26b39109",
+    "code_sha256": {
+      "twist-search.py": "49f838998ff7af87250ea50b4f0283490821f98b4cb8e16c5fe4b588a940bb2f",
+      "search.py": "8b83d66cd026cdc56045c128ce652d89c714f4972ae198fdb1ddb05b63176fb9"
+    },
+    "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2",
+    "wallet_kernel_sha256": "1ad1355c58a64d1b8f69081adb7688857391edabe975767020f13f82a0c50892"
+  },
+  "next_base": 21,
+  "bases": [
+    {
+      "base": {
+        "name": "draft",
+        "join": "\n\n",
+        "nbsp": " ",
+        "tails": "keep",
+        "internal": "\n",
+        "start": 0
+      },
+      "enumerated": 628254,
+      "distinct_entropies": 623432,
+      "seconds": 23.3
+    },
+    {
+      "base": {
+        "name": "draft",
+        "join": "\n\n",
+        "nbsp": " ",
+        "tails": "keep",
+        "internal": "\n",
+        "start": 1
+      },
+      "enumerated": 572944,
+      "distinct_entropies": 570250,
+      "seconds": 38.2
+    },
+    {
+      "base": {
+        "name": "draft",
+        "join": "\n\n",
+        "nbsp": " ",
+        "tails": "keep",
+        "internal": "\n",
+        "start": 3
+      },
+      "enumerated": 564788,
+      "distinct_entropies": 562094,
+      "seconds": 40.3
+    },
+    {
+      "base": {
+        "name": "rendered",
+        "join": "\n\n",
+        "nbsp": " ",
+        "tails": "trim",
+        "internal": "\n",
+        "start": 0
+      },
+      "enumerated": 628254,
+      "distinct_entropies": 623432,
+      "seconds": 42.5
+    },
+    {
+      "base": {
+        "name": "rendered",
+        "join": "\n\n",
+        "nbsp": " ",
+        "tails": "trim",
+        "internal": "\n",
+        "start": 1
+      },
+      "enumerated": 572944,
+      "distinct_entropies": 570250,
+      "seconds": 45.0
+    },
+    {
+      "base": {
+        "name": "rendered",
+        "join": "\n\n",
+        "nbsp": " ",
+        "tails": "trim",
+        "internal": "\n",
+        "start": 3
+      },
+      "enumerated": 564788,
+      "distinct_entropies": 562094,
+      "seconds": 45.5
+    },
+    {
+      "base": {
+        "name": "draft-promoted",
+        "join": "\n\n",
+        "nbsp": " ",
+        "tails": "keep",
+        "internal": "\n\n",
+        "start": 0
+      },
+      "enumerated": 628254,
+      "distinct_entropies": 623432,
+      "seconds": 49.8
+    },
+    {
+      "base": {
+        "name": "draft-promoted",
+        "join": "\n\n",
+        "nbsp": " ",
+        "tails": "keep",
+        "internal": "\n\n",
+        "start": 1
+      },
+      "enumerated": 572944,
+      "distinct_entropies": 570250,
+      "seconds": 46.2
+    },
+    {
+      "base": {
+        "name": "draft-promoted",
+        "join": "\n\n",
+        "nbsp": " ",
+        "tails": "keep",
+        "internal": "\n\n",
+        "start": 3
+      },
+      "enumerated": 564788,
+      "distinct_entropies": 562094,
+      "seconds": 46.3
+    },
+    {
+      "base": {
+        "name": "app",
+        "join": "\n\n",
+        "nbsp": "\u00a0",
+        "tails": "keep",
+        "internal": "\n",
+        "start": 0
+      },
+      "enumerated": 628254,
+      "distinct_entropies": 623432,
+      "seconds": 50.6
+    },
+    {
+      "base": {
+        "name": "app",
+        "join": "\n\n",
+        "nbsp": "\u00a0",
+        "tails": "keep",
+        "internal": "\n",
+        "start": 1
+      },
+      "enumerated": 572944,
+      "distinct_entropies": 570250,
+      "seconds": 47.5
+    },
+    {
+      "base": {
+        "name": "app",
+        "join": "\n\n",
+        "nbsp": "\u00a0",
+        "tails": "keep",
+        "internal": "\n",
+        "start": 3
+      },
+      "enumerated": 564788,
+      "distinct_entropies": 562094,
+      "seconds": 24.2
+    },
+    {
+      "base": {
+        "name": "draft-single",
+        "join": "\n",
+        "nbsp": " ",
+        "tails": "keep",
+        "internal": "\n",
+        "start": 0
+      },
+      "enumerated": 628254,
+      "distinct_entropies": 623432,
+      "seconds": 27.0
+    },
+    {
+      "base": {
+        "name": "draft-single",
+        "join": "\n",
+        "nbsp": " ",
+        "tails": "keep",
+        "internal": "\n",
+        "start": 1
+      },
+      "enumerated": 572944,
+      "distinct_entropies": 570250,
+      "seconds": 25.0
+    },
+    {
+      "base": {
+        "name": "draft-single",
+        "join": "\n",
+        "nbsp": " ",
+        "tails": "keep",
+        "internal": "\n",
+        "start": 3
+      },
+      "enumerated": 564788,
+      "distinct_entropies": 562094,
+      "seconds": 25.8
+    },
+    {
+      "base": {
+        "name": "rendered-single",
+        "join": "\n",
+        "nbsp": " ",
+        "tails": "trim",
+        "internal": "\n",
+        "start": 0
+      },
+      "enumerated": 628254,
+      "distinct_entropies": 623432,
+      "seconds": 32.7
+    },
+    {
+      "base": {
+        "name": "rendered-single",
+        "join": "\n",
+        "nbsp": " ",
+        "tails": "trim",
+        "internal": "\n",
+        "start": 1
+      },
+      "enumerated": 572944,
+      "distinct_entropies": 570250,
+      "seconds": 29.0
+    },
+    {
+      "base": {
+        "name": "rendered-single",
+        "join": "\n",
+        "nbsp": " ",
+        "tails": "trim",
+        "internal": "\n",
+        "start": 3
+      },
+      "enumerated": 564788,
+      "distinct_entropies": 562094,
+      "seconds": 29.4
+    },
+    {
+      "base": {
+        "name": "app-single",
+        "join": "\n",
+        "nbsp": "\u00a0",
+        "tails": "keep",
+        "internal": "\n",
+        "start": 0
+      },
+      "enumerated": 628254,
+      "distinct_entropies": 623432,
+      "seconds": 32.3
+    },
+    {
+      "base": {
+        "name": "app-single",
+        "join": "\n",
+        "nbsp": "\u00a0",
+        "tails": "keep",
+        "internal": "\n",
+        "start": 1
+      },
+      "enumerated": 572944,
+      "distinct_entropies": 570250,
+      "seconds": 29.5
+    },
+    {
+      "base": {
+        "name": "app-single",
+        "join": "\n",
+        "nbsp": "\u00a0",
+        "tails": "keep",
+        "internal": "\n",
+        "start": 3
+      },
+      "enumerated": 564788,
+      "distinct_entropies": 562094,
+      "seconds": 28.3
+    }
+  ],
+  "matches": [],
+  "complete": true,
+  "derived_addresses": 12290432,
+  "sampled_cpu_comparisons": 2291,
+  "updated_utc": "2026-09-28T09:52:00.728935+00:00"
+}

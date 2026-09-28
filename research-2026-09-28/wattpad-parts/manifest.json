@@ -1,0 +1,269 @@
+{
+ "retrieved_utc": "2026-09-28T09:34:43Z",
+ "parts": {
+  "717956015": {
+   "title": "Welcome to the Quizchain",
+   "modifyDate": "2019-06-20T07:43:30Z",
+   "bytes": 11717,
+   "sha256": "2c4dfc556c58ef16da8e12f55eb4332b6984aafda263cbce2991619931bf1a57",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=717956015",
+   "encoding": "gzip-decoded"
+  },
+  "720888559": {
+   "title": "Second",
+   "modifyDate": "2019-07-23T23:12:04Z",
+   "bytes": 59613,
+   "sha256": "abf15822b6785ae79eaf7c00b401b2730891c03646b40aae985eb3bc31126bbc",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=720888559",
+   "encoding": "gzip-decoded"
+  },
+  "720889517": {
+   "title": "Second Life",
+   "modifyDate": "2019-04-24T22:50:36Z",
+   "bytes": 2246,
+   "sha256": "9171f9ac3ae98bd6f8add70b9d974a4a467837767534d7982ec8adb62a8091c7",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=720889517",
+   "encoding": "gzip-decoded"
+  },
+  "720890652": {
+   "title": "Hoax",
+   "modifyDate": "2019-04-27T08:46:22Z",
+   "bytes": 9008,
+   "sha256": "5ac2cf31c9dec6c12cdefbf6d11b85838430f49b0630d4675557aa0bb920deac",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=720890652",
+   "encoding": "gzip-decoded"
+  },
+  "720892473": {
+   "title": "FU AOI",
+   "modifyDate": "2019-04-17T23:18:26Z",
+   "bytes": 4064,
+   "sha256": "1235db00eb8d2fad09ed674249901c9d682c3c075a990a387abc18d0ace7eacd",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=720892473",
+   "encoding": "gzip-decoded"
+  },
+  "720893344": {
+   "title": "Utter Disaster Three Block Series",
+   "modifyDate": "2019-04-29T05:55:51Z",
+   "bytes": 5907,
+   "sha256": "67d053ee6da04d4b1a72f2fdf52738bcda207ebaa9c5fa1bcaa66131fde92941",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=720893344",
+   "encoding": "gzip-decoded"
+  },
+  "720895205": {
+   "title": "Complete Quizchain",
+   "modifyDate": "2019-06-09T00:11:25Z",
+   "bytes": 101743,
+   "sha256": "49d8db267e5704c299d954a006a158417d5a9cc4e813174d386757e75727ba76",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=720895205",
+   "encoding": "gzip-decoded"
+  },
+  "720895609": {
+   "title": "4444 and 4442",
+   "modifyDate": "2019-04-17T23:28:49Z",
+   "bytes": 4457,
+   "sha256": "40ae5da010fb92778c2761de3314d4877a125c1701679d0bf1a9951008fa1a85",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=720895609",
+   "encoding": "gzip-decoded"
+  },
+  "721505724": {
+   "title": "TOMI",
+   "modifyDate": "2019-04-19T10:13:05Z",
+   "bytes": 4645,
+   "sha256": "c809482120492282a94ea6f5722f3599a4192e144d4d9c03a30a7263d015dd8b",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=721505724",
+   "encoding": "gzip-decoded"
+  },
+  "721795188": {
+   "title": "Tragic Boating Accident",
+   "modifyDate": "2019-04-20T00:18:33Z",
+   "bytes": 1939,
+   "sha256": "ef6d747436bfc45f15637d9d2dec682f44808fb0fe5525309491048e2938a27a",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=721795188",
+   "encoding": "gzip-decoded"
+  },
+  "722270069": {
+   "title": "Satoshi's Stash",
+   "modifyDate": "2019-04-24T22:48:50Z",
+   "bytes": 2007,
+   "sha256": "4c9b2b400af9d52783d28d0f2ff48f025fa97af9e2c35b5e86feba8c24ed955b",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=722270069",
+   "encoding": "gzip-decoded"
+  },
+  "724030807": {
+   "title": "Satoshi's Real Identity",
+   "modifyDate": "2019-04-24T22:50:19Z",
+   "bytes": 2627,
+   "sha256": "6239959defb2d82430e8615d5c178fe3916326047ea116e93cdaf7768ed80e44",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=724030807",
+   "encoding": "gzip-decoded"
+  },
+  "724031950": {
+   "title": "Darling",
+   "modifyDate": "2019-04-27T02:36:16Z",
+   "bytes": 3751,
+   "sha256": "11ddb62862c0d36257d2267415a790de4be8bab75573079cfc8a807e4ed4e132",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=724031950",
+   "encoding": "gzip-decoded"
+  },
+  "724275249": {
+   "title": "Mistakes",
+   "modifyDate": "2019-04-28T00:52:59Z",
+   "bytes": 3508,
+   "sha256": "b3baa88138264c1a73517eed1c6d45c17a0cbaa21023b2b5818efc4f26370910",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=724275249",
+   "encoding": "gzip-decoded"
+  },
+  "725370188": {
+   "title": "Quizchain Lottery",
+   "modifyDate": "2019-04-28T00:54:10Z",
+   "bytes": 3175,
+   "sha256": "ea5f1f0be24aacc744500bac70fc1342b166f133b16553d1640c432c2a18e61b",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=725370188",
+   "encoding": "gzip-decoded"
+  },
+  "728374979": {
+   "title": "Lucky 7 Giveaway",
+   "modifyDate": "2019-05-05T02:42:30Z",
+   "bytes": 2387,
+   "sha256": "bb34e0a97eda8c1b068581081ef998345f5a351f3ad4772105536221f2913a51",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=728374979",
+   "encoding": "gzip-decoded"
+  },
+  "728982194": {
+   "title": "Difficulty",
+   "modifyDate": "2019-05-06T11:42:56Z",
+   "bytes": 3238,
+   "sha256": "e3fab0c472577bc0a24b7bb105bb4dceee4cb6ee94d7dbb04f4a4c3331e5209e",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=728982194",
+   "encoding": "gzip-decoded"
+  },
+  "730790756": {
+   "title": "Quizchain as a Password Manager",
+   "modifyDate": "2019-05-11T02:22:58Z",
+   "bytes": 5106,
+   "sha256": "24b07ca93e86fa53faa4e86beebb98c45916d934071a12450f33dff0e38f9043",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=730790756",
+   "encoding": "gzip-decoded"
+  },
+  "731219798": {
+   "title": "Satoshi's Puzzle???",
+   "modifyDate": "2019-05-15T12:21:14Z",
+   "bytes": 3198,
+   "sha256": "cf0f4d5c7c4380df85e485b23ffea9baf0d2f3cce68cec98c0f68f65e4d9e90f",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=731219798",
+   "encoding": "gzip-decoded"
+  },
+  "732405709": {
+   "title": "Genesis Block Mystery",
+   "modifyDate": "2019-05-17T04:51:10Z",
+   "bytes": 5207,
+   "sha256": "ee07784a65bbe8c7e1584adc2f326f259284e1e2828d410f4a7c10a22a465e6f",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=732405709",
+   "encoding": "gzip-decoded"
+  },
+  "733252660": {
+   "title": "Scripting Players",
+   "modifyDate": "2019-05-17T22:56:32Z",
+   "bytes": 3641,
+   "sha256": "92c98aabec56ccba17da57d7e47c564f3f5cfeecaab1b64473a8e27364125c2f",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=733252660",
+   "encoding": "gzip-decoded"
+  },
+  "737461752": {
+   "title": "Difficult Hints",
+   "modifyDate": "2019-05-27T11:02:54Z",
+   "bytes": 2742,
+   "sha256": "3cfc42002a324f98cc593f23318d555af1f83c96fbdfa30e54d3045a5240dbf5",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=737461752",
+   "encoding": "gzip-decoded"
+  },
+  "740685487": {
+   "title": "Exceedingly Unfair Riddle",
+   "modifyDate": "2019-06-04T00:09:57Z",
+   "bytes": 6599,
+   "sha256": "e0bb8095ecceee82d6de8a48e534b4df98ff13c793e71fdfdf7f1ccb1e1d8f9e",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=740685487",
+   "encoding": "gzip-decoded"
+  },
+  "742662804": {
+   "title": "Complete Second Round of the Quizchain",
+   "modifyDate": "2019-06-09T01:43:21Z",
+   "bytes": 50579,
+   "sha256": "3234672cf488c3dee063a0e125b563b32ce06f171e027fa624781b09581039e6",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=742662804",
+   "encoding": "gzip-decoded"
+  },
+  "743524593": {
+   "title": "HQ Trivia",
+   "modifyDate": "2019-06-11T06:34:13Z",
+   "bytes": 3174,
+   "sha256": "71b194c942a9cb08a834301d6f6ff0b3f09d98c8d82d2e2ef9f74b72b50a551a",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=743524593",
+   "encoding": "gzip-decoded"
+  },
+  "747478016": {
+   "title": "Satoshi Mystery",
+   "modifyDate": "2019-06-20T13:41:00Z",
+   "bytes": 3252,
+   "sha256": "ccbdcff7907a5b47cac85bfd04c6af5ce25eb745411eb7b999c363b3ce41f2ce",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=747478016",
+   "encoding": "gzip-decoded"
+  },
+  "752631800": {
+   "title": "Quizchain and AI",
+   "modifyDate": "2019-07-02T00:31:10Z",
+   "bytes": 3419,
+   "sha256": "9b7dcf743c6f0bd6595904367f01f6a8dc3df14cd3144e4078fe076528b1b521",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=752631800",
+   "encoding": "gzip-decoded"
+  },
+  "755457972": {
+   "title": "Cariga Bright",
+   "modifyDate": "2019-07-14T09:06:36Z",
+   "bytes": 3913,
+   "sha256": "81a6b972580db7f977c81f04aa89c458242967f6a33ffe25f8896adb499bd47c",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=755457972",
+   "encoding": "gzip-decoded"
+  },
+  "757574334": {
+   "title": "THOMAS and SATOSHI",
+   "modifyDate": "2019-07-17T23:28:45Z",
+   "bytes": 5709,
+   "sha256": "6a61e961dee78037ed7cd0b53b712aca12bca8d16711c015e966604992f99282",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=757574334",
+   "encoding": "gzip-decoded"
+  },
+  "759761389": {
+   "title": "End Phase of the Experiment",
+   "modifyDate": "2019-07-17T23:30:24Z",
+   "bytes": 4139,
+   "sha256": "16793122da6315e7a944e342871ad15f5e64f201c7d82431d9f4fdc7cb853c3c",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=759761389",
+   "encoding": "gzip-decoded"
+  },
+  "760378354": {
+   "title": "Waking Up",
+   "modifyDate": "2019-07-22T03:14:30Z",
+   "bytes": 3309,
+   "sha256": "db547c2930cb7e39a9de52a133b3bf092820e4531f879582bc944c04d39cf18b",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=760378354",
+   "encoding": "gzip-decoded"
+  },
+  "761570746": {
+   "title": "The Satoshi Code",
+   "modifyDate": "2019-07-22T23:05:13Z",
+   "bytes": 31498,
+   "sha256": "9d9fa938d64215b96e93934196f8ab93e09da5d98ecebd12498839feba81d05b",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=761570746",
+   "encoding": "gzip-decoded"
+  },
+  "762380140": {
+   "title": "Starting Up",
+   "modifyDate": "2019-07-23T23:24:07Z",
+   "bytes": 2561,
+   "sha256": "8ce38fbe29d9844569715ebdaff3087982a1fde7af6dce19851d95f5c2d89db8",
+   "url": "https://www.wattpad.com/apiv2/?m=storytext&id=762380140",
+   "encoding": "gzip-decoded"
+  }
+ }
+}

@@ -1,0 +1,22 @@
+{
+  "family": "stage-one-link-suffix-v1",
+  "candidates": 3024,
+  "index": 0,
+  "targets": [
+    "14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W",
+    "1EFojcAo2vbhRGCGCa7q8Wwvzss28mhQYC"
+  ],
+  "links": [
+    "last3",
+    "last7",
+    "wif"
+  ],
+  "separators": [
+    " ",
+    "",
+    "\n\n"
+  ],
+  "bases": 21,
+  "group_masks": 16,
+  "matches": []
+}

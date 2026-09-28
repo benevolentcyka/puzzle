@@ -1,0 +1,131 @@
+{
+ "family": "linebreak-slips-v1",
+ "example": {
+  "distinct_entropies": 118098,
+  "indices": "0-6",
+  "addresses": 826686,
+  "matches": [],
+  "seconds": 6.0
+ },
+ "chapter": {
+  "0": {
+   "base": {
+    "name": "draft",
+    "join": "\n\n",
+    "nbsp": " ",
+    "tails": "keep",
+    "internal": "\n",
+    "start": 0
+   },
+   "distinct_entropies": 306928,
+   "matches": [],
+   "seconds": 65.0
+  },
+  "1": {
+   "base": {
+    "name": "draft",
+    "join": "\n\n",
+    "nbsp": " ",
+    "tails": "keep",
+    "internal": "\n",
+    "start": 1
+   },
+   "distinct_entropies": 304716,
+   "matches": [],
+   "seconds": 66.1
+  },
+  "2": {
+   "base": {
+    "name": "draft",
+    "join": "\n\n",
+    "nbsp": " ",
+    "tails": "keep",
+    "internal": "\n",
+    "start": 3
+   },
+   "distinct_entropies": 300316,
+   "matches": [],
+   "seconds": 65.4
+  },
+  "3": {
+   "base": {
+    "name": "rendered",
+    "join": "\n\n",
+    "nbsp": " ",
+    "tails": "trim",
+    "internal": "\n",
+    "start": 0
+   },
+   "distinct_entropies": 306928,
+   "matches": [],
+   "seconds": 74.8
+  },
+  "4": {
+   "base": {
+    "name": "rendered",
+    "join": "\n\n",
+    "nbsp": " ",
+    "tails": "trim",
+    "internal": "\n",
+    "start": 1
+   },
+   "distinct_entropies": 304716,
+   "matches": [],
+   "seconds": 146.0
+  },
+  "5": {
+   "base": {
+    "name": "rendered",
+    "join": "\n\n",
+    "nbsp": " ",
+    "tails": "trim",
+    "internal": "\n",
+    "start": 3
+   },
+   "distinct_entropies": 300316,
+   "matches": [],
+   "seconds": 170.5
+  },
+  "9": {
+   "base": {
+    "name": "app",
+    "join": "\n\n",
+    "nbsp": "\u00a0",
+    "tails": "keep",
+    "internal": "\n",
+    "start": 0
+   },
+   "distinct_entropies": 306928,
+   "matches": [],
+   "seconds": 175.5
+  },
+  "10": {
+   "base": {
+    "name": "app",
+    "join": "\n\n",
+    "nbsp": "\u00a0",
+    "tails": "keep",
+    "internal": "\n",
+    "start": 1
+   },
+   "distinct_entropies": 304716,
+   "matches": [],
+   "seconds": 170.5
+  },
+  "11": {
+   "base": {
+    "name": "app",
+    "join": "\n\n",
+    "nbsp": "\u00a0",
+    "tails": "keep",
+    "internal": "\n",
+    "start": 3
+   },
+   "distinct_entropies": 300316,
+   "matches": [],
+   "seconds": 166.8
+  }
+ },
+ "chapter_total_addresses": 2735880,
+ "sampled_cpu_comparisons": 683
+}

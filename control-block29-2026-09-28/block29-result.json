@@ -1,0 +1,11 @@
+{
+  "target": "1BQiU45feRw5UKdCUbXuoNfuK5WRzTpa4P",
+  "newline": "0a",
+  "algorithm": "md5",
+  "link": "zff",
+  "entropy": "982301b80b30af3a0abe110269b0dd43",
+  "bytes": 1360,
+  "wif_suffix": "JRu",
+  "block30_link_expected": "JRu",
+  "cpu_confirmed": true
+}

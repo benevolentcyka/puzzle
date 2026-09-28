@@ -1,0 +1,2 @@
+# Full story texts stay local; manifest.json records ids, titles, sizes and SHA-256.
+*.html
