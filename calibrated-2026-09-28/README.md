@@ -112,8 +112,15 @@ literal "change only a couple of letters".
 | `four-groups-lflf-nbsp-space.txt` (`0648ab34…`) | all-four FFWW; NBSP→space, LF LF joins, trailing kept (draft) | **complete, no match** |
 | `four-groups-lflf-rendered.txt` (`0e6b7242…`) | all-four FFWW; draft minus 13 trailing + 4 pre-`<br>` spaces (browser copy) | **complete, no match** |
 | `three-groups-lflf-nbsp-space.txt` (`701f905e…`) | **first-three** FFWW (excludes the quoted Hal paragraphs 230–234); draft | **complete, no match** |
-| `three-groups-lflf-rendered.txt` (`1e75b87d…`) | first-three FFWW; rendered | pending |
+| `three-groups-lflf-rendered.txt` (`1e75b87d…`) | first-three FFWW; rendered | **complete, no match** |
 | `four-groups-crlfjoin-nbsp-space.txt` (`7ed5b097…`) | all-four FFWW; **CRLF CRLF joins**, internal LF, NBSP→space — tests her "13 10 13 10" | **complete, no match** |
+| `three-groups-crlfjoin-nbsp-space.txt` (`e4efb3ec…`) | first-three FFWW; CRLF CRLF joins, internal LF, NBSP→space | running |
+
+With these six, the full two-toggle matrix — {all-four, first-three} FFWW
+baselines × {draft, rendered, CRLF-join} serializations, index 0 — is covered
+(the CRLF-join first-three row completes it). Three-toggle on the chapter's
+35,825 letters is ~7.6×10¹² and infeasible, so this is the practical frontier
+for "change only a couple of letters" on the chapter.
 
 `three-groups-*` differ from `four-groups-*` only at the 8 group-4 endpoint
 letters, so the all-four ± 2-toggle search (max 2 letters different) could not
