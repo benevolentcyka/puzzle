@@ -113,7 +113,7 @@ literal "change only a couple of letters".
 | `four-groups-lflf-rendered.txt` (`0e6b7242…`) | all-four FFWW; draft minus 13 trailing + 4 pre-`<br>` spaces (browser copy) | **complete, no match** |
 | `three-groups-lflf-nbsp-space.txt` (`701f905e…`) | **first-three** FFWW (excludes the quoted Hal paragraphs 230–234); draft | **complete, no match** |
 | `three-groups-lflf-rendered.txt` (`1e75b87d…`) | first-three FFWW; rendered | pending |
-| `four-groups-crlfjoin-nbsp-space.txt` (`7ed5b097…`) | all-four FFWW; **CRLF CRLF joins**, internal LF, NBSP→space — tests her "13 10 13 10" | running |
+| `four-groups-crlfjoin-nbsp-space.txt` (`7ed5b097…`) | all-four FFWW; **CRLF CRLF joins**, internal LF, NBSP→space — tests her "13 10 13 10" | **complete, no match** |
 
 `three-groups-*` differ from `four-groups-*` only at the 8 group-4 endpoint
 letters, so the all-four ± 2-toggle search (max 2 letters different) could not
