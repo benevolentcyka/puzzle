@@ -102,16 +102,23 @@ index 0, both prize addresses, GPU-MD5 path, no prefix filter. On an unshared
 RTX 4060 they sustain roughly 33k–60k pairs/s (the laptop GPU throttles over a
 long run).
 
-| Base file | Serialization | Pairs | Result |
-| --- | --- | ---: | --- |
-| `bases/four-groups-lflf-nbsp-space.txt` (sha `0648ab34…`) | draft: NBSP→space, LF LF joins, trailing spaces kept | 641,697,400 | **complete, no match** (`pair-state-four-groups-lflf-nbsp-space-index0.json`) |
-| `bases/four-groups-lflf-rendered.txt` (sha `0e6b7242…`) | rendered: draft minus the 13 trailing + 4 pre-`<br>` spaces (browser copy) | 641,697,400 | running / see `pair-state-four-groups-lflf-rendered-index0.json` |
+Each base is 35,825 letters → 641,697,400 pairs, byte-verified against
+`twist-search.py`'s `reference()`. The pair tool toggles any two further
+letters on top, i.e. the baseline ± any two single-letter case changes — the
+literal "change only a couple of letters".
 
-Both base files are the all-four-group FFWW candidate (first ASCII letter
-lowered, last uppered in the 16 marked paragraphs), byte-verified against
-`twist-search.py`'s `reference()` for `draft`/`rendered` p0. The pair tool
-toggles any two further letters on top, i.e. the baseline ± any two
-single-letter case changes — the literal "change only a couple of letters".
+| Base file | Baseline / serialization | Result |
+| --- | --- | --- |
+| `four-groups-lflf-nbsp-space.txt` (`0648ab34…`) | all-four FFWW; NBSP→space, LF LF joins, trailing kept (draft) | **complete, no match** |
+| `four-groups-lflf-rendered.txt` (`0e6b7242…`) | all-four FFWW; draft minus 13 trailing + 4 pre-`<br>` spaces (browser copy) | **complete, no match** |
+| `three-groups-lflf-nbsp-space.txt` (`701f905e…`) | **first-three** FFWW (excludes the quoted Hal paragraphs 230–234); draft | **complete, no match** |
+| `three-groups-lflf-rendered.txt` (`1e75b87d…`) | first-three FFWW; rendered | pending |
+| `four-groups-crlfjoin-nbsp-space.txt` (`7ed5b097…`) | all-four FFWW; **CRLF CRLF joins**, internal LF, NBSP→space — tests her "13 10 13 10" | running |
+
+`three-groups-*` differ from `four-groups-*` only at the 8 group-4 endpoint
+letters, so the all-four ± 2-toggle search (max 2 letters different) could not
+reach them. `four-groups-crlfjoin-*` equals the draft base with LF LF joins
+replaced by CRLF CRLF (internal single breaks left as LF).
 
 To reproduce (build the draft base, then run; swap in the rendered base for
 the second row):
