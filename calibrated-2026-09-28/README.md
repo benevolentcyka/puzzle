@@ -114,7 +114,7 @@ literal "change only a couple of letters".
 | `three-groups-lflf-nbsp-space.txt` (`701f905e…`) | **first-three** FFWW (excludes the quoted Hal paragraphs 230–234); draft | **complete, no match** |
 | `three-groups-lflf-rendered.txt` (`1e75b87d…`) | first-three FFWW; rendered | **complete, no match** |
 | `four-groups-crlfjoin-nbsp-space.txt` (`7ed5b097…`) | all-four FFWW; **CRLF CRLF joins**, internal LF, NBSP→space — tests her "13 10 13 10" | **complete, no match** |
-| `three-groups-crlfjoin-nbsp-space.txt` (`e4efb3ec…`) | first-three FFWW; CRLF CRLF joins, internal LF, NBSP→space | running |
+| `three-groups-crlfjoin-nbsp-space.txt` (`e4efb3ec…`) | first-three FFWW; CRLF CRLF joins, internal LF, NBSP→space | **complete, no match** |
 
 With these six, the full two-toggle matrix — {all-four, first-three} FFWW
 baselines × {draft, rendered, CRLF-join} serializations, index 0 — is covered

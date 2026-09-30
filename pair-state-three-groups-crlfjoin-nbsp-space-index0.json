@@ -1,0 +1,13 @@
+{
+  "base_file": "bases\\three-groups-crlfjoin-nbsp-space.txt",
+  "base_sha256": "e4efb3ec63f058c852beea0954006e454fb172a29a2f59306efcbfb731f2711c",
+  "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2",
+  "hash_workers": 1,
+  "md5_generator": "gpu",
+  "md5_kernel_sha256": "1702a532cd6de146b4f8ae45a96f6d1feaf05bac38c9d85aa4a2cef572d2a8d9",
+  "index": 0,
+  "next_rank": 641697400,
+  "pairs_total": 641697400,
+  "last_run_speed_per_second": 46715.73,
+  "updated_utc": "2026-09-30T01:04:11.662432+00:00"
+}
