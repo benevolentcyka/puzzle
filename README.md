@@ -1,35 +1,33 @@
 # Quizchain last block: reproducible investigation
 
-Status on 2026-09-28: **unsolved**. This repository preserves the
-evidence and bounded searches performed so far; it contains no winning key.
-The current prize address is
-`14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W`. The public Bitcoin API reports one
-funded output of 77,700,000 sats and no spends. The funding transaction is
-`a1916e7ed9eac3fcc56a55056328cb09d06925e2694f2e6720de12b228514d1f`,
-output 1. The original `1EFojcAo2vbhRGCGCa7q8Wwvzss28mhQYC` was superseded.
+Status on **2026-09-30: UNSOLVED**. No final answer or winning key was recovered.
+Current public target: `14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W`.
+The 04:14 UTC chain snapshot reports its 77,700,000-sat funding output unspent.
 
-The latest audit is in [audit-2026-09-28/README.md](audit-2026-09-28/README.md).
-The unfiltered byte-passage search and all 54 broad chapter checkpoints are now
-verified complete, without a match. The subsequent
-[mixed-format investigation](joint-format-2026-09-28/README.md) prepares a
-bounded run combining local trailing-space, NBSP and internal-break changes.
-Its 28,194,048-candidate family is **not complete**: the user continuation,
-validated checkpoint recovery and one verification batch reached **8,962,048**
-with no match. **19,232,000 remain.** Use the report's `resume.py` command,
-which tolerates temporary Windows checkpoint locks and recovers valid pending
-saves. This is a hypothesis, not a
-recovered clue or guaranteed solution. An independent-investigator prompt is
-in [CLAUDE-PUZZLE-HANDOFF.md](CLAUDE-PUZZLE-HANDOFF.md).
-Stage One remains a verified positive control; the later example
-has a claimed payout but no reproduced complete solution in this repository.
+Read [investigation-2026-09-30/README.md](investigation-2026-09-30/README.md)
+for the latest actual results, [EXHAUSTED-INVENTORY.md](EXHAUSTED-INVENTORY.md)
+for the bounded negatives, and
+[CLAUDE-PUZZLE-HANDOFF.md](CLAUDE-PUZZLE-HANDOFF.md) for independent review context.
+The 28,194,048-candidate mixed-format family is now **complete, no match**;
+old partial progress in dated reports is historical.
 
-The preceding investigation is in [assumptions-2026-09-27/README.md](assumptions-2026-09-27/README.md).
-It treats the earlier expanded case sweep as negative for planning, then tests
-historical entropy-entry faults, unfiltered text transformations, copied spans,
-mixed line endings, quoted-letter and sentence interpretations. Completed
-results and outstanding scopes are distinguished there. Repeating completed
-families is not additional evidence. Direct Python commands avoid the Windows
-PowerShell script-policy issue.
+The new runs test actual earlier-source wording, a one-character copying
+difference, independent nearby initials/ends, independent marked paragraph
+pairs, and unusual interior capitalization. These differ from merely repeating
+the exhausted endpoint-radius commands. Detailed scopes and checksums are in
+their directories. Counts overlap and do not imply exhaustive coverage.
+
+The broadest remaining prepared nearby-endpoint run has **50,053,120**
+candidates left after a verified pilot. Invoke Python directly, avoiding
+PowerShell script-policy restrictions:
+
+```powershell
+Set-Location 'C:\Users\boomb\Downloads\puzzle-investigation'
+& 'C:\Users\boomb\AppData\Local\Programs\Python\Python312\python.exe' .\near-case-2026-09-30\search.py --endpoints both --indices 0 --platform 1
+```
+
+Budget roughly 20–40 minutes on the tested RTX 4060. It resumes automatically;
+this is a bounded hypothesis, not a recovered clue or guaranteed solution.
 
 ## Evidence and confirmed method
 

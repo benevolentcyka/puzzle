@@ -70,12 +70,13 @@ for 27 byte shapes, marked-endpoint radius 0–10, and exact triples at any
 paragraph endpoint. Older notes that call this only an assumed negative have
 been superseded by `audit-2026-09-28/verified-expanded-completions.json`.
 
-Read `audit-2026-09-28/README.md` first for the completion audit, then
-`joint-format-2026-09-28/README.md` for the subsequent, **partial** mixed-format
-run. Its checkpoint records how far the new run really reached. After a user
-continuation and recovered Windows save failure, **8,962,048 candidates are
-checked, zero matches, 19,232,000 remain**. Do not
-promote that pilot to a completed 28-million-candidate negative.
+Read `investigation-2026-09-30/README.md` and
+`EXHAUSTED-INVENTORY.md` first. The 28,194,048-candidate mixed-format
+run is now complete with zero matches; old 8,962,048 notes are historical.
+The 2026-09-30 pass adds actual wording differences, complete one-ASCII-edit
+coverage on six bases, independent nearby initials and all marked paragraph
+pairs, plus unusual-capitalization tests. Exact settings/results are below.
+No final-target match has been recovered.
 
 ## Public challenge and targets
 
@@ -343,70 +344,63 @@ versions. Do not add their counts again. A changed source, generator, wordlist,
 path, kernel, or candidate ordering needs an identity check; do not silently
 reuse old progress under a different search definition.
 
-## New bounded run prepared after those negatives
+## Actual additional tests, 2026-09-30
 
-`joint-format-2026-09-28/search.py` tests **mixed formatting artifacts** in the
-final chapter. This is a remaining hypothesis, not an author-confirmed solution.
+| Family | Checked / total candidate operations | Address operations | Result |
+| --- | ---: | ---: | --- |
+| Documented earlier wording and quote variants | 3,149,568 / 3,149,568 | 22,046,976 | COMPLETE, no match |
+| One ASCII deletion or adjacent duplication, six chapter bases, indices 0–6 | 547,508 / 547,508 | 3,832,556 | COMPLETE, no match |
+| One ASCII edit, all four operations, six chapter bases, index 0 | 53,715,176 / 53,715,176 | 53,715,176 | COMPLETE, no match |
+| Independent nearby initials, indices 0–6 | 196,608 / 196,608 | 1,376,256 | COMPLETE, no match |
+| Every subset of 16 marked paragraph pairs, indices 0–6 | 3,145,728 / 3,145,728 | 22,020,096 | COMPLETE, no match |
+| Unusual capitals with voice/title motifs, indices 0–6 | 524,288 / 524,288 | 3,670,016 | COMPLETE, no match |
+| Unusual capitals combined with nearby initials, index 0 | 25,165,824 / 25,165,824 | 25,165,824 | COMPLETE, no match |
+| Independent nearby first AND last endpoints, index 0 | 278,528 / 50,331,648 | 278,528 | PARTIAL, no match |
 
-Earlier independent trailing-space subsets used global NBSP and break policies;
-the independent NBSP run used global trimming and break policies. Those unions
-do not exhaust combinations such as one partially trimmed paragraph plus a
-different NBSP choice plus a changed internal break.
+These counts are overlapping operations, not unique addresses. Read the actual
+checkpoint and the family README; do not promote the 262,144 nearby-endpoint
+pilot to a completed 50-million-candidate negative.
 
-New definition:
+Primary-source differences:
+`source-variants-2026-09-30/README.md` documents six earlier wordings,
+three whitespace differences and the Finney spelling `facinating` versus
+chapter `fascinating`. The family also tries quote delimiters and whole
+earlier sections. It does not guess arbitrary historical prose.
 
-- 864 baselines: all 16 coherent FFWW-group masks × starts 0/1/3 × three
-  newline forms × global tail keep/trim × global NBSP retain/space/delete.
-- Local sites: 13 trailing-space runs, six NBSPs, ten internal line breaks.
-- Tail options: retain the exact run or remove it.
-- NBSP options: NBSP, ASCII space, or empty.
-- Internal-break options: LF, CRLF, empty, ASCII space, or the selected
-  paragraph separator.
-- Exactly two or three sites differ from the baseline, and **at least two
-  artifact categories must be involved**.
-- Two-site phase: 1,156 patterns/base × 864 = **998,784** candidate instances.
-- Three-site phase: 31,476 patterns/base × 864 = **27,195,264** instances.
-- Total **28,194,048** instances, no MD5-prefix filter, English/raw MD5,
-  empty passphrase, BIP44 **index 0**, both final addresses compared.
-- These are candidate instances, not a global deduplicated entropy count.
-  Some overlap with older searches is possible. Index 0 is prioritized by
-  the author's first-address description and solved control; the new family
-  does not cover every derivation path, case mask, revision, or final newline.
+Human-scale case gaps:
+The old structured-twist runner couples both ends of extra paragraphs. The
+new tests distinguish independently selecting their initial `I` letters
+(`I STNM`) and independently including each of the 16 marked paragraph
+pairs. Radius 10 around 32 endpoints is not the full paired-paragraph space.
+Seven unusual interior uppercase letters and the documented voice/title
+motifs supply another finite family. Their combinations are explicitly labeled.
 
-The script has deterministic ranking, checksummed source/code/kernel identity,
-atomic checkpoints, an OS lock to prevent concurrent checkpoint writers,
-independent text/MD5 checks, actual solved positive controls, sampled CPU wallet
-comparisons every batch, and CPU confirmation before a hit is saved. It refuses
-silent PBKDF2 fallback and Python `-O` (which disables verification assertions).
-Run the same command after interruption to resume. Read its checkpoint and
-README for the actual pilot extent and measured runtime.
-At handoff creation the actual pilot was **1,310,720 checked, zero matches,
-complete=false**, with **26,883,328 candidates remaining**. It completed the
-two-site phase and 311,936 instances of the three-site phase. The sustained
-continuation measured about 6,574 candidates/second; budget approximately
-**60–90 minutes** for the remaining work on this machine. This is a measured
-planning estimate, not a runtime guarantee or evidence of a solution.
+Audit corrections:
+Block 29 is now a reproduced long-text positive control, MD5
+`982301b80b30af3a0abe110269b0dd43` with link `zff`, LF draft,
+funded address `1BQiU45feRw5UKdCUbXuoNfuK5WRzTpa4P`; WIF suffix
+`JRu` agrees with the next block's published link.
+It contains no NBSP and cannot prove NBSP handling in the final chapter.
+Only the FFWW example baseline has completed unfiltered ≤3 case coverage;
+other baselines have ≤2. A separate 11,130-tail replay resolves its stale
+derived counter without rewriting the original checkpoint.
 
-**Subsequent recovery update:** the user's continuation encountered `WinError 5`
-when atomically replacing the checkpoint. The primary state at 8,929,280 and
-temporary state at 8,945,664 were both validated. The latter recovered one
-completed batch; another verification batch advanced the saved state to
-**8,962,048**. This is an incomplete negative with **19,232,000 remaining**.
-Use the new `resume.py` launcher below. It leaves the candidate generator and
-its fingerprint unchanged, adds flushed unique pending saves with retries,
-and recovers validated newer pending states under the existing lock. Eight
-tests passed, including an actual Windows file-sharing lock. Exact recovery
-records are in `joint-format-2026-09-28/checkpoint-recovery/`. Do not classify
-the interrupted run as exhausted or discard its valid progress.
+## Prepared next command
+
+The broader nearby-endpoint family independently toggles both ends of eight
+nearby paragraphs on 768 coherent FFWW/serializer/start/tail bases. It has
+**50,053,120 untested candidates** after the partial pilot, index 0, raw MD5,
+English BIP39, empty passphrase, both final targets, no prefix filter.
 
 ```powershell
 Set-Location 'C:\Users\boomb\Downloads\puzzle-investigation'
-& 'C:\Users\boomb\AppData\Local\Programs\Python\Python312\python.exe' .\joint-format-2026-09-28\resume.py --max-edits 3 --indices 0 --platform 1
+& 'C:\Users\boomb\AppData\Local\Programs\Python\Python312\python.exe' .\near-case-2026-09-30\search.py --endpoints both --indices 0 --platform 1
 ```
 
-Do not assume this is the only productive direction or promise it will win.
-Independent source/interpretation analysis may be more valuable than expanding
-the numeric bound again.
+The initial 262,144 took 10.7 seconds with shared GPU load. Plan 20–40 minutes,
+then use the live estimate. Same arguments resume automatically. Hash-prefix
+matches are insufficient; every address hit requires CPU reconstruction.
+Further source analysis may have higher value than simply increasing a count.
 
 ## What I want from you
 
@@ -442,8 +436,9 @@ Then do the work you can perform in the available environment.
 
 | Purpose | Files |
 | --- | --- |
+| Latest additional runs and limits | `investigation-2026-09-30/README.md`, `EXHAUSTED-INVENTORY.md`, `source-variants-2026-09-30/`, `single-edit-2026-09-30/`, `near-case-2026-09-30/`, `case-motifs-2026-09-30/` |
 | Latest completed user runs | `audit-2026-09-28/README.md`, `verify-completions.py`, `verified-expanded-completions.json` |
-| New mixed-format run and actual pilot status | `joint-format-2026-09-28/README.md`, `search.py`, `joint-format-*.json` |
+| Completed mixed-format run and recovery history | `joint-format-2026-09-28/README.md`, `search.py`, `joint-format-*.json` |
 | Exact chapter | `wattpad-paragraphs.json`, `wattpad-api-720888559.txt`, `bases/` |
 | Public author history | `AUTHOR_AUDIT.md`, `aoi-posts-archive.json`, `aoi-comments-archive.json` |
 | Independent controls | `verifier.cjs`, `verify-stage-one.cjs`, `verify-search-inputs.cjs` |

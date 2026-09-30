@@ -37,14 +37,13 @@ batch is CPU re-derived and re-serialized. Hits go only to git-ignored `FOUND-*`
 | ffww-quad | ≤2 | 717,004 | 0 | no match |
 | non-itasm | ≤2 | 717,004 | 0 | no match |
 | author | ≤2 | 717,004 | 0 | no match |
-| ffww-quad | ≤3 | 285,846,394 | 0 | running |
+| ffww-quad | ≤3 | 285,846,394 | 0 | complete, no match |
 
-So the example claim buffer is **not within two case-flips** of any plausible
-baseline at index 0. If the ≤3 passes are also negative, the claim buffer is
-more than three case changes from the obvious readings — pointing at a
-formatting/edit quirk (already heavily searched: see `followup-2026-09-26`,
-`assumptions-2026-09-27`) or a derivation the historical matrix did not cover,
-rather than a simple deeper case pattern.
+At index 0, ≤3 is excluded from FFWW, and ≤2 from the other three baselines.
+Do not infer ≥4 from every baseline. The final derived counter was stale by
+11,130; the code did flush/check that tail. A separate independent replay
+also found no match, recorded in
+`../source-variants-2026-09-30/example-tail-recheck.json`.
 
 ```powershell
 & $py .\example-crack-2026-09-29\search.py --baseline ffww-quad --max-toggles 3 --indices 0 --platform 1

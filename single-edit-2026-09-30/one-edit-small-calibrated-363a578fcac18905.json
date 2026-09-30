@@ -1,0 +1,54 @@
+{
+  "configuration": {
+    "family": "single-ascii-edit-v1",
+    "families": [
+      "delete",
+      "duplicate"
+    ],
+    "bases": {
+      "four-groups-lflf-nbsp-space.txt": "0648ab3455b4e2812e46ff80d527266bfb5bc8dfbf3850cf66f22115869c4732",
+      "three-groups-lflf-nbsp-space.txt": "701f905e840f5d62a7d6f76844727a78dedd0ff4829d06a855c4e38177bfefc2",
+      "four-groups-lflf-rendered.txt": "0e6b7242e8ebc0fdfcdf1a081fd81011548ce36f17fa2ae01f11f265a3457efa",
+      "three-groups-lflf-rendered.txt": "1e75b87da6f8512f4fe31637ca7f1e1eb4bc77b992a82bcc73f409d57dde0251",
+      "four-groups-crlfjoin-nbsp-space.txt": "7ed5b0971fc23084d7772a4bcdbd5cac610f6cfccb98fe5a915aea8111890e60",
+      "three-groups-crlfjoin-nbsp-space.txt": "e4efb3ec63f058c852beea0954006e454fb172a29a2f59306efcbfb731f2711c"
+    },
+    "alphabet_hex": "090a0d202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e",
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "targets": [
+      "14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W",
+      "1EFojcAo2vbhRGCGCa7q8Wwvzss28mhQYC"
+    ],
+    "parent": "m/44'/0'/0'/0",
+    "entropy": "raw-md5",
+    "language": "english",
+    "passphrase": "",
+    "excluded": "identity substitutions and substitutions that only change case",
+    "prefix_filter": null,
+    "gpu_md5_kernel_sha256": "58c4c97c06c218e90c067ffb1a5ddb5a2c2752d65f85d451516ce0a782d89b26",
+    "wallet_kernel_sha256": "1ad1355c58a64d1b8f69081adb7688857391edabe975767020f13f82a0c50892",
+    "crypto_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2",
+    "script_sha256": "6584da12c443ec1053bb50e566ff5c1fbfc35e086950f199c2a8e092539afc77"
+  },
+  "next_rank": 547508,
+  "candidates_total": 547508,
+  "derived_addresses": 3832556,
+  "matches": [],
+  "complete": true,
+  "elapsed_search_seconds": 21.0,
+  "sampled_cpu_comparisons": 756,
+  "md5_fixture_checks": 5733,
+  "positive_controls": [
+    "stage-one",
+    "grycoin-one"
+  ],
+  "updated_utc": "2026-09-30T04:27:35.080510+00:00"
+}

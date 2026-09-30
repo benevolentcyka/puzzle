@@ -19,3 +19,10 @@ followup-2026-09-25/example-letters-*.txt
 followup-2026-09-25/md5-toggle-search
 followup-2026-09-25/*.out
 followup-2026-09-25/EXAMPLE-HIT.json
+
+source-variants-2026-09-30/*.lock
+single-edit-2026-09-30/*.lock
+near-case-2026-09-30/*.lock
+case-motifs-2026-09-30/*.lock
+*/*.json.pending-*.tmp
+source-variants-2026-09-30/source-variants-e92eaa4a6a257540.json

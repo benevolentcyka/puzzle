@@ -1,5 +1,13 @@
 # Mixed formatting after the completed negative runs
 
+<!-- current-completion -->
+**Current status, 2026-09-30: COMPLETE, no match.** The authoritative checkpoint
+checks all **28,194,048** candidate/address operations, index 0, with 5,163
+sampled CPU comparisons and 3,285.234 recorded search seconds.
+The 8,962,048 recovery milestone below is historical, not the current remaining
+work. The pilot/recovery sections preserve how progress was recovered.
+<!-- /current-completion -->
+
 **Unsolved. This is a bounded next hypothesis, not a recovered solution.**
 The previous byte-passage search and all 54 broad chapter checkpoints are
 complete and negative. This run addresses a different gap in the final chapter:
@@ -105,7 +113,7 @@ starting wallet computation. `--indices` is configurable, but additional
 indices define a different run and repeat the corresponding source generation.
 Do not run Python with `-O`; that disables assertions and is explicitly refused.
 
-## Actual pilot and runtime
+## Original pilot and runtime (historical)
 
 Two invocations checked **1,310,720** candidate instances/address operations,
 with **zero matches**. The second invocation resumed from 131,072, verifying
@@ -148,7 +156,7 @@ historical text revisions, other copy artifacts, or converter settings have
 been exhausted. Its value is closing a concrete coverage gap; success is not
 promised.
 
-## Windows checkpoint failure and recovered progress
+## Windows checkpoint failure and recovered progress (historical) (historical) (historical) (historical)
 
 The user's continuation stopped at `tmp.replace(path)` with `WinError 5`.
 That is a checkpoint replacement failure, not a completed negative search.

@@ -1,0 +1,94 @@
+{
+  "updated_utc": "2026-09-30T05:32:15.089147+00:00",
+  "runs": [
+    {
+      "name": "Documented earlier wording and quote variants",
+      "path": "source-variants-2026-09-30/source-variants-7c2afdfd24a61177.json",
+      "checkpoint_sha256": "c27e9ff6f9ab644e8c8d9e243b1bc7754a5aeb214be0540b49f94a15768b5a60",
+      "checked": 3149568,
+      "total": 3149568,
+      "addresses": 22046976,
+      "complete": true,
+      "matches": [],
+      "elapsed_search_seconds": 317.7819999999774
+    },
+    {
+      "name": "One ASCII deletion or adjacent duplication, six chapter bases, indices 0\u20136",
+      "path": "single-edit-2026-09-30/one-edit-small-calibrated-363a578fcac18905.json",
+      "checkpoint_sha256": "fd140cec268fc5bef955675bc2a16e887455287bf0c5c85c003c0b703919552b",
+      "checked": 547508,
+      "total": 547508,
+      "addresses": 3832556,
+      "complete": true,
+      "matches": [],
+      "elapsed_search_seconds": 21.0
+    },
+    {
+      "name": "One ASCII edit, all four operations, six chapter bases, index 0",
+      "path": "single-edit-2026-09-30/one-edit-all-calibrated-fb17a2b64e5cca12.json",
+      "checkpoint_sha256": "511dac86fe9b3462c8d64e0543e3c377ed47850a67e87130f19eaab8cb844452",
+      "checked": 53715176,
+      "total": 53715176,
+      "addresses": 53715176,
+      "complete": true,
+      "matches": [],
+      "elapsed_search_seconds": 1560.5160000000033
+    },
+    {
+      "name": "Independent nearby initials, indices 0\u20136",
+      "path": "near-case-2026-09-30/near-first-08c84821d7c87881.json",
+      "checkpoint_sha256": "8887bfe462cddb42f587c132adb926295c6f79f1c13ff1c3165ca6c5236dac32",
+      "checked": 196608,
+      "total": 196608,
+      "addresses": 1376256,
+      "complete": true,
+      "matches": [],
+      "elapsed_search_seconds": 95.93700000000536
+    },
+    {
+      "name": "Every subset of 16 marked paragraph pairs, indices 0\u20136",
+      "path": "near-case-2026-09-30/paired-035183d9fccd4383.json",
+      "checkpoint_sha256": "9abc35c0a71340ff42b081f8495b364ec0efa5e3ad04abf57c20683647fb8efb",
+      "checked": 3145728,
+      "total": 3145728,
+      "addresses": 22020096,
+      "complete": true,
+      "matches": [],
+      "elapsed_search_seconds": 157.48399999999674
+    },
+    {
+      "name": "Unusual capitals with voice/title motifs, indices 0\u20136",
+      "path": "case-motifs-2026-09-30/motifs-2df38f2995aafb33.json",
+      "checkpoint_sha256": "81981755d2a2df441ec06bf85ee879e00f9d7e1dd46463a0de695a28a4b434f2",
+      "checked": 524288,
+      "total": 524288,
+      "addresses": 3670016,
+      "complete": true,
+      "matches": [],
+      "elapsed_search_seconds": 121.71900000001187
+    },
+    {
+      "name": "Unusual capitals combined with nearby initials, index 0",
+      "path": "case-motifs-2026-09-30/motifs-58a18cc2f3573436.json",
+      "checkpoint_sha256": "384c170866258ed000fe0fcbcf9c852a14328ac2f22d18298036317c5b5e2f5b",
+      "checked": 25165824,
+      "total": 25165824,
+      "addresses": 25165824,
+      "complete": true,
+      "matches": [],
+      "elapsed_search_seconds": 746.9530000000086
+    },
+    {
+      "name": "Independent nearby first AND last endpoints, index 0",
+      "path": "near-case-2026-09-30/near-both-6555be4d17950571.json",
+      "checkpoint_sha256": "0cceb357801b56f198c4000d778a225abba14c7723d8d1af2152fe29cc94999e",
+      "checked": 278528,
+      "total": 50331648,
+      "addresses": 278528,
+      "complete": false,
+      "matches": [],
+      "elapsed_search_seconds": 11.12599999998929
+    }
+  ],
+  "note": "Overlapping operations, not globally unique addresses. Current final puzzle remains unsolved."
+}

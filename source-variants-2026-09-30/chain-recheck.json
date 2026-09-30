@@ -1,0 +1,31 @@
+{
+  "checked_utc": "2026-09-30T04:14:35.724020+00:00",
+  "results": [
+    {
+      "url": "https://mempool.space/api/address/14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W",
+      "response": {
+        "address": "14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W",
+        "chain_stats": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 77700000,
+          "spent_txo_count": 0,
+          "spent_txo_sum": 0,
+          "tx_count": 1
+        },
+        "mempool_stats": {
+          "funded_txo_count": 0,
+          "funded_txo_sum": 0,
+          "spent_txo_count": 0,
+          "spent_txo_sum": 0,
+          "tx_count": 0
+        }
+      }
+    },
+    {
+      "url": "https://mempool.space/api/tx/a1916e7ed9eac3fcc56a55056328cb09d06925e2694f2e6720de12b228514d1f/outspend/1",
+      "response": {
+        "spent": false
+      }
+    }
+  ]
+}

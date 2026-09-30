@@ -1,0 +1,350 @@
+{
+  "configuration": {
+    "family": "independent-marked-paragraph-pairs-v1",
+    "marked": [
+      4,
+      5,
+      6,
+      7,
+      92,
+      93,
+      94,
+      95,
+      167,
+      168,
+      169,
+      170,
+      230,
+      231,
+      232,
+      234
+    ],
+    "baselines": [
+      {
+        "mask": 15,
+        "start": 0,
+        "form": 0,
+        "tail": ""
+      },
+      {
+        "mask": 15,
+        "start": 0,
+        "form": 0,
+        "tail": "\n"
+      },
+      {
+        "mask": 15,
+        "start": 0,
+        "form": 1,
+        "tail": ""
+      },
+      {
+        "mask": 15,
+        "start": 0,
+        "form": 1,
+        "tail": "\n"
+      },
+      {
+        "mask": 15,
+        "start": 0,
+        "form": 2,
+        "tail": ""
+      },
+      {
+        "mask": 15,
+        "start": 0,
+        "form": 2,
+        "tail": "\n"
+      },
+      {
+        "mask": 15,
+        "start": 0,
+        "form": 3,
+        "tail": ""
+      },
+      {
+        "mask": 15,
+        "start": 0,
+        "form": 3,
+        "tail": "\n"
+      },
+      {
+        "mask": 15,
+        "start": 0,
+        "form": 4,
+        "tail": ""
+      },
+      {
+        "mask": 15,
+        "start": 0,
+        "form": 4,
+        "tail": "\n"
+      },
+      {
+        "mask": 15,
+        "start": 0,
+        "form": 5,
+        "tail": ""
+      },
+      {
+        "mask": 15,
+        "start": 0,
+        "form": 5,
+        "tail": "\n"
+      },
+      {
+        "mask": 15,
+        "start": 0,
+        "form": 6,
+        "tail": ""
+      },
+      {
+        "mask": 15,
+        "start": 0,
+        "form": 6,
+        "tail": "\n"
+      },
+      {
+        "mask": 15,
+        "start": 0,
+        "form": 7,
+        "tail": ""
+      },
+      {
+        "mask": 15,
+        "start": 0,
+        "form": 7,
+        "tail": "\n"
+      },
+      {
+        "mask": 15,
+        "start": 1,
+        "form": 0,
+        "tail": ""
+      },
+      {
+        "mask": 15,
+        "start": 1,
+        "form": 0,
+        "tail": "\n"
+      },
+      {
+        "mask": 15,
+        "start": 1,
+        "form": 1,
+        "tail": ""
+      },
+      {
+        "mask": 15,
+        "start": 1,
+        "form": 1,
+        "tail": "\n"
+      },
+      {
+        "mask": 15,
+        "start": 1,
+        "form": 2,
+        "tail": ""
+      },
+      {
+        "mask": 15,
+        "start": 1,
+        "form": 2,
+        "tail": "\n"
+      },
+      {
+        "mask": 15,
+        "start": 1,
+        "form": 3,
+        "tail": ""
+      },
+      {
+        "mask": 15,
+        "start": 1,
+        "form": 3,
+        "tail": "\n"
+      },
+      {
+        "mask": 15,
+        "start": 1,
+        "form": 4,
+        "tail": ""
+      },
+      {
+        "mask": 15,
+        "start": 1,
+        "form": 4,
+        "tail": "\n"
+      },
+      {
+        "mask": 15,
+        "start": 1,
+        "form": 5,
+        "tail": ""
+      },
+      {
+        "mask": 15,
+        "start": 1,
+        "form": 5,
+        "tail": "\n"
+      },
+      {
+        "mask": 15,
+        "start": 1,
+        "form": 6,
+        "tail": ""
+      },
+      {
+        "mask": 15,
+        "start": 1,
+        "form": 6,
+        "tail": "\n"
+      },
+      {
+        "mask": 15,
+        "start": 1,
+        "form": 7,
+        "tail": ""
+      },
+      {
+        "mask": 15,
+        "start": 1,
+        "form": 7,
+        "tail": "\n"
+      },
+      {
+        "mask": 15,
+        "start": 3,
+        "form": 0,
+        "tail": ""
+      },
+      {
+        "mask": 15,
+        "start": 3,
+        "form": 0,
+        "tail": "\n"
+      },
+      {
+        "mask": 15,
+        "start": 3,
+        "form": 1,
+        "tail": ""
+      },
+      {
+        "mask": 15,
+        "start": 3,
+        "form": 1,
+        "tail": "\n"
+      },
+      {
+        "mask": 15,
+        "start": 3,
+        "form": 2,
+        "tail": ""
+      },
+      {
+        "mask": 15,
+        "start": 3,
+        "form": 2,
+        "tail": "\n"
+      },
+      {
+        "mask": 15,
+        "start": 3,
+        "form": 3,
+        "tail": ""
+      },
+      {
+        "mask": 15,
+        "start": 3,
+        "form": 3,
+        "tail": "\n"
+      },
+      {
+        "mask": 15,
+        "start": 3,
+        "form": 4,
+        "tail": ""
+      },
+      {
+        "mask": 15,
+        "start": 3,
+        "form": 4,
+        "tail": "\n"
+      },
+      {
+        "mask": 15,
+        "start": 3,
+        "form": 5,
+        "tail": ""
+      },
+      {
+        "mask": 15,
+        "start": 3,
+        "form": 5,
+        "tail": "\n"
+      },
+      {
+        "mask": 15,
+        "start": 3,
+        "form": 6,
+        "tail": ""
+      },
+      {
+        "mask": 15,
+        "start": 3,
+        "form": 6,
+        "tail": "\n"
+      },
+      {
+        "mask": 15,
+        "start": 3,
+        "form": 7,
+        "tail": ""
+      },
+      {
+        "mask": 15,
+        "start": 3,
+        "form": 7,
+        "tail": "\n"
+      }
+    ],
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "targets": [
+      "14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W",
+      "1EFojcAo2vbhRGCGCa7q8Wwvzss28mhQYC"
+    ],
+    "language": "english",
+    "raw_md5": true,
+    "passphrase": "",
+    "parent": "m/44'/0'/0'/0",
+    "prefix_filter": null,
+    "file_sha256": {
+      "near-case-2026-09-30/paired-search.py": "560228ac83797fbdd33cae7dd4c33f2c65c4adf297798badbf2259c784e028fa",
+      "source-variants-2026-09-30/search.py": "af8ac3a44ae594e7303f0622c4741257cb11e4e95d1e067f65056ae8547ca79a",
+      "wattpad-paragraphs.json": "60c63f3fa97a7de8ebd3e7f261b1a0b9649e2743f6158a7246ab7cfd26b39109",
+      "expanded-2026-09-26/mask_md5_gpu.py": "49004ccc367c9aed131d3919178c7f5210b6c1044d50cd0756a7ad93921a7775",
+      "expanded-2026-09-26/mask-md5.cl": "12be1f502e7f7a1bf2716bb1a64bb36e8b1226991df4a355b4867b8c6db45f42",
+      "pair-md5.cl": "1702a532cd6de146b4f8ae45a96f6d1feaf05bac38c9d85aa4a2cef572d2a8d9"
+    },
+    "crypto_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2",
+    "wallet_kernel_sha256": "1ad1355c58a64d1b8f69081adb7688857391edabe975767020f13f82a0c50892"
+  },
+  "next_rank": 3145728,
+  "candidates_total": 3145728,
+  "derived_addresses": 22020096,
+  "matches": [],
+  "complete": true,
+  "elapsed_search_seconds": 157.48399999999674,
+  "sampled_cpu_comparisons": 4032,
+  "md5_fixture_checks": 7776,
+  "updated_utc": "2026-09-30T04:52:47.406569+00:00"
+}

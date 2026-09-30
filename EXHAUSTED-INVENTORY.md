@@ -1,14 +1,15 @@
 # Exhausted-search inventory — Quizchain 777 mBTC final block
 
-**Status: UNSOLVED. No winning key or answer recovered. No `FOUND-*` file exists.**
+**Status: UNSOLVED. No final-target key or answer recovered.** The solved historical Block 29 has an ignored local `FOUND-block29.json`; it is a positive control, not the final prize.
 
 This is the consolidated write-off of everything that has been searched and
 excluded, across all sessions. Counts are candidate/address **operations** and
 **overlap heavily** — they are not a count of unique wallets. Every "no match"
 means only the documented finite family, at the documented settings, was
 negative. The baseline mechanism (MD5 of exact UTF-8 → English BIP39 → empty
-passphrase → `m/44'/0'/0'/0/i`) is fixed and independently verified by the
-positive controls below.
+passphrase → `m/44'/0'/0'/0/i`) is independently verified on the
+positive controls below; its applicability to the final answer is a strong
+working hypothesis, not proof of the final settings.
 
 Targets throughout: revised `14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W` and superseded
 `1EFojcAo2vbhRGCGCa7q8Wwvzss28mhQYC` (final block); `1tzieUfbeQghz2zjDeGHcAEfzCRgX6eLi`
@@ -25,17 +26,18 @@ Targets throughout: revised `14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W` and superseded
 | Author's published WIF vector (entropy `2941774a…`, index 1) | → `L5Z66q…d6ex` ✓ |
 | **Round-1 Block 29** (draft of *this chapter*; `vOIce`, LF, link `zff`) | MD5 `982301b8…` → `1BQiU45feRw5UKdCUbXuoNfuK5WRzTpa4P` ✓; derived WIF ends `JRu` = block-30's published link ✓ |
 
-Block 29 is the strongest long-text control and calibrates the author's
-draft→hash path: **LF, MD5, one paragraph per line, NBSP→double-space, nothing
-before/after.** Three independent LF calibrations (Stage One, the example's
-published `7759227` prefix, Block 29) outweigh her "13 10" descriptions, which
-came from asciivalue.com rather than her hashing tool.
+Block 29 is a long-text positive control: LF, MD5, one paragraph per line,
+and no material outside its specified answer/link. Its draft contains no
+NBSP, so it does not calibrate NBSP handling. The NBSP→space hypothesis comes
+separately from the author's public Abstract reposts and HTML double spaces.
+The example's `7759227` prefix calibrates its raw LF text, not its unreproduced
+claim buffer. The author's CRLF descriptions keep that final hypothesis open.
 
 ---
 
 ## B. This session (2026-09-29 → 09-30): chapter two-toggle matrix
 
-"Change only a couple of letters" = exactly two ASCII case toggles applied on
+The two-toggle matrix interprets "a couple of letters" as two ASCII case toggles on
 top of an FFWW baseline. **6 cells × 641,697,400 pairs = 3,850,184,400**, index
 0, both targets, GPU-MD5 path, corrected kernel `9429b7fc…`, no prefix filter.
 **All complete, no match.**
@@ -46,7 +48,7 @@ top of an FFWW baseline. **6 cells × 641,697,400 pairs = 3,850,184,400**, index
 | first-three groups (excl. quoted Hal ¶230–234) | ✅ | ✅ | ✅ |
 
 Three-toggle on the chapter's 35,825 letters is C(35825,3) ≈ 7.6×10¹² —
-infeasible — so this is the practical frontier for the chapter case space.
+infeasible as a uniform search. Structured case families can still be small.
 (A prior session had done only the all-four **NBSP-retained** LF cell.)
 
 ## B2. This session: cracking the solved example (Grycoin Block 2)
@@ -63,9 +65,11 @@ against the real `1tzie…` address (plus both prizes), index 0.
 | non-itasm `36f6f7bf` | ✅ no match | — |
 | author `a3bbc2d7` (I→i, himself→himselF) | ✅ no match | — |
 
-The example claim buffer is **>3 case flips from every obvious reading**; a
-pure-case explanation would need 4+ flips (infeasible to brute), pointing to a
-formatting/content quirk already covered below.
+At index 0, the example claim is outside ≤3 case changes from **FFWW**;
+only ≤2 is excluded from the other three baselines. The original triple
+checkpoint omitted the final 11,130 operations from its `derived` counter,
+though its final flush was checked. That exact tail was independently replayed
+without a match: `source-variants-2026-09-30/example-tail-recheck.json`.
 
 ---
 
@@ -121,7 +125,7 @@ formatting/content quirk already covered below.
 ## E. Source / provenance work (no new secret found)
 
 - All 33 public Wattpad parts captured by SHA-256; the chapter is byte-identical
-  to the saved API text. `modifyDate` 2019-07-23T23:12Z (the final version).
+  to the saved API text. `modifyDate` 2019-07-23T23:12Z (reported metadata, not proof of the hashed 2019 buffer).
 - Public Aoi archive paginated to exhaustion: 202 posts, 864 comments.
 - Wayback CDX for `wattpad.com/720888559*`: **zero captures** (no 2019 page to
   diff); story-page queries returned 503/504 (prove nothing).
@@ -132,25 +136,40 @@ formatting/content quirk already covered below.
 
 ---
 
-## F. What is NOT excluded (honest bottom line)
+## F. New work, 2026-09-30
 
-The feasible, well-motivated case-perturbation space around the FFWW method is
-now thoroughly covered on both the chapter and the example, along with the
-formatting, encoding, path, and passage-edit families. No match. What remains
-un-excludable is **not** reachable by more brute force:
+| Family | Checked / total candidate operations | Address operations | Result |
+| --- | ---: | ---: | --- |
+| Documented earlier wording and quote variants | 3,149,568 / 3,149,568 | 22,046,976 | COMPLETE, no match |
+| One ASCII deletion or adjacent duplication, six chapter bases, indices 0–6 | 547,508 / 547,508 | 3,832,556 | COMPLETE, no match |
+| One ASCII edit, all four operations, six chapter bases, index 0 | 53,715,176 / 53,715,176 | 53,715,176 | COMPLETE, no match |
+| Independent nearby initials, indices 0–6 | 196,608 / 196,608 | 1,376,256 | COMPLETE, no match |
+| Every subset of 16 marked paragraph pairs, indices 0–6 | 3,145,728 / 3,145,728 | 22,020,096 | COMPLETE, no match |
+| Unusual capitals with voice/title motifs, indices 0–6 | 524,288 / 524,288 | 3,670,016 | COMPLETE, no match |
+| Unusual capitals combined with nearby initials, index 0 | 25,165,824 / 25,165,824 | 25,165,824 | COMPLETE, no match |
+| Independent nearby first AND last endpoints, index 0 | 278,528 / 50,331,648 | 278,528 | PARTIAL, no match |
 
-1. A case pattern **≥4 letters** from every tested baseline (search space too
-   large to enumerate).
-2. A **2019 buffer that differs in content** from the archived chapter (no
-   archived copy exists to recover it).
-3. The **example's exact claim method**, which the author herself did not know
-   and which no solver disclosed.
+See `investigation-2026-09-30/results.json` and the four new family
+directories. The source prototype and slow edit pilot are superseded and
+overlap the completed authoritative runs.
 
-The single highest-value missing input is primary evidence — the example's exact
-solved buffer or an archived July-2019 draft — and the available public sources
-for it appear exhausted. Absent that, the puzzle is not proven impossible, but
-further undirected GPU grinding has low expected value.
+## G. What remains open
 
-*Overlapping operations total across all sessions ≈ 9–10 billion; this is not a
-unique-wallet count. See per-directory READMEs and checkpoints for exact,
-verifiable bounds.*
+More finite, feasible families still exist. Do not equate billions of overlapping
+negative operations with proof that only unreachable brute force remains.
+
+- Broader nearby first/last choices: 50,331,648 at index 0, only 278,528 checked.
+- Case choices outside the listed radii/baselines. Three arbitrary chapter
+  case changes are ~7.6×10¹², but structured clue-derived subsets can be small.
+- Combinations of content edits, case edits, formatting choices and converter
+  modes that were tested separately, not as their full Cartesian product.
+- Other historical hash-input content, multiple edits, transpositions,
+  non-ASCII edits, or alternate derivation settings on new text variants.
+- The solved example's exact buffer and the July-2019 buffer remain missing.
+  The zero-capture query and returned public archive do not prove no other
+  primary record exists.
+
+The latest commands and benchmark are in
+`near-case-2026-09-30/README.md`. No match is a negative for that exact
+family only. `CLAUDE-PUZZLE-HANDOFF.md` gives the full public-puzzle context
+without promising a solution or another service's policy classification.
