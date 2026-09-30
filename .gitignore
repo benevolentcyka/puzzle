@@ -24,5 +24,7 @@ source-variants-2026-09-30/*.lock
 single-edit-2026-09-30/*.lock
 near-case-2026-09-30/*.lock
 case-motifs-2026-09-30/*.lock
+different-approach-2026-09-30/*.lock
+different-approach-2026-09-30/chapter-sections-c9f7df2cab214926.json
 */*.json.pending-*.tmp
 source-variants-2026-09-30/source-variants-e92eaa4a6a257540.json

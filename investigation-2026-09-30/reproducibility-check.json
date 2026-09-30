@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-09-30T05:32:15.992679+00:00",
+  "checked_utc": "2026-09-30T09:47:02.468025+00:00",
   "checkpoint_files": {
     "source-variants-2026-09-30/search.py": "af8ac3a44ae594e7303f0622c4741257cb11e4e95d1e067f65056ae8547ca79a",
     "wattpad-paragraphs.json": "60c63f3fa97a7de8ebd3e7f261b1a0b9649e2743f6158a7246ab7cfd26b39109",
@@ -17,7 +17,7 @@
   },
   "byte_exact_git_sources": {
     "case-motifs-2026-09-30/search.py": "2fb8126ce5c79cede15c7c474049e94ea469ad9fcf3229ef26ce4497fc2c087d",
-    "investigation-2026-09-30/refresh-reports.py": "4a714eb42d3c4fa0a4aa8db7711713bf1c801c83552496b7aa37e5a247bb4752",
+    "investigation-2026-09-30/refresh-reports.py": "c645d6ded4471c7b1abcfe694ecbf46fdc7a57c45bc072b1059724abbf3744b3",
     "investigation-2026-09-30/verify-publication.py": "75dc5b1a51723241571540732ae4ed4b97282a0f5469f58e0128318c5d58dbc2",
     "near-case-2026-09-30/paired-search.py": "560228ac83797fbdd33cae7dd4c33f2c65c4adf297798badbf2259c784e028fa",
     "near-case-2026-09-30/search.py": "0e58da365f3421dcba154e9c75b4ac3594558adb3bbf332d212a865db3c47e7b",

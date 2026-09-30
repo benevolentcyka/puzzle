@@ -8,7 +8,7 @@ or transactions were sent.
 
 ## Actual progress
 
-Snapshot: 2026-09-30T05:32:15.089147+00:00. Per-directory checkpoints carry exact configuration,
+Snapshot: 2026-09-30T09:46:13.806126+00:00. Per-directory checkpoints carry exact configuration,
 code/source/kernel identity, CPU verification counts and timestamps.
 
 | Family | Checked / total candidate operations | Address operations | Result |
@@ -20,7 +20,7 @@ code/source/kernel identity, CPU verification counts and timestamps.
 | Every subset of 16 marked paragraph pairs, indices 0–6 | 3,145,728 / 3,145,728 | 22,020,096 | COMPLETE, no match |
 | Unusual capitals with voice/title motifs, indices 0–6 | 524,288 / 524,288 | 3,670,016 | COMPLETE, no match |
 | Unusual capitals combined with nearby initials, index 0 | 25,165,824 / 25,165,824 | 25,165,824 | COMPLETE, no match |
-| Independent nearby first AND last endpoints, index 0 | 278,528 / 50,331,648 | 278,528 | PARTIAL, no match |
+| Independent nearby first AND last endpoints, index 0 | 50,331,648 / 50,331,648 | 50,331,648 | COMPLETE, no match |
 
 Counts overlap heavily; they are not a globally unique address count.
 The superseded source prototype and slower single-edit pilot are not added.
@@ -63,20 +63,10 @@ Historical invalid GPU checkpoints remain excluded.
 
 ## Next local run
 
-The nearby first/last family is prepared, certified and benchmarked.
-Only 278,528 of 50,331,648 candidates are checked; **50,053,120 remain**.
-This extends case selection based on the chapter's wording, rather than
-repeating a completed brute-force radius.
-
-```powershell
-Set-Location 'C:\Users\boomb\Downloads\puzzle-investigation'
-& 'C:\Users\boomb\AppData\Local\Programs\Python\Python312\python.exe' .\near-case-2026-09-30\search.py --endpoints both --indices 0 --platform 1
-```
-
-Plan 20–40 minutes here, subject to device load. The same command resumes.
-There is no promise that this is the intended answer. For independent analysis,
-use [../CLAUDE-PUZZLE-HANDOFF.md](../CLAUDE-PUZZLE-HANDOFF.md), and
-[../EXHAUSTED-INVENTORY.md](../EXHAUSTED-INVENTORY.md) with actual bounds.
+The nearby-endpoint family now actually completed all 50,331,648 candidates,
+with zero matches. Its former recommendation is retired. See
+[the subsequent combined-layout investigation](../different-approach-2026-09-30/README.md)
+for the next tested command and actual coverage.
 
 ## Resume and publication validation
 

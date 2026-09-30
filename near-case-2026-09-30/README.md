@@ -24,17 +24,17 @@ The rank-to-mask mapping for the second run was checked independently for all
 65,536 masks. Source rebuilds, GPU MD5 and CPU wallet comparisons are recorded
 in the checkpoints. Positive controls pass at startup.
 
-## Broader next local run: first AND last independently
+## Completed broader run: first AND last independently
 
 `search.py --endpoints both` selects both ends of the same eight nearby
 paragraphs independently (16 bits), while preserving the coherent FFWW-group
 selection in each of 768 bases. All 2¹⁶ masks are allowed, not a radius cutoff.
 No spelling changes or voice/title motifs are added.
 
-The benchmark checked **278,528 / 50,331,648**
-candidate/address operations at index 0, zero matches, **PARTIAL**.
-**50,053,120 remain.** It took 11.1s,
-about 25,034/s while other
+The benchmark checked **50,331,648 / 50,331,648**
+candidate/address operations at index 0, zero matches, **COMPLETE**.
+**0 remain.** It took 2915.5s,
+about 17,263/s while other
 GPU runs shared the device. Plan **20–40 minutes** on this machine; use the
 live estimate. This is a tested, bounded hypothesis, not a guaranteed solution.
 
@@ -56,3 +56,7 @@ and derivation before exact bytes and keys are saved locally.
 The script-policy problem is avoided by invoking Python directly.
 This run includes many overlaps with prior endpoint sweeps and the completed
 initials run; counts are operations, not unique wallets.
+
+The former next-run recommendation is retired. See
+[the combined-layout investigation](../different-approach-2026-09-30/README.md)
+for the new command and coverage. The command above reproduces a completed negative.

@@ -1,0 +1,367 @@
+{
+  "configuration": {
+    "family": "i-stnm-independent-section-layouts-v1",
+    "styles": {
+      "subset-01": [
+        3
+      ],
+      "subset-02": [
+        91
+      ],
+      "subset-03": [
+        3,
+        91
+      ],
+      "subset-04": [
+        164
+      ],
+      "subset-05": [
+        3,
+        164
+      ],
+      "subset-06": [
+        91,
+        164
+      ],
+      "subset-07": [
+        3,
+        91,
+        164
+      ],
+      "subset-08": [
+        165
+      ],
+      "subset-09": [
+        3,
+        165
+      ],
+      "subset-10": [
+        91,
+        165
+      ],
+      "subset-11": [
+        3,
+        91,
+        165
+      ],
+      "subset-12": [
+        164,
+        165
+      ],
+      "subset-13": [
+        3,
+        164,
+        165
+      ],
+      "subset-14": [
+        91,
+        164,
+        165
+      ],
+      "subset-15": [
+        3,
+        91,
+        164,
+        165
+      ],
+      "subset-16": [
+        166
+      ],
+      "subset-17": [
+        3,
+        166
+      ],
+      "subset-18": [
+        91,
+        166
+      ],
+      "subset-19": [
+        3,
+        91,
+        166
+      ],
+      "subset-20": [
+        164,
+        166
+      ],
+      "subset-21": [
+        3,
+        164,
+        166
+      ],
+      "subset-22": [
+        91,
+        164,
+        166
+      ],
+      "subset-23": [
+        3,
+        91,
+        164,
+        166
+      ],
+      "subset-24": [
+        165,
+        166
+      ],
+      "subset-25": [
+        3,
+        165,
+        166
+      ],
+      "subset-26": [
+        91,
+        165,
+        166
+      ],
+      "subset-27": [
+        3,
+        91,
+        165,
+        166
+      ],
+      "subset-28": [
+        164,
+        165,
+        166
+      ],
+      "subset-29": [
+        3,
+        164,
+        165,
+        166
+      ],
+      "subset-30": [
+        91,
+        164,
+        165,
+        166
+      ],
+      "subset-31": [
+        3,
+        91,
+        164,
+        165,
+        166
+      ],
+      "subset-32": [
+        233
+      ],
+      "subset-33": [
+        3,
+        233
+      ],
+      "subset-34": [
+        91,
+        233
+      ],
+      "subset-35": [
+        3,
+        91,
+        233
+      ],
+      "subset-36": [
+        164,
+        233
+      ],
+      "subset-37": [
+        3,
+        164,
+        233
+      ],
+      "subset-38": [
+        91,
+        164,
+        233
+      ],
+      "subset-40": [
+        165,
+        233
+      ],
+      "subset-41": [
+        3,
+        165,
+        233
+      ],
+      "subset-42": [
+        91,
+        165,
+        233
+      ],
+      "subset-43": [
+        3,
+        91,
+        165,
+        233
+      ],
+      "subset-44": [
+        164,
+        165,
+        233
+      ],
+      "subset-45": [
+        3,
+        164,
+        165,
+        233
+      ],
+      "subset-46": [
+        91,
+        164,
+        165,
+        233
+      ],
+      "subset-47": [
+        3,
+        91,
+        164,
+        165,
+        233
+      ],
+      "subset-48": [
+        166,
+        233
+      ],
+      "subset-49": [
+        3,
+        166,
+        233
+      ],
+      "subset-50": [
+        91,
+        166,
+        233
+      ],
+      "subset-52": [
+        164,
+        166,
+        233
+      ],
+      "subset-53": [
+        3,
+        164,
+        166,
+        233
+      ],
+      "subset-54": [
+        91,
+        164,
+        166,
+        233
+      ],
+      "subset-55": [
+        3,
+        91,
+        164,
+        166,
+        233
+      ],
+      "subset-56": [
+        165,
+        166,
+        233
+      ],
+      "subset-57": [
+        3,
+        165,
+        166,
+        233
+      ],
+      "subset-58": [
+        91,
+        165,
+        166,
+        233
+      ],
+      "subset-59": [
+        3,
+        91,
+        165,
+        166,
+        233
+      ],
+      "subset-60": [
+        164,
+        165,
+        166,
+        233
+      ],
+      "subset-61": [
+        3,
+        164,
+        165,
+        166,
+        233
+      ],
+      "subset-62": [
+        91,
+        164,
+        165,
+        166,
+        233
+      ]
+    },
+    "masks": [
+      15,
+      7
+    ],
+    "voice": "both",
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "targets": [
+      "14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W",
+      "1EFojcAo2vbhRGCGCa7q8Wwvzss28mhQYC"
+    ],
+    "parent": "m/44'/0'/0'/0",
+    "entropy": "raw-md5",
+    "language": "english",
+    "passphrase": "",
+    "prefix_filter": null,
+    "regions": [
+      [
+        0,
+        87
+      ],
+      [
+        87,
+        162
+      ],
+      [
+        162,
+        273
+      ]
+    ],
+    "base_count": 2160,
+    "manifest_sha256": "c683152635cad93a43324c8d29134f477c45cc7f755441d2598534a13297d55a",
+    "section_stream_sha256": "31de4ecbbb3d5d1f887cdc5835870801c2d2d60aad75608370c77ad9dd2c3c4e",
+    "crypto_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2",
+    "wallet_kernel_sha256": "1ad1355c58a64d1b8f69081adb7688857391edabe975767020f13f82a0c50892",
+    "source_sha256": {
+      "different-approach-2026-09-30/chapter-signatures.py": "5402cd8c32306e32135359781eb6fde8935d669fa6875a55be0cf69c584d98de",
+      "different-approach-2026-09-30/chapter-sections.py": "82d35e4f19b33f0d8b07bf9eb8bb6fde314e81f697b20ce3608fff4e1ab7a349",
+      "wattpad-paragraphs.json": "60c63f3fa97a7de8ebd3e7f261b1a0b9649e2743f6158a7246ab7cfd26b39109",
+      "joint-format-2026-09-28/search.py": "8b83d66cd026cdc56045c128ce652d89c714f4972ae198fdb1ddb05b63176fb9",
+      "joint-format-2026-09-28/checkpoint_io.py": "ec6f496ae1980045a714ce19e91b3b452a70fe04a528f255dda8ddc437adee70",
+      "assumptions-2026-09-27/search-assumptions.py": "0fa36e6715cc254c0abea03a0d065b05a208c359e4b702afd2aace2ae05eb122",
+      "followup-2026-09-26/language-settings-gpu.py": "ff01cb2a8bc44608a913a3cddfe6f82fe64b816007563cf3384821668c6a1b85",
+      "gpu-case-pairs.py": "e0ae30848d88038e95716425b1e8fa79d2a82c09274f797a3740cef6b996db7a",
+      "expanded-2026-09-26/wallet_paths_gpu.py": "67fa95d7a1e4f6a73ea35058006326bd4863b21bb9ac44ab1fd651142f2ecc42"
+    }
+  },
+  "next_rank": 65536,
+  "candidates_total": 29393280,
+  "derived_addresses": 458752,
+  "matches": [],
+  "complete": false,
+  "elapsed_seconds": 7.25,
+  "serializer_checks": 6492,
+  "sampled_cpu_comparisons": 88,
+  "updated_utc": "2026-09-30T09:37:32.256078+00:00"
+}

@@ -1,0 +1,103 @@
+{
+  "configuration": {
+    "family": "i-stnm-independent-section-layouts-v1",
+    "styles": {
+      "first": [
+        3,
+        91,
+        164,
+        233
+      ],
+      "nearest": [
+        3,
+        91,
+        166,
+        233
+      ],
+      "all": [
+        3,
+        91,
+        164,
+        165,
+        166,
+        233
+      ]
+    },
+    "masks": [
+      15,
+      7,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "voice": "both",
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "targets": [
+      "14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W",
+      "1EFojcAo2vbhRGCGCa7q8Wwvzss28mhQYC"
+    ],
+    "parent": "m/44'/0'/0'/0",
+    "entropy": "raw-md5",
+    "language": "english",
+    "passphrase": "",
+    "prefix_filter": null,
+    "regions": [
+      [
+        0,
+        87
+      ],
+      [
+        87,
+        162
+      ],
+      [
+        162,
+        273
+      ]
+    ],
+    "base_count": 864,
+    "manifest_sha256": "002c4e7a171ac5a7d8e1abfea87db0f5b661ca8a6cbd605112e77525b60fa9af",
+    "section_stream_sha256": "f55b415938a0f71c220c522815f1c738659501a2f127bcad41ebd06b783cfe51",
+    "crypto_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2",
+    "wallet_kernel_sha256": "1ad1355c58a64d1b8f69081adb7688857391edabe975767020f13f82a0c50892",
+    "source_sha256": {
+      "different-approach-2026-09-30/chapter-signatures.py": "5402cd8c32306e32135359781eb6fde8935d669fa6875a55be0cf69c584d98de",
+      "different-approach-2026-09-30/chapter-sections.py": "82d35e4f19b33f0d8b07bf9eb8bb6fde314e81f697b20ce3608fff4e1ab7a349",
+      "wattpad-paragraphs.json": "60c63f3fa97a7de8ebd3e7f261b1a0b9649e2743f6158a7246ab7cfd26b39109",
+      "joint-format-2026-09-28/search.py": "8b83d66cd026cdc56045c128ce652d89c714f4972ae198fdb1ddb05b63176fb9",
+      "joint-format-2026-09-28/checkpoint_io.py": "ec6f496ae1980045a714ce19e91b3b452a70fe04a528f255dda8ddc437adee70",
+      "assumptions-2026-09-27/search-assumptions.py": "0fa36e6715cc254c0abea03a0d065b05a208c359e4b702afd2aace2ae05eb122",
+      "followup-2026-09-26/language-settings-gpu.py": "ff01cb2a8bc44608a913a3cddfe6f82fe64b816007563cf3384821668c6a1b85",
+      "gpu-case-pairs.py": "e0ae30848d88038e95716425b1e8fa79d2a82c09274f797a3740cef6b996db7a",
+      "expanded-2026-09-26/wallet_paths_gpu.py": "67fa95d7a1e4f6a73ea35058006326bd4863b21bb9ac44ab1fd651142f2ecc42"
+    }
+  },
+  "next_rank": 11757312,
+  "candidates_total": 11757312,
+  "derived_addresses": 82301184,
+  "matches": [],
+  "complete": true,
+  "elapsed_seconds": 1038.3439999999828,
+  "serializer_checks": 4746,
+  "sampled_cpu_comparisons": 15082,
+  "updated_utc": "2026-09-30T09:26:47.073635+00:00"
+}

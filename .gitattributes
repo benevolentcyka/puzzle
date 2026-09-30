@@ -22,3 +22,4 @@ single-edit-2026-09-30/*.cl -text whitespace=cr-at-eol,-blank-at-eof
 near-case-2026-09-30/*.py -text whitespace=cr-at-eol,-blank-at-eof
 case-motifs-2026-09-30/*.py -text whitespace=cr-at-eol,-blank-at-eof
 investigation-2026-09-30/*.py -text whitespace=cr-at-eol,-blank-at-eof
+different-approach-2026-09-30/*.py -text whitespace=cr-at-eol,-blank-at-eof

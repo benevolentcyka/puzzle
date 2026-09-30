@@ -1,6 +1,6 @@
 """Refresh the factual investigation reports from actual local checkpoints."""
 from pathlib import Path
-import datetime,json,hashlib,re
+import datetime,json,hashlib,re,subprocess,sys
 ROOT=Path(__file__).resolve().parent.parent
 T=chr(96)
 def read(p):return (ROOT/p).read_text(encoding='utf8').replace('\r\n','\n')
@@ -531,3 +531,8 @@ for pattern in ['source-variants-2026-09-30/*.lock','single-edit-2026-09-30/*.lo
  if pattern not in ignore.splitlines():ignore+='\n'+pattern
 write('.gitignore',ignore)
 print(json.dumps(dict(updated_utc=now,records=[dict(name=r['name'],checked=r['checked'],total=r['total'],complete=r['complete']) for r in records])))
+# Later work supersedes the former next-run recommendation. Keep one entry
+# point without allowing this older report generator to retire newer evidence.
+later=ROOT/'different-approach-2026-09-30/refresh-reports.py'
+if later.exists():
+ subprocess.run([sys.executable,str(later)],cwd=ROOT,check=True)

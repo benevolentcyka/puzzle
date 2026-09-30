@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-30T05:32:15.089147+00:00",
+  "updated_utc": "2026-09-30T09:46:13.806126+00:00",
   "runs": [
     {
       "name": "Documented earlier wording and quote variants",
@@ -81,13 +81,13 @@
     {
       "name": "Independent nearby first AND last endpoints, index 0",
       "path": "near-case-2026-09-30/near-both-6555be4d17950571.json",
-      "checkpoint_sha256": "0cceb357801b56f198c4000d778a225abba14c7723d8d1af2152fe29cc94999e",
-      "checked": 278528,
+      "checkpoint_sha256": "6fed316f7fbcec6b37b840b5e07639cb7ddcdc611c7b013032dfb84758bee94e",
+      "checked": 50331648,
       "total": 50331648,
-      "addresses": 278528,
-      "complete": false,
+      "addresses": 50331648,
+      "complete": true,
       "matches": [],
-      "elapsed_search_seconds": 11.12599999998929
+      "elapsed_search_seconds": 2915.54800000001
     }
   ],
   "note": "Overlapping operations, not globally unique addresses. Current final puzzle remains unsolved."

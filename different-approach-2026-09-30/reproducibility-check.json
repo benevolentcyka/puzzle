@@ -1,0 +1,36 @@
+{
+  "checked_utc": "2026-09-30T09:46:59.687193+00:00",
+  "all_passed": true,
+  "result_receipts": [
+    "different-approach-2026-09-30/chapter-sections-d2377639d8b5cbfe.json",
+    "different-approach-2026-09-30/chapter-signatures-aa320dfc49eebdba.json",
+    "different-approach-2026-09-30/chapter-signatures-c4bf1d67bc62879a.json",
+    "different-approach-2026-09-30/joint-example-boundaries-independent-3c6-a159b81eb1b76c9d.json"
+  ],
+  "checkpoint_bound_sources": {
+    "different-approach-2026-09-30/chapter-sections.py": "82d35e4f19b33f0d8b07bf9eb8bb6fde314e81f697b20ce3608fff4e1ab7a349",
+    "wattpad-paragraphs.json": "60c63f3fa97a7de8ebd3e7f261b1a0b9649e2743f6158a7246ab7cfd26b39109",
+    "joint-format-2026-09-28/search.py": "8b83d66cd026cdc56045c128ce652d89c714f4972ae198fdb1ddb05b63176fb9",
+    "joint-format-2026-09-28/checkpoint_io.py": "ec6f496ae1980045a714ce19e91b3b452a70fe04a528f255dda8ddc437adee70",
+    "assumptions-2026-09-27/search-assumptions.py": "0fa36e6715cc254c0abea03a0d065b05a208c359e4b702afd2aace2ae05eb122",
+    "followup-2026-09-26/language-settings-gpu.py": "ff01cb2a8bc44608a913a3cddfe6f82fe64b816007563cf3384821668c6a1b85",
+    "gpu-case-pairs.py": "e0ae30848d88038e95716425b1e8fa79d2a82c09274f797a3740cef6b996db7a",
+    "expanded-2026-09-26/wallet_paths_gpu.py": "67fa95d7a1e4f6a73ea35058006326bd4863b21bb9ac44ab1fd651142f2ecc42",
+    "different-approach-2026-09-30/chapter-signatures.py": "5402cd8c32306e32135359781eb6fde8935d669fa6875a55be0cf69c584d98de",
+    "different-approach-2026-09-30/joint-example.py": "c89a991bd61622c4839317852ebf742db54c8f18ce38b49fd04cbdae8e8a5757",
+    "aoi-posts-archive.json": "2d3e62f4f6a1498e262c24e664162faca4179ce595b1740e0e440c5e3ca8ce8c",
+    "assumptions-2026-09-27/quoted-mask-search.py": "7e64828988f70b296529dafbf991505b4be13256b8aa7cd3ce82fb0b8392ee1b",
+    "assumptions-2026-09-27/quoted-mask.cl": "87d6e3c1bc1efb7f24e14628e281125c164924687ca07c184e5f19bd70e085d7",
+    "expanded-2026-09-26/mask_md5_gpu.py": "49004ccc367c9aed131d3919178c7f5210b6c1044d50cd0756a7ad93921a7775",
+    "expanded-2026-09-26/mask-md5.cl": "12be1f502e7f7a1bf2716bb1a64bb36e8b1226991df4a355b4867b8c6db45f42",
+    "pair-md5.cl": "1702a532cd6de146b4f8ae45a96f6d1feaf05bac38c9d85aa4a2cef572d2a8d9"
+  },
+  "byte_exact_git_sources": {
+    "different-approach-2026-09-30/chapter-sections.py": "82d35e4f19b33f0d8b07bf9eb8bb6fde314e81f697b20ce3608fff4e1ab7a349",
+    "different-approach-2026-09-30/chapter-signatures.py": "5402cd8c32306e32135359781eb6fde8935d669fa6875a55be0cf69c584d98de",
+    "different-approach-2026-09-30/joint-example.py": "c89a991bd61622c4839317852ebf742db54c8f18ce38b49fd04cbdae8e8a5757",
+    "different-approach-2026-09-30/refresh-reports.py": "f36d498e833c19c3dbc02595e6e4ecf747563c9dffd9d09ef2dfd2b1ecf18724",
+    "different-approach-2026-09-30/source-audit.py": "ac0b491842aa14baaaa0d11ed0c268f7d54e0c2c4ffb0fe4a1fa5aa509c15d62",
+    "different-approach-2026-09-30/verify-publication.py": "48e7e927980c2e20d87b0b887eb3589d16cac3a18963729b936392d65e1a6e76"
+  }
+}

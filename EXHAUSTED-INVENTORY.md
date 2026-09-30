@@ -147,7 +147,7 @@ without a match: `source-variants-2026-09-30/example-tail-recheck.json`.
 | Every subset of 16 marked paragraph pairs, indices 0–6 | 3,145,728 / 3,145,728 | 22,020,096 | COMPLETE, no match |
 | Unusual capitals with voice/title motifs, indices 0–6 | 524,288 / 524,288 | 3,670,016 | COMPLETE, no match |
 | Unusual capitals combined with nearby initials, index 0 | 25,165,824 / 25,165,824 | 25,165,824 | COMPLETE, no match |
-| Independent nearby first AND last endpoints, index 0 | 278,528 / 50,331,648 | 278,528 | PARTIAL, no match |
+| Independent nearby first AND last endpoints, index 0 | 50,331,648 / 50,331,648 | 50,331,648 | COMPLETE, no match |
 
 See `investigation-2026-09-30/results.json` and the four new family
 directories. The source prototype and slow edit pilot are superseded and
@@ -158,7 +158,6 @@ overlap the completed authoritative runs.
 More finite, feasible families still exist. Do not equate billions of overlapping
 negative operations with proof that only unreachable brute force remains.
 
-- Broader nearby first/last choices: 50,331,648 at index 0, only 278,528 checked.
 - Case choices outside the listed radii/baselines. Three arbitrary chapter
   case changes are ~7.6×10¹², but structured clue-derived subsets can be small.
 - Combinations of content edits, case edits, formatting choices and converter
@@ -170,6 +169,27 @@ negative operations with proof that only unreachable brute force remains.
   primary record exists.
 
 The latest commands and benchmark are in
-`near-case-2026-09-30/README.md`. No match is a negative for that exact
+`different-approach-2026-09-30/README.md`. No match is a negative for that exact
 family only. `CLAUDE-PUZZLE-HANDOFF.md` gives the full public-puzzle context
 without promising a solution or another service's policy classification.
+
+## H. Combined section formatting and I signatures
+
+Snapshot 2026-09-30T09:46:13.992341+00:00. The earlier nearby-endpoint run is actually complete,
+50,331,648 candidates, zero matches.
+
+| Family | Text operations checked / total | Address operations | Status |
+| --- | ---: | ---: | --- |
+| Chapter: independent formatting in three sections, voice retained/vOIce | 3,919,104 / 3,919,104 | 27,433,728 | COMPLETE, 0 matches |
+| Chapter: I-STNM signatures first,nearest,all, group masks 15,7,0,1,2,3,4,5,6,8,9,10,11,12,13,14 | 11,757,312 / 11,757,312 | 82,301,184 | COMPLETE, 0 matches |
+| Chapter: I-STNM signatures 60 remaining selections, group masks 15,7 | 65,536 / 29,393,280 | 458,752 | PARTIAL, 0 matches |
+| Example: boundaries, 1 defect(s), independent case choices, prefix 3c6 | 264,241,152 / 264,241,152 | 450,051 | COMPLETE, 0 matches |
+
+The example row filters `3c6`; chapter rows have no prefix filter. Counts
+overlap all previous work. Source comparison across all 33 Wattpad parts plus
+202 posts and 864 comments found no additional close draft wording at its
+specified 0.88 threshold. See `different-approach-2026-09-30/source-audit.json`.
+The other 60 I subsets on independently formatted sections form the next
+finite family: 29,393,280 candidates at group masks 15/7, indices 0–6.
+The exact command has checked **65,536 / 29,393,280** candidates, with zero matches.
+It successfully resumed from rank 32,768 to 65,536; **29,327,744 remain**.

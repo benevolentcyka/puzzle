@@ -1,0 +1,4112 @@
+{
+  "configuration": {
+    "family": "independent-section-clipboard-policies-v1",
+    "masks": [
+      15,
+      7,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "voice": "both",
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "targets": [
+      "14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W",
+      "1EFojcAo2vbhRGCGCa7q8Wwvzss28mhQYC"
+    ],
+    "parent": "m/44'/0'/0'/0",
+    "entropy": "raw-md5",
+    "language": "english",
+    "passphrase": "",
+    "prefix_filter": null,
+    "regions": [
+      [
+        0,
+        87
+      ],
+      [
+        87,
+        162
+      ],
+      [
+        162,
+        273
+      ]
+    ],
+    "manifest": [
+      {
+        "base": {
+          "mask": 15,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 15,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 15,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 15,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 15,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 15,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 15,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 15,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 15,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 15,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 15,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 15,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 15,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 15,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 15,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 15,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 15,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 15,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 7,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 7,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 7,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 7,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 7,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 7,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 7,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 7,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 7,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 7,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 7,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 7,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 7,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 7,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 7,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 7,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 7,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 7,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 0,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 0,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 0,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 0,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 0,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 0,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 0,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 0,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 0,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 0,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 0,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 0,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 0,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 0,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 0,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 0,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 0,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 0,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 1,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 1,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 1,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 1,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 1,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 1,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 1,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 1,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 1,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 1,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 1,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 1,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 1,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 1,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 1,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 1,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 1,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 1,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 2,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 2,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 2,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 2,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 2,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 2,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 2,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 2,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 2,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 2,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 2,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 2,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 2,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 2,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 2,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 2,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 2,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 2,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 3,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 3,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 3,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 3,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 3,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 3,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 3,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 3,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 3,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 3,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 3,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 3,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 3,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 3,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 3,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 3,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 3,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 3,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 4,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 4,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 4,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 4,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 4,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 4,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 4,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 4,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 4,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 4,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 4,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 4,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 4,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 4,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 4,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 4,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 4,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 4,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 5,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 5,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 5,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 5,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 5,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 5,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 5,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 5,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 5,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 5,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 5,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 5,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 5,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 5,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 5,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 5,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 5,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 5,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 6,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 6,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 6,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 6,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 6,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 6,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 6,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 6,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 6,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 6,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 6,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 6,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 6,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 6,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 6,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 6,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 6,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 6,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 8,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 8,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 8,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 8,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 8,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 8,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 8,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 8,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 8,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 8,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 8,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 8,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 8,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 8,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 8,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 8,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 8,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 8,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 9,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 9,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 9,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 9,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 9,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 9,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 9,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 9,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 9,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 9,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 9,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 9,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 9,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 9,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 9,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 9,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 9,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 9,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 10,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 10,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 10,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 10,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 10,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 10,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 10,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 10,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 10,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 10,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 10,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 10,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 10,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 10,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 10,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 10,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 10,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 10,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 11,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 11,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 11,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 11,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 11,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 11,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 11,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 11,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 11,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 11,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 11,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 11,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 11,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 11,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 11,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 11,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 11,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 11,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 12,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 12,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 12,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 12,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 12,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 12,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 12,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 12,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 12,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 12,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 12,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 12,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 12,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 12,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 12,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 12,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 12,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 12,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 13,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 13,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 13,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 13,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 13,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 13,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 13,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 13,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 13,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 13,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 13,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 13,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 13,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 13,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 13,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 13,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 13,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 13,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 14,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 14,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 14,
+          "start": 0,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 14,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 14,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 14,
+          "start": 0,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 14,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 14,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 14,
+          "start": 1,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 14,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 14,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 14,
+          "start": 1,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 14,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": ""
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 14,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 14,
+          "start": 3,
+          "join": "lf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          16,
+          24,
+          24
+        ],
+        "texts": 9216
+      },
+      {
+        "base": {
+          "mask": 14,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": ""
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 14,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      },
+      {
+        "base": {
+          "mask": 14,
+          "start": 3,
+          "join": "crlf",
+          "tail_hex": "0d0a"
+        },
+        "sections": [
+          20,
+          30,
+          30
+        ],
+        "texts": 18000
+      }
+    ],
+    "section_stream_sha256": "97db982d209bc641b2ba216cb6054c6ed0c9332a55067ae5907e1490d7cc884d",
+    "crypto_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2",
+    "wallet_kernel_sha256": "1ad1355c58a64d1b8f69081adb7688857391edabe975767020f13f82a0c50892",
+    "source_sha256": {
+      "different-approach-2026-09-30/chapter-sections.py": "82d35e4f19b33f0d8b07bf9eb8bb6fde314e81f697b20ce3608fff4e1ab7a349",
+      "wattpad-paragraphs.json": "60c63f3fa97a7de8ebd3e7f261b1a0b9649e2743f6158a7246ab7cfd26b39109",
+      "joint-format-2026-09-28/search.py": "8b83d66cd026cdc56045c128ce652d89c714f4972ae198fdb1ddb05b63176fb9",
+      "joint-format-2026-09-28/checkpoint_io.py": "ec6f496ae1980045a714ce19e91b3b452a70fe04a528f255dda8ddc437adee70",
+      "assumptions-2026-09-27/search-assumptions.py": "0fa36e6715cc254c0abea03a0d065b05a208c359e4b702afd2aace2ae05eb122",
+      "followup-2026-09-26/language-settings-gpu.py": "ff01cb2a8bc44608a913a3cddfe6f82fe64b816007563cf3384821668c6a1b85",
+      "gpu-case-pairs.py": "e0ae30848d88038e95716425b1e8fa79d2a82c09274f797a3740cef6b996db7a",
+      "expanded-2026-09-26/wallet_paths_gpu.py": "67fa95d7a1e4f6a73ea35058006326bd4863b21bb9ac44ab1fd651142f2ecc42"
+    }
+  },
+  "next_rank": 3919104,
+  "candidates_total": 3919104,
+  "derived_addresses": 27433728,
+  "matches": [],
+  "complete": true,
+  "elapsed_seconds": 252.81200000003446,
+  "serializer_checks": 1585,
+  "sampled_cpu_comparisons": 5044,
+  "updated_utc": "2026-09-30T09:02:04.083504+00:00"
+}

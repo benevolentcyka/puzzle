@@ -4646,14 +4646,14 @@
     "crypto_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2",
     "wallet_kernel_sha256": "1ad1355c58a64d1b8f69081adb7688857391edabe975767020f13f82a0c50892"
   },
-  "next_rank": 278528,
+  "next_rank": 50331648,
   "candidates_total": 50331648,
-  "derived_addresses": 278528,
+  "derived_addresses": 50331648,
   "matches": [],
-  "complete": false,
-  "elapsed_search_seconds": 11.12599999998929,
-  "sampled_cpu_comparisons": 51,
-  "md5_fixture_checks": 725,
+  "complete": true,
+  "elapsed_search_seconds": 2915.54800000001,
+  "sampled_cpu_comparisons": 9216,
+  "md5_fixture_checks": 111505,
   "serializer_fixture_checks": 306,
-  "updated_utc": "2026-09-30T05:22:12.745276+00:00"
+  "updated_utc": "2026-09-30T08:20:39.902331+00:00"
 }

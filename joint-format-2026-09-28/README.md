@@ -156,7 +156,7 @@ historical text revisions, other copy artifacts, or converter settings have
 been exhausted. Its value is closing a concrete coverage gap; success is not
 promised.
 
-## Windows checkpoint failure and recovered progress (historical) (historical) (historical) (historical)
+## Windows checkpoint failure and recovered progress (historical) (historical) (historical) (historical) (historical) (historical) (historical)
 
 The user's continuation stopped at `tmp.replace(path)` with `WinError 5`.
 That is a checkpoint replacement failure, not a completed negative search.

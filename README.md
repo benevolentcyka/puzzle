@@ -1,33 +1,28 @@
 # Quizchain last block: reproducible investigation
 
-Status on **2026-09-30: UNSOLVED**. No final answer or winning key was recovered.
-Current public target: `14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W`.
-The 04:14 UTC chain snapshot reports its 77,700,000-sat funding output unspent.
+**2026-09-30: UNSOLVED. No final-target answer or key recovered.**
+Target: `14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W`; its funding output was
+still unspent at 2026-09-30T09:13:20.401238+00:00 (77,700,000 sats).
 
-Read [investigation-2026-09-30/README.md](investigation-2026-09-30/README.md)
-for the latest actual results, [EXHAUSTED-INVENTORY.md](EXHAUSTED-INVENTORY.md)
-for the bounded negatives, and
-[CLAUDE-PUZZLE-HANDOFF.md](CLAUDE-PUZZLE-HANDOFF.md) for independent review context.
-The 28,194,048-candidate mixed-format family is now **complete, no match**;
-old partial progress in dated reports is historical.
+The nearby first/last family is complete: **50,331,648 candidates, zero matches**.
+The new work compares all saved author sources and crosses clue-based case
+selections with independently formatted chapter sections. Read
+[the new report](different-approach-2026-09-30/README.md),
+[the complete bounded inventory](EXHAUSTED-INVENTORY.md), and
+[the Claude handoff](CLAUDE-PUZZLE-HANDOFF.md).
 
-The new runs test actual earlier-source wording, a one-character copying
-difference, independent nearby initials/ends, independent marked paragraph
-pairs, and unusual interior capitalization. These differ from merely repeating
-the exhausted endpoint-radius commands. Detailed scopes and checksums are in
-their directories. Counts overlap and do not imply exhaustive coverage.
-
-The broadest remaining prepared nearby-endpoint run has **50,053,120**
-candidates left after a verified pilot. Invoke Python directly, avoiding
-PowerShell script-policy restrictions:
+Best next local run, approximately 45–90 minutes on the tested RTX 4060:
 
 ```powershell
 Set-Location 'C:\Users\boomb\Downloads\puzzle-investigation'
-& 'C:\Users\boomb\AppData\Local\Programs\Python\Python312\python.exe' .\near-case-2026-09-30\search.py --endpoints both --indices 0 --platform 1
+& 'C:\Users\boomb\AppData\Local\Programs\Python\Python312\python.exe' .\different-approach-2026-09-30\chapter-signatures.py --i-styles remaining --group-masks 15,7 --platform 1
 ```
 
-Budget roughly 20–40 minutes on the tested RTX 4060. It resumes automatically;
-this is a bounded hypothesis, not a recovered clue or guaranteed solution.
+**29,393,280 entropy candidates / 205,752,960 addresses**, no MD5 hint filter.
+It combines the other 60 nearby-I subsets with section-specific formatting,
+all-four/first-three FFWW selections and the earlier `vOIce` motif.
+It resumes automatically and calls Python directly. This is a tested finite
+hypothesis, not a guarantee of a solution. All counts are overlapping operations.
 
 ## Evidence and confirmed method
 

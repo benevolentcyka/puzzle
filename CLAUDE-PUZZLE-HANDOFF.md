@@ -52,7 +52,7 @@ not an instruction to spend funds.
 
 **UNSOLVED. No final answer or winning key has been recovered.**
 
-The user's latest completed run is real, not hypothetical:
+The user's September 28 completed run is real, not hypothetical:
 
 ```json
 {"next_rank":27130032,"derived_addresses":189910224,"matches":0,"complete":true,"updated_utc":"2026-09-28T07:47:28.760999+00:00","entropy_candidates_total":27130032}
@@ -355,11 +355,10 @@ reuse old progress under a different search definition.
 | Every subset of 16 marked paragraph pairs, indices 0–6 | 3,145,728 / 3,145,728 | 22,020,096 | COMPLETE, no match |
 | Unusual capitals with voice/title motifs, indices 0–6 | 524,288 / 524,288 | 3,670,016 | COMPLETE, no match |
 | Unusual capitals combined with nearby initials, index 0 | 25,165,824 / 25,165,824 | 25,165,824 | COMPLETE, no match |
-| Independent nearby first AND last endpoints, index 0 | 278,528 / 50,331,648 | 278,528 | PARTIAL, no match |
+| Independent nearby first AND last endpoints, index 0 | 50,331,648 / 50,331,648 | 50,331,648 | COMPLETE, no match |
 
-These counts are overlapping operations, not unique addresses. Read the actual
-checkpoint and the family README; do not promote the 262,144 nearby-endpoint
-pilot to a completed 50-million-candidate negative.
+These are overlapping operations, not unique addresses. The nearby first/last
+family now actually completed all 50,331,648 candidates with no match.
 
 Primary-source differences:
 `source-variants-2026-09-30/README.md` documents six earlier wordings,
@@ -387,20 +386,21 @@ derived counter without rewriting the original checkpoint.
 
 ## Prepared next command
 
-The broader nearby-endpoint family independently toggles both ends of eight
-nearby paragraphs on 768 coherent FFWW/serializer/start/tail bases. It has
-**50,053,120 untested candidates** after the partial pilot, index 0, raw MD5,
-English BIP39, empty passphrase, both final targets, no prefix filter.
+The nearby first/last endpoint family is now exhausted at 50,331,648 candidates.
+Use this subsequent I-signature and independent-section-layout family:
 
 ```powershell
 Set-Location 'C:\Users\boomb\Downloads\puzzle-investigation'
-& 'C:\Users\boomb\AppData\Local\Programs\Python\Python312\python.exe' .\near-case-2026-09-30\search.py --endpoints both --indices 0 --platform 1
+& 'C:\Users\boomb\AppData\Local\Programs\Python\Python312\python.exe' .\different-approach-2026-09-30\chapter-signatures.py --i-styles remaining --group-masks 15,7 --platform 1
 ```
 
-The initial 262,144 took 10.7 seconds with shared GPU load. Plan 20–40 minutes,
-then use the live estimate. Same arguments resume automatically. Hash-prefix
-matches are insufficient; every address hit requires CPU reconstruction.
-Further source analysis may have higher value than simply increasing a count.
+The exact command has checked **65,536 / 29,393,280** candidates, with zero matches.
+It successfully resumed from rank 32,768 to 65,536; **29,327,744 remain**.
+It checks both final targets at indices 0–6, raw MD5/English BIP39/empty
+passphrase, with no prefix filter. Plan approximately 45–90 minutes here.
+Same arguments resume automatically. The later section below explains
+the hypothesis and exact new coverage. Every address hit requires CPU
+reconstruction; a matching hash prefix alone is insufficient.
 
 ## What I want from you
 
@@ -436,6 +436,7 @@ Then do the work you can perform in the available environment.
 
 | Purpose | Files |
 | --- | --- |
+| Latest combined-layout results and source comparison | `different-approach-2026-09-30/README.md`, `results.json`, `source-audit.json` |
 | Latest additional runs and limits | `investigation-2026-09-30/README.md`, `EXHAUSTED-INVENTORY.md`, `source-variants-2026-09-30/`, `single-edit-2026-09-30/`, `near-case-2026-09-30/`, `case-motifs-2026-09-30/` |
 | Latest completed user runs | `audit-2026-09-28/README.md`, `verify-completions.py`, `verified-expanded-completions.json` |
 | Completed mixed-format run and recovery history | `joint-format-2026-09-28/README.md`, `search.py`, `joint-format-*.json` |
@@ -452,3 +453,42 @@ Paths after a directory-qualified entry in a row are relative to that same
 directory unless they clearly name a root-level file. If a summary conflicts
 with an exact checkpoint and source, investigate the discrepancy rather than
 quietly selecting the more optimistic account.
+
+## Later combined-layout investigation, 2026-09-30
+
+Read `different-approach-2026-09-30/README.md` and its results/plan files.
+The user's nearby-endpoint job is actually complete, no match. The new family
+independently applies embedded-break, NBSP and trailing-space policies in
+each of the three chapter sections, crossed with FFWW selections and the
+published `vOIce` motif. This can change many formatting sites together.
+It is broader than global serializers or two/three isolated site edits.
+
+| Family | Text operations checked / total | Address operations | Status |
+| --- | ---: | ---: | --- |
+| Chapter: independent formatting in three sections, voice retained/vOIce | 3,919,104 / 3,919,104 | 27,433,728 | COMPLETE, 0 matches |
+| Chapter: I-STNM signatures first,nearest,all, group masks 15,7,0,1,2,3,4,5,6,8,9,10,11,12,13,14 | 11,757,312 / 11,757,312 | 82,301,184 | COMPLETE, 0 matches |
+| Chapter: I-STNM signatures 60 remaining selections, group masks 15,7 | 65,536 / 29,393,280 | 458,752 | PARTIAL, 0 matches |
+| Example: boundaries, 1 defect(s), independent case choices, prefix 3c6 | 264,241,152 / 264,241,152 | 450,051 | COMPLETE, 0 matches |
+
+The signature variants lowercase nearby initial I bytes at:
+first = [3,91,164,233]; nearest = [3,91,166,233]; all = [3,91,164,165,166,233].
+The next prepared family tests the other 60 nonempty subsets of those six I
+locations on group masks 15/7: 29,393,280 buffers / 205,752,960 addresses,
+English/raw MD5/empty passphrase/BIP44 indices 0–6, both escrows, no hint filter.
+The exact command has checked **65,536 / 29,393,280** candidates, with zero matches.
+It successfully resumed from rank 32,768 to 65,536; **29,327,744 remain**.
+The full all-16-group version is 235,146,240 / 1,646,023,680; it remains finite.
+
+All 33 saved Wattpad parts were fingerprint-verified and compared against the
+current chapter, plus 202 posts and 864 comments (2,983 unique normalized
+paragraphs). No additional close draft wording beyond the already tested
+differences was found at the declared 0.88 threshold. This is not an exhaustive
+historical-text archive. Raw example `7759227` still matches; its solution
+`3c6` digest/key remains unreproduced. Solving that calibration example
+could still clarify the final input workflow.
+
+Please reason from the primary clues and actual negative bounds. Look for
+an untested coherent rule or independently recoverable historical input,
+and explain why it predicts particular bytes. Do not relabel an exhausted
+radius or globally normalized buffer as a new approach. A local verifier and
+reproducible finite family are useful even if no winning match is found.

@@ -1,0 +1,61 @@
+{
+  "updated_utc": "2026-09-30T09:46:13.992341+00:00",
+  "runs": [
+    {
+      "name": "Chapter: independent formatting in three sections, voice retained/vOIce",
+      "path": "different-approach-2026-09-30/chapter-sections-d2377639d8b5cbfe.json",
+      "checkpoint_sha256": "bdbe65dafcf296d0e3e520ad64240ce368a0187ece071216b14f53fe4d5a308f",
+      "checked": 3919104,
+      "total": 3919104,
+      "derived_entropies": 3919104,
+      "addresses": 27433728,
+      "complete": true,
+      "matches": 0,
+      "elapsed_seconds": 252.81200000003446,
+      "sampled_cpu_comparisons": 5044,
+      "source_identity_verified": true
+    },
+    {
+      "name": "Chapter: I-STNM signatures first,nearest,all, group masks 15,7,0,1,2,3,4,5,6,8,9,10,11,12,13,14",
+      "path": "different-approach-2026-09-30/chapter-signatures-aa320dfc49eebdba.json",
+      "checkpoint_sha256": "a5eaa1be583e9214d1d0d3ef41bebc2f7f1c40a8e07cc13525053f3bc89b52f2",
+      "checked": 11757312,
+      "total": 11757312,
+      "derived_entropies": 11757312,
+      "addresses": 82301184,
+      "complete": true,
+      "matches": 0,
+      "elapsed_seconds": 1038.3439999999828,
+      "sampled_cpu_comparisons": 15082,
+      "source_identity_verified": true
+    },
+    {
+      "name": "Chapter: I-STNM signatures 60 remaining selections, group masks 15,7",
+      "path": "different-approach-2026-09-30/chapter-signatures-c4bf1d67bc62879a.json",
+      "checkpoint_sha256": "158bfc14455587467e8b9f6642674c12fd295fff0f6b2be2bb20461e595bf1a5",
+      "checked": 65536,
+      "total": 29393280,
+      "derived_entropies": 65536,
+      "addresses": 458752,
+      "complete": false,
+      "matches": 0,
+      "elapsed_seconds": 7.25,
+      "sampled_cpu_comparisons": 88,
+      "source_identity_verified": true
+    },
+    {
+      "name": "Example: boundaries, 1 defect(s), independent case choices, prefix 3c6",
+      "path": "different-approach-2026-09-30/joint-example-boundaries-independent-3c6-a159b81eb1b76c9d.json",
+      "checkpoint_sha256": "d14dc031de733303c10012dddb0b21fc290be1d584cf492433c80834519d1d82",
+      "checked": 264241152,
+      "total": 264241152,
+      "derived_entropies": 64293,
+      "addresses": 450051,
+      "complete": true,
+      "matches": 0,
+      "elapsed_seconds": 66.86000000004424,
+      "sampled_cpu_comparisons": 5294,
+      "source_identity_verified": true
+    }
+  ]
+}
