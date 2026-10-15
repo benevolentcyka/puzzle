@@ -1,0 +1,4 @@
+# Preserve exact runner and receipt bytes used in the recorded fingerprints.
+*.py -text
+*.cjs -text
+*.json -text

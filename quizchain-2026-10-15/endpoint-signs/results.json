@@ -1,0 +1,37 @@
+{
+  "complete": true,
+  "enumeration_operations": 18432,
+  "unique_buffers_sha256": 10272,
+  "unique_md5": 10272,
+  "checked": 10272,
+  "addresses": 71904,
+  "matches": [],
+  "controls": [
+    {
+      "control": "Stage One reconstructed text",
+      "md5": "9dd2efb9bc976c2095bd534d7b8d431c",
+      "address": "19TbyN5KCg1Lg7qHwezifsLVcdSa2Rj5KN",
+      "bytes": 5362,
+      "passed": true
+    },
+    {
+      "control": "Grycoin Block 1",
+      "md5": "4c414876be9043da4538386be9a03df6",
+      "address": "18EpYz5qB3XoxZWouJF3KdEp3E2nfv9FgP",
+      "bytes": 18,
+      "passed": true
+    },
+    {
+      "control": "Block 29 reconstructed draft",
+      "md5": "982301b80b30af3a0abe110269b0dd43",
+      "address": "1BQiU45feRw5UKdCUbXuoNfuK5WRzTpa4P",
+      "bytes": 1360,
+      "passed": true,
+      "wif_suffix": "JRu"
+    }
+  ],
+  "plan_sha256": "c8c2ea0473fb00269c2aee193f9b31311329d3a7911dfc30ecd87e85aef32bd4",
+  "sampled_cpu_address_comparisons": 65,
+  "elapsed_seconds": 72.51600000000326,
+  "updated_utc": "2026-10-15T05:55:33.653699+00:00"
+}

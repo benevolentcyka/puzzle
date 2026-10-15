@@ -1,0 +1,4 @@
+FOUND-*
+**/FOUND-*
+__pycache__/
+*.tmp

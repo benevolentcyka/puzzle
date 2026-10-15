@@ -1,0 +1,6928 @@
+{
+  "family": "global-endpoint-sign-pairs-v1",
+  "pairs": {
+    "FS": [
+      4,
+      92,
+      99,
+      167,
+      230
+    ],
+    "FT": [
+      5,
+      93,
+      168,
+      231
+    ],
+    "WN": [
+      6,
+      51,
+      94,
+      138,
+      151,
+      156,
+      169,
+      232,
+      264
+    ],
+    "WM": [
+      7,
+      29,
+      95,
+      170,
+      234
+    ]
+  },
+  "variants": [
+    {
+      "pair_mask": 0,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": []
+    },
+    {
+      "pair_mask": 0,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": []
+    },
+    {
+      "pair_mask": 0,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": []
+    },
+    {
+      "pair_mask": 0,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": []
+    },
+    {
+      "pair_mask": 0,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": []
+    },
+    {
+      "pair_mask": 0,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": []
+    },
+    {
+      "pair_mask": 0,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": []
+    },
+    {
+      "pair_mask": 0,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": []
+    },
+    {
+      "pair_mask": 0,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": []
+    },
+    {
+      "pair_mask": 0,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": []
+    },
+    {
+      "pair_mask": 0,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": []
+    },
+    {
+      "pair_mask": 0,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": []
+    },
+    {
+      "pair_mask": 0,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": []
+    },
+    {
+      "pair_mask": 0,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": []
+    },
+    {
+      "pair_mask": 0,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": []
+    },
+    {
+      "pair_mask": 0,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": []
+    },
+    {
+      "pair_mask": 0,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": []
+    },
+    {
+      "pair_mask": 0,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": []
+    },
+    {
+      "pair_mask": 0,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": []
+    },
+    {
+      "pair_mask": 0,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": []
+    },
+    {
+      "pair_mask": 0,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": []
+    },
+    {
+      "pair_mask": 0,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": []
+    },
+    {
+      "pair_mask": 0,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": []
+    },
+    {
+      "pair_mask": 0,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": []
+    },
+    {
+      "pair_mask": 1,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        92,
+        99,
+        167,
+        230
+      ]
+    },
+    {
+      "pair_mask": 1,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        92,
+        99,
+        167,
+        230
+      ]
+    },
+    {
+      "pair_mask": 1,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        92,
+        99,
+        167,
+        230
+      ]
+    },
+    {
+      "pair_mask": 1,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        92,
+        99,
+        167
+      ]
+    },
+    {
+      "pair_mask": 1,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        92,
+        99,
+        167
+      ]
+    },
+    {
+      "pair_mask": 1,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        92,
+        99,
+        167
+      ]
+    },
+    {
+      "pair_mask": 1,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        92,
+        99,
+        167
+      ]
+    },
+    {
+      "pair_mask": 1,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        92,
+        99,
+        167
+      ]
+    },
+    {
+      "pair_mask": 1,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        92,
+        99,
+        167
+      ]
+    },
+    {
+      "pair_mask": 1,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        92,
+        99,
+        167
+      ]
+    },
+    {
+      "pair_mask": 1,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        92,
+        99,
+        167
+      ]
+    },
+    {
+      "pair_mask": 1,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        92,
+        99,
+        167
+      ]
+    },
+    {
+      "pair_mask": 1,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        92,
+        99,
+        167,
+        230
+      ]
+    },
+    {
+      "pair_mask": 1,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        92,
+        99,
+        167,
+        230
+      ]
+    },
+    {
+      "pair_mask": 1,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        92,
+        99,
+        167,
+        230
+      ]
+    },
+    {
+      "pair_mask": 1,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        92,
+        99,
+        167
+      ]
+    },
+    {
+      "pair_mask": 1,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        92,
+        99,
+        167
+      ]
+    },
+    {
+      "pair_mask": 1,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        92,
+        99,
+        167
+      ]
+    },
+    {
+      "pair_mask": 1,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        92,
+        99,
+        167
+      ]
+    },
+    {
+      "pair_mask": 1,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        92,
+        99,
+        167
+      ]
+    },
+    {
+      "pair_mask": 1,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        92,
+        99,
+        167
+      ]
+    },
+    {
+      "pair_mask": 1,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        92,
+        99,
+        167
+      ]
+    },
+    {
+      "pair_mask": 1,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        92,
+        99,
+        167
+      ]
+    },
+    {
+      "pair_mask": 1,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        92,
+        99,
+        167
+      ]
+    },
+    {
+      "pair_mask": 2,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        5,
+        93,
+        168,
+        231
+      ]
+    },
+    {
+      "pair_mask": 2,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        5,
+        93,
+        168,
+        231
+      ]
+    },
+    {
+      "pair_mask": 2,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        5,
+        93,
+        168,
+        231
+      ]
+    },
+    {
+      "pair_mask": 2,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        5,
+        93,
+        168,
+        231
+      ]
+    },
+    {
+      "pair_mask": 2,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        5,
+        93,
+        168,
+        231
+      ]
+    },
+    {
+      "pair_mask": 2,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        5,
+        93,
+        168,
+        231
+      ]
+    },
+    {
+      "pair_mask": 2,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        5,
+        93,
+        168
+      ]
+    },
+    {
+      "pair_mask": 2,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        5,
+        93,
+        168
+      ]
+    },
+    {
+      "pair_mask": 2,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        5,
+        93,
+        168
+      ]
+    },
+    {
+      "pair_mask": 2,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        5,
+        93,
+        168
+      ]
+    },
+    {
+      "pair_mask": 2,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        5,
+        93,
+        168
+      ]
+    },
+    {
+      "pair_mask": 2,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        5,
+        93,
+        168
+      ]
+    },
+    {
+      "pair_mask": 2,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        5,
+        93,
+        168,
+        231
+      ]
+    },
+    {
+      "pair_mask": 2,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        5,
+        93,
+        168,
+        231
+      ]
+    },
+    {
+      "pair_mask": 2,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        5,
+        93,
+        168,
+        231
+      ]
+    },
+    {
+      "pair_mask": 2,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        5,
+        93,
+        168,
+        231
+      ]
+    },
+    {
+      "pair_mask": 2,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        5,
+        93,
+        168,
+        231
+      ]
+    },
+    {
+      "pair_mask": 2,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        5,
+        93,
+        168,
+        231
+      ]
+    },
+    {
+      "pair_mask": 2,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        5,
+        93,
+        168
+      ]
+    },
+    {
+      "pair_mask": 2,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        5,
+        93,
+        168
+      ]
+    },
+    {
+      "pair_mask": 2,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        5,
+        93,
+        168
+      ]
+    },
+    {
+      "pair_mask": 2,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        5,
+        93,
+        168
+      ]
+    },
+    {
+      "pair_mask": 2,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        5,
+        93,
+        168
+      ]
+    },
+    {
+      "pair_mask": 2,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        5,
+        93,
+        168
+      ]
+    },
+    {
+      "pair_mask": 3,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        92,
+        93,
+        99,
+        167,
+        168,
+        230,
+        231
+      ]
+    },
+    {
+      "pair_mask": 3,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        92,
+        93,
+        99,
+        167,
+        168,
+        230,
+        231
+      ]
+    },
+    {
+      "pair_mask": 3,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        92,
+        93,
+        99,
+        167,
+        168,
+        230,
+        231
+      ]
+    },
+    {
+      "pair_mask": 3,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        92,
+        93,
+        99,
+        167,
+        168,
+        231
+      ]
+    },
+    {
+      "pair_mask": 3,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        92,
+        93,
+        99,
+        167,
+        168,
+        231
+      ]
+    },
+    {
+      "pair_mask": 3,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        92,
+        93,
+        99,
+        167,
+        168,
+        231
+      ]
+    },
+    {
+      "pair_mask": 3,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        92,
+        93,
+        99,
+        167,
+        168
+      ]
+    },
+    {
+      "pair_mask": 3,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        92,
+        93,
+        99,
+        167,
+        168
+      ]
+    },
+    {
+      "pair_mask": 3,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        92,
+        93,
+        99,
+        167,
+        168
+      ]
+    },
+    {
+      "pair_mask": 3,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        92,
+        93,
+        99,
+        167,
+        168
+      ]
+    },
+    {
+      "pair_mask": 3,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        92,
+        93,
+        99,
+        167,
+        168
+      ]
+    },
+    {
+      "pair_mask": 3,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        92,
+        93,
+        99,
+        167,
+        168
+      ]
+    },
+    {
+      "pair_mask": 3,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        92,
+        93,
+        99,
+        167,
+        168,
+        230,
+        231
+      ]
+    },
+    {
+      "pair_mask": 3,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        92,
+        93,
+        99,
+        167,
+        168,
+        230,
+        231
+      ]
+    },
+    {
+      "pair_mask": 3,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        92,
+        93,
+        99,
+        167,
+        168,
+        230,
+        231
+      ]
+    },
+    {
+      "pair_mask": 3,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        92,
+        93,
+        99,
+        167,
+        168,
+        231
+      ]
+    },
+    {
+      "pair_mask": 3,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        92,
+        93,
+        99,
+        167,
+        168,
+        231
+      ]
+    },
+    {
+      "pair_mask": 3,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        92,
+        93,
+        99,
+        167,
+        168,
+        231
+      ]
+    },
+    {
+      "pair_mask": 3,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        92,
+        93,
+        99,
+        167,
+        168
+      ]
+    },
+    {
+      "pair_mask": 3,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        92,
+        93,
+        99,
+        167,
+        168
+      ]
+    },
+    {
+      "pair_mask": 3,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        92,
+        93,
+        99,
+        167,
+        168
+      ]
+    },
+    {
+      "pair_mask": 3,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        92,
+        93,
+        99,
+        167,
+        168
+      ]
+    },
+    {
+      "pair_mask": 3,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        92,
+        93,
+        99,
+        167,
+        168
+      ]
+    },
+    {
+      "pair_mask": 3,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        92,
+        93,
+        99,
+        167,
+        168
+      ]
+    },
+    {
+      "pair_mask": 4,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        6,
+        51,
+        94,
+        138,
+        151,
+        156,
+        169,
+        232,
+        264
+      ]
+    },
+    {
+      "pair_mask": 4,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        6,
+        51,
+        94,
+        138,
+        151,
+        156,
+        169,
+        232,
+        264
+      ]
+    },
+    {
+      "pair_mask": 4,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        6,
+        51,
+        94,
+        138,
+        151,
+        156,
+        169,
+        232,
+        264
+      ]
+    },
+    {
+      "pair_mask": 4,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        6,
+        94,
+        138,
+        169,
+        232
+      ]
+    },
+    {
+      "pair_mask": 4,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        6,
+        94,
+        138,
+        169,
+        232
+      ]
+    },
+    {
+      "pair_mask": 4,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        6,
+        94,
+        138,
+        169,
+        232
+      ]
+    },
+    {
+      "pair_mask": 4,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        6,
+        51,
+        94,
+        138,
+        151,
+        156,
+        169,
+        264
+      ]
+    },
+    {
+      "pair_mask": 4,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        6,
+        51,
+        94,
+        138,
+        151,
+        156,
+        169,
+        264
+      ]
+    },
+    {
+      "pair_mask": 4,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        6,
+        51,
+        94,
+        138,
+        151,
+        156,
+        169,
+        264
+      ]
+    },
+    {
+      "pair_mask": 4,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        6,
+        94,
+        138,
+        169
+      ]
+    },
+    {
+      "pair_mask": 4,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        6,
+        94,
+        138,
+        169
+      ]
+    },
+    {
+      "pair_mask": 4,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        6,
+        94,
+        138,
+        169
+      ]
+    },
+    {
+      "pair_mask": 4,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        6,
+        51,
+        94,
+        138,
+        169,
+        232
+      ]
+    },
+    {
+      "pair_mask": 4,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        6,
+        51,
+        94,
+        138,
+        169,
+        232
+      ]
+    },
+    {
+      "pair_mask": 4,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        6,
+        51,
+        94,
+        138,
+        169,
+        232
+      ]
+    },
+    {
+      "pair_mask": 4,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        6,
+        94,
+        138,
+        169,
+        232
+      ]
+    },
+    {
+      "pair_mask": 4,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        6,
+        94,
+        138,
+        169,
+        232
+      ]
+    },
+    {
+      "pair_mask": 4,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        6,
+        94,
+        138,
+        169,
+        232
+      ]
+    },
+    {
+      "pair_mask": 4,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        6,
+        51,
+        94,
+        138,
+        169
+      ]
+    },
+    {
+      "pair_mask": 4,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        6,
+        51,
+        94,
+        138,
+        169
+      ]
+    },
+    {
+      "pair_mask": 4,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        6,
+        51,
+        94,
+        138,
+        169
+      ]
+    },
+    {
+      "pair_mask": 4,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        6,
+        94,
+        138,
+        169
+      ]
+    },
+    {
+      "pair_mask": 4,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        6,
+        94,
+        138,
+        169
+      ]
+    },
+    {
+      "pair_mask": 4,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        6,
+        94,
+        138,
+        169
+      ]
+    },
+    {
+      "pair_mask": 5,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        6,
+        51,
+        92,
+        94,
+        99,
+        138,
+        151,
+        156,
+        167,
+        169,
+        230,
+        232,
+        264
+      ]
+    },
+    {
+      "pair_mask": 5,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        6,
+        51,
+        92,
+        94,
+        99,
+        138,
+        151,
+        156,
+        167,
+        169,
+        230,
+        232,
+        264
+      ]
+    },
+    {
+      "pair_mask": 5,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        6,
+        51,
+        92,
+        94,
+        99,
+        138,
+        151,
+        156,
+        167,
+        169,
+        230,
+        232,
+        264
+      ]
+    },
+    {
+      "pair_mask": 5,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        6,
+        92,
+        94,
+        99,
+        138,
+        167,
+        169,
+        232
+      ]
+    },
+    {
+      "pair_mask": 5,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        6,
+        92,
+        94,
+        99,
+        138,
+        167,
+        169,
+        232
+      ]
+    },
+    {
+      "pair_mask": 5,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        6,
+        92,
+        94,
+        99,
+        138,
+        167,
+        169,
+        232
+      ]
+    },
+    {
+      "pair_mask": 5,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        6,
+        51,
+        92,
+        94,
+        99,
+        138,
+        151,
+        156,
+        167,
+        169,
+        264
+      ]
+    },
+    {
+      "pair_mask": 5,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        6,
+        51,
+        92,
+        94,
+        99,
+        138,
+        151,
+        156,
+        167,
+        169,
+        264
+      ]
+    },
+    {
+      "pair_mask": 5,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        6,
+        51,
+        92,
+        94,
+        99,
+        138,
+        151,
+        156,
+        167,
+        169,
+        264
+      ]
+    },
+    {
+      "pair_mask": 5,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        6,
+        92,
+        94,
+        99,
+        138,
+        167,
+        169
+      ]
+    },
+    {
+      "pair_mask": 5,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        6,
+        92,
+        94,
+        99,
+        138,
+        167,
+        169
+      ]
+    },
+    {
+      "pair_mask": 5,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        6,
+        92,
+        94,
+        99,
+        138,
+        167,
+        169
+      ]
+    },
+    {
+      "pair_mask": 5,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        6,
+        51,
+        92,
+        94,
+        99,
+        138,
+        167,
+        169,
+        230,
+        232
+      ]
+    },
+    {
+      "pair_mask": 5,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        6,
+        51,
+        92,
+        94,
+        99,
+        138,
+        167,
+        169,
+        230,
+        232
+      ]
+    },
+    {
+      "pair_mask": 5,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        6,
+        51,
+        92,
+        94,
+        99,
+        138,
+        167,
+        169,
+        230,
+        232
+      ]
+    },
+    {
+      "pair_mask": 5,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        6,
+        92,
+        94,
+        99,
+        138,
+        167,
+        169,
+        232
+      ]
+    },
+    {
+      "pair_mask": 5,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        6,
+        92,
+        94,
+        99,
+        138,
+        167,
+        169,
+        232
+      ]
+    },
+    {
+      "pair_mask": 5,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        6,
+        92,
+        94,
+        99,
+        138,
+        167,
+        169,
+        232
+      ]
+    },
+    {
+      "pair_mask": 5,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        6,
+        51,
+        92,
+        94,
+        99,
+        138,
+        167,
+        169
+      ]
+    },
+    {
+      "pair_mask": 5,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        6,
+        51,
+        92,
+        94,
+        99,
+        138,
+        167,
+        169
+      ]
+    },
+    {
+      "pair_mask": 5,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        6,
+        51,
+        92,
+        94,
+        99,
+        138,
+        167,
+        169
+      ]
+    },
+    {
+      "pair_mask": 5,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        6,
+        92,
+        94,
+        99,
+        138,
+        167,
+        169
+      ]
+    },
+    {
+      "pair_mask": 5,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        6,
+        92,
+        94,
+        99,
+        138,
+        167,
+        169
+      ]
+    },
+    {
+      "pair_mask": 5,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        6,
+        92,
+        94,
+        99,
+        138,
+        167,
+        169
+      ]
+    },
+    {
+      "pair_mask": 6,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        5,
+        6,
+        51,
+        93,
+        94,
+        138,
+        151,
+        156,
+        168,
+        169,
+        231,
+        232,
+        264
+      ]
+    },
+    {
+      "pair_mask": 6,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        5,
+        6,
+        51,
+        93,
+        94,
+        138,
+        151,
+        156,
+        168,
+        169,
+        231,
+        232,
+        264
+      ]
+    },
+    {
+      "pair_mask": 6,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        5,
+        6,
+        51,
+        93,
+        94,
+        138,
+        151,
+        156,
+        168,
+        169,
+        231,
+        232,
+        264
+      ]
+    },
+    {
+      "pair_mask": 6,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        5,
+        6,
+        93,
+        94,
+        138,
+        168,
+        169,
+        231,
+        232
+      ]
+    },
+    {
+      "pair_mask": 6,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        5,
+        6,
+        93,
+        94,
+        138,
+        168,
+        169,
+        231,
+        232
+      ]
+    },
+    {
+      "pair_mask": 6,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        5,
+        6,
+        93,
+        94,
+        138,
+        168,
+        169,
+        231,
+        232
+      ]
+    },
+    {
+      "pair_mask": 6,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        5,
+        6,
+        51,
+        93,
+        94,
+        138,
+        151,
+        156,
+        168,
+        169,
+        264
+      ]
+    },
+    {
+      "pair_mask": 6,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        5,
+        6,
+        51,
+        93,
+        94,
+        138,
+        151,
+        156,
+        168,
+        169,
+        264
+      ]
+    },
+    {
+      "pair_mask": 6,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        5,
+        6,
+        51,
+        93,
+        94,
+        138,
+        151,
+        156,
+        168,
+        169,
+        264
+      ]
+    },
+    {
+      "pair_mask": 6,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        5,
+        6,
+        93,
+        94,
+        138,
+        168,
+        169
+      ]
+    },
+    {
+      "pair_mask": 6,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        5,
+        6,
+        93,
+        94,
+        138,
+        168,
+        169
+      ]
+    },
+    {
+      "pair_mask": 6,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        5,
+        6,
+        93,
+        94,
+        138,
+        168,
+        169
+      ]
+    },
+    {
+      "pair_mask": 6,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        5,
+        6,
+        51,
+        93,
+        94,
+        138,
+        168,
+        169,
+        231,
+        232
+      ]
+    },
+    {
+      "pair_mask": 6,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        5,
+        6,
+        51,
+        93,
+        94,
+        138,
+        168,
+        169,
+        231,
+        232
+      ]
+    },
+    {
+      "pair_mask": 6,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        5,
+        6,
+        51,
+        93,
+        94,
+        138,
+        168,
+        169,
+        231,
+        232
+      ]
+    },
+    {
+      "pair_mask": 6,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        5,
+        6,
+        93,
+        94,
+        138,
+        168,
+        169,
+        231,
+        232
+      ]
+    },
+    {
+      "pair_mask": 6,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        5,
+        6,
+        93,
+        94,
+        138,
+        168,
+        169,
+        231,
+        232
+      ]
+    },
+    {
+      "pair_mask": 6,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        5,
+        6,
+        93,
+        94,
+        138,
+        168,
+        169,
+        231,
+        232
+      ]
+    },
+    {
+      "pair_mask": 6,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        5,
+        6,
+        51,
+        93,
+        94,
+        138,
+        168,
+        169
+      ]
+    },
+    {
+      "pair_mask": 6,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        5,
+        6,
+        51,
+        93,
+        94,
+        138,
+        168,
+        169
+      ]
+    },
+    {
+      "pair_mask": 6,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        5,
+        6,
+        51,
+        93,
+        94,
+        138,
+        168,
+        169
+      ]
+    },
+    {
+      "pair_mask": 6,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        5,
+        6,
+        93,
+        94,
+        138,
+        168,
+        169
+      ]
+    },
+    {
+      "pair_mask": 6,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        5,
+        6,
+        93,
+        94,
+        138,
+        168,
+        169
+      ]
+    },
+    {
+      "pair_mask": 6,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        5,
+        6,
+        93,
+        94,
+        138,
+        168,
+        169
+      ]
+    },
+    {
+      "pair_mask": 7,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        6,
+        51,
+        92,
+        93,
+        94,
+        99,
+        138,
+        151,
+        156,
+        167,
+        168,
+        169,
+        230,
+        231,
+        232,
+        264
+      ]
+    },
+    {
+      "pair_mask": 7,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        6,
+        51,
+        92,
+        93,
+        94,
+        99,
+        138,
+        151,
+        156,
+        167,
+        168,
+        169,
+        230,
+        231,
+        232,
+        264
+      ]
+    },
+    {
+      "pair_mask": 7,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        6,
+        51,
+        92,
+        93,
+        94,
+        99,
+        138,
+        151,
+        156,
+        167,
+        168,
+        169,
+        230,
+        231,
+        232,
+        264
+      ]
+    },
+    {
+      "pair_mask": 7,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        6,
+        92,
+        93,
+        94,
+        99,
+        138,
+        167,
+        168,
+        169,
+        231,
+        232
+      ]
+    },
+    {
+      "pair_mask": 7,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        6,
+        92,
+        93,
+        94,
+        99,
+        138,
+        167,
+        168,
+        169,
+        231,
+        232
+      ]
+    },
+    {
+      "pair_mask": 7,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        6,
+        92,
+        93,
+        94,
+        99,
+        138,
+        167,
+        168,
+        169,
+        231,
+        232
+      ]
+    },
+    {
+      "pair_mask": 7,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        6,
+        51,
+        92,
+        93,
+        94,
+        99,
+        138,
+        151,
+        156,
+        167,
+        168,
+        169,
+        264
+      ]
+    },
+    {
+      "pair_mask": 7,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        6,
+        51,
+        92,
+        93,
+        94,
+        99,
+        138,
+        151,
+        156,
+        167,
+        168,
+        169,
+        264
+      ]
+    },
+    {
+      "pair_mask": 7,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        6,
+        51,
+        92,
+        93,
+        94,
+        99,
+        138,
+        151,
+        156,
+        167,
+        168,
+        169,
+        264
+      ]
+    },
+    {
+      "pair_mask": 7,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        6,
+        92,
+        93,
+        94,
+        99,
+        138,
+        167,
+        168,
+        169
+      ]
+    },
+    {
+      "pair_mask": 7,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        6,
+        92,
+        93,
+        94,
+        99,
+        138,
+        167,
+        168,
+        169
+      ]
+    },
+    {
+      "pair_mask": 7,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        6,
+        92,
+        93,
+        94,
+        99,
+        138,
+        167,
+        168,
+        169
+      ]
+    },
+    {
+      "pair_mask": 7,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        6,
+        51,
+        92,
+        93,
+        94,
+        99,
+        138,
+        167,
+        168,
+        169,
+        230,
+        231,
+        232
+      ]
+    },
+    {
+      "pair_mask": 7,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        6,
+        51,
+        92,
+        93,
+        94,
+        99,
+        138,
+        167,
+        168,
+        169,
+        230,
+        231,
+        232
+      ]
+    },
+    {
+      "pair_mask": 7,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        6,
+        51,
+        92,
+        93,
+        94,
+        99,
+        138,
+        167,
+        168,
+        169,
+        230,
+        231,
+        232
+      ]
+    },
+    {
+      "pair_mask": 7,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        6,
+        92,
+        93,
+        94,
+        99,
+        138,
+        167,
+        168,
+        169,
+        231,
+        232
+      ]
+    },
+    {
+      "pair_mask": 7,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        6,
+        92,
+        93,
+        94,
+        99,
+        138,
+        167,
+        168,
+        169,
+        231,
+        232
+      ]
+    },
+    {
+      "pair_mask": 7,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        6,
+        92,
+        93,
+        94,
+        99,
+        138,
+        167,
+        168,
+        169,
+        231,
+        232
+      ]
+    },
+    {
+      "pair_mask": 7,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        6,
+        51,
+        92,
+        93,
+        94,
+        99,
+        138,
+        167,
+        168,
+        169
+      ]
+    },
+    {
+      "pair_mask": 7,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        6,
+        51,
+        92,
+        93,
+        94,
+        99,
+        138,
+        167,
+        168,
+        169
+      ]
+    },
+    {
+      "pair_mask": 7,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        6,
+        51,
+        92,
+        93,
+        94,
+        99,
+        138,
+        167,
+        168,
+        169
+      ]
+    },
+    {
+      "pair_mask": 7,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        6,
+        92,
+        93,
+        94,
+        99,
+        138,
+        167,
+        168,
+        169
+      ]
+    },
+    {
+      "pair_mask": 7,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        6,
+        92,
+        93,
+        94,
+        99,
+        138,
+        167,
+        168,
+        169
+      ]
+    },
+    {
+      "pair_mask": 7,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        6,
+        92,
+        93,
+        94,
+        99,
+        138,
+        167,
+        168,
+        169
+      ]
+    },
+    {
+      "pair_mask": 8,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        7,
+        29,
+        95,
+        170,
+        234
+      ]
+    },
+    {
+      "pair_mask": 8,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        7,
+        29,
+        95,
+        170,
+        234
+      ]
+    },
+    {
+      "pair_mask": 8,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        7,
+        29,
+        95,
+        170,
+        234
+      ]
+    },
+    {
+      "pair_mask": 8,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        7,
+        95,
+        170,
+        234
+      ]
+    },
+    {
+      "pair_mask": 8,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        7,
+        95,
+        170,
+        234
+      ]
+    },
+    {
+      "pair_mask": 8,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        7,
+        95,
+        170,
+        234
+      ]
+    },
+    {
+      "pair_mask": 8,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        7,
+        29,
+        95,
+        170
+      ]
+    },
+    {
+      "pair_mask": 8,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        7,
+        29,
+        95,
+        170
+      ]
+    },
+    {
+      "pair_mask": 8,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        7,
+        29,
+        95,
+        170
+      ]
+    },
+    {
+      "pair_mask": 8,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        7,
+        95,
+        170
+      ]
+    },
+    {
+      "pair_mask": 8,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        7,
+        95,
+        170
+      ]
+    },
+    {
+      "pair_mask": 8,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        7,
+        95,
+        170
+      ]
+    },
+    {
+      "pair_mask": 8,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        7,
+        29,
+        95,
+        170,
+        234
+      ]
+    },
+    {
+      "pair_mask": 8,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        7,
+        29,
+        95,
+        170,
+        234
+      ]
+    },
+    {
+      "pair_mask": 8,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        7,
+        29,
+        95,
+        170,
+        234
+      ]
+    },
+    {
+      "pair_mask": 8,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        7,
+        95,
+        170,
+        234
+      ]
+    },
+    {
+      "pair_mask": 8,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        7,
+        95,
+        170,
+        234
+      ]
+    },
+    {
+      "pair_mask": 8,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        7,
+        95,
+        170,
+        234
+      ]
+    },
+    {
+      "pair_mask": 8,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        7,
+        29,
+        95,
+        170
+      ]
+    },
+    {
+      "pair_mask": 8,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        7,
+        29,
+        95,
+        170
+      ]
+    },
+    {
+      "pair_mask": 8,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        7,
+        29,
+        95,
+        170
+      ]
+    },
+    {
+      "pair_mask": 8,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        7,
+        95,
+        170
+      ]
+    },
+    {
+      "pair_mask": 8,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        7,
+        95,
+        170
+      ]
+    },
+    {
+      "pair_mask": 8,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        7,
+        95,
+        170
+      ]
+    },
+    {
+      "pair_mask": 9,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        7,
+        29,
+        92,
+        95,
+        99,
+        167,
+        170,
+        230,
+        234
+      ]
+    },
+    {
+      "pair_mask": 9,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        7,
+        29,
+        92,
+        95,
+        99,
+        167,
+        170,
+        230,
+        234
+      ]
+    },
+    {
+      "pair_mask": 9,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        7,
+        29,
+        92,
+        95,
+        99,
+        167,
+        170,
+        230,
+        234
+      ]
+    },
+    {
+      "pair_mask": 9,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        7,
+        92,
+        95,
+        99,
+        167,
+        170,
+        234
+      ]
+    },
+    {
+      "pair_mask": 9,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        7,
+        92,
+        95,
+        99,
+        167,
+        170,
+        234
+      ]
+    },
+    {
+      "pair_mask": 9,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        7,
+        92,
+        95,
+        99,
+        167,
+        170,
+        234
+      ]
+    },
+    {
+      "pair_mask": 9,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        7,
+        29,
+        92,
+        95,
+        99,
+        167,
+        170
+      ]
+    },
+    {
+      "pair_mask": 9,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        7,
+        29,
+        92,
+        95,
+        99,
+        167,
+        170
+      ]
+    },
+    {
+      "pair_mask": 9,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        7,
+        29,
+        92,
+        95,
+        99,
+        167,
+        170
+      ]
+    },
+    {
+      "pair_mask": 9,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        7,
+        92,
+        95,
+        99,
+        167,
+        170
+      ]
+    },
+    {
+      "pair_mask": 9,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        7,
+        92,
+        95,
+        99,
+        167,
+        170
+      ]
+    },
+    {
+      "pair_mask": 9,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        7,
+        92,
+        95,
+        99,
+        167,
+        170
+      ]
+    },
+    {
+      "pair_mask": 9,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        7,
+        29,
+        92,
+        95,
+        99,
+        167,
+        170,
+        230,
+        234
+      ]
+    },
+    {
+      "pair_mask": 9,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        7,
+        29,
+        92,
+        95,
+        99,
+        167,
+        170,
+        230,
+        234
+      ]
+    },
+    {
+      "pair_mask": 9,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        7,
+        29,
+        92,
+        95,
+        99,
+        167,
+        170,
+        230,
+        234
+      ]
+    },
+    {
+      "pair_mask": 9,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        7,
+        92,
+        95,
+        99,
+        167,
+        170,
+        234
+      ]
+    },
+    {
+      "pair_mask": 9,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        7,
+        92,
+        95,
+        99,
+        167,
+        170,
+        234
+      ]
+    },
+    {
+      "pair_mask": 9,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        7,
+        92,
+        95,
+        99,
+        167,
+        170,
+        234
+      ]
+    },
+    {
+      "pair_mask": 9,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        7,
+        29,
+        92,
+        95,
+        99,
+        167,
+        170
+      ]
+    },
+    {
+      "pair_mask": 9,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        7,
+        29,
+        92,
+        95,
+        99,
+        167,
+        170
+      ]
+    },
+    {
+      "pair_mask": 9,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        7,
+        29,
+        92,
+        95,
+        99,
+        167,
+        170
+      ]
+    },
+    {
+      "pair_mask": 9,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        7,
+        92,
+        95,
+        99,
+        167,
+        170
+      ]
+    },
+    {
+      "pair_mask": 9,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        7,
+        92,
+        95,
+        99,
+        167,
+        170
+      ]
+    },
+    {
+      "pair_mask": 9,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        7,
+        92,
+        95,
+        99,
+        167,
+        170
+      ]
+    },
+    {
+      "pair_mask": 10,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        5,
+        7,
+        29,
+        93,
+        95,
+        168,
+        170,
+        231,
+        234
+      ]
+    },
+    {
+      "pair_mask": 10,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        5,
+        7,
+        29,
+        93,
+        95,
+        168,
+        170,
+        231,
+        234
+      ]
+    },
+    {
+      "pair_mask": 10,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        5,
+        7,
+        29,
+        93,
+        95,
+        168,
+        170,
+        231,
+        234
+      ]
+    },
+    {
+      "pair_mask": 10,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        5,
+        7,
+        93,
+        95,
+        168,
+        170,
+        231,
+        234
+      ]
+    },
+    {
+      "pair_mask": 10,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        5,
+        7,
+        93,
+        95,
+        168,
+        170,
+        231,
+        234
+      ]
+    },
+    {
+      "pair_mask": 10,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        5,
+        7,
+        93,
+        95,
+        168,
+        170,
+        231,
+        234
+      ]
+    },
+    {
+      "pair_mask": 10,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        5,
+        7,
+        29,
+        93,
+        95,
+        168,
+        170
+      ]
+    },
+    {
+      "pair_mask": 10,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        5,
+        7,
+        29,
+        93,
+        95,
+        168,
+        170
+      ]
+    },
+    {
+      "pair_mask": 10,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        5,
+        7,
+        29,
+        93,
+        95,
+        168,
+        170
+      ]
+    },
+    {
+      "pair_mask": 10,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        5,
+        7,
+        93,
+        95,
+        168,
+        170
+      ]
+    },
+    {
+      "pair_mask": 10,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        5,
+        7,
+        93,
+        95,
+        168,
+        170
+      ]
+    },
+    {
+      "pair_mask": 10,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        5,
+        7,
+        93,
+        95,
+        168,
+        170
+      ]
+    },
+    {
+      "pair_mask": 10,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        5,
+        7,
+        29,
+        93,
+        95,
+        168,
+        170,
+        231,
+        234
+      ]
+    },
+    {
+      "pair_mask": 10,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        5,
+        7,
+        29,
+        93,
+        95,
+        168,
+        170,
+        231,
+        234
+      ]
+    },
+    {
+      "pair_mask": 10,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        5,
+        7,
+        29,
+        93,
+        95,
+        168,
+        170,
+        231,
+        234
+      ]
+    },
+    {
+      "pair_mask": 10,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        5,
+        7,
+        93,
+        95,
+        168,
+        170,
+        231,
+        234
+      ]
+    },
+    {
+      "pair_mask": 10,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        5,
+        7,
+        93,
+        95,
+        168,
+        170,
+        231,
+        234
+      ]
+    },
+    {
+      "pair_mask": 10,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        5,
+        7,
+        93,
+        95,
+        168,
+        170,
+        231,
+        234
+      ]
+    },
+    {
+      "pair_mask": 10,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        5,
+        7,
+        29,
+        93,
+        95,
+        168,
+        170
+      ]
+    },
+    {
+      "pair_mask": 10,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        5,
+        7,
+        29,
+        93,
+        95,
+        168,
+        170
+      ]
+    },
+    {
+      "pair_mask": 10,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        5,
+        7,
+        29,
+        93,
+        95,
+        168,
+        170
+      ]
+    },
+    {
+      "pair_mask": 10,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        5,
+        7,
+        93,
+        95,
+        168,
+        170
+      ]
+    },
+    {
+      "pair_mask": 10,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        5,
+        7,
+        93,
+        95,
+        168,
+        170
+      ]
+    },
+    {
+      "pair_mask": 10,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        5,
+        7,
+        93,
+        95,
+        168,
+        170
+      ]
+    },
+    {
+      "pair_mask": 11,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        7,
+        29,
+        92,
+        93,
+        95,
+        99,
+        167,
+        168,
+        170,
+        230,
+        231,
+        234
+      ]
+    },
+    {
+      "pair_mask": 11,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        7,
+        29,
+        92,
+        93,
+        95,
+        99,
+        167,
+        168,
+        170,
+        230,
+        231,
+        234
+      ]
+    },
+    {
+      "pair_mask": 11,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        7,
+        29,
+        92,
+        93,
+        95,
+        99,
+        167,
+        168,
+        170,
+        230,
+        231,
+        234
+      ]
+    },
+    {
+      "pair_mask": 11,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        7,
+        92,
+        93,
+        95,
+        99,
+        167,
+        168,
+        170,
+        231,
+        234
+      ]
+    },
+    {
+      "pair_mask": 11,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        7,
+        92,
+        93,
+        95,
+        99,
+        167,
+        168,
+        170,
+        231,
+        234
+      ]
+    },
+    {
+      "pair_mask": 11,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        7,
+        92,
+        93,
+        95,
+        99,
+        167,
+        168,
+        170,
+        231,
+        234
+      ]
+    },
+    {
+      "pair_mask": 11,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        7,
+        29,
+        92,
+        93,
+        95,
+        99,
+        167,
+        168,
+        170
+      ]
+    },
+    {
+      "pair_mask": 11,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        7,
+        29,
+        92,
+        93,
+        95,
+        99,
+        167,
+        168,
+        170
+      ]
+    },
+    {
+      "pair_mask": 11,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        7,
+        29,
+        92,
+        93,
+        95,
+        99,
+        167,
+        168,
+        170
+      ]
+    },
+    {
+      "pair_mask": 11,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        7,
+        92,
+        93,
+        95,
+        99,
+        167,
+        168,
+        170
+      ]
+    },
+    {
+      "pair_mask": 11,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        7,
+        92,
+        93,
+        95,
+        99,
+        167,
+        168,
+        170
+      ]
+    },
+    {
+      "pair_mask": 11,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        7,
+        92,
+        93,
+        95,
+        99,
+        167,
+        168,
+        170
+      ]
+    },
+    {
+      "pair_mask": 11,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        7,
+        29,
+        92,
+        93,
+        95,
+        99,
+        167,
+        168,
+        170,
+        230,
+        231,
+        234
+      ]
+    },
+    {
+      "pair_mask": 11,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        7,
+        29,
+        92,
+        93,
+        95,
+        99,
+        167,
+        168,
+        170,
+        230,
+        231,
+        234
+      ]
+    },
+    {
+      "pair_mask": 11,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        7,
+        29,
+        92,
+        93,
+        95,
+        99,
+        167,
+        168,
+        170,
+        230,
+        231,
+        234
+      ]
+    },
+    {
+      "pair_mask": 11,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        7,
+        92,
+        93,
+        95,
+        99,
+        167,
+        168,
+        170,
+        231,
+        234
+      ]
+    },
+    {
+      "pair_mask": 11,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        7,
+        92,
+        93,
+        95,
+        99,
+        167,
+        168,
+        170,
+        231,
+        234
+      ]
+    },
+    {
+      "pair_mask": 11,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        7,
+        92,
+        93,
+        95,
+        99,
+        167,
+        168,
+        170,
+        231,
+        234
+      ]
+    },
+    {
+      "pair_mask": 11,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        7,
+        29,
+        92,
+        93,
+        95,
+        99,
+        167,
+        168,
+        170
+      ]
+    },
+    {
+      "pair_mask": 11,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        7,
+        29,
+        92,
+        93,
+        95,
+        99,
+        167,
+        168,
+        170
+      ]
+    },
+    {
+      "pair_mask": 11,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        7,
+        29,
+        92,
+        93,
+        95,
+        99,
+        167,
+        168,
+        170
+      ]
+    },
+    {
+      "pair_mask": 11,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        7,
+        92,
+        93,
+        95,
+        99,
+        167,
+        168,
+        170
+      ]
+    },
+    {
+      "pair_mask": 11,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        7,
+        92,
+        93,
+        95,
+        99,
+        167,
+        168,
+        170
+      ]
+    },
+    {
+      "pair_mask": 11,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        7,
+        92,
+        93,
+        95,
+        99,
+        167,
+        168,
+        170
+      ]
+    },
+    {
+      "pair_mask": 12,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        6,
+        7,
+        29,
+        51,
+        94,
+        95,
+        138,
+        151,
+        156,
+        169,
+        170,
+        232,
+        234,
+        264
+      ]
+    },
+    {
+      "pair_mask": 12,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        6,
+        7,
+        29,
+        51,
+        94,
+        95,
+        138,
+        151,
+        156,
+        169,
+        170,
+        232,
+        234,
+        264
+      ]
+    },
+    {
+      "pair_mask": 12,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        6,
+        7,
+        29,
+        51,
+        94,
+        95,
+        138,
+        151,
+        156,
+        169,
+        170,
+        232,
+        234,
+        264
+      ]
+    },
+    {
+      "pair_mask": 12,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        6,
+        7,
+        94,
+        95,
+        138,
+        169,
+        170,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 12,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        6,
+        7,
+        94,
+        95,
+        138,
+        169,
+        170,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 12,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        6,
+        7,
+        94,
+        95,
+        138,
+        169,
+        170,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 12,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        6,
+        7,
+        29,
+        51,
+        94,
+        95,
+        138,
+        151,
+        156,
+        169,
+        170,
+        264
+      ]
+    },
+    {
+      "pair_mask": 12,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        6,
+        7,
+        29,
+        51,
+        94,
+        95,
+        138,
+        151,
+        156,
+        169,
+        170,
+        264
+      ]
+    },
+    {
+      "pair_mask": 12,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        6,
+        7,
+        29,
+        51,
+        94,
+        95,
+        138,
+        151,
+        156,
+        169,
+        170,
+        264
+      ]
+    },
+    {
+      "pair_mask": 12,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        6,
+        7,
+        94,
+        95,
+        138,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 12,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        6,
+        7,
+        94,
+        95,
+        138,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 12,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        6,
+        7,
+        94,
+        95,
+        138,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 12,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        6,
+        7,
+        29,
+        51,
+        94,
+        95,
+        138,
+        169,
+        170,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 12,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        6,
+        7,
+        29,
+        51,
+        94,
+        95,
+        138,
+        169,
+        170,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 12,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        6,
+        7,
+        29,
+        51,
+        94,
+        95,
+        138,
+        169,
+        170,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 12,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        6,
+        7,
+        94,
+        95,
+        138,
+        169,
+        170,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 12,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        6,
+        7,
+        94,
+        95,
+        138,
+        169,
+        170,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 12,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        6,
+        7,
+        94,
+        95,
+        138,
+        169,
+        170,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 12,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        6,
+        7,
+        29,
+        51,
+        94,
+        95,
+        138,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 12,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        6,
+        7,
+        29,
+        51,
+        94,
+        95,
+        138,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 12,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        6,
+        7,
+        29,
+        51,
+        94,
+        95,
+        138,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 12,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        6,
+        7,
+        94,
+        95,
+        138,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 12,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        6,
+        7,
+        94,
+        95,
+        138,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 12,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        6,
+        7,
+        94,
+        95,
+        138,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 13,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        6,
+        7,
+        29,
+        51,
+        92,
+        94,
+        95,
+        99,
+        138,
+        151,
+        156,
+        167,
+        169,
+        170,
+        230,
+        232,
+        234,
+        264
+      ]
+    },
+    {
+      "pair_mask": 13,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        6,
+        7,
+        29,
+        51,
+        92,
+        94,
+        95,
+        99,
+        138,
+        151,
+        156,
+        167,
+        169,
+        170,
+        230,
+        232,
+        234,
+        264
+      ]
+    },
+    {
+      "pair_mask": 13,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        6,
+        7,
+        29,
+        51,
+        92,
+        94,
+        95,
+        99,
+        138,
+        151,
+        156,
+        167,
+        169,
+        170,
+        230,
+        232,
+        234,
+        264
+      ]
+    },
+    {
+      "pair_mask": 13,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        6,
+        7,
+        92,
+        94,
+        95,
+        99,
+        138,
+        167,
+        169,
+        170,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 13,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        6,
+        7,
+        92,
+        94,
+        95,
+        99,
+        138,
+        167,
+        169,
+        170,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 13,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        6,
+        7,
+        92,
+        94,
+        95,
+        99,
+        138,
+        167,
+        169,
+        170,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 13,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        6,
+        7,
+        29,
+        51,
+        92,
+        94,
+        95,
+        99,
+        138,
+        151,
+        156,
+        167,
+        169,
+        170,
+        264
+      ]
+    },
+    {
+      "pair_mask": 13,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        6,
+        7,
+        29,
+        51,
+        92,
+        94,
+        95,
+        99,
+        138,
+        151,
+        156,
+        167,
+        169,
+        170,
+        264
+      ]
+    },
+    {
+      "pair_mask": 13,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        6,
+        7,
+        29,
+        51,
+        92,
+        94,
+        95,
+        99,
+        138,
+        151,
+        156,
+        167,
+        169,
+        170,
+        264
+      ]
+    },
+    {
+      "pair_mask": 13,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        6,
+        7,
+        92,
+        94,
+        95,
+        99,
+        138,
+        167,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 13,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        6,
+        7,
+        92,
+        94,
+        95,
+        99,
+        138,
+        167,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 13,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        6,
+        7,
+        92,
+        94,
+        95,
+        99,
+        138,
+        167,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 13,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        6,
+        7,
+        29,
+        51,
+        92,
+        94,
+        95,
+        99,
+        138,
+        167,
+        169,
+        170,
+        230,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 13,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        6,
+        7,
+        29,
+        51,
+        92,
+        94,
+        95,
+        99,
+        138,
+        167,
+        169,
+        170,
+        230,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 13,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        6,
+        7,
+        29,
+        51,
+        92,
+        94,
+        95,
+        99,
+        138,
+        167,
+        169,
+        170,
+        230,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 13,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        6,
+        7,
+        92,
+        94,
+        95,
+        99,
+        138,
+        167,
+        169,
+        170,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 13,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        6,
+        7,
+        92,
+        94,
+        95,
+        99,
+        138,
+        167,
+        169,
+        170,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 13,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        6,
+        7,
+        92,
+        94,
+        95,
+        99,
+        138,
+        167,
+        169,
+        170,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 13,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        6,
+        7,
+        29,
+        51,
+        92,
+        94,
+        95,
+        99,
+        138,
+        167,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 13,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        6,
+        7,
+        29,
+        51,
+        92,
+        94,
+        95,
+        99,
+        138,
+        167,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 13,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        6,
+        7,
+        29,
+        51,
+        92,
+        94,
+        95,
+        99,
+        138,
+        167,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 13,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        6,
+        7,
+        92,
+        94,
+        95,
+        99,
+        138,
+        167,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 13,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        6,
+        7,
+        92,
+        94,
+        95,
+        99,
+        138,
+        167,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 13,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        6,
+        7,
+        92,
+        94,
+        95,
+        99,
+        138,
+        167,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 14,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        5,
+        6,
+        7,
+        29,
+        51,
+        93,
+        94,
+        95,
+        138,
+        151,
+        156,
+        168,
+        169,
+        170,
+        231,
+        232,
+        234,
+        264
+      ]
+    },
+    {
+      "pair_mask": 14,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        5,
+        6,
+        7,
+        29,
+        51,
+        93,
+        94,
+        95,
+        138,
+        151,
+        156,
+        168,
+        169,
+        170,
+        231,
+        232,
+        234,
+        264
+      ]
+    },
+    {
+      "pair_mask": 14,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        5,
+        6,
+        7,
+        29,
+        51,
+        93,
+        94,
+        95,
+        138,
+        151,
+        156,
+        168,
+        169,
+        170,
+        231,
+        232,
+        234,
+        264
+      ]
+    },
+    {
+      "pair_mask": 14,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        5,
+        6,
+        7,
+        93,
+        94,
+        95,
+        138,
+        168,
+        169,
+        170,
+        231,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 14,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        5,
+        6,
+        7,
+        93,
+        94,
+        95,
+        138,
+        168,
+        169,
+        170,
+        231,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 14,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        5,
+        6,
+        7,
+        93,
+        94,
+        95,
+        138,
+        168,
+        169,
+        170,
+        231,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 14,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        5,
+        6,
+        7,
+        29,
+        51,
+        93,
+        94,
+        95,
+        138,
+        151,
+        156,
+        168,
+        169,
+        170,
+        264
+      ]
+    },
+    {
+      "pair_mask": 14,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        5,
+        6,
+        7,
+        29,
+        51,
+        93,
+        94,
+        95,
+        138,
+        151,
+        156,
+        168,
+        169,
+        170,
+        264
+      ]
+    },
+    {
+      "pair_mask": 14,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        5,
+        6,
+        7,
+        29,
+        51,
+        93,
+        94,
+        95,
+        138,
+        151,
+        156,
+        168,
+        169,
+        170,
+        264
+      ]
+    },
+    {
+      "pair_mask": 14,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        5,
+        6,
+        7,
+        93,
+        94,
+        95,
+        138,
+        168,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 14,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        5,
+        6,
+        7,
+        93,
+        94,
+        95,
+        138,
+        168,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 14,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        5,
+        6,
+        7,
+        93,
+        94,
+        95,
+        138,
+        168,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 14,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        5,
+        6,
+        7,
+        29,
+        51,
+        93,
+        94,
+        95,
+        138,
+        168,
+        169,
+        170,
+        231,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 14,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        5,
+        6,
+        7,
+        29,
+        51,
+        93,
+        94,
+        95,
+        138,
+        168,
+        169,
+        170,
+        231,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 14,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        5,
+        6,
+        7,
+        29,
+        51,
+        93,
+        94,
+        95,
+        138,
+        168,
+        169,
+        170,
+        231,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 14,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        5,
+        6,
+        7,
+        93,
+        94,
+        95,
+        138,
+        168,
+        169,
+        170,
+        231,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 14,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        5,
+        6,
+        7,
+        93,
+        94,
+        95,
+        138,
+        168,
+        169,
+        170,
+        231,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 14,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        5,
+        6,
+        7,
+        93,
+        94,
+        95,
+        138,
+        168,
+        169,
+        170,
+        231,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 14,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        5,
+        6,
+        7,
+        29,
+        51,
+        93,
+        94,
+        95,
+        138,
+        168,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 14,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        5,
+        6,
+        7,
+        29,
+        51,
+        93,
+        94,
+        95,
+        138,
+        168,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 14,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        5,
+        6,
+        7,
+        29,
+        51,
+        93,
+        94,
+        95,
+        138,
+        168,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 14,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        5,
+        6,
+        7,
+        93,
+        94,
+        95,
+        138,
+        168,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 14,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        5,
+        6,
+        7,
+        93,
+        94,
+        95,
+        138,
+        168,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 14,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        5,
+        6,
+        7,
+        93,
+        94,
+        95,
+        138,
+        168,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 15,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        6,
+        7,
+        29,
+        51,
+        92,
+        93,
+        94,
+        95,
+        99,
+        138,
+        151,
+        156,
+        167,
+        168,
+        169,
+        170,
+        230,
+        231,
+        232,
+        234,
+        264
+      ]
+    },
+    {
+      "pair_mask": 15,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        6,
+        7,
+        29,
+        51,
+        92,
+        93,
+        94,
+        95,
+        99,
+        138,
+        151,
+        156,
+        167,
+        168,
+        169,
+        170,
+        230,
+        231,
+        232,
+        234,
+        264
+      ]
+    },
+    {
+      "pair_mask": 15,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        6,
+        7,
+        29,
+        51,
+        92,
+        93,
+        94,
+        95,
+        99,
+        138,
+        151,
+        156,
+        167,
+        168,
+        169,
+        170,
+        230,
+        231,
+        232,
+        234,
+        264
+      ]
+    },
+    {
+      "pair_mask": 15,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        6,
+        7,
+        92,
+        93,
+        94,
+        95,
+        99,
+        138,
+        167,
+        168,
+        169,
+        170,
+        231,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 15,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        6,
+        7,
+        92,
+        93,
+        94,
+        95,
+        99,
+        138,
+        167,
+        168,
+        169,
+        170,
+        231,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 15,
+      "include_headings": true,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        6,
+        7,
+        92,
+        93,
+        94,
+        95,
+        99,
+        138,
+        167,
+        168,
+        169,
+        170,
+        231,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 15,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        6,
+        7,
+        29,
+        51,
+        92,
+        93,
+        94,
+        95,
+        99,
+        138,
+        151,
+        156,
+        167,
+        168,
+        169,
+        170,
+        264
+      ]
+    },
+    {
+      "pair_mask": 15,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        6,
+        7,
+        29,
+        51,
+        92,
+        93,
+        94,
+        95,
+        99,
+        138,
+        151,
+        156,
+        167,
+        168,
+        169,
+        170,
+        264
+      ]
+    },
+    {
+      "pair_mask": 15,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        6,
+        7,
+        29,
+        51,
+        92,
+        93,
+        94,
+        95,
+        99,
+        138,
+        151,
+        156,
+        167,
+        168,
+        169,
+        170,
+        264
+      ]
+    },
+    {
+      "pair_mask": 15,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        6,
+        7,
+        92,
+        93,
+        94,
+        95,
+        99,
+        138,
+        167,
+        168,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 15,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        6,
+        7,
+        92,
+        93,
+        94,
+        95,
+        99,
+        138,
+        167,
+        168,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 15,
+      "include_headings": true,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        6,
+        7,
+        92,
+        93,
+        94,
+        95,
+        99,
+        138,
+        167,
+        168,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 15,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        6,
+        7,
+        29,
+        51,
+        92,
+        93,
+        94,
+        95,
+        99,
+        138,
+        167,
+        168,
+        169,
+        170,
+        230,
+        231,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 15,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        6,
+        7,
+        29,
+        51,
+        92,
+        93,
+        94,
+        95,
+        99,
+        138,
+        167,
+        168,
+        169,
+        170,
+        230,
+        231,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 15,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        6,
+        7,
+        29,
+        51,
+        92,
+        93,
+        94,
+        95,
+        99,
+        138,
+        167,
+        168,
+        169,
+        170,
+        230,
+        231,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 15,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        6,
+        7,
+        92,
+        93,
+        94,
+        95,
+        99,
+        138,
+        167,
+        168,
+        169,
+        170,
+        231,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 15,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        6,
+        7,
+        92,
+        93,
+        94,
+        95,
+        99,
+        138,
+        167,
+        168,
+        169,
+        170,
+        231,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 15,
+      "include_headings": false,
+      "include_quote": true,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        6,
+        7,
+        92,
+        93,
+        94,
+        95,
+        99,
+        138,
+        167,
+        168,
+        169,
+        170,
+        231,
+        232,
+        234
+      ]
+    },
+    {
+      "pair_mask": 15,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        6,
+        7,
+        29,
+        51,
+        92,
+        93,
+        94,
+        95,
+        99,
+        138,
+        167,
+        168,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 15,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        6,
+        7,
+        29,
+        51,
+        92,
+        93,
+        94,
+        95,
+        99,
+        138,
+        167,
+        168,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 15,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "ascii",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        6,
+        7,
+        29,
+        51,
+        92,
+        93,
+        94,
+        95,
+        99,
+        138,
+        167,
+        168,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 15,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "both",
+      "selected": [
+        4,
+        5,
+        6,
+        7,
+        92,
+        93,
+        94,
+        95,
+        99,
+        138,
+        167,
+        168,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 15,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "first",
+      "selected": [
+        4,
+        5,
+        6,
+        7,
+        92,
+        93,
+        94,
+        95,
+        99,
+        138,
+        167,
+        168,
+        169,
+        170
+      ]
+    },
+    {
+      "pair_mask": 15,
+      "include_headings": false,
+      "include_quote": false,
+      "recognition": "literal",
+      "style": "last",
+      "selected": [
+        4,
+        5,
+        6,
+        7,
+        92,
+        93,
+        94,
+        95,
+        99,
+        138,
+        167,
+        168,
+        169,
+        170
+      ]
+    }
+  ],
+  "forms": [
+    [
+      "draft-lf2",
+      "\n\n",
+      "\n",
+      " ",
+      false
+    ],
+    [
+      "rendered-lf2",
+      "\n\n",
+      "\n",
+      " ",
+      true
+    ],
+    [
+      "promoted-lf2",
+      "\n\n",
+      "\n\n",
+      " ",
+      false
+    ],
+    [
+      "app-lf2",
+      "\n\n",
+      "\n",
+      "\u00a0",
+      false
+    ],
+    [
+      "draft-lf1",
+      "\n",
+      "\n",
+      " ",
+      false
+    ],
+    [
+      "app-lf1",
+      "\n",
+      "\n",
+      "\u00a0",
+      false
+    ],
+    [
+      "draft-crlf2",
+      "\r\n\r\n",
+      "\n",
+      " ",
+      false
+    ],
+    [
+      "normalized-crlf2",
+      "\r\n\r\n",
+      "\r\n",
+      " ",
+      false
+    ]
+  ],
+  "starts": [
+    0,
+    1,
+    3
+  ],
+  "tails": [
+    "",
+    "\n"
+  ],
+  "indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "targets": [
+    "14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W",
+    "1EFojcAo2vbhRGCGCa7q8Wwvzss28mhQYC"
+  ],
+  "parent": "m/44'/0'/0'/0",
+  "entropy": "raw-md5",
+  "language": "english",
+  "passphrase": "",
+  "prefix_filter": null,
+  "candidate_stream_sha256": "0a00772f5b3da8831faf8fc7a938eaa340dd296b3f716af6ab778fdaedc9c4b9",
+  "files_sha256": {
+    "wattpad-paragraphs.json": "60c63f3fa97a7de8ebd3e7f261b1a0b9649e2743f6158a7246ab7cfd26b39109",
+    "hal-finney-page.html": "f9bef4a3f1987016e2c5aef6103225a41f459571c5533b32782f275b9bb10664",
+    "aoi-posts-archive.json": "2d3e62f4f6a1498e262c24e664162faca4179ce595b1740e0e440c5e3ca8ce8c",
+    "verifier.cjs": "4e06dab9bfa283a2e23b361b1e48ed618bf6f07672b77815ded799c57327a3c6",
+    "joint-format-2026-09-28/search.py": "8b83d66cd026cdc56045c128ce652d89c714f4972ae198fdb1ddb05b63176fb9",
+    "expanded-2026-09-26/wallet_paths_gpu.py": "67fa95d7a1e4f6a73ea35058006326bd4863b21bb9ac44ab1fd651142f2ecc42",
+    "assumptions-2026-09-27/search-assumptions.py": "0fa36e6715cc254c0abea03a0d065b05a208c359e4b702afd2aace2ae05eb122"
+  },
+  "script_sha256": "33373f68a8f86bc21613689d1304382857a3a5349dddbcf93b8b3f14e384cbec",
+  "gpu_kernel_sha256": "9429b7fc2cd5499ceb2993d2d375b8213ca7be61a6a2c4dae0ed1dc7cf0e0cd2",
+  "wallet_kernel_sha256": "1ad1355c58a64d1b8f69081adb7688857391edabe975767020f13f82a0c50892"
+}
